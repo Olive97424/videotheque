@@ -1,10 +1,10 @@
 import csv
 
 # Chemin vers le fichier CSV (assurez-vous de mettre à jour ce chemin si nécessaire)
-csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/films.csv'
+csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa//videotheque/films.csv'
 
 # Dossier contenant les images (à ajuster si besoin)
-images_folder = 'C:/Users/odefaudlegros/Documents/films papa/images/'
+images_folder = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/images/'
 title_column = 'nom films'  # Remplacez par le nom exact
 video_column = 'liens vidéo'  # Remplacez par le nom exact
 image_column = 'chemin accès'  # Remplacez par le nom exact
