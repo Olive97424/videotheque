@@ -1,28 +1,32 @@
 import csv
 
-# Chemin vers le fichier CSV (assurez-vous de mettre à jour ce chemin si nécessaire)
-csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa//videotheque/films.csv'
+# Chemin vers le fichier CSV
+csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/films.csv'
 
-# Dossier contenant les images (à ajuster si besoin)
-images_folder = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/images/'
-title_column = 'nom films'  # Remplacez par le nom exact
-video_column = 'liens vidéo'  # Remplacez par le nom exact
-image_column = 'chemin accès'  # Remplacez par le nom exact
+# Chemin absolu local vers le dossier d'images, mais relatif dans `films.js`
+images_folder_absolute = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/images/'
+images_folder_relative = 'images/'  # Pour GitHub Pages
 
+title_column = 'nom films'
+video_column = 'liens vidéo'
+image_column = 'chemin accès'
 
 # Créer le contenu du fichier JavaScript
 films_js = "const films = [\n"
 
 try:
     with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=';')  # Modifier le délimiteur si nécessaire
+        reader = csv.DictReader(csvfile, delimiter=';')
         for row in reader:
             title = row[title_column]
             video_link = row[video_column]
             image_path = row[image_column]
-            # Utiliser seulement le nom du fichier d'image, sans le chemin absolu
+
+            # Extraire seulement le nom du fichier d'image
             image_file = image_path.split('\\')[-1]
-            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_file}\" }},\n"
+
+            # Ajouter le chemin relatif dans `films.js`
+            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{images_folder_relative}{image_file}\" }},\n"
 
     films_js = films_js.rstrip(",\n") + "\n];"
 
