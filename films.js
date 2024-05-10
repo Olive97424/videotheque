@@ -1,7 +1,7 @@
 const films = [
     { titre: "300", video: "https://www.youtube.com/watch?v=YNTY7tnmsxY&t=36s", image: "images/300.jpg" },
     { titre: "2012", video: "https://www.youtube.com/watch?v=m33rzUxflto&t=25s", image: "images/2012.jpg" },
-    { titre: "24 heure limit", video: "https://www.youtube.com/watch?v=zrCb5klZZCc", image: "images/24_heure_limit.jpg" },
+    { titre: "24 heure limit", video: "https://www.youtube.com/watch?v=zrCb5klZZCc", image: "images/24 heure limit.jpg" },
     { titre: "50 nuances de grey", video: "https://www.youtube.com/watch?v=9G7oSGWHSVc&t=49s", image: "images/50 nuances de grey.jpg" },
     { titre: "50 nuances plus claire", video: "https://www.youtube.com/watch?v=p-2dGdfZzL4", image: "images/50 nuances pls claie.jpg" },
     { titre: "50 nuances plus sombre", video: "https://www.youtube.com/watch?v=0Ah1o0ZZjNY", image: "images/50 nuances pls sombre.jpg" },
