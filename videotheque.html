@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Vidéothèque</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #search {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .film {
+            margin: 10px;
+            text-align: center;
+        }
+        .film img {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        .film img:hover {
+            border: 2px solid blue;
+        }
+        .film a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <!-- Inclusion du fichier JavaScript contenant le tableau des films -->
+    <script src="films.js"></script>
+</head>
+<body>
+
+    <h1>Ma Vidéothèque</h1>
+    <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
+
+    <div class="gallery" id="filmGallery"></div>
+
+    <script>
+        function createFilmElement(film) {
+            const filmDiv = document.createElement('div');
+            filmDiv.className = 'film';
+
+            const anchor = document.createElement('a');
+            anchor.href = film.video;
+            anchor.target = '_blank';
+
+            const img = document.createElement('img');
+            img.src = film.image;
+            img.alt = film.titre;
+
+            const caption = document.createElement('div');
+            caption.textContent = film.titre;
+
+            anchor.appendChild(img);
+            filmDiv.appendChild(anchor);
+            filmDiv.appendChild(caption);
+
+            return filmDiv;
+        }
+
+        function populateFilms() {
+            const gallery = document.getElementById('filmGallery');
+            films.forEach(film => {
+                gallery.appendChild(createFilmElement(film));
+            });
+        }
+
+        function filterFilms() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            const filmsDiv = gallery.getElementsByClassName('film');
+
+            for (let i = 0; i < filmsDiv.length; i++) {
+                const title = filmsDiv[i].getElementsByTagName('img')[0].alt.toLowerCase();
+                if (title.includes(searchTerm)) {
+                    filmsDiv[i].style.display = '';
+                } else {
+                    filmsDiv[i].style.display = 'none';
+                }
+            }
+        }
+
+        // Peupler la galerie au chargement de la page
+        window.onload = populateFilms;
+    </script>
+
+</body>
+</html>
