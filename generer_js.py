@@ -22,7 +22,7 @@ try:
             image_path = row[image_column]
             # Utiliser seulement le nom du fichier d'image, sans le chemin absolu
             image_file = image_path.split('\\')[-1]
-            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{images_folder}{image_file}\" }},\n"
+            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_file}\" }},\n"
 
     films_js = films_js.rstrip(",\n") + "\n];"
 
