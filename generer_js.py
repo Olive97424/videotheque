@@ -7,9 +7,12 @@ csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/films.c
 images_folder_absolute = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/images/'
 images_folder_relative = 'images/'  # Pour GitHub Pages
 
+# Noms des colonnes dans le fichier CSV
 title_column = 'nom films'
 video_column = 'liens vidéo'
 image_column = 'chemin accès'
+actors_column = 'acteurs'  # Assurez-vous que cette colonne existe dans votre CSV
+genre_column = 'genre'     # Assurez-vous que cette colonne existe dans votre CSV
 
 # Créer le contenu du fichier JavaScript
 films_js = "const films = [\n"
@@ -21,13 +24,16 @@ try:
             title = row[title_column]
             video_link = row[video_column]
             image_path = row[image_column]
+            actors = row[actors_column]
+            genre = row[genre_column]
 
             # Extraire seulement le nom du fichier d'image
             image_file = image_path.split('\\')[-1]
 
-            # Ajouter le chemin relatif dans `films.js`
-            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{images_folder_relative}{image_file}\" }},\n"
+            # Ajouter le chemin relatif pour les images dans `films.js`
+            films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{images_folder_relative}{image_file}\", acteurs: \"{actors}\", genre: \"{genre}\" }},\n"
 
+    # Supprimer la dernière virgule et terminer le tableau JavaScript
     films_js = films_js.rstrip(",\n") + "\n];"
 
     # Sauvegarder le fichier JavaScript généré

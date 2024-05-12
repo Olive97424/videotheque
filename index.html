@@ -11,7 +11,7 @@
         h1 {
             text-align: center;
         }
-        #search {
+        input[type="text"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -47,6 +47,8 @@
 
     <h1>Ma Vidéothèque</h1>
     <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
+    <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
+    <input type="text" id="searchGenre" onkeyup="filterFilmsByGenre()" placeholder="Rechercher par genre...">
 
     <div class="gallery" id="filmGallery"></div>
 
@@ -54,6 +56,8 @@
         function createFilmElement(film) {
             const filmDiv = document.createElement('div');
             filmDiv.className = 'film';
+            filmDiv.dataset.actor = film.acteurs; // Assume this data comes from films.js
+            filmDiv.dataset.genre = film.genre;   // Assume this data comes from films.js
 
             const anchor = document.createElement('a');
             anchor.href = film.video;
@@ -83,19 +87,37 @@
         function filterFilms() {
             const searchTerm = document.getElementById('search').value.toLowerCase();
             const gallery = document.getElementById('filmGallery');
-            const filmsDiv = gallery.getElementsByClassName('film');
-
-            for (let i = 0; i < filmsDiv.length; i++) {
-                const title = filmsDiv[i].getElementsByTagName('img')[0].alt.toLowerCase();
-                if (title.includes(searchTerm)) {
-                    filmsDiv[i].style.display = '';
-                } else {
-                    filmsDiv[i].style.display = 'none';
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.titre.toLowerCase().includes(searchTerm)) {
+                    gallery.appendChild(createFilmElement(film));
                 }
-            }
+            });
         }
 
-        // Peupler la galerie au chargement de la page
+        function filterFilmsByActor() {
+            const searchTerm = document.getElementById('searchActor').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.acteurs.toLowerCase().includes(searchTerm)) {
+                    gallery.appendChild(createFilmElement(film));
+                }
+            });
+        }
+
+        function filterFilmsByGenre() {
+            const searchTerm = document.getElementById('searchGenre').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.genre.toLowerCase().includes(searchTerm)) {
+                    gallery.appendChild(createFilmElement(film));
+                }
+            });
+        }
+
+        // Populate the gallery on page load
         window.onload = populateFilms;
     </script>
 
