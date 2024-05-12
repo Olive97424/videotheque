@@ -11,7 +11,7 @@
         h1 {
             text-align: center;
         }
-        input[type="text"] {
+        input[type="text"], select {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -48,7 +48,11 @@
     <h1>Ma Vidéothèque</h1>
     <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
     <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
-    <input type="text" id="searchGenre" onkeyup="filterFilmsByGenre()" placeholder="Rechercher par genre...">
+    
+    <!-- Liste déroulante pour les genres -->
+    <select id="genreSelect" onchange="filterFilmsByGenre()">
+        <option value="">Tous les genres</option>
+    </select>
 
     <div class="gallery" id="filmGallery"></div>
 
@@ -56,8 +60,6 @@
         function createFilmElement(film) {
             const filmDiv = document.createElement('div');
             filmDiv.className = 'film';
-            filmDiv.dataset.actor = film.acteurs; // Assume this data comes from films.js
-            filmDiv.dataset.genre = film.genre;   // Assume this data comes from films.js
 
             const anchor = document.createElement('a');
             anchor.href = film.video;
@@ -79,8 +81,19 @@
 
         function populateFilms() {
             const gallery = document.getElementById('filmGallery');
+            const genreSet = new Set(); // Set to hold unique genres
             films.forEach(film => {
                 gallery.appendChild(createFilmElement(film));
+                film.genres.forEach(genre => {
+                    genreSet.add(genre.trim().toLowerCase()); // Add each genre to the Set
+                });
+            });
+            const genreSelect = document.getElementById('genreSelect');
+            genreSet.forEach(genre => {
+                const option = document.createElement('option');
+                option.value = genre;
+                option.textContent = genre.charAt(0).toUpperCase() + genre.slice(1); // Capitalize first letter
+                genreSelect.appendChild(option);
             });
         }
 
@@ -107,11 +120,11 @@
         }
 
         function filterFilmsByGenre() {
-            const searchTerm = document.getElementById('searchGenre').value.toLowerCase();
+            const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
             const gallery = document.getElementById('filmGallery');
             gallery.innerHTML = ''; // Clear current films
             films.forEach(film => {
-                if (film.genre.toLowerCase().includes(searchTerm)) {
+                if (film.genres.map(g => g.toLowerCase()).includes(selectedGenre) || selectedGenre === '') {
                     gallery.appendChild(createFilmElement(film));
                 }
             });
