@@ -15,6 +15,7 @@
         h1 {
             text-align: center;
             padding: 20px 0;
+            font-size: 2em; /* Increased font size */
         }
         .gallery {
             display: flex;
@@ -32,7 +33,7 @@
             transition: transform 0.3s ease-in-out;
         }
         .film:hover {
-            transform: scale(1.05);
+            transform: scale(1.05); /* hover effect to scale up film div */
         }
         .film img {
             width: 100%;
@@ -49,6 +50,8 @@
             border: none;
             border-radius: 5px;
             margin: 10px 5%;
+            background: rgba(255,255,255,0.1);
+            color: white;
         }
     </style>
 </head>
@@ -59,15 +62,88 @@
     <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
     <select id="genreSelect" onchange="filterFilmsByGenre()">
         <option value="">Tous les genres</option>
-        <option value="action">Action</option>
-        <option value="thriller">Thriller</option>
-        <option value="romance">Romance</option>
-        <option value="musique">Musique</option>
     </select>
 
     <div class="gallery" id="filmGallery"></div>
 
     <script src="films.js"></script>
-    <script src="script.js"></script>
+     <script>
+        function createFilmElement(film) {
+            const filmDiv = document.createElement('div');
+            filmDiv.className = 'film';
+
+            const anchor = document.createElement('a');
+            anchor.href = film.video;
+            anchor.target = '_blank';
+
+            const img = document.createElement('img');
+            img.src = film.image;
+            img.alt = film.titre;
+
+            const caption = document.createElement('div');
+            caption.textContent = film.titre;
+
+            anchor.appendChild(img);
+            filmDiv.appendChild(anchor);
+            filmDiv.appendChild(caption);
+
+            return filmDiv;
+        }
+
+        function populateFilms() {
+            const gallery = document.getElementById('filmGallery');
+            const genreSet = new Set(); // Set to hold unique genres
+            films.forEach(film => {
+                gallery.appendChild(createFilmElement(film));
+                film.genres.forEach(genre => {
+                    genreSet.add(genre.trim().toLowerCase()); // Add each genre to the Set
+                });
+            });
+            const genreSelect = document.getElementById('genreSelect');
+            genreSet.forEach(genre => {
+                const option = document.createElement('option');
+                option.value = genre;
+                option.textContent = genre.charAt(0).toUpperCase() + genre.slice(1); // Capitalize first letter
+                genreSelect.appendChild(option);
+            });
+        }
+
+        function filterFilms() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.titre.toLowerCase().includes(searchTerm)) {
+                    gallery.appendChild(createFilmElement(film));
+                }
+            });
+        }
+
+        function filterFilmsByActor() {
+            const searchTerm = document.getElementById('searchActor').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.acteurs.toLowerCase().includes(searchTerm)) {
+                    gallery.appendChild(createFilmElement(film));
+                }
+            });
+        }
+
+        function filterFilmsByGenre() {
+            const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
+            const gallery = document.getElementById('filmGallery');
+            gallery.innerHTML = ''; // Clear current films
+            films.forEach(film => {
+                if (film.genres.map(g => g.toLowerCase()).includes(selectedGenre) || selectedGenre === '') {
+                    gallery.appendChild(createFilmElement(film));
+                }
+            });
+        }
+
+        // Populate the gallery on page load
+        window.onload = populateFilms;
+    </script>
+
 </body>
 </html>
