@@ -5,7 +5,31 @@
     <title>Vidéothèque</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
+   
+    select {
+        background: #424242; /* Couleur de fond pour la liste déroulante */
+        color: white; /* Couleur du texte pour les options */
+    }
+    select option {
+        background: #323232; /* Couleur de fond pour chaque option */
+        color: white; /* Couleur du texte pour chaque option */
+    }
+
+    h1 {
+        font-size: 60px; /* Taille de police accrue */
+        color: #FF5733; /* Couleur flashy (orange vif) */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9); /* Ombre portée plus prononcée pour un meilleur contraste */
+        transition: transform 0.3s ease; /* Transition pour l'animation */
+        margin-top: 20px; /* Espacement au-dessus du titre */
+        margin-bottom: 20px; /* Espacement en-dessous du titre */
+    }
+    h1:hover {
+        transform: scale(1.1); /* Effet de zoom au survol */
+        cursor: pointer; /* Indication d'interaction possible */
+    }
+
+
+   body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
@@ -24,26 +48,31 @@
             padding: 20px;
         }
         .film {
-            background: #424242;
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 10px;
-            width: 200px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease-in-out;
-        }
+    background: #333; /* Couleur de fond uniforme pour chaque film */
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
         .film:hover {
             transform: scale(1.05); /* hover effect to scale up film div */
         }
         .film img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .film div {
-            padding: 10px;
-            text-align: center;
-        }
+    width: 100%;
+    height: 300px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Garantit que l'image couvre l'espace dédié sans être déformée */
+}
+
+.film div {
+    height: 50px; /* Hauteur fixe pour les titres */
+    overflow: hidden; /* Masque le texte qui dépasse */
+    display: flex;
+    align-items: center; /* Centre le texte verticalement */
+    justify-content: center; /* Centre le texte horizontalement */
+}
+
         input[type="text"], select {
             width: 90%;
             padding: 10px;
@@ -67,7 +96,7 @@
     <div class="gallery" id="filmGallery"></div>
 
     <script src="films.js"></script>
-     <script>
+    <script>
         function createFilmElement(film) {
             const filmDiv = document.createElement('div');
             filmDiv.className = 'film';
@@ -81,7 +110,7 @@
             img.alt = film.titre;
 
             const caption = document.createElement('div');
-            caption.textContent = film.titre;
+            caption.textContent = film.titre.replace(/_/g, ' '); // Replace underscores with spaces
 
             anchor.appendChild(img);
             filmDiv.appendChild(anchor);
@@ -92,26 +121,29 @@
 
         function populateFilms() {
             const gallery = document.getElementById('filmGallery');
-            const genreSet = new Set(); // Set to hold unique genres
+            const genresSet = new Set(); // To collect all unique genres
             films.forEach(film => {
                 gallery.appendChild(createFilmElement(film));
                 film.genres.forEach(genre => {
-                    genreSet.add(genre.trim().toLowerCase()); // Add each genre to the Set
+                    genresSet.add(genre);
                 });
             });
-            const genreSelect = document.getElementById('genreSelect');
-            genreSet.forEach(genre => {
+            populateGenres(Array.from(genresSet)); // Populate genres dropdown
+        }
+
+        function populateGenres(genres) {
+            const select = document.getElementById('genreSelect');
+            genres.sort().forEach(genre => {
                 const option = document.createElement('option');
-                option.value = genre;
-                option.textContent = genre.charAt(0).toUpperCase() + genre.slice(1); // Capitalize first letter
-                genreSelect.appendChild(option);
+                option.value = option.textContent = genre;
+                select.appendChild(option);
             });
         }
 
         function filterFilms() {
             const searchTerm = document.getElementById('search').value.toLowerCase();
             const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = ''; // Clear current films
+            gallery.innerHTML = '';
             films.forEach(film => {
                 if (film.titre.toLowerCase().includes(searchTerm)) {
                     gallery.appendChild(createFilmElement(film));
@@ -122,7 +154,7 @@
         function filterFilmsByActor() {
             const searchTerm = document.getElementById('searchActor').value.toLowerCase();
             const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = ''; // Clear current films
+            gallery.innerHTML = '';
             films.forEach(film => {
                 if (film.acteurs.toLowerCase().includes(searchTerm)) {
                     gallery.appendChild(createFilmElement(film));
@@ -133,7 +165,7 @@
         function filterFilmsByGenre() {
             const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
             const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = ''; // Clear current films
+            gallery.innerHTML = '';
             films.forEach(film => {
                 if (film.genres.map(g => g.toLowerCase()).includes(selectedGenre) || selectedGenre === '') {
                     gallery.appendChild(createFilmElement(film));
@@ -141,9 +173,7 @@
             });
         }
 
-        // Populate the gallery on page load
         window.onload = populateFilms;
     </script>
-
 </body>
 </html>
