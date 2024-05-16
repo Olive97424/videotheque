@@ -307,7 +307,7 @@ const films = [
     { titre: "twilight_1", video: "https://www.youtube.com/watch?v=xzO_Iiwt4b4", image: "images/twilight_1.jpg", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
     { titre: "twilight_2", video: "https://www.youtube.com/watch?v=ShHNEvFPtvc", image: "images/twilight_2.jpg", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
     { titre: "twilight_3", video: "https://www.youtube.com/watch?v=yi4xJGebtuk", image: "images/twilight_3.jpg", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
-    { titre: "twilight_4", video: "https://www.youtube.com/watch?v=_jWriOZlsnw&t=50s", image: "images/twilight_4.webp", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
+    { titre: "twilight_4", video: "https://www.youtube.com/watch?v=_jWriOZlsnw&t=50s", image: "images/twilight_4.jpg", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
     { titre: "twilight_5", video: "https://www.youtube.com/watch?v=CjdPAg-gyFE&t=43s", image: "images/twilight_5.jpg", acteurs: "Kristen Stewart, Robert Pattinson", genres: [] },
     { titre: "un_hologram_pour_le_roi", video: "https://www.youtube.com/watch?v=TLpl17kCevA&t=42s", image: "images/un_hologram_pour_le_roi.jpg", acteurs: "Tom Hanks, Alexander Black", genres: [] },
     { titre: "underworld_1", video: "https://www.youtube.com/watch?v=2_IoL7g5Ub8&t=21s", image: "images/underworld_1.jpg", acteurs: "Kate Beckinsale, Scott Speedman", genres: [] },

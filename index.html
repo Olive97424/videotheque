@@ -5,14 +5,7 @@
     <title>Vidéothèque</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-       select {
-        background: #424242; /* Couleur de fond pour la liste déroulante */
-        color: white; /* Couleur du texte pour les options */
-    }
-    select option {
-        background: #323232; /* Couleur de fond pour chaque option */
-        color: white; /* Couleur du texte pour chaque option */
-    } body {
+        body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
@@ -32,31 +25,39 @@
             padding: 20px;
         }
         .film {
-    background: #333; /* Couleur de fond uniforme pour chaque film */
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 10px;
-    width: 200px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease-in-out;
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+        .film.show {
+    opacity: 1;
+    transform: scale(1);
 }
         .film:hover {
             transform: scale(1.05);
         }
         .film img {
-    width: 100%;
-    height: 300px; /* Hauteur fixe pour toutes les images */
-    object-fit: cover; /* Garantit que l'image couvre l'espace dédié sans être déformée */
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .film div {
+            height: 50px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .film.hide {
+    opacity: 0;
+    transform: scale(0.9);
 }
-
-.film div {
-    height: 50px; /* Hauteur fixe pour les titres */
-    overflow: hidden; /* Masque le texte qui dépasse */
-    display: flex;
-    align-items: center; /* Centre le texte verticalement */
-    justify-content: center; /* Centre le texte horizontalement */
-}
-        input[type="text"], select {
+input[type="text"], select {
             width: 90%;
             padding: 10px;
             border: none;
@@ -64,6 +65,50 @@
             margin: 10px 5%;
             background: rgba(255,255,255,0.1);
             color: white;
+        }
+        select {
+            background: #424242;
+            color: white;
+        }
+        select option {
+            background: #424242;
+            color: white;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 800px;
+            z-index: 11;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #videoFrame {
+            width: 100%;
+            height: 450px;
         }
     </style>
 </head>
@@ -75,74 +120,16 @@
         <option value="">Tous les genres</option>
     </select>
     <div class="gallery" id="filmGallery"></div>
+
+    <!-- Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <script src="films.js"></script>
-    <script>
-        function createFilmElement(film) {
-            const filmDiv = document.createElement('div');
-            filmDiv.className = 'film';
-            const img = document.createElement('img');
-            img.src = film.image;
-            img.alt = film.titre;
-            const caption = document.createElement('div');
-            caption.textContent = film.titre.replace(/_/g, ' ');
-            filmDiv.appendChild(img);
-            filmDiv.appendChild(caption);
-            filmDiv.onclick = () => {
-                window.open(film.video, '_blank').focus();
-            };
-            return filmDiv;
-        }
-        function populateFilms() {
-            const gallery = document.getElementById('filmGallery');
-            const genresSet = new Set();
-            films.forEach(film => {
-                gallery.appendChild(createFilmElement(film));
-                film.genres.forEach(genre => {
-                    genresSet.add(genre);
-                });
-            });
-            populateGenres(Array.from(genresSet));
-        }
-        function populateGenres(genres) {
-            const select = document.getElementById('genreSelect');
-            genres.forEach(genre => {
-                const option = document.createElement('option');
-                option.value = genre.toLowerCase();
-                option.textContent = genre;
-                select.appendChild(option);
-            });
-        }
-        function filterFilms() {
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = '';
-            films.forEach(film => {
-                if (film.titre.toLowerCase().includes(searchTerm)) {
-                    gallery.appendChild(createFilmElement(film));
-                }
-            });
-        }
-        function filterFilmsByActor() {
-            const searchTerm = document.getElementById('searchActor').value.toLowerCase();
-            const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = '';
-            films.forEach(film => {
-                if (film.acteurs.toLowerCase().includes(searchTerm)) {
-                    gallery.appendChild(createFilmElement(film));
-                }
-            });
-        }
-        function filterFilmsByGenre() {
-            const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
-            const gallery = document.getElementById('filmGallery');
-            gallery.innerHTML = '';
-            films.forEach(film => {
-                if (film.genres.map(g => g.toLowerCase()).includes(selectedGenre) || selectedGenre === '') {
-                    gallery.appendChild(createFilmElement(film));
-                }
-            });
-        }
-        window.onload = populateFilms;
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
