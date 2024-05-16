@@ -9,7 +9,7 @@ const films = [
     { titre: "a_star_is_born", video: "https://www.youtube.com/watch?v=jsg9NxCBzFs&t=31s", image: "images/a_star_is_born.jpg", acteurs: "Bradley Cooper, Lady Gaga", genres: ["Musical", "Drame"] },
     { titre: "ad_astra", video: "https://www.youtube.com/watch?v=Gf97Szc_UfI", image: "images/ad_astra.jpg", acteurs: "", genres: ["Science-fiction"] },
     { titre: "aladdin", video: "https://www.youtube.com/watch?v=IrzzGm3AmLg&t=31s", image: "images/aladdin.jpg", acteurs: "Mena Massoud, Naomi Scott", genres: ["Aventure"] },
-    { titre: "alibi_com", video: "https://www.youtube.com/watch?v=7jniyVsrfv8", image: "images/alibi_com.jpg", acteurs: "Philippe Lacheau, Élodie Fontan", genres: ["Comédie"] },
+    { titre: "alibi_com", video: "https://www.youtube.com/watch?v=hXUggM713X4&t=68s", image: "images/alibi_com.jpg", acteurs: "Philippe Lacheau, Élodie Fontan", genres: ["Comédie"] },
     { titre: "aliens_1", video: "https://www.youtube.com/watch?v=j3CFj1R9HbQ&t=35s", image: "images/aliens_1.jpg", acteurs: "Sigourney Weaver", genres: ["Horreur", "Science-fiction"] },
     { titre: "aliens_2", video: "https://www.youtube.com/watch?v=gaJFi3LiFOQ&t=25s", image: "images/aliens_2.jpg", acteurs: "Sigourney Weaver, Michael Biehn", genres: ["Horreur", "Science-fiction"] },
     { titre: "aliens_3", video: "https://www.youtube.com/watch?v=qL-NR79zS7A", image: "images/aliens_3.jpg", acteurs: "Sigourney Weaver, Charles S. Dutton", genres: ["Horreur", "Science-fiction"] },
