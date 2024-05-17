@@ -330,5 +330,17 @@ const films = [
     { titre: "xmen_dark_phoenix", video: "https://www.youtube.com/watch?v=11_xxw6VZv8&t=2s", image: "images/xmen_dark_phoenix.jpg", acteurs: "Sophie Turner, James McAvoy", genres: [], date_sortie: "" },
     { titre: "xmen_days_of_futur_past", video: "https://www.youtube.com/watch?v=6esGeXis858", image: "images/xmen_days_of_futur_past.jpg", acteurs: "Hugh Jackman, James McAvoy", genres: [], date_sortie: "" },
     { titre: "xmen_le_commencement", video: "https://www.youtube.com/watch?v=tT8oQT8ILpY&t=30s", image: "images/xmen_le_commencement.jpg", acteurs: "James McAvoy, Michael Fassbender", genres: [], date_sortie: "" },
-    { titre: "xmen_origins", video: "https://www.youtube.com/watch?v=yawHvdrZrcs&t=35s", image: "images/xmen_origins.jpg", acteurs: "Hugh Jackman, Liev Schreiber", genres: [], date_sortie: "" }
+    { titre: "xmen_origins", video: "https://www.youtube.com/watch?v=yawHvdrZrcs&t=35s", image: "images/xmen_origins.jpg", acteurs: "Hugh Jackman, Liev Schreiber", genres: [], date_sortie: "" },
+    { titre: "the_flash", video: "https://www.youtube.com/watch?v=mUMlQZfjK1c", image: "images/the_flash.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "hunger_games_5", video: "https://www.youtube.com/watch?v=BLJSN_UNqbc", image: "images/hunger_games_5.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "fast_and_furious_10", video: "https://www.youtube.com/watch?v=rPmA-4AhA94&t=91s", image: "images/fast_and_furious_10.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "the_marvels", video: "https://www.youtube.com/watch?v=9z9_bfhpLzU", image: "images/the_marvels.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "oppenheimer", video: "https://www.youtube.com/watch?v=CoXtvSRpHgM", image: "images/oppenheimer.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "hypnotic", video: "https://www.youtube.com/watch?v=0Rhej7ZllK8", image: "images/hypnotic.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "equalizer_1", video: "https://www.youtube.com/watch?v=Ydmk1_1_Gi4", image: "images/equalizer_1.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "equalizer_2", video: "https://www.youtube.com/watch?v=zEmqoNmdhsI", image: "images/equalizer_2.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "equalizer_3", video: "https://www.youtube.com/watch?v=2L0ibmBgFV8", image: "images/equalizer_3.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "barbie", video: "https://www.youtube.com/watch?v=76LYe958Va0&t=36s", image: "images/barbie.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "transformers_6", video: "https://www.youtube.com/watch?v=BO9d1C9ZsCs", image: "images/transformers_6.jpg", acteurs: "", genres: [], date_sortie: "" },
+    { titre: "mission_impossible_dead_reckoning_part_1", video: "https://www.youtube.com/watch?v=kz34RaRBczI", image: "images/mission_impossible_dead_reckoning_part_1.jpg", acteurs: "", genres: [], date_sortie: "" }
 ];

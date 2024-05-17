@@ -64,6 +64,11 @@
             background: #424242;
             color: white;
         }
+        .film-count {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
         .gallery {
             display: flex;
             flex-wrap: wrap;
@@ -99,15 +104,15 @@
         .film div {
             padding: 5px;
             text-align: center;
-            background: #222;  /* Couleur de fond unie */
+            background: #222;
             color: #fff;
             transition: background-color 0.3s ease, color 0.3s ease;
-            font-size: 1em;  /* Taille de police ajustée */
-            font-weight: 500;  /* Poids de la police ajusté */
+            font-size: 1em;
+            font-weight: 500;
         }
         .film div:hover {
-            background-color: #444;  /* Couleur de fond au survol */
-            color: #FF5733;  /* Couleur du texte au survol */
+            background-color: #444;
+            color: #FF5733;
         }
         .modal {
             display: none;
@@ -176,7 +181,7 @@
 </head>
 <body>
     <h1>
-        <img src="images/icon.png" alt="Logo" width="50" height="50"> <!-- Assurez-vous d'avoir une image icon.png -->
+        <img src="images/icon.png" alt="Logo" width="50" height="50">
         Ma Vidéothèque
     </h1>
     <div class="controls">
@@ -188,6 +193,7 @@
         <button onclick="sortFilmsByTitle()">Trier par titre</button>
         <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
     </div>
+    <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
 
     <!-- Modal -->

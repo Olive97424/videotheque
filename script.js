@@ -43,6 +43,7 @@ function closeModal() {
 window.onload = () => {
     populateFilms();
     populateGenres();
+    updateFilmCount();
 
     const modal = document.getElementById('videoModal');
     const span = document.getElementsByClassName('close')[0];
@@ -74,6 +75,7 @@ function populateFilms() {
             filmElement.classList.add('show');
         }, 100 * index);
     });
+    updateFilmCount();
 }
 
 function filterFilms() {
@@ -93,6 +95,7 @@ function filterFilms() {
             gallery.appendChild(createFilmElement(film));
         }
     });
+    updateFilmCount();
 }
 
 function filterFilmsByActor() {
@@ -104,6 +107,7 @@ function filterFilmsByActor() {
             gallery.appendChild(createFilmElement(film));
         }
     });
+    updateFilmCount();
 }
 
 function filterFilmsByGenre() {
@@ -119,6 +123,7 @@ function filterFilmsByGenre() {
             }, 100 * index);
         }
     });
+    updateFilmCount();
 }
 
 function sortFilmsByTitle() {
@@ -146,8 +151,8 @@ function populateGenres() {
         genreSelect.appendChild(option);
     });
 }
-function sortFilmsByDate() {
-    films.sort((a, b) => new Date(a.date_sortie) - new Date(b.date_sortie));
-    populateFilms();
-}
 
+function updateFilmCount() {
+    const count = document.getElementById('filmGallery').childElementCount;
+    document.getElementById('filmCount').textContent = `Nombre de films : ${count}`;
+}
