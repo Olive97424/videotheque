@@ -97,10 +97,17 @@
             aspect-ratio: 2/3;
         }
         .film div {
-            padding: 10px;
+            padding: 5px;
             text-align: center;
-            background: #444;
-            color: white;
+            background: #222;  /* Couleur de fond unie */
+            color: #fff;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 1em;  /* Taille de police ajustée */
+            font-weight: 500;  /* Poids de la police ajusté */
+        }
+        .film div:hover {
+            background-color: #444;  /* Couleur de fond au survol */
+            color: #FF5733;  /* Couleur du texte au survol */
         }
         .modal {
             display: none;
