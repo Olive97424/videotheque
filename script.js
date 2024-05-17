@@ -31,16 +31,13 @@ function openModal(videoUrl) {
     
     videoFrame.src = embedUrl;
     modal.style.display = "block";
-    console.log("Modal opened with URL: " + embedUrl);
 }
 
 function closeModal() {
-    console.log("Attempting to close modal...");
     const modal = document.getElementById('videoModal');
     const videoFrame = document.getElementById('videoFrame');
     modal.style.display = "none";
-    videoFrame.src = ""; 
-    console.log("Modal closed.");
+    videoFrame.src = "";
 }
 
 window.onload = () => {
@@ -51,18 +48,20 @@ window.onload = () => {
     const span = document.getElementsByClassName('close')[0];
 
     if (span) {
-        span.onclick = () => {
-            console.log("Close button clicked.");
-            closeModal();
-        };
+        span.onclick = () => closeModal();
     }
 
     window.onclick = (event) => {
         if (event.target === modal) {
-            console.log("Outside of modal clicked.");
             closeModal();
         }
     };
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
 };
 
 function populateFilms() {
@@ -121,6 +120,7 @@ function filterFilmsByGenre() {
         }
     });
 }
+
 function sortFilmsByTitle() {
     films.sort((a, b) => a.titre.localeCompare(b.titre));
     populateFilms();
@@ -130,12 +130,6 @@ function sortFilmsByDate() {
     films.sort((a, b) => new Date(a.date_sortie) - new Date(b.date_sortie));
     populateFilms();
 }
-
-// Ajoutez des boutons de tri dans votre HTML
-/*
-<button onclick="sortFilmsByTitle()">Trier par titre</button>
-<button onclick="sortFilmsByDate()">Trier par date de sortie</button>
-*/
 
 function populateGenres() {
     const genreSet = new Set();
@@ -152,8 +146,8 @@ function populateGenres() {
         genreSelect.appendChild(option);
     });
 }
-
-window.onload = () => {
+function sortFilmsByDate() {
+    films.sort((a, b) => new Date(a.date_sortie) - new Date(b.date_sortie));
     populateFilms();
-    populateGenres();
-};
+}
+
