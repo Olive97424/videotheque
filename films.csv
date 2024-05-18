@@ -1,385 +1,424 @@
-﻿numéro;nom films;liens vidéo;chemin accès;acteurs;genre;date_sortie
-;300;https://www.youtube.com/watch?v=YNTY7tnmsxY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\300.jpg;Gerard Butler, Lena Headey;Action, Guerre;2007
-;2012;https://www.youtube.com/watch?v=m33rzUxflto&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\2012.jpg;John Cusack, Chiwetel Ejiofor, Amanda Peet;Science-fiction, Catastrophe;2009
-;24_heure_limit;https://www.youtube.com/watch?v=zrCb5klZZCc;C:\Users\odefaudlegros\Documents\films papa\images\24_heure_limit.jpg;Ethan Hawke;Thriller, Action;2017
-;50_nuances_de_grey;https://www.youtube.com/watch?v=9G7oSGWHSVc&t=49s;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_de_grey.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2015
-;50_nuances_plus_claire;https://www.youtube.com/watch?v=p-2dGdfZzL4;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_plus_claire.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2018
-;50_nuances_plus_sombre;https://www.youtube.com/watch?v=0Ah1o0ZZjNY;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_plus_sombre.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2017
-;60_secondes_chrono;https://www.youtube.com/watch?v=uhg-Y93I9-A;C:\Users\odefaudlegros\Documents\films papa\images\60_secondes_chrono.jpg;;Action;2000
-;a_star_is_born;https://www.youtube.com/watch?v=jsg9NxCBzFs&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\a_star_is_born.jpg;Bradley Cooper, Lady Gaga;Musical, Drame;2018
-;ad_astra;https://www.youtube.com/watch?v=Gf97Szc_UfI;C:\Users\odefaudlegros\Documents\films papa\images\ad_astra.jpg;;Science-fiction;2019
-;aladdin;https://www.youtube.com/watch?v=IrzzGm3AmLg&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\aladdin.jpg;Mena Massoud, Naomi Scott;Aventure;2019
-;alibi_com;https://www.youtube.com/watch?v=hXUggM713X4&t=68s;C:\Users\odefaudlegros\Documents\films papa\images\alibi_com.jpg;Philippe Lacheau, Élodie Fontan;Comédie;2017
-;aliens_1;https://www.youtube.com/watch?v=j3CFj1R9HbQ&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_1.jpg;Sigourney Weaver;Horreur, Science-fiction;1979
-;aliens_2;https://www.youtube.com/watch?v=gaJFi3LiFOQ&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_2.jpg;Sigourney Weaver, Michael Biehn;Horreur, Science-fiction;1986
-;aliens_3;https://www.youtube.com/watch?v=qL-NR79zS7A;C:\Users\odefaudlegros\Documents\films papa\images\aliens_3.jpg;Sigourney Weaver, Charles S. Dutton;Horreur, Science-fiction;1992
-;aliens_4;https://www.youtube.com/watch?v=JMpSSEWoqWA&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_4.jpg;;Horreur, Science-fiction;1997
-;aliens_5;https://www.youtube.com/watch?v=o_rfh8wBnGE;C:\Users\odefaudlegros\Documents\films papa\images\aliens_5.jpg;Sigourney Weaver, Winona Ryder;Horreur, Science-fiction;2017
-;aliens_6_prometeus;https://www.youtube.com/watch?v=Oxv5SP3sags&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_6_prometeus.jpg;Noomi Rapace, Michael Fassbender;Horreur, Science-fiction;2012
-;alita;https://www.youtube.com/watch?v=c4nJBG8xB7s;C:\Users\odefaudlegros\Documents\films papa\images\alita.jpg;Rosa Salazar, Christoph Waltz;Science-fiction;2019
-;amercican_nigthmare_1;https://www.youtube.com/watch?v=AVRk-UhPkHU;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_1.jpg;Ethan Hawke, Lena Headey;Horreur, Action;2013
-;amercican_nigthmare_2;https://www.youtube.com/watch?v=tpNKIBt-pXA;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_2.jpg;Frank Grillo, Carmen Ejogo;Horreur, Action;2014
-;amercican_nigthmare_3;https://www.youtube.com/watch?v=FW8CqyN7esE;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_3.jpg;Frank Grillo, Elizabeth Mitchell;Horreur, Action;2016
-;amercican_nigthmare_4;https://www.youtube.com/watch?v=O6_CqoAT2bM;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_4.jpg;Y'lan Noel, Lex Scott Davis;Horreur, Action;2018
-;anges_et_demons;https://www.youtube.com/watch?v=6fvLICEn4RI&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\anges_et_demons.jpg;Tom Hanks, Ewan McGregor;Thriller, Mystère;2009
-;annabelle;https://www.youtube.com/watch?v=LUCOp6efZmg&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\annabelle.jpg;Annabelle Wallis, Ward Horton;Horreur;2014
-;annabelle_2;https://www.youtube.com/watch?v=WOWrsTwxU48;C:\Users\odefaudlegros\Documents\films papa\images\annabelle_2.jpg;Stephanie Sigman, Miranda Otto;Horreur;2017
-;ant_man_1;https://www.youtube.com/watch?v=_mWjqYXA59E;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_1.jpg;Paul Rudd, Michael Douglas, Evangeline Lilly;Action, Comédie;2015
-;ant_man_et_la_guepe;https://www.youtube.com/watch?v=Ar38xc7JWxc;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_et_la_guepe.jpg;Paul Rudd, Evangeline Lilly, Michael Douglas;Action, Comédie;2018
-;ant_man_quantumania;https://www.youtube.com/watch?v=Q0uaHT1wsTQ;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_quantumania.jpg;Paul Rudd, Evangeline Lilly, Jonathan Majors;Action, Comédie;2023
-;aquaman;https://www.youtube.com/watch?v=ivvOKs7B-Vw;C:\Users\odefaudlegros\Documents\films papa\images\aquaman.jpg;Jason Momoa, Amber Heard;Action;2018
-;armageddon;https://www.youtube.com/watch?v=cYznwIfEFFg&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\armageddon.jpg;Bruce Willis, Ben Affleck, Liv Tyler;Action, Science-fiction;1998
-;arthur_et_les_minimoys;https://www.youtube.com/watch?v=qJeKKd0gPiU&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys.jpg;Freddie Highmore, Mia Farrow (voix);Aventure, Comédie;2006
-;arthur_et_les_minimoys_2;https://www.youtube.com/watch?v=jgCFy7kl9T8&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys_2.jpg;Freddie Highmore, Selena Gomez (voix);Aventure, Comédie;2009
-;arthur_et_les_minimoys_3;https://www.youtube.com/watch?v=mOdxATJwad0&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys_3.jpg;Freddie Highmore, Mia Farrow (voix);Aventure, Comédie;2010
-;asterix_et_obelix;https://www.youtube.com/watch?v=RNKFKDs5SGk&t=46s;C:\Users\odefaudlegros\Documents\films papa\images\asterix_et_obelix.jpg;;Aventure, Comédie;2023
-;avatar_1;https://www.youtube.com/watch?v=O1CzgULNRGs;C:\Users\odefaudlegros\Documents\films papa\images\avatar_1.jpg;Sam Worthington, Zoe Saldana;Science-fiction, Action;2009
-;avatar_2;https://www.youtube.com/watch?v=598NnroP42s;C:\Users\odefaudlegros\Documents\films papa\images\avatar_2.jpg;Sam Worthington, Zoe Saldana;Science-fiction, Action;2022
-;avengers_1;https://www.youtube.com/watch?v=b-kTeJhHOhc&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\avengers_1.jpg;Robert Downey Jr., Chris Evans, Mark Ruffalo;Action;2012
-;avengers_2_l_ere_d_ultron;https://www.youtube.com/watch?v=XmzJ5WMSr-g;C:\Users\odefaudlegros\Documents\films papa\images\avengers_lere_dultron.jpg;Robert Downey Jr., Chris Evans, Scarlett Johansson;Action;2019
-;avengers_3_infinity_war;https://www.youtube.com/watch?v=UDW_LLdERFw;C:\Users\odefaudlegros\Documents\films papa\images\avengers_infinity_war.jpg;Robert Downey Jr., Chris Evans, Scarlett Johansson;Action;2018
-;avengers_4_endgame;https://www.youtube.com/watch?v=wV-Q0o2OQjQ&t=55s;C:\Users\odefaudlegros\Documents\films papa\images\avengers_endgame.jpg;Robert Downey Jr., Chris Evans, Mark Ruffalo;Action;2015
-;barbie;https://www.youtube.com/watch?v=76LYe958Va0&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\barbie.jpg;;Comédie;2024
-;batman_the_darknight;https://www.youtube.com/watch?v=UMgb3hQCb08;C:\Users\odefaudlegros\Documents\films papa\images\batman_the_darknight.jpg;Christian Bale, Heath Ledger;Action, Science-fiction;2008
-;batman_vs_superman;https://www.youtube.com/watch?v=rW4ZaR2Jndg&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\batman_vs_superman.jpg;Ben Affleck, Henry Cavill;Action, Science-fiction;2016
-;bird_of_prey;https://www.youtube.com/watch?v=6bh1OHkIuYA;C:\Users\odefaudlegros\Documents\films papa\images\bird_of_prey.jpg;Margot Robbie, Mary Elizabeth Winstead;Action, Comédie;2020
-;black_adam;https://www.youtube.com/watch?v=vUnRitCWjqc;C:\Users\odefaudlegros\Documents\films papa\images\black_adam.jpg;Dwayne Johnson, Sarah Shahi;Action, Aventure;2022
-;black_k_klasman;https://www.youtube.com/watch?v=zvTxYdsWbKk&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\black_k_klasman.jpg;John David Washington, Adam Driver;Comédie;2018
-;black_panther;https://www.youtube.com/watch?v=lyKngqfmqW4;C:\Users\odefaudlegros\Documents\films papa\images\black_panther.jpg;Chadwick Boseman, Michael B. Jordan;Action, Science-fiction;2018
-;black_panther_wakanda_forever;https://www.youtube.com/watch?v=Pa4BEJcrMAA;C:\Users\odefaudlegros\Documents\films papa\images\black_panther_wakanda_forever.jpg;Letitia Wright, Lupita Nyong'o;Action, Science-fiction;2022
-;black_storm;https://www.youtube.com/watch?v=hjqe0TjtsJs&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\black_storm.jpg;Richard Armitage, Sarah Wayne Callies;Action, Thriller;2014
-;black_widow;https://www.youtube.com/watch?v=4l99M0zOEaA&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\black_widow.jpg;Scarlett Johansson, Florence Pugh;Action, Thriller;2021
-;blade_runner_2049;https://www.youtube.com/watch?v=O4C5cwSbXZ8&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\blade_runner_2049.jpg;Ryan Gosling, Harrison Ford;Science-fiction, Thriller;2017
-;bodyguard;https://www.youtube.com/watch?v=AhIJMuPHWVQ&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\bodyguard.jpg;Kevin Costner, Whitney Houston;Romance, Thriller;1992
-;bohemian_rhapsody;https://www.youtube.com/watch?v=xXuDGUviTgA;C:\Users\odefaudlegros\Documents\films papa\images\bohemian_rhapsody.jpg;Rami Malek, Lucy Boynton;Musical;2018
-;ca_1;https://www.youtube.com/watch?v=Tw3yT-qAbvc;C:\Users\odefaudlegros\Documents\films papa\images\ca_1.jpg;Bill Skarsgård, Jaeden Martell;Horreur;2017
-;ca_2;https://www.youtube.com/watch?v=yOZA2y_dQA4;C:\Users\odefaudlegros\Documents\films papa\images\ca_2.jpg;Bill Skarsgård, James McAvoy;Horreur;2019
-;captain_america_1;https://www.youtube.com/watch?v=IsiV9IJieMk&t=17s;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_1.jpg;Chris Evans, Hayley Atwell;Action, Aventure;2011
-;captain_america_civil_war;https://www.youtube.com/watch?v=fuIIGDjEj8Q&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_civil_war.jpg;Chris Evans, Robert Downey Jr.;Action, Aventure;2014
-;captain_america_le_soldat_d_hiver;https://www.youtube.com/watch?v=Zp1L2kc9p1I;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_le_soldat_d_hiver.jpg;Chris Evans, Sebastian Stan;Action, Aventure;2016
-;captain_marvel;https://www.youtube.com/watch?v=rndLWLmwgeA;C:\Users\odefaudlegros\Documents\films papa\images\captain_marvel.jpg;Brie Larson, Samuel L. Jackson;Action, Aventure;2019
-;captivity;https://www.youtube.com/watch?v=Ncmo6Tig2Vk;C:\Users\odefaudlegros\Documents\films papa\images\captivity.jpg;Elisha Cuthbert, Daniel Gillies;Science-fiction;2018
-;cocktail;https://www.youtube.com/watch?v=N2_6tS80-Pw;C:\Users\odefaudlegros\Documents\films papa\images\cocktail.jpg;Tom Cruise, Bryan Brown;Romance, Comédie;1988
-;contagion;https://www.youtube.com/watch?v=MSgq3CgV7_A;C:\Users\odefaudlegros\Documents\films papa\images\contagion.jpg;Matt Damon, Kate Winslet;Science-fiction, Thriller;2011
-;da_vinci_code;https://www.youtube.com/watch?v=dOJBaIjXGnQ&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\da_vinci_code.jpg;Tom Hanks, Audrey Tautou;Thriller, Mystère;2006
-;deadpool_1;https://www.youtube.com/watch?v=XWtH7anz7io&t=72s;C:\Users\odefaudlegros\Documents\films papa\images\deadpool_1.jpg;Ryan Reynolds, Morena Baccarin;Action, Comédie;2016
-;deadpool_2;https://www.youtube.com/watch?v=QgzslSsSECM;C:\Users\odefaudlegros\Documents\films papa\images\deadpool_2.jpg;Ryan Reynolds, Josh Brolin;Action, Comédie;2018
-;destination_finale_1;https://www.youtube.com/watch?v=Mog5aEuq-8A&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_1.jpg;Devon Sawa, Ali Larter;Horreur;2000
-;destination_finale_2;https://www.youtube.com/watch?v=NqK9Gbrnyec&t=8s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_2.jpg;A.J. Cook, Ali Larter;Horreur;2003
-;destination_finale_3;https://www.youtube.com/watch?v=iqVxVKL-yOM;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_3.jpg;Mary Elizabeth Winstead, Ryan Merriman;Horreur;2006
-;destination_finale_4;https://www.youtube.com/watch?v=PBF4DTFUZKg&t=15s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_4.jpg;Bobby Campo, Shantel VanSanten;Horreur;2009
-;destination_finale_5;https://www.youtube.com/watch?v=VjqCOYHrd5s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_5.jpg;Nicholas D'Agosto, Emma Bell;Horreur;2011
-;die_hard_1;https://www.youtube.com/watch?v=rf79c9Da83I&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_1.jpg;Bruce Willis, Alan Rickman;Action, Thriller;1988
-;die_hard_2_58_min_pour_vivre;https://www.youtube.com/watch?v=dC9UCRMxoZg&t=45s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_2_58_min.jpg;Bruce Willis, William Atherton;Action, Thriller;1990
-;die_hard_3_une_journee_en_enfer;https://www.youtube.com/watch?v=K2AruxS8-Rs;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_3_une_journee_en_enfer.jpg;Bruce Willis, Samuel L. Jackson;Action, Thriller;1995
-;die_hard_4_retour_en_enfer;https://www.youtube.com/watch?v=IQuquL2xuzY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\die_har_4_retour_en_enfer.jpg;Bruce Willis, Justin Long;Action, Thriller;2007
-;die_hard_5_belle_journee_pour_mourir;https://www.youtube.com/watch?v=IBX_A-5iWYA&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_5_belle_journee_pour_mourir.jpg;Bruce Willis, Jai Courtney;Action, Thriller;2013
-;divergeante_1;https://www.youtube.com/watch?v=gxbwcBlj_dM&t=63s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_1.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2014
-;divergeante_2;https://www.youtube.com/watch?v=l4YTrX3gmco&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_2.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2015
-;divergeante_3;https://www.youtube.com/watch?v=IME-Af-uRSE&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_3.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2016
-;doctor_strange;https://www.youtube.com/watch?v=bly7XM7QzSY&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\doctor_strange.jpg;Benedict Cumberbatch, Chiwetel Ejiofor;Action;2016
-;doctor_strange_in_the_multiverse_of_madness;https://www.youtube.com/watch?v=IB0keJtKDvw;C:\Users\odefaudlegros\Documents\films papa\images\doctor_strange_in_the_multiverse_of_madness.jpg;Benedict Cumberbatch, Elizabeth Olsen;Action;2022
-;donjons_et_dragons;https://www.youtube.com/watch?v=wK69QJ2ESO0;C:\Users\odefaudlegros\Documents\films papa\images\donjons_et_dragons.jpeg;Chris Pine, Michelle Rodriguez;Action;2023
-;dunkerque;https://www.youtube.com/watch?v=chRUCIk3K94&t=66s;C:\Users\odefaudlegros\Documents\films papa\images\dunkerque.jpg;Fionn Whitehead, Tom Hardy, Mark Rylance;Guerre, Action;2017
-;equalizer_1;https://www.youtube.com/watch?v=Ydmk1_1_Gi4;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_1.jpg;;Action, Thriller;2014
-;equalizer_2;https://www.youtube.com/watch?v=zEmqoNmdhsI;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_2.jpg;;Action, Thriller;2018
-;equalizer_3;https://www.youtube.com/watch?v=2L0ibmBgFV8;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_3.jpg;;Action, Thriller;2023
-;expandable_1;https://www.youtube.com/watch?v=5RcnSc08lJQ&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\expandable_1.jpg;Sylvester Stallone, Jason Statham;Action, Thriller;2010
-;expandable_2;https://www.youtube.com/watch?v=PTEBUh76o-Y;C:\Users\odefaudlegros\Documents\films papa\images\expandable_2.jpg;Sylvester Stallone, Jason Statham, Jean-Claude Van Damme;Action, Thriller;2012
-;expandable_3;https://www.youtube.com/watch?v=RwgHXmnUDBw&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\expandable_3.jpg;Sylvester Stallone, Jason Statham, Mel Gibson;Action, Thriller;2014
-;fast_and_furious_1;https://www.youtube.com/watch?v=b0EJzs6U9t8&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_1.jpg;Vin Diesel, Paul Walker;Action;2001
-;fast_and_furious_10;https://www.youtube.com/watch?v=rPmA-4AhA94&t=91s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_10.jpg;;Action;2023
-;fast_and_furious_2;https://www.youtube.com/watch?v=KUX6KI3-AjA&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_2.jpg;Paul Walker, Tyrese Gibson;Action;2003
-;fast_and_furious_3;https://www.youtube.com/watch?v=KPiJgEc7Ux8&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_3.jpg;Lucas Black, Sung Kang;Action;2006
-;fast_and_furious_4;https://www.youtube.com/watch?v=99XOxDLMvBg&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_4.jpg;Vin Diesel, Paul Walker;Action;2009
-;fast_and_furious_5;https://www.youtube.com/watch?v=CYV-mTqlI_g&t=6s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_5.jpg;Vin Diesel, Paul Walker, Dwayne Johnson;Action;2011
-;fast_and_furious_6;https://www.youtube.com/watch?v=Ewu0WTPbOVY&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_6.jpg;Vin Diesel, Paul Walker, Dwayne Johnson;Action;2013
-;fast_and_furious_7;https://www.youtube.com/watch?v=3Wu2BhFuc4c;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_7.jpg;Vin Diesel, Paul Walker, Jason Statham;Action;2015
-;fast_and_furious_8;https://www.youtube.com/watch?v=xFO-pKB13mw;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_8.jpg;Vin Diesel, Dwayne Johnson, Charlize Theron;Action;2017
-;fast_and_furious_9;https://www.youtube.com/watch?v=Eumj0-UxrQM;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_9.jpg;Vin Diesel, John Cena;Action;2021
-;fast_and_furious_hobbs;https://www.youtube.com/watch?v=VZFp6OIeX2Q;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_hobbs.jpg;Dwayne Johnson, Jason Statham;Action;2019
-;forrest_gump;https://www.youtube.com/watch?v=7pDDuroFBGM;C:\Users\odefaudlegros\Documents\films papa\images\forrest_gump.jpg;Tom Hanks, Robin Wright;Comédie;1994
-;freddy_1;https://www.youtube.com/watch?v=OuqHdlQ7DBM&t=52s;C:\Users\odefaudlegros\Documents\films papa\images\freddy_1.jpg;Robert Englund, Heather Langenkamp;Horreur;1984
-;freddy_2;https://www.youtube.com/watch?v=SUF13QSUUQA;C:\Users\odefaudlegros\Documents\films papa\images\freddy_2.jpg;Robert Englund, Mark Patton;Horreur;1985
-;freddy_3;https://www.youtube.com/watch?v=c1Zgra_gHMU&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\freddy_3.jpg;Robert Englund, Heather Langenkamp;Horreur;1987
-;freddy_4;https://www.youtube.com/watch?v=wmDM090Z2SI;C:\Users\odefaudlegros\Documents\films papa\images\freddy_4.jpg;Robert Englund, Rodney Eastman;Horreur;1988
-;game_of_thrones;https://www.youtube.com/watch?v=Ng1W_qu5aJM;C:\Users\odefaudlegros\Documents\films papa\images\game_of_thrones.jpg;Kit Harington, Emilia Clarke;Serie;
-;gemini_man;https://www.youtube.com/watch?v=AK07MzdsrD4&t=60s;C:\Users\odefaudlegros\Documents\films papa\images\gemini_man.jpg;Will Smith, Mary Elizabeth Winstead;Action, Thriller;2019
-;geostorm;https://www.youtube.com/watch?v=QWaOHVtjUoc;C:\Users\odefaudlegros\Documents\films papa\images\geostorm.jpg;Gerard Butler, Jim Sturgess;Action, Science-fiction;2017
-;ghost;https://www.youtube.com/watch?v=zUY8bf4mUPg&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\ghost.jpg;Patrick Swayze, Demi Moore;Romance, Thriller;2000
-;grease;https://www.youtube.com/watch?v=2j17nSmVghI;C:\Users\odefaudlegros\Documents\films papa\images\grease.jpg;John Travolta, Olivia Newton-John;Musical, Comédie;1978
-;hancock;https://www.youtube.com/watch?v=FmpOgGrwXdQ&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\hancock.jpg;Will Smith, Charlize Theron;Action;2008
-;harry_potter_1;https://www.youtube.com/watch?v=P1BGgqhVGAI;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_1.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2001
-;harry_potter_2;https://www.youtube.com/watch?v=Z3T8PuWuoL0&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_2.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2002
-;harry_potter_3;https://www.youtube.com/watch?v=CLncEeVf4ks&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_3.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2004
-;harry_potter_4;https://www.youtube.com/watch?v=XO9rqIgzDL0&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_4.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2005
-;harry_potter_5;https://www.youtube.com/watch?v=S8-SXEGMmi4&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_5.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2007
-;harry_potter_6;https://www.youtube.com/watch?v=yb-VYG3x5E8;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_6.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2009
-;harry_potter_7;https://www.youtube.com/watch?v=HgZZsnleZJQ&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_7.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2010
-;harry_potter_8;https://www.youtube.com/watch?v=aiaIfICU-Tk&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_8.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2011
-;hunger_games_1;https://www.youtube.com/watch?v=wqUq0lsQ684&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_1.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2012
-;hunger_games_2;https://www.youtube.com/watch?v=-ZcW_6i2Rkg;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_2.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2013
-;hunger_games_3;https://www.youtube.com/watch?v=zdMIft77FEY&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_3.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2014
-;hunger_games_4;https://www.youtube.com/watch?v=MGZ0kzmcWAU&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_4.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2015
-;hunger_games_5;https://www.youtube.com/watch?v=BLJSN_UNqbc;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_5.jpg;;Action, Science-fiction;2023
-;hypnotic;https://www.youtube.com/watch?v=0Rhej7ZllK8;C:\Users\odefaudlegros\Documents\films papa\images\hypnotic.jpg;;Action, Science-fiction;2023
-;il_faut_sauver_le_soldat;https://www.youtube.com/watch?v=7VBsDfsXJfQ;C:\Users\odefaudlegros\Documents\films papa\images\il_faut_sauver_le_soldat.jpg;Tom Hanks, Matt Damon;Guerre;1998
-;inception;https://www.youtube.com/watch?v=HcoZbHBDHQA;C:\Users\odefaudlegros\Documents\films papa\images\inception.jpg;Leonardo DiCaprio, Joseph Gordon-Levitt;Thriller, Science-fiction;2010
-;independance_day_1;https://www.youtube.com/watch?v=B1E7h3SeMDk&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\independance_day_1.jpg;Will Smith, Bill Pullman;Action, Science-fiction;1996
-;independance_day_2;https://www.youtube.com/watch?v=b577i7s2CiM;C:\Users\odefaudlegros\Documents\films papa\images\independance_day_2.jpg;Liam Hemsworth, Jeff Goldblum;Action, Science-fiction;2016
-;inferno;https://www.youtube.com/watch?v=GfXpBiLwhHk&t=16s;C:\Users\odefaudlegros\Documents\films papa\images\inferno.jpg;Tom Hanks, Felicity Jones;Action, Aventure;2016
-;insaisissables_1;https://www.youtube.com/watch?v=-FeFz-cXILA;C:\Users\odefaudlegros\Documents\films papa\images\insaisissables_1.jpg;Jesse Eisenberg, Mark Ruffalo;Thriller;2013
-;insaisissables_2;https://www.youtube.com/watch?v=0iGn57DVJIc;C:\Users\odefaudlegros\Documents\films papa\images\insaisissables_2.jpg;Jesse Eisenberg, Mark Ruffalo, Daniel Radcliffe;Thriller;2016
-;intouchable;https://www.youtube.com/watch?v=EsaX5kltRcA&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\intouchable.jpg;François Cluzet, Omar Sy;Comédie;2011
-;iron_man_1;https://www.youtube.com/watch?v=rDCTb9Gp2qk&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_1.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2008
-;iron_man_2;https://www.youtube.com/watch?v=0Y7ullsUPEA;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_2.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2010
-;iron_man_3;https://www.youtube.com/watch?v=wnEr73Rq3Ac&t=51s;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_3.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2013
-;jean_philippe;https://www.youtube.com/watch?v=RnN3tT1Utxs&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\jean_philippe.jpg;Fabrice Luchini, Johnny Hallyday;Comédie;2006
-;john_wick_1;https://www.youtube.com/watch?v=pWK5crMuhHY&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_1.jpg;Keanu Reeves, Michael Nyqvist;Action;2014
-;john_wick_2;https://www.youtube.com/watch?v=d0u1o8vdxE8&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_2.jpg;Keanu Reeves, Riccardo Scamarcio;Action;2017
-;john_wick_3;https://www.youtube.com/watch?v=Cs4wKxXjkc8&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_3.jpg;Keanu Reeves, Halle Berry;Action;2019
-;john_wick_4;https://www.youtube.com/watch?v=6itn_8L6-Z8&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_4.jpg;Keanu Reeves;Action;2023
-;joker;https://www.youtube.com/watch?v=OoTx1cYC5u8;C:\Users\odefaudlegros\Documents\films papa\images\joker.jpg;Joaquin Phoenix, Robert De Niro;Thriller;2019
-;joyeux_bordel;https://www.youtube.com/watch?v=ifk8lQ_5b6Y;C:\Users\odefaudlegros\Documents\films papa\images\joyeux_bordel.jpg;Jason Bateman, Olivia Munn;Comédie;2016
-;jumanji;https://www.youtube.com/watch?v=oZI2njF5rx0;C:\Users\odefaudlegros\Documents\films papa\images\jumanji.jpg;Dwayne Johnson, Kevin Hart, Jack Black;Aventure;2017
-;jumanji_2;https://www.youtube.com/watch?v=RhWRa0wBBHA;C:\Users\odefaudlegros\Documents\films papa\images\jumanji_2.jpg;Dwayne Johnson, Kevin Hart, Jack Black;Aventure;2019
-;jungle_cruise;https://www.youtube.com/watch?v=CWpcUeAZgD0&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\jungle_cruise.jpg;Dwayne Johnson, Emily Blunt;Aventure;2021
-;jurassic_park_1;https://www.youtube.com/watch?v=ZEY7iMX_oZs&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_1.jpg;Sam Neill, Laura Dern, Jeff Goldblum;Aventure, Science-fiction;1993
-;jurassic_park_2;https://www.youtube.com/watch?v=z6hwDlf8vMk&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_2.jpg;Jeff Goldblum, Julianne Moore;Aventure, Science-fiction;1997
-;jurassic_park_3;https://www.youtube.com/watch?v=FxOfakcWAeE;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_3.jpg;Sam Neill, William H. Macy;Aventure, Science-fiction;2001
-;jurassic_park_4;https://www.youtube.com/watch?v=wmzAfqhphq8;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_4.jpg;Chris Pratt, Bryce Dallas Howard;Aventure, Science-fiction;2015
-;jurassic_park_5;https://www.youtube.com/watch?v=6Eokj_7aIQ0;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_5.jpg;Chris Pratt, Bryce Dallas Howard;Aventure, Science-fiction;2025
-;justice_league;https://www.youtube.com/watch?v=cvUFoxU_Lq0&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\justice_league.jpg;Ben Affleck, Gal Gadot, Henry Cavill;Action, Fantasy;2017
-;justice_league_zack_snider;https://www.youtube.com/watch?v=nKmVTdkUI6A;C:\Users\odefaudlegros\Documents\films papa\images\justice_league_zack_snider.jpg;Ben Affleck, Gal Gadot, Henry Cavill;Action, Fantasy;2021
-;kin;https://www.youtube.com/watch?v=KGsqiAF6MJk&t=49s;C:\Users\odefaudlegros\Documents\films papa\images\kin.jpg;Myles Truitt, Jack Reynor;Action, Science-fiction;2018
-;kings_man_1;https://www.youtube.com/watch?v=s-YfBT7Wu9o;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_1.jpg;Taron Egerton, Colin Firth;Action;2015
-;kings_man_2;https://www.youtube.com/watch?v=QImgyRave8c;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_2.jpg;Taron Egerton, Colin Firth, Julianne Moore;Action;2017
-;kings_man_3;https://www.youtube.com/watch?v=QMQ53iuCsp0;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_3.jpg;Ralph Fiennes, Harris Dickinson;Action;2021
-;kite;https://www.youtube.com/watch?v=B7_hddE3i4k&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\kite.jpg;India Eisley, Callan McAuliffe;Action;2014
-;knock_knock;https://www.youtube.com/watch?v=RxFWCjH_t6k&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\knock_knock.jpg;Keanu Reeves, Lorenza Izzo;Thriller;2015
-;l_arme_fatale_1;https://www.youtube.com/watch?v=OeBVtCT6HW8;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_1.jpg;Mel Gibson, Danny Glover;Action, Comédie;1987
-;l_arme_fatale_2;https://www.youtube.com/watch?v=5AdW-ShY9T4;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_2.jpg;Mel Gibson, Danny Glover;Action, Comédie;1989
-;l_arme_fatale_3;https://www.youtube.com/watch?v=w0Y6L5Y9M3s&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_3.jpg;Mel Gibson, Danny Glover;Action, Comédie;1992
-;l_arme_fatale_4;https://www.youtube.com/watch?v=Es4CYLavwuw&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_4.jpg;Mel Gibson, Danny Glover;Action, Comédie;1998
-;l_incroyable_hulk;https://www.youtube.com/watch?v=LCjTxK1B5Pg&t=38s;C:\Users\odefaudlegros\Documents\films papa\images\lincroyable_hulk.jpg;Edward Norton, Liv Tyler;Action, Science-fiction;2008
-;la_boum_1;https://www.youtube.com/watch?v=uqKKiUSLZK8;C:\Users\odefaudlegros\Documents\films papa\images\la_boum_1.jpg;Sophie Marceau, Claude Brasseur;Comédie, Romance;1980
-;la_boum_2;https://www.youtube.com/watch?v=NnHZuv7ITic&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\la_boum_2.jpg;Sophie Marceau, Claude Brasseur;Comédie, Romance;1982
-;la_famille_belier;https://www.youtube.com/watch?v=tEgw97vpkDM&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\la_famille_belier.jpg;Louane Emera, Karin Viard;Comédie, Musical;2014
-;la_ligne_verte;https://www.youtube.com/watch?v=mccs8Ql8m8o&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\la_ligne_verte.jpg;Tom Hanks, Michael Clarke Duncan;Fantasy;1999
-;la_mule;https://www.youtube.com/watch?v=bGgyUSO24BA;C:\Users\odefaudlegros\Documents\films papa\images\la_mule.jpg;Clint Eastwood, Bradley Cooper;;2018
-;la_petite_sirene;https://www.youtube.com/watch?v=J5VvzJmiqJc;C:\Users\odefaudlegros\Documents\films papa\images\la_petite_sirene.jpg;Jodi Benson, Christopher Daniel Barnes (voices);;2023
-;la_planete_des_singes_1;https://www.youtube.com/watch?v=Vn8GriIog1s&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_1.jpg;Mark Wahlberg, Tim Roth;;2011
-;la_planete_des_singes_2;https://www.youtube.com/watch?v=dPcwB7okdzU&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_2.jpg;Andy Serkis, Jason Clarke;;2014
-;la_planete_des_singes_3;https://www.youtube.com/watch?v=GyUI-Cr9lak&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_3.jpg;Andy Serkis, Woody Harrelson;;2017
-;largo_winch;https://www.youtube.com/watch?v=rnYZHu_YaQY&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\largo_winch.jpg;Tomer Sisley, Kristin Scott Thomas;;2008
-;le_crime_de_l'orient_express;https://www.youtube.com/watch?v=FMlYxRCBSSM;C:\Users\odefaudlegros\Documents\films papa\images\le_crime.jpg;Kenneth Branagh, Johnny Depp;;2017
-;le_doudou;https://www.youtube.com/watch?v=P4_rE7qGXFE&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\le_doudou.jpg;Kad Merad, Malik Bentalha;;2017
-;le_drole_de_noel_de_scroodge;https://www.youtube.com/watch?v=PcNLFXSdO5A&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\le_drole_de_noel_de_scroodge.jpg;Jim Carrey, Gary Oldman (voices);;2009
-;le_grand_bleu;https://www.youtube.com/watch?v=xGmVAPwWwSM;C:\Users\odefaudlegros\Documents\films papa\images\le_grand_bleu.jpg;Jean-Marc Barr, Jean Reno;;1988
-;le_hobbit_1;https://www.youtube.com/watch?v=tiy7peMH3g8&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_1.jpg;Martin Freeman, Ian McKellen;;2012
-;le_hobbit_2;https://www.youtube.com/watch?v=bvKLagxYhrc&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_2.jpg;Martin Freeman, Benedict Cumberbatch;;2013
-;le_hobbit_3;https://www.youtube.com/watch?v=E5qN3zUF3Rw;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_3.jpg;Martin Freeman, Ian McKellen;;2014
-;le_jeu;https://www.youtube.com/watch?v=1fGdZehIGFE;C:\Users\odefaudlegros\Documents\films papa\images\le_jeu.jpg;Bérénice Bejo, Suzanne Clément;;2018
-;le_labirynthe;https://www.youtube.com/watch?v=LyPiCH_4Al4;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe.jpg;Dylan O'Brien, Kaya Scodelario;;2014
-;le_labirynthe_2;https://www.youtube.com/watch?v=K7jyL2cS6dc;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe_2.jpg;Dylan O'Brien, Kaya Scodelario;;2015
-;le_labirynthe_3;https://www.youtube.com/watch?v=HuXEKU0PTzw;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe_3.jpg;Dylan O'Brien, Kaya Scodelario;;2018
-;le_mans_66;https://www.youtube.com/watch?v=UG3Z-MIDdGs;C:\Users\odefaudlegros\Documents\films papa\images\le_mans_66.jpg;Matt Damon, Christian Bale;;2019
-;le_monde_fantastique_d_oz;https://www.youtube.com/watch?v=2Hsq8qq0jdo&t=45s;C:\Users\odefaudlegros\Documents\films papa\images\le_monde_fantastique_doz.jpg;James Franco, Mila Kunis;;2013
-;le_prestige;https://www.youtube.com/watch?v=2zVbrV1ehnU;C:\Users\odefaudlegros\Documents\films papa\images\le_prestige.jpg;Christian Bale, Hugh Jackman;;2006
-;le_seigneur_des_anneaux_1;https://www.youtube.com/watch?v=nalLU8i4zgs;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_1.jpg;Elijah Wood, Ian McKellen;;2001
-;le_seigneur_des_anneaux_2;https://www.youtube.com/watch?v=c9blKqmyeV4;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_2.jpg;Elijah Wood, Ian McKellen;;2002
-;le_seigneur_des_anneaux_3;https://www.youtube.com/watch?v=RCuDRcK0BBM;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_3.jpg;Elijah Wood, Ian McKellen;;2003
-;le_transporteur_heritage;https://www.youtube.com/watch?v=DRuyPTWsydY&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\le_transporteur_heritage.jpg;Ed Skrein, Ray Stevenson;;2015
-;leon;https://www.youtube.com/watch?v=M242Bp0PcwE;C:\Users\odefaudlegros\Documents\films papa\images\leon.jpg;Jean Reno, Natalie Portman;;1994
-;les_animaux_fantastiques;https://www.youtube.com/watch?v=jC8xuFcMq20;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques.jpg;Eddie Redmayne, Katherine Waterston;;2016
-;les_animaux_fantastiques_2;https://www.youtube.com/watch?v=Dnb6eAfSHtw&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques_2.jpg;Eddie Redmayne, Johnny Depp;;2018
-;les_animaux_fantastiques_3;https://www.youtube.com/watch?v=k39acJCDSKY;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques_3.jpg;Eddie Redmayne, Jude Law;;2022
-;les_chevaliers_du_zodiac;https://www.youtube.com/watch?v=nEWL1GQ5Pks;C:\Users\odefaudlegros\Documents\films papa\images\les_chevaliers_du_zodiac.jpg;;;2023
-;les_eternels;https://www.youtube.com/watch?v=nHcubNwuKFA&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_eternelles.jpg;Gemma Chan, Richard Madden;;2021
-;les_gardiens_de_la_galaxie_1;https://www.youtube.com/watch?v=HbB1LC_QyK0&t=24s;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_1.jpg;Chris Pratt, Zoe Saldana;;2014
-;les_gardiens_de_la_galaxie_2;https://www.youtube.com/watch?v=e2LkglavLRs&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_2.jpg;Chris Pratt, Zoe Saldana;;2017
-;les_gardiens_de_la_galaxie_3;https://www.youtube.com/watch?v=0RsvBSFm938;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_3.jpg;Chris Pratt, Zoe Saldana;;2023
-;les_schtroumpfs;https://www.youtube.com/watch?v=3GclcezQvFU&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_schtroumphs.jpg;Neil Patrick Harris, Jayma Mays (live-action);;2011
-;les_tuche_1;https://www.youtube.com/watch?v=ndCzT6dyOqk&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_1.jpg;Jean-Paul Rouve, Isabelle Nanty;;2010
-;les_tuche_2;https://www.youtube.com/watch?v=pKbox8S-se4&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_2.jpg;Jean-Paul Rouve, Isabelle Nanty;;2016
-;les_tuche_3;https://www.youtube.com/watch?v=WqSPFOLA9sE&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_3.jpg;Jean-Paul Rouve, Isabelle Nanty;;2018
-;les_tuche_4;https://www.youtube.com/watch?v=vxWSTApFmR4;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_4.jpg;Jean-Paul Rouve, Isabelle Nanty;;2021
-;logan;https://www.youtube.com/watch?v=i-iqiI5uikE;C:\Users\odefaudlegros\Documents\films papa\images\logan.jpg;Hugh Jackman, Patrick Stewart;;2017
-;malefique_1;https://www.youtube.com/watch?v=8yBDfD88W3U&t=48s;C:\Users\odefaudlegros\Documents\films papa\images\malefique_1.jpg;Angelina Jolie, Elle Fanning;;2014
-;malefique_2;https://www.youtube.com/watch?v=R2kmlH2VkME&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\malefique_2.jpg;Angelina Jolie, Elle Fanning;;2019
-;man_of_steel;https://www.youtube.com/watch?v=Xw4VeR7tCxU&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\man_of_steel.jpg;Henry Cavill, Amy Adams;;2013
-;matrix_1;https://www.youtube.com/watch?v=8xx91zoASLY&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_1.jpg;Keanu Reeves, Laurence Fishburne;;1999
-;matrix_2;https://www.youtube.com/watch?v=0ha2XYVC7_s&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_2.jpg;Keanu Reeves, Laurence Fishburne;;2003
-;matrix_3;https://www.youtube.com/watch?v=sK51m1tj_bE&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_3.jpg;Keanu Reeves, Laurence Fishburne;;2003
-;matrix_4;https://www.youtube.com/watch?v=Tj63xbpKnqo&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_4.jpg;Keanu Reeves, Carrie-Anne Moss;;2021
-;men_in_black_1;https://www.youtube.com/watch?v=2wVy3QmCyJU&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_1.jpg;Will Smith, Tommy Lee Jones;;1997
-;men_in_black_2;https://www.youtube.com/watch?v=HuQmpzpAhHo&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_2.jpg;Will Smith, Tommy Lee Jones;;2002
-;men_in_black_3;https://www.youtube.com/watch?v=Ep6NGpX66oU&t=38s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_3.jpg;Will Smith, Josh Brolin;;2012
-;men_in_black_international;https://www.youtube.com/watch?v=JHQq7eOOxdc&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_international.jpg;Chris Hemsworth, Tessa Thompson;;2019
-;midnight_express;https://www.youtube.com/watch?v=OFVsGmNGGys&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\midnight_express.jpg;Brad Davis, John Hurt;;1978
-;minority_report;https://www.youtube.com/watch?v=V0Ay_CB9quU;C:\Users\odefaudlegros\Documents\films papa\images\minority_report.jpg;Tom Cruise, Colin Farrell;;2002
-;mission_impossible_1;https://www.youtube.com/watch?v=EvOqiaqfewU&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_1.jpg;Tom Cruise, Jon Voight;;1996
-;mission_impossible_2;https://www.youtube.com/watch?v=aHjhMW1WvWk&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_2.jpg;Tom Cruise, Dougray Scott;;2000
-;mission_impossible_3;https://www.youtube.com/watch?v=Lb8mK7w_ig4&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_3.jpg;Tom Cruise, Philip Seymour Hoffman;;2006
-;mission_impossible_4;https://www.youtube.com/watch?v=r5Pw_ntvbEo&t=5s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_4.jpg;Tom Cruise, Jeremy Renner;;2011
-;mission_impossible_5;https://www.youtube.com/watch?v=wX8fhP-fsPg&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_5.jpg;Tom Cruise, Rebecca Ferguson;;2015
-;mission_impossible_6;https://www.youtube.com/watch?v=n4qbj1lFEpU&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_6.jpg;Tom Cruise, Henry Cavill;;2018
-;mission_impossible_dead_reckoning_part_1;https://www.youtube.com/watch?v=kz34RaRBczI;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_dead_reckoning_part_1.jpg;;;2023
-;moonfall;https://www.youtube.com/watch?v=z3LNxIZI1go&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\moonfall.jpg;Halle Berry, Patrick Wilson;;2022
-;morbius;https://www.youtube.com/watch?v=6pGgkOcIyQA;C:\Users\odefaudlegros\Documents\films papa\images\morbius.jpg;Jared Leto, Matt Smith;;2022
-;nos_etoiles_contraires;https://www.youtube.com/watch?v=X6WVLSdigCk&t=6s;C:\Users\odefaudlegros\Documents\films papa\images\nos_eoiles_contraires.jpg;Shailene Woodley, Ansel Elgort;;2014
-;nuit_blanche_a_seattle;https://www.youtube.com/watch?v=XACtsPeHvxA;C:\Users\odefaudlegros\Documents\films papa\images\nuit_blanche_a_seattle.jpg;Tom Hanks, Meg Ryan;;1993
-;oblivion;https://www.youtube.com/watch?v=XH1su3FVEA4&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\oblivion.jpg;Tom Cruise, Morgan Freeman;;2013
-;oppenheimer;https://www.youtube.com/watch?v=CoXtvSRpHgM;C:\Users\odefaudlegros\Documents\films papa\images\oppenheimer.jpg;;;2023
-;pattaya;https://www.youtube.com/watch?v=cICeyHsS16Y;C:\Users\odefaudlegros\Documents\films papa\images\pattaya.jpg;Franck Gastambide, Malik Bentalha;;2016
-;peppermint;https://www.youtube.com/watch?v=EE1wg5HHwK0&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\peppermint.jpg;Jennifer Garner, John Gallagher Jr.;;2018
-;peter_et_elliot_le_dragon;https://www.youtube.com/watch?v=MEXN66uRNe8&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\peter_et_elliot_le_dragon.jpg;Oakes Fegley, Bryce Dallas Howard;;2016
-;philadelphia;https://www.youtube.com/watch?v=rYfl8rmZBKc&t=9s;C:\Users\odefaudlegros\Documents\films papa\images\philadelphia.jpg;Tom Hanks, Denzel Washington;;1993
-;pirate_des_caraibes_1;https://www.youtube.com/watch?v=WiZC7l0ovvk;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_1.jpg;Johnny Depp, Orlando Bloom;;2003
-;pirate_des_caraibes_2;https://www.youtube.com/watch?v=ZJwdTWd8o_w;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_2.jpg;Johnny Depp, Orlando Bloom;;2006
-;pirate_des_caraibes_3;https://www.youtube.com/watch?v=rF6k1bXAVIg;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_3.jpg;Johnny Depp, Orlando Bloom;;2007
-;pirate_des_caraibes_4;https://www.youtube.com/watch?v=Kcqf4RqBaUI;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_4.jpg;Johnny Depp, Penélope Cruz;;2011
-;pirate_des_caraibes_5;https://www.youtube.com/watch?v=OTEGxxMTnPU;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_5.jpg;Johnny Depp, Javier Bardem;;2017
-;point_break;https://www.youtube.com/watch?v=5L7zkTFUxjo&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\point_break.jpg;Patrick Swayze, Keanu Reeves;;1991
-;poseidon;https://www.youtube.com/watch?v=TtZGfLoe1lA&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\poseidon.jpg;Josh Lucas, Kurt Russell;;2006
-;pretty_woman;https://www.youtube.com/watch?v=eBl8jzO6KHg;C:\Users\odefaudlegros\Documents\films papa\images\pretty_woman.jpg;Richard Gere, Julia Roberts;;1990
-;radin;https://www.youtube.com/watch?v=8hmQFU2hpJM&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\radin.jpg;Dany Boon, Laurence Arné;;2016
-;rain_man;https://www.youtube.com/watch?v=G2q2IVHu8p4&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\rain_man.jpg;Dustin Hoffman, Tom Cruise;;1988
-;rampage;https://www.youtube.com/watch?v=8ckz-mk9-Tg;C:\Users\odefaudlegros\Documents\films papa\images\rampage.jpg;Dwayne Johnson, Naomie Harris;;2018
-;ready_player_one;https://www.youtube.com/watch?v=oYGkAMHCOC4&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\ready_player.jpg;Tye Sheridan, Olivia Cooke;;2018
-;remember_me;https://www.youtube.com/watch?v=xi5I1JX0UIY&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\remember_me.jpg;Robert Pattinson, Emilie de Ravin;;2010
-;replicas;https://www.youtube.com/watch?v=CQopGH4qMEI&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\replicas.jpg;Keanu Reeves, Alice Eve;;2018
-;resident_evil_1;https://www.youtube.com/watch?v=amWEDXmkoXo;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_1.jpg;Milla Jovovich, Michelle Rodriguez;;2002
-;resident_evil_2;https://www.youtube.com/watch?v=axd-h6a0Wgg;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_2.jpg;Milla Jovovich, Sienna Guillory;;2004
-;resident_evil_3;https://www.youtube.com/watch?v=lb52BesCCa8;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_3.jpg;Milla Jovovich, Oded Fehr;;2007
-;resident_evil_4;https://www.youtube.com/watch?v=eaKOg7w8meQ;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_4.jpg;Milla Jovovich, Ali Larter;;2010
-;resident_evil_5;https://www.youtube.com/watch?v=65g5-p3CQcM;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_5.jpg;Milla Jovovich, Sienna Guillory;;2012
-;resident_evil_6;https://www.youtube.com/watch?v=xHohwszlCEw;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_6.png;Milla Jovovich, Iain Glen;;2017
-;retour_vers_le_futur;https://www.youtube.com/watch?v=cU5BREZ9ke0;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur.jpg;Michael J. Fox, Christopher Lloyd;;1985
-;retour_vers_le_futur_2;https://www.youtube.com/watch?v=u72lyJirxGQ&t=14s;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur_2.jpg;Michael J. Fox, Christopher Lloyd;;1989
-;retour_vers_le_futur_3;https://www.youtube.com/watch?v=Ugth9lQsKb0;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur_3.jpg;Michael J. Fox, Christopher Lloyd;;1990
-;rogue_one_star_wars;https://www.youtube.com/watch?v=ox6Dsbvp7ng&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\rogue_on_star_wars.jpg;Felicity Jones, Diego Luna;;2016
-;san_andreas;https://www.youtube.com/watch?v=HGpwaIf3ZKk&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\san_andreas.jpg;Dwayne Johnson, Carla Gugino;;2015
-;saw_1;https://www.youtube.com/watch?v=8Swsh-up3iM&t=54s;C:\Users\odefaudlegros\Documents\films papa\images\saw_1.jpg;Cary Elwes, Leigh Whannell;;2004
-;saw_2;https://www.youtube.com/watch?v=RzsCFIbUoVQ&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\saw_2.jpg;Donnie Wahlberg, Tobin Bell;;2005
-;saw_3;https://www.youtube.com/watch?v=91B113M4usE;C:\Users\odefaudlegros\Documents\films papa\images\saw_3.jpg;Tobin Bell, Shawnee Smith;;2006
-;saw_4;https://www.youtube.com/watch?v=Qe8ZSX2NW0A;C:\Users\odefaudlegros\Documents\films papa\images\saw_4.jpg;Tobin Bell, Costas Mandylor;;2007
-;saw_5;https://www.youtube.com/watch?v=3MiXFmlVPOY&t=44s;C:\Users\odefaudlegros\Documents\films papa\images\saw_5.jpg;Tobin Bell, Costas Mandylor;;2008
-;saw_6;https://www.youtube.com/watch?v=4rv9dq2IQ-I;C:\Users\odefaudlegros\Documents\films papa\images\saw_6.jpg;Tobin Bell, Costas Mandylor;;2009
-;saw_7;https://www.youtube.com/watch?v=oqE1tTFClh4;C:\Users\odefaudlegros\Documents\films papa\images\saw_7.jpg;Tobin Bell, Costas Mandylor;;2010
-;saw_8;https://www.youtube.com/watch?v=QxiztUnTivE&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\saw_8.jpg;Tobin Bell, Costas Mandylor;;2017
-;shang_chi;https://www.youtube.com/watch?v=PD3rUCBFDlI&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\shang_chi.jpg;Simu Liu, Awkwafina;;2021
-;shazam;https://www.youtube.com/watch?v=KThUY2k_yW4;C:\Users\odefaudlegros\Documents\films papa\images\shazam.jpg;Zachary Levi, Asher Angel;;2019
-;shazam_2;https://www.youtube.com/watch?v=VM5Hz-csjt8&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\shazam_2.jpg;Zachary Levi, Helen Mirren;;2023
-;sinister;https://www.youtube.com/watch?v=4sfzhzRAceE;C:\Users\odefaudlegros\Documents\films papa\images\sinister.jpg;Ethan Hawke, Juliet Rylance;;2012
-;sinister_2;https://www.youtube.com/watch?v=DAVMVdX9AIE&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\sinister_2.jpg;James Ransone, Shannyn Sossamon;;2015
-;sixieme_sens;https://www.youtube.com/watch?v=HEd92ksuHNo;C:\Users\odefaudlegros\Documents\films papa\images\sixieme_sens.jpg;Bruce Willis, Haley Joel Osment;;1999
-;skyscraper;https://www.youtube.com/watch?v=clKMwavvv6o;C:\Users\odefaudlegros\Documents\films papa\images\skyscraper.jpg;Dwayne Johnson, Neve Campbell;;2018
-;sonic;https://www.youtube.com/watch?v=NCZTYdAP6w0;C:\Users\odefaudlegros\Documents\films papa\images\sonic.jpg;Ben Schwartz, James Marsden (voice/live-action);;2020
-;sonic_2;https://www.youtube.com/watch?v=SqH3-sCkZQw;C:\Users\odefaudlegros\Documents\films papa\images\sonic_2.jpg;Ben Schwartz, James Marsden (voice/live-action);;2022
-;spider_man_far_from_home;https://www.youtube.com/watch?v=FguIk-SEkWI&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_far_from_home.jpg;Tom Holland, Zendaya;;2019
-;spider_man_homecoming;https://www.youtube.com/watch?v=Y8ErdqD5YPc;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_homecoming.jpg;Tom Holland, Michael Keaton;;2017
-;spider_man_no_way_home;https://www.youtube.com/watch?v=7w_w10HVa54;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_no_way_home.jpg;Tom Holland, Zendaya;;2021
-;star_wars_1;https://www.youtube.com/watch?v=0q-Q99DtNkw;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_1.jpg;Liam Neeson, Ewan McGregor, Natalie Portman;;1999
-;star_wars_2;https://www.youtube.com/watch?v=1D7DUNCHXkg;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_2.jpg;Ewan McGregor, Natalie Portman, Hayden Christensen;;2002
-;star_wars_3;https://www.youtube.com/watch?v=t1qtvKYwTV0;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_3.jpg;Ewan McGregor, Hayden Christensen, Natalie Portman;;2008
-;star_wars_4;https://www.youtube.com/watch?v=PNyht4iTMX8;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_4.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1977
-;star_wars_5;https://www.youtube.com/watch?v=_y-xlGOuVaE;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_5.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1980
-;star_wars_6;https://www.youtube.com/watch?v=5QSEJx3R968;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_6.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1983
-;star_wars_7;https://www.youtube.com/watch?v=mH9Ygfs5avo&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_7.jpg;Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher;;2015
-;star_wars_8;https://www.youtube.com/watch?v=wY708Ky2SG8;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_8.jpg;Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher;;2017
-;star_wars_9;https://www.youtube.com/watch?v=pHgwf2eMFnA&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_9.jpg;Daisy Ridley, Adam Driver;;2019
-;suicide_squad;https://www.youtube.com/watch?v=XfboDbU3xnA;C:\Users\odefaudlegros\Documents\films papa\images\suicide_squad.jpg;Will Smith, Margot Robbie;;2021
-;super_mario;https://www.youtube.com/watch?v=iwst-UZn3wM;C:\Users\odefaudlegros\Documents\films papa\images\super_mario.jpg;Bob Hoskins, John Leguizamo;;2023
-;taken_1;https://www.youtube.com/watch?v=UX_71dbzJIw&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\taken_1.jpg;Liam Neeson, Maggie Grace;;2008
-;taken_2;https://www.youtube.com/watch?v=G_U2ZpXjpeg&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\taken_2.jpg;Liam Neeson, Maggie Grace;;2012
-;taken_3;https://www.youtube.com/watch?v=nSInrKvxIdI&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\taken_3.jpg;Liam Neeson, Forest Whitaker;;2015
-;tenet;https://www.youtube.com/watch?v=6UG5LJQNjts;C:\Users\odefaudlegros\Documents\films papa\images\tenet.jpg;John David Washington, Robert Pattinson;;2020
-;the_batman;https://www.youtube.com/watch?v=hGQo1axtj60&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\the_batman.jpg;Robert Pattinson, Zoë Kravitz;;2022
-;the_doors;https://www.youtube.com/watch?v=z5X9rhbDtl4&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\the_doors.jpg;Val Kilmer, Meg Ryan;;1991
-;the_flash;https://www.youtube.com/watch?v=mUMlQZfjK1c;C:\Users\odefaudlegros\Documents\films papa\images\the_flash.jpg;;;2023
-;the_island;https://www.youtube.com/watch?v=EiBZakZa0TY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\the_island.jpg;Ewan McGregor, Scarlett Johansson;;2005
-;the_marvels;https://www.youtube.com/watch?v=9z9_bfhpLzU;C:\Users\odefaudlegros\Documents\films papa\images\the_marvels.jpg;;;2023
-;the_suicide_squad;https://www.youtube.com/watch?v=lu4P7YmGgiE;C:\Users\odefaudlegros\Documents\films papa\images\the_suicide_squad.jpg;Margot Robbie, Idris Elba;;2021
-;thor_1;https://www.youtube.com/watch?v=pzT3yeV9lT4&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\thor_1.jpg;Chris Hemsworth, Natalie Portman;;2011
-;thor_le_monde_des_tenebres;https://www.youtube.com/watch?v=WocFedghAHI;C:\Users\odefaudlegros\Documents\films papa\images\thor_le_monde_des_tenebres.jpg;Chris Hemsworth, Natalie Portman;;2013
-;thor_love_and_thunder;https://www.youtube.com/watch?v=K8iHxGiPyZk;C:\Users\odefaudlegros\Documents\films papa\images\thor_love_and_thunder.jpg;Chris Hemsworth, Natalie Portman;;2022
-;thor_ragnarok;https://www.youtube.com/watch?v=RtG6scyBIeM&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\thor_ragnarok.jpg;Chris Hemsworth, Tom Hiddleston;;2017
-;titanic;https://www.youtube.com/watch?v=Quf4qIkD3KY&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\titanic.jpg;Leonardo DiCaprio, Kate Winslet;;1997
-;tomb_raider;https://www.youtube.com/watch?v=UmXKhK9YKZg&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\tomb_raider.jpg;Angelina Jolie, Jon Voight;;2018
-;top_gun;https://www.youtube.com/watch?v=i8sEGppZX-s;C:\Users\odefaudlegros\Documents\films papa\images\top_gun.jpg;Tom Cruise, Kelly McGillis;;1986
-;top_gun_2_maverick;https://www.youtube.com/watch?v=JYaFU81-t6c;C:\Users\odefaudlegros\Documents\films papa\images\maverick.jpg;Tom Cruise, Miles Teller;;2022
-;transformers_1;https://www.youtube.com/watch?v=_XKAU3tYO9M&t=11s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_1.jpg;Shia LaBeouf, Megan Fox;;2007
-;transformers_2;https://www.youtube.com/watch?v=u9uUVkYB6Aw&t=13s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_2.jpg;Shia LaBeouf, Megan Fox;;2009
-;transformers_3;https://www.youtube.com/watch?v=7-ZBYb2poUM&t=12s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_3.jpg;Shia LaBeouf, Rosie Huntington-Whiteley;;2011
-;transformers_4;https://www.youtube.com/watch?v=O3cpckQmmk8&t=60s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_4.jpg;Mark Wahlberg, Stanley Tucci;;2014
-;transformers_5;https://www.youtube.com/watch?v=IsUacT2oFwU;C:\Users\odefaudlegros\Documents\films papa\images\transformers_5.jpg;Mark Wahlberg, Anthony Hopkins;;2017
-;transformers_6;https://www.youtube.com/watch?v=BO9d1C9ZsCs;C:\Users\odefaudlegros\Documents\films papa\images\transformers_6.jpg;;;2023
-;twilight_1;https://www.youtube.com/watch?v=xzO_Iiwt4b4;C:\Users\odefaudlegros\Documents\films papa\images\twilight_1.jpg;Kristen Stewart, Robert Pattinson;;2009
-;twilight_2;https://www.youtube.com/watch?v=ShHNEvFPtvc;C:\Users\odefaudlegros\Documents\films papa\images\twilight_2.jpg;Kristen Stewart, Robert Pattinson;;2009
-;twilight_3;https://www.youtube.com/watch?v=yi4xJGebtuk;C:\Users\odefaudlegros\Documents\films papa\images\twilight_3.jpg;Kristen Stewart, Robert Pattinson;;2010
-;twilight_4;https://www.youtube.com/watch?v=_jWriOZlsnw&t=50s;C:\Users\odefaudlegros\Documents\films papa\images\twilight_4.jpg;Kristen Stewart, Robert Pattinson;;2011
-;twilight_5;https://www.youtube.com/watch?v=CjdPAg-gyFE&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\twilight_5.jpg;Kristen Stewart, Robert Pattinson;;2012
-;un_hologram_pour_le_roi;https://www.youtube.com/watch?v=TLpl17kCevA&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\un_hologram_pour_le_roi.jpg;Tom Hanks, Alexander Black;;2016
-;underworld_1;https://www.youtube.com/watch?v=2_IoL7g5Ub8&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_1.jpg;Kate Beckinsale, Scott Speedman;;2001
-;underworld_2;https://www.youtube.com/watch?v=v86oFYYz3Bg&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_2.jpg;Kate Beckinsale, Scott Speedman;;2006
-;underworld_3;https://www.youtube.com/watch?v=Ebp9UDnzE7c&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_3.jpg;Michael Sheen, Bill Nighy;;2009
-;underworld_4;https://www.youtube.com/watch?v=76U14o8QeXk;C:\Users\odefaudlegros\Documents\films papa\images\underworld_4.jpg;Kate Beckinsale, Stephen Rea;;2012
-;underworld_5;https://www.youtube.com/watch?v=a61vd2UpaDg;C:\Users\odefaudlegros\Documents\films papa\images\underworld_5.jpg;Kate Beckinsale, Theo James;;2016
-;very_bad_trip_1;https://www.youtube.com/watch?v=hHqR9Tq16_E&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_1.jpg;Bradley Cooper, Ed Helms;;2009
-;very_bad_trip_2;https://www.youtube.com/watch?v=DFw9AlqUbYQ&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_2.jpg;Bradley Cooper, Ed Helms;;2011
-;very_bad_trip_3;https://www.youtube.com/watch?v=ibq2kS7NRaU&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_3.jpg;Bradley Cooper, Ed Helms;;2013
-;volte_face;https://www.youtube.com/watch?v=K-gncct2TX8;C:\Users\odefaudlegros\Documents\films papa\images\volte_face.jpg;John Travolta, Nicolas Cage;;1997
-;vox_lux;https://www.youtube.com/watch?v=fMCYE9hKP68&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\vox_lux.jpg;Natalie Portman, Jude Law;;2018
-;wolverine;https://www.youtube.com/watch?v=WKrknCZIj2Q;C:\Users\odefaudlegros\Documents\films papa\images\wolverine.jpg;Hugh Jackman, Tao Okamoto;;2013
-;wonder_woman;https://www.youtube.com/watch?v=CWe308Fpywg;C:\Users\odefaudlegros\Documents\films papa\images\wonder_woman.jpg;Gal Gadot, Chris Pine;;2017
-;wonder_woman_1984;https://www.youtube.com/watch?v=rhlHVvmVf04;C:\Users\odefaudlegros\Documents\films papa\images\wonder_woman_1984.jpg;Gal Gadot, Chris Pine;;2020
-;xmen_1;https://www.youtube.com/watch?v=QLtF7ZmXfjw;C:\Users\odefaudlegros\Documents\films papa\images\xmen_1.jpg;Hugh Jackman, Patrick Stewart;;2000
-;xmen_2;https://www.youtube.com/watch?v=WmzABBFM6CY&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_2.jpg;Hugh Jackman, Halle Berry;;2003
-;xmen_3;https://www.youtube.com/watch?v=dE5rzrBKfPc&t=14s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_3.jpg;Hugh Jackman, Halle Berry;;2006
-;xmen_apocalyspse;https://www.youtube.com/watch?v=8chgx3qqZNA&t=9s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_apocalyspse.jpg;James McAvoy, Michael Fassbender;;2016
-;xmen_dark_phoenix;https://www.youtube.com/watch?v=11_xxw6VZv8&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_dark_phoenix.jpg;Sophie Turner, James McAvoy;;2019
-;xmen_days_of_futur_past;https://www.youtube.com/watch?v=6esGeXis858;C:\Users\odefaudlegros\Documents\films papa\images\xmen_days_of_futur_past.jpg;Hugh Jackman, James McAvoy;;2014
-;xmen_le_commencement;https://www.youtube.com/watch?v=tT8oQT8ILpY&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_le_commencement.jpg;James McAvoy, Michael Fassbender;;2011
-;xmen_origins;https://www.youtube.com/watch?v=yawHvdrZrcs&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_origins.jpg;Hugh Jackman, Liev Schreiber;;2009
-;american_sniper;https://www.youtube.com/watch?v=biaNCv--D4s&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\american_sniper.jpg;Clint Eastwood;;
-;au_dela;https://www.youtube.com/watch?v=EnYjJjeo488&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\au_dela.jpg;Clint Eastwood;;
-;breezy;https://www.youtube.com/watch?v=38zpqhU_GcM&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\breezy.jpg;Clint Eastwood;;
-;ca_va_cogner;;C:\Users\odefaudlegros\Documents\films papa\images\ca_va_cogner.jpg;Clint Eastwood;;
-;creance_de_sang;https://www.youtube.com/watch?v=BR1p0Kgu9bo;C:\Users\odefaudlegros\Documents\films papa\images\creance_de_sang.jpg;Clint Eastwood;;
-;de_lor_pour_les_braves;https://www.youtube.com/watch?v=5kc-9llhtHc;C:\Users\odefaudlegros\Documents\films papa\images\de_lor_pour_les_braves.jpg;Clint Eastwood;;
-;et_pour_quelques_dollards_de_plus;https://www.youtube.com/watch?v=_0fFfnzIyCg;C:\Users\odefaudlegros\Documents\films papa\images\et_pour_quelques_dollards_de_plus.jpg;Clint Eastwood;;
-;firefox;https://www.youtube.com/watch?v=Iv7-SOR7TQs&t=17s;C:\Users\odefaudlegros\Documents\films papa\images\firefox.jpg;Clint Eastwood;;
-;gran_torino;https://www.youtube.com/watch?v=ih9_s8YcfLc;C:\Users\odefaudlegros\Documents\films papa\images\gran_torino.jpg;Clint Eastwood;;
-;haut_les_flingues;https://www.youtube.com/watch?v=xAvYuFtHuV4&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\haut_les_flingues.jpg;Clint Eastwood;;
-;impitoyable;https://www.youtube.com/watch?v=H3g3IH8Mgx0&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\impitoyable.jpg;Clint Eastwood;;
-;invictus;https://www.youtube.com/watch?v=PEO6-fe9qPA&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\invictus.jpg;Clint Eastwood;;
-;j_edgar;https://www.youtube.com/watch?v=3P-unVGBRAM&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\j_edgar.jpg;Clint Eastwood;;
-;jersey_boys;https://www.youtube.com/watch?v=jgBr2iNGXzQ&t=18s;C:\Users\odefaudlegros\Documents\films papa\images\jersey_boys.jpg;Clint Eastwood;;
-;josey_wales;https://www.youtube.com/watch?v=qiSp6hiQrjc;C:\Users\odefaudlegros\Documents\films papa\images\josey_wales.jpg;Clint Eastwood;;
-;juge_coupable;https://www.youtube.com/watch?v=L9v6kR1nGow&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\juge_coupable.jpg;Clint Eastwood;;
-;l_echange;https://www.youtube.com/watch?v=l3nYub3gL6w&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\l_echange.jpg;Clint Eastwood;;
-;la_derniere_cible;https://www.youtube.com/watch?v=9LYYp002Mbk&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\la_derniere_cible.jpg;Clint Eastwood;;
-;la_releve;https://www.youtube.com/watch?v=a_hDCwQORLQ;C:\Users\odefaudlegros\Documents\films papa\images\la_releve.jpg;Clint Eastwood;;
-;la_sanction;https://www.youtube.com/watch?v=LWbM8aEbSR8;C:\Users\odefaudlegros\Documents\films papa\images\la_sanction.jpg;Clint Eastwood;;
-;le_bon_la_brute_et_le_tuand;https://www.youtube.com/watch?v=WA1hCZFOPqs&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\le_bon_la_brute_et_le_tuand.jpg;Clint Eastwood;;
-;le_maitre_de_guerre;https://www.youtube.com/watch?v=8GcZkgg2URs&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\le_maitre_de_guerre.jpg;Clint Eastwood;;
-;le_retour_de_linspecteur_harry;https://www.youtube.com/watch?v=snIfTY9VeCI;C:\Users\odefaudlegros\Documents\films papa\images\le_retour_de_linspecteur_harry.jpg;Clint Eastwood;;
-;les_pleins_pouvoirs;https://www.youtube.com/watch?v=J6786udAomM;C:\Users\odefaudlegros\Documents\films papa\images\les_pleins_pouvoirs.jpg;Clint Eastwood;;
-;lettres_d_iwo_jima;https://www.youtube.com/watch?v=lXV1Xi_xyck&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\lettres_d_iwo_jima.jpg;Clint Eastwood;;
-;l_evade_d_alcatraz;https://www.youtube.com/watch?v=VNSd9hDWWd4;C:\Users\odefaudlegros\Documents\films papa\images\l_evade_d_alcatraz.jpg;Clint Eastwood;;
-;l_homme_des_hautes_plaines;https://www.youtube.com/watch?v=OjHFfhBFNWs;C:\Users\odefaudlegros\Documents\films papa\images\l_homme_des_hautes_plaines.jpg;Clint Eastwood;;
-;l_inspecteur_harry;https://www.youtube.com/watch?v=Dl39nG83WDM&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\l_inspecteur_harry.jpg;Clint Eastwood;;
-;l_inspecteur_ne_renonce_jamais;https://www.youtube.com/watch?v=NfK6T5yljkg&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\l_inspecteur_ne_renonce_jamais.jpg;Clint Eastwood;;
-;magnum_force;https://www.youtube.com/watch?v=wtLoFPIACVw&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\magnum_force.jpg;Clint Eastwood;;
-;memoires_de_nos_peres;https://www.youtube.com/watch?v=Kez8jsb-s2Q&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\memoires_de_nos_peres.jpg;Clint Eastwood;;
-;million_dollard_baby;https://www.youtube.com/watch?v=krz9U4ZrGog&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\million_dollard_baby.jpg;Clint Eastwood;;
-;mystic_river;https://www.youtube.com/watch?v=yniM_7MzOgo&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\mystic_river.jpg;Clint Eastwood;;
-;pale_rider;https://www.youtube.com/watch?v=bS_cnoSjucc;C:\Users\odefaudlegros\Documents\films papa\images\pale_rider.jpg;Clint Eastwood;;
-;pour_une_poignee_de_dollards;https://www.youtube.com/watch?v=aBmcIKDW5D8;C:\Users\odefaudlegros\Documents\films papa\images\pour_une_poignee_de_dollards.jpg;Clint Eastwood;;
-;quand_les_aigles_attaques;https://www.youtube.com/watch?v=kqwUCHZlRmU&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\quand_les_aigles_attaques.jpg;Clint Eastwood;;
-;space_cowboys;https://www.youtube.com/watch?v=wou34lVVUac&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\space_cowboys.jpg;Clint Eastwood;;
-;sur_la_route_de_madison;https://www.youtube.com/watch?v=mirWUoFE1OY&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\sur_la_route_de_madison.jpg;Clint Eastwood;;
-;the_walking_dead_saisons_1_a_7_;https://www.youtube.com/watch?v=AbtiqJGhWyY&t=13s;C:\Users\odefaudlegros\Documents\films papa\images\the_walking_dead_saisons_1_a_7_.jpg;;;
-;un_monde_parfait;https://www.youtube.com/watch?v=H1g3PETKszA&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\un_monde_parfait.jpg;Clint Eastwood;;
-;une_nouvelle_chance;https://www.youtube.com/watch?v=rOEIOA4lIw4&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\une_nouvelle_chance.jpg;Clint Eastwood;;
+﻿numéro;nom films;liens vidéo;chemin accès;acteurs;genre;date_sortie;section
+;300;https://www.youtube.com/watch?v=YNTY7tnmsxY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\300.jpg;Gerard Butler, Lena Headey;Action, Guerre;2007;bluray
+;2012;https://www.youtube.com/watch?v=m33rzUxflto&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\2012.jpg;John Cusack, Chiwetel Ejiofor, Amanda Peet;Science-fiction, Catastrophe;2009;bluray
+;24_heure_limit;https://www.youtube.com/watch?v=zrCb5klZZCc;C:\Users\odefaudlegros\Documents\films papa\images\24_heure_limit.jpg;Ethan Hawke;Thriller, Action;2017;bluray
+;50_nuances_de_grey;https://www.youtube.com/watch?v=9G7oSGWHSVc&t=49s;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_de_grey.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2015;bluray
+;50_nuances_plus_claire;https://www.youtube.com/watch?v=p-2dGdfZzL4;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_plus_claire.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2018;bluray
+;50_nuances_plus_sombre;https://www.youtube.com/watch?v=0Ah1o0ZZjNY;C:\Users\odefaudlegros\Documents\films papa\images\50_nuances_plus_sombre.jpg;Dakota Johnson, Jamie Dornan;Romance, Drame;2017;bluray
+;60_secondes_chrono;https://www.youtube.com/watch?v=uhg-Y93I9-A;C:\Users\odefaudlegros\Documents\films papa\images\60_secondes_chrono.jpg;;Action;2000;bluray
+;a_star_is_born;https://www.youtube.com/watch?v=jsg9NxCBzFs&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\a_star_is_born.jpg;Bradley Cooper, Lady Gaga;Musical, Drame;2018;bluray
+;ad_astra;https://www.youtube.com/watch?v=Gf97Szc_UfI;C:\Users\odefaudlegros\Documents\films papa\images\ad_astra.jpg;;Science-fiction;2019;bluray
+;aladdin;https://www.youtube.com/watch?v=IrzzGm3AmLg&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\aladdin.jpg;Mena Massoud, Naomi Scott;Aventure;2019;bluray
+;alibi_com;https://www.youtube.com/watch?v=hXUggM713X4&t=68s;C:\Users\odefaudlegros\Documents\films papa\images\alibi_com.jpg;Philippe Lacheau, Élodie Fontan;Comédie;2017;bluray
+;aliens_1;https://www.youtube.com/watch?v=j3CFj1R9HbQ&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_1.jpg;Sigourney Weaver;Horreur, Science-fiction;1979;bluray
+;aliens_2;https://www.youtube.com/watch?v=gaJFi3LiFOQ&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_2.jpg;Sigourney Weaver, Michael Biehn;Horreur, Science-fiction;1986;bluray
+;aliens_3;https://www.youtube.com/watch?v=qL-NR79zS7A;C:\Users\odefaudlegros\Documents\films papa\images\aliens_3.jpg;Sigourney Weaver, Charles S. Dutton;Horreur, Science-fiction;1992;bluray
+;aliens_4;https://www.youtube.com/watch?v=JMpSSEWoqWA&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_4.jpg;;Horreur, Science-fiction;1997;bluray
+;aliens_5;https://www.youtube.com/watch?v=o_rfh8wBnGE;C:\Users\odefaudlegros\Documents\films papa\images\aliens_5.jpg;Sigourney Weaver, Winona Ryder;Horreur, Science-fiction;2017;bluray
+;aliens_6_prometeus;https://www.youtube.com/watch?v=Oxv5SP3sags&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\aliens_6_prometeus.jpg;Noomi Rapace, Michael Fassbender;Horreur, Science-fiction;2012;bluray
+;alita;https://www.youtube.com/watch?v=c4nJBG8xB7s;C:\Users\odefaudlegros\Documents\films papa\images\alita.jpg;Rosa Salazar, Christoph Waltz;Science-fiction;2019;bluray
+;amercican_nigthmare_1;https://www.youtube.com/watch?v=AVRk-UhPkHU;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_1.jpg;Ethan Hawke, Lena Headey;Horreur, Action;2013;bluray
+;amercican_nigthmare_2;https://www.youtube.com/watch?v=tpNKIBt-pXA;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_2.jpg;Frank Grillo, Carmen Ejogo;Horreur, Action;2014;bluray
+;amercican_nigthmare_3;https://www.youtube.com/watch?v=FW8CqyN7esE;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_3.jpg;Frank Grillo, Elizabeth Mitchell;Horreur, Action;2016;bluray
+;amercican_nigthmare_4;https://www.youtube.com/watch?v=O6_CqoAT2bM;C:\Users\odefaudlegros\Documents\films papa\images\amercican_nigthmare_4.jpg;Y'lan Noel, Lex Scott Davis;Horreur, Action;2018;bluray
+;anges_et_demons;https://www.youtube.com/watch?v=6fvLICEn4RI&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\anges_et_demons.jpg;Tom Hanks, Ewan McGregor;Thriller, Mystère;2009;bluray
+;annabelle;https://www.youtube.com/watch?v=LUCOp6efZmg&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\annabelle.jpg;Annabelle Wallis, Ward Horton;Horreur;2014;bluray
+;annabelle_2;https://www.youtube.com/watch?v=WOWrsTwxU48;C:\Users\odefaudlegros\Documents\films papa\images\annabelle_2.jpg;Stephanie Sigman, Miranda Otto;Horreur;2017;bluray
+;ant_man_1;https://www.youtube.com/watch?v=_mWjqYXA59E;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_1.jpg;Paul Rudd, Michael Douglas, Evangeline Lilly;Action, Comédie;2015;bluray
+;ant_man_et_la_guepe;https://www.youtube.com/watch?v=Ar38xc7JWxc;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_et_la_guepe.jpg;Paul Rudd, Evangeline Lilly, Michael Douglas;Action, Comédie;2018;bluray
+;ant_man_quantumania;https://www.youtube.com/watch?v=Q0uaHT1wsTQ;C:\Users\odefaudlegros\Documents\films papa\images\ant_man_quantumania.jpg;Paul Rudd, Evangeline Lilly, Jonathan Majors;Action, Comédie;2023;bluray
+;aquaman;https://www.youtube.com/watch?v=ivvOKs7B-Vw;C:\Users\odefaudlegros\Documents\films papa\images\aquaman.jpg;Jason Momoa, Amber Heard;Action;2018;bluray
+;armageddon;https://www.youtube.com/watch?v=cYznwIfEFFg&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\armageddon.jpg;Bruce Willis, Ben Affleck, Liv Tyler;Action, Science-fiction;1998;bluray
+;arthur_et_les_minimoys;https://www.youtube.com/watch?v=qJeKKd0gPiU&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys.jpg;Freddie Highmore, Mia Farrow (voix);Aventure, Comédie;2006;enfant
+;arthur_et_les_minimoys_2;https://www.youtube.com/watch?v=jgCFy7kl9T8&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys_2.jpg;Freddie Highmore, Selena Gomez (voix);Aventure, Comédie;2009;enfant
+;arthur_et_les_minimoys_3;https://www.youtube.com/watch?v=mOdxATJwad0&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\arthur_et_les_minimoys_3.jpg;Freddie Highmore, Mia Farrow (voix);Aventure, Comédie;2010;enfant
+;asterix_et_obelix;https://www.youtube.com/watch?v=RNKFKDs5SGk&t=46s;C:\Users\odefaudlegros\Documents\films papa\images\asterix_et_obelix.jpg;;Aventure, Comédie;2023;bluray
+;avatar_1;https://www.youtube.com/watch?v=O1CzgULNRGs;C:\Users\odefaudlegros\Documents\films papa\images\avatar_1.jpg;Sam Worthington, Zoe Saldana;Science-fiction, Action;2009;bluray
+;avatar_2;https://www.youtube.com/watch?v=598NnroP42s;C:\Users\odefaudlegros\Documents\films papa\images\avatar_2.jpg;Sam Worthington, Zoe Saldana;Science-fiction, Action;2022;bluray
+;avengers_1;https://www.youtube.com/watch?v=b-kTeJhHOhc&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\avengers_1.jpg;Robert Downey Jr., Chris Evans, Mark Ruffalo;Action;2012;bluray
+;avengers_2_l_ere_d_ultron;https://www.youtube.com/watch?v=XmzJ5WMSr-g;C:\Users\odefaudlegros\Documents\films papa\images\avengers_lere_dultron.jpg;Robert Downey Jr., Chris Evans, Scarlett Johansson;Action;2019;bluray
+;avengers_3_infinity_war;https://www.youtube.com/watch?v=UDW_LLdERFw;C:\Users\odefaudlegros\Documents\films papa\images\avengers_infinity_war.jpg;Robert Downey Jr., Chris Evans, Scarlett Johansson;Action;2018;bluray
+;avengers_4_endgame;https://www.youtube.com/watch?v=wV-Q0o2OQjQ&t=55s;C:\Users\odefaudlegros\Documents\films papa\images\avengers_endgame.jpg;Robert Downey Jr., Chris Evans, Mark Ruffalo;Action;2015;bluray
+;barbie;https://www.youtube.com/watch?v=76LYe958Va0&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\barbie.jpg;;Comédie;2024;bluray
+;batman_the_darknight;https://www.youtube.com/watch?v=UMgb3hQCb08;C:\Users\odefaudlegros\Documents\films papa\images\batman_the_darknight.jpg;Christian Bale, Heath Ledger;Action, Science-fiction;2008;bluray
+;batman_vs_superman;https://www.youtube.com/watch?v=rW4ZaR2Jndg&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\batman_vs_superman.jpg;Ben Affleck, Henry Cavill;Action, Science-fiction;2016;bluray
+;bird_of_prey;https://www.youtube.com/watch?v=6bh1OHkIuYA;C:\Users\odefaudlegros\Documents\films papa\images\bird_of_prey.jpg;Margot Robbie, Mary Elizabeth Winstead;Action, Comédie;2020;bluray
+;black_adam;https://www.youtube.com/watch?v=vUnRitCWjqc;C:\Users\odefaudlegros\Documents\films papa\images\black_adam.jpg;Dwayne Johnson, Sarah Shahi;Action, Aventure;2022;bluray
+;black_k_klasman;https://www.youtube.com/watch?v=zvTxYdsWbKk&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\black_k_klasman.jpg;John David Washington, Adam Driver;Comédie;2018;bluray
+;black_panther;https://www.youtube.com/watch?v=lyKngqfmqW4;C:\Users\odefaudlegros\Documents\films papa\images\black_panther.jpg;Chadwick Boseman, Michael B. Jordan;Action, Science-fiction;2018;bluray
+;black_panther_wakanda_forever;https://www.youtube.com/watch?v=Pa4BEJcrMAA;C:\Users\odefaudlegros\Documents\films papa\images\black_panther_wakanda_forever.jpg;Letitia Wright, Lupita Nyong'o;Action, Science-fiction;2022;bluray
+;black_storm;https://www.youtube.com/watch?v=hjqe0TjtsJs&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\black_storm.jpg;Richard Armitage, Sarah Wayne Callies;Action, Thriller;2014;bluray
+;black_widow;https://www.youtube.com/watch?v=4l99M0zOEaA&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\black_widow.jpg;Scarlett Johansson, Florence Pugh;Action, Thriller;2021;bluray
+;blade_runner_2049;https://www.youtube.com/watch?v=O4C5cwSbXZ8&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\blade_runner_2049.jpg;Ryan Gosling, Harrison Ford;Science-fiction, Thriller;2017;bluray
+;bodyguard;https://www.youtube.com/watch?v=AhIJMuPHWVQ&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\bodyguard.jpg;Kevin Costner, Whitney Houston;Romance, Thriller;1992;bluray
+;bohemian_rhapsody;https://www.youtube.com/watch?v=xXuDGUviTgA;C:\Users\odefaudlegros\Documents\films papa\images\bohemian_rhapsody.jpg;Rami Malek, Lucy Boynton;Musical;2018;bluray
+;ca_1;https://www.youtube.com/watch?v=Tw3yT-qAbvc;C:\Users\odefaudlegros\Documents\films papa\images\ca_1.jpg;Bill Skarsgård, Jaeden Martell;Horreur;2017;bluray
+;ca_2;https://www.youtube.com/watch?v=yOZA2y_dQA4;C:\Users\odefaudlegros\Documents\films papa\images\ca_2.jpg;Bill Skarsgård, James McAvoy;Horreur;2019;bluray
+;captain_america_1;https://www.youtube.com/watch?v=IsiV9IJieMk&t=17s;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_1.jpg;Chris Evans, Hayley Atwell;Action, Aventure;2011;bluray
+;captain_america_civil_war;https://www.youtube.com/watch?v=fuIIGDjEj8Q&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_civil_war.jpg;Chris Evans, Robert Downey Jr.;Action, Aventure;2014;bluray
+;captain_america_le_soldat_d_hiver;https://www.youtube.com/watch?v=Zp1L2kc9p1I;C:\Users\odefaudlegros\Documents\films papa\images\captain_america_le_soldat_d_hiver.jpg;Chris Evans, Sebastian Stan;Action, Aventure;2016;bluray
+;captain_marvel;https://www.youtube.com/watch?v=rndLWLmwgeA;C:\Users\odefaudlegros\Documents\films papa\images\captain_marvel.jpg;Brie Larson, Samuel L. Jackson;Action, Aventure;2019;bluray
+;captivity;https://www.youtube.com/watch?v=Ncmo6Tig2Vk;C:\Users\odefaudlegros\Documents\films papa\images\captivity.jpg;Elisha Cuthbert, Daniel Gillies;Science-fiction;2018;bluray
+;cocktail;https://www.youtube.com/watch?v=N2_6tS80-Pw;C:\Users\odefaudlegros\Documents\films papa\images\cocktail.jpg;Tom Cruise, Bryan Brown;Romance, Comédie;1988;bluray
+;contagion;https://www.youtube.com/watch?v=MSgq3CgV7_A;C:\Users\odefaudlegros\Documents\films papa\images\contagion.jpg;Matt Damon, Kate Winslet;Science-fiction, Thriller;2011;bluray
+;da_vinci_code;https://www.youtube.com/watch?v=dOJBaIjXGnQ&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\da_vinci_code.jpg;Tom Hanks, Audrey Tautou;Thriller, Mystère;2006;bluray
+;deadpool_1;https://www.youtube.com/watch?v=XWtH7anz7io&t=72s;C:\Users\odefaudlegros\Documents\films papa\images\deadpool_1.jpg;Ryan Reynolds, Morena Baccarin;Action, Comédie;2016;bluray
+;deadpool_2;https://www.youtube.com/watch?v=QgzslSsSECM;C:\Users\odefaudlegros\Documents\films papa\images\deadpool_2.jpg;Ryan Reynolds, Josh Brolin;Action, Comédie;2018;bluray
+;destination_finale_1;https://www.youtube.com/watch?v=Mog5aEuq-8A&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_1.jpg;Devon Sawa, Ali Larter;Horreur;2000;bluray
+;destination_finale_2;https://www.youtube.com/watch?v=NqK9Gbrnyec&t=8s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_2.jpg;A.J. Cook, Ali Larter;Horreur;2003;bluray
+;destination_finale_3;https://www.youtube.com/watch?v=iqVxVKL-yOM;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_3.jpg;Mary Elizabeth Winstead, Ryan Merriman;Horreur;2006;bluray
+;destination_finale_4;https://www.youtube.com/watch?v=PBF4DTFUZKg&t=15s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_4.jpg;Bobby Campo, Shantel VanSanten;Horreur;2009;bluray
+;destination_finale_5;https://www.youtube.com/watch?v=VjqCOYHrd5s;C:\Users\odefaudlegros\Documents\films papa\images\destination_finale_5.jpg;Nicholas D'Agosto, Emma Bell;Horreur;2011;bluray
+;die_hard_1;https://www.youtube.com/watch?v=rf79c9Da83I&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_1.jpg;Bruce Willis, Alan Rickman;Action, Thriller;1988;bluray
+;die_hard_2_58_min_pour_vivre;https://www.youtube.com/watch?v=dC9UCRMxoZg&t=45s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_2_58_min.jpg;Bruce Willis, William Atherton;Action, Thriller;1990;bluray
+;die_hard_3_une_journee_en_enfer;https://www.youtube.com/watch?v=K2AruxS8-Rs;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_3_une_journee_en_enfer.jpg;Bruce Willis, Samuel L. Jackson;Action, Thriller;1995;bluray
+;die_hard_4_retour_en_enfer;https://www.youtube.com/watch?v=IQuquL2xuzY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\die_har_4_retour_en_enfer.jpg;Bruce Willis, Justin Long;Action, Thriller;2007;bluray
+;die_hard_5_belle_journee_pour_mourir;https://www.youtube.com/watch?v=IBX_A-5iWYA&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\die_hard_5_belle_journee_pour_mourir.jpg;Bruce Willis, Jai Courtney;Action, Thriller;2013;bluray
+;divergeante_1;https://www.youtube.com/watch?v=gxbwcBlj_dM&t=63s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_1.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2014;bluray
+;divergeante_2;https://www.youtube.com/watch?v=l4YTrX3gmco&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_2.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2015;bluray
+;divergeante_3;https://www.youtube.com/watch?v=IME-Af-uRSE&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\divergeante_3.jpg;Shailene Woodley, Theo James;Action, Science-fiction;2016;bluray
+;doctor_strange;https://www.youtube.com/watch?v=bly7XM7QzSY&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\doctor_strange.jpg;Benedict Cumberbatch, Chiwetel Ejiofor;Action;2016;bluray
+;doctor_strange_in_the_multiverse_of_madness;https://www.youtube.com/watch?v=IB0keJtKDvw;C:\Users\odefaudlegros\Documents\films papa\images\doctor_strange_in_the_multiverse_of_madness.jpg;Benedict Cumberbatch, Elizabeth Olsen;Action;2022;bluray
+;donjons_et_dragons;https://www.youtube.com/watch?v=wK69QJ2ESO0;C:\Users\odefaudlegros\Documents\films papa\images\donjons_et_dragons.jpeg;Chris Pine, Michelle Rodriguez;Action;2023;bluray
+;dunkerque;https://www.youtube.com/watch?v=chRUCIk3K94&t=66s;C:\Users\odefaudlegros\Documents\films papa\images\dunkerque.jpg;Fionn Whitehead, Tom Hardy, Mark Rylance;Guerre, Action;2017;bluray
+;equalizer_1;https://www.youtube.com/watch?v=Ydmk1_1_Gi4;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_1.jpg;;Action, Thriller;2014;bluray
+;equalizer_2;https://www.youtube.com/watch?v=zEmqoNmdhsI;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_2.jpg;;Action, Thriller;2018;bluray
+;equalizer_3;https://www.youtube.com/watch?v=2L0ibmBgFV8;C:\Users\odefaudlegros\Documents\films papa\images\equalizer_3.jpg;;Action, Thriller;2023;bluray
+;expandable_1;https://www.youtube.com/watch?v=5RcnSc08lJQ&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\expandable_1.jpg;Sylvester Stallone, Jason Statham;Action, Thriller;2010;bluray
+;expandable_2;https://www.youtube.com/watch?v=PTEBUh76o-Y;C:\Users\odefaudlegros\Documents\films papa\images\expandable_2.jpg;Sylvester Stallone, Jason Statham, Jean-Claude Van Damme;Action, Thriller;2012;bluray
+;expandable_3;https://www.youtube.com/watch?v=RwgHXmnUDBw&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\expandable_3.jpg;Sylvester Stallone, Jason Statham, Mel Gibson;Action, Thriller;2014;bluray
+;fast_and_furious_1;https://www.youtube.com/watch?v=b0EJzs6U9t8&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_1.jpg;Vin Diesel, Paul Walker;Action;2001;bluray
+;fast_and_furious_10;https://www.youtube.com/watch?v=rPmA-4AhA94&t=91s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_10.jpg;;Action;2023;bluray
+;fast_and_furious_2;https://www.youtube.com/watch?v=KUX6KI3-AjA&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_2.jpg;Paul Walker, Tyrese Gibson;Action;2003;bluray
+;fast_and_furious_3;https://www.youtube.com/watch?v=KPiJgEc7Ux8&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_3.jpg;Lucas Black, Sung Kang;Action;2006;bluray
+;fast_and_furious_4;https://www.youtube.com/watch?v=99XOxDLMvBg&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_4.jpg;Vin Diesel, Paul Walker;Action;2009;bluray
+;fast_and_furious_5;https://www.youtube.com/watch?v=CYV-mTqlI_g&t=6s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_5.jpg;Vin Diesel, Paul Walker, Dwayne Johnson;Action;2011;bluray
+;fast_and_furious_6;https://www.youtube.com/watch?v=Ewu0WTPbOVY&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_6.jpg;Vin Diesel, Paul Walker, Dwayne Johnson;Action;2013;bluray
+;fast_and_furious_7;https://www.youtube.com/watch?v=3Wu2BhFuc4c;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_7.jpg;Vin Diesel, Paul Walker, Jason Statham;Action;2015;bluray
+;fast_and_furious_8;https://www.youtube.com/watch?v=xFO-pKB13mw;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_8.jpg;Vin Diesel, Dwayne Johnson, Charlize Theron;Action;2017;bluray
+;fast_and_furious_9;https://www.youtube.com/watch?v=Eumj0-UxrQM;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_9.jpg;Vin Diesel, John Cena;Action;2021;bluray
+;fast_and_furious_hobbs;https://www.youtube.com/watch?v=VZFp6OIeX2Q;C:\Users\odefaudlegros\Documents\films papa\images\fast_and_furious_hobbs.jpg;Dwayne Johnson, Jason Statham;Action;2019;bluray
+;forrest_gump;https://www.youtube.com/watch?v=7pDDuroFBGM;C:\Users\odefaudlegros\Documents\films papa\images\forrest_gump.jpg;Tom Hanks, Robin Wright;Comédie;1994;bluray
+;freddy_1;https://www.youtube.com/watch?v=OuqHdlQ7DBM&t=52s;C:\Users\odefaudlegros\Documents\films papa\images\freddy_1.jpg;Robert Englund, Heather Langenkamp;Horreur;1984;bluray
+;freddy_2;https://www.youtube.com/watch?v=SUF13QSUUQA;C:\Users\odefaudlegros\Documents\films papa\images\freddy_2.jpg;Robert Englund, Mark Patton;Horreur;1985;bluray
+;freddy_3;https://www.youtube.com/watch?v=c1Zgra_gHMU&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\freddy_3.jpg;Robert Englund, Heather Langenkamp;Horreur;1987;bluray
+;freddy_4;https://www.youtube.com/watch?v=wmDM090Z2SI;C:\Users\odefaudlegros\Documents\films papa\images\freddy_4.jpg;Robert Englund, Rodney Eastman;Horreur;1988;bluray
+;game_of_thrones;https://www.youtube.com/watch?v=Ng1W_qu5aJM;C:\Users\odefaudlegros\Documents\films papa\images\game_of_thrones.jpg;Kit Harington, Emilia Clarke;Serie;;bluray
+;gemini_man;https://www.youtube.com/watch?v=AK07MzdsrD4&t=60s;C:\Users\odefaudlegros\Documents\films papa\images\gemini_man.jpg;Will Smith, Mary Elizabeth Winstead;Action, Thriller;2019;bluray
+;geostorm;https://www.youtube.com/watch?v=QWaOHVtjUoc;C:\Users\odefaudlegros\Documents\films papa\images\geostorm.jpg;Gerard Butler, Jim Sturgess;Action, Science-fiction;2017;bluray
+;ghost;https://www.youtube.com/watch?v=zUY8bf4mUPg&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\ghost.jpg;Patrick Swayze, Demi Moore;Romance, Thriller;2000;bluray
+;grease;https://www.youtube.com/watch?v=2j17nSmVghI;C:\Users\odefaudlegros\Documents\films papa\images\grease.jpg;John Travolta, Olivia Newton-John;Musical, Comédie;1978;bluray
+;hancock;https://www.youtube.com/watch?v=FmpOgGrwXdQ&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\hancock.jpg;Will Smith, Charlize Theron;Action;2008;bluray
+;harry_potter_1;https://www.youtube.com/watch?v=P1BGgqhVGAI;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_1.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2001;bluray
+;harry_potter_2;https://www.youtube.com/watch?v=Z3T8PuWuoL0&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_2.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2002;bluray
+;harry_potter_3;https://www.youtube.com/watch?v=CLncEeVf4ks&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_3.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2004;bluray
+;harry_potter_4;https://www.youtube.com/watch?v=XO9rqIgzDL0&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_4.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2005;bluray
+;harry_potter_5;https://www.youtube.com/watch?v=S8-SXEGMmi4&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_5.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2007;bluray
+;harry_potter_6;https://www.youtube.com/watch?v=yb-VYG3x5E8;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_6.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2009;bluray
+;harry_potter_7;https://www.youtube.com/watch?v=HgZZsnleZJQ&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_7.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2010;bluray
+;harry_potter_8;https://www.youtube.com/watch?v=aiaIfICU-Tk&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\harry_potter_8.jpg;Daniel Radcliffe, Emma Watson, Rupert Grint;Aventure, Familial;2011;bluray
+;hunger_games_1;https://www.youtube.com/watch?v=wqUq0lsQ684&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_1.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2012;bluray
+;hunger_games_2;https://www.youtube.com/watch?v=-ZcW_6i2Rkg;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_2.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2013;bluray
+;hunger_games_3;https://www.youtube.com/watch?v=zdMIft77FEY&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_3.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2014;bluray
+;hunger_games_4;https://www.youtube.com/watch?v=MGZ0kzmcWAU&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_4.jpg;Jennifer Lawrence, Josh Hutcherson;Action, Science-fiction;2015;bluray
+;hunger_games_5;https://www.youtube.com/watch?v=BLJSN_UNqbc;C:\Users\odefaudlegros\Documents\films papa\images\hunger_games_5.jpg;;Action, Science-fiction;2023;bluray
+;hypnotic;https://www.youtube.com/watch?v=0Rhej7ZllK8;C:\Users\odefaudlegros\Documents\films papa\images\hypnotic.jpg;;Action, Science-fiction;2023;bluray
+;il_faut_sauver_le_soldat;https://www.youtube.com/watch?v=7VBsDfsXJfQ;C:\Users\odefaudlegros\Documents\films papa\images\il_faut_sauver_le_soldat.jpg;Tom Hanks, Matt Damon;Guerre;1998;bluray
+;inception;https://www.youtube.com/watch?v=HcoZbHBDHQA;C:\Users\odefaudlegros\Documents\films papa\images\inception.jpg;Leonardo DiCaprio, Joseph Gordon-Levitt;Thriller, Science-fiction;2010;bluray
+;independance_day_1;https://www.youtube.com/watch?v=B1E7h3SeMDk&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\independance_day_1.jpg;Will Smith, Bill Pullman;Action, Science-fiction;1996;bluray
+;independance_day_2;https://www.youtube.com/watch?v=b577i7s2CiM;C:\Users\odefaudlegros\Documents\films papa\images\independance_day_2.jpg;Liam Hemsworth, Jeff Goldblum;Action, Science-fiction;2016;bluray
+;inferno;https://www.youtube.com/watch?v=GfXpBiLwhHk&t=16s;C:\Users\odefaudlegros\Documents\films papa\images\inferno.jpg;Tom Hanks, Felicity Jones;Action, Aventure;2016;bluray
+;insaisissables_1;https://www.youtube.com/watch?v=-FeFz-cXILA;C:\Users\odefaudlegros\Documents\films papa\images\insaisissables_1.jpg;Jesse Eisenberg, Mark Ruffalo;Thriller;2013;bluray
+;insaisissables_2;https://www.youtube.com/watch?v=0iGn57DVJIc;C:\Users\odefaudlegros\Documents\films papa\images\insaisissables_2.jpg;Jesse Eisenberg, Mark Ruffalo, Daniel Radcliffe;Thriller;2016;bluray
+;intouchable;https://www.youtube.com/watch?v=EsaX5kltRcA&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\intouchable.jpg;François Cluzet, Omar Sy;Comédie;2011;bluray
+;iron_man_1;https://www.youtube.com/watch?v=rDCTb9Gp2qk&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_1.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2008;bluray
+;iron_man_2;https://www.youtube.com/watch?v=0Y7ullsUPEA;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_2.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2010;bluray
+;iron_man_3;https://www.youtube.com/watch?v=wnEr73Rq3Ac&t=51s;C:\Users\odefaudlegros\Documents\films papa\images\iron_man_3.jpg;Robert Downey Jr., Gwyneth Paltrow;Action, Science-fiction;2013;bluray
+;jean_philippe;https://www.youtube.com/watch?v=RnN3tT1Utxs&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\jean_philippe.jpg;Fabrice Luchini, Johnny Hallyday;Comédie;2006;bluray
+;john_wick_1;https://www.youtube.com/watch?v=pWK5crMuhHY&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_1.jpg;Keanu Reeves, Michael Nyqvist;Action;2014;bluray
+;john_wick_2;https://www.youtube.com/watch?v=d0u1o8vdxE8&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_2.jpg;Keanu Reeves, Riccardo Scamarcio;Action;2017;bluray
+;john_wick_3;https://www.youtube.com/watch?v=Cs4wKxXjkc8&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_3.jpg;Keanu Reeves, Halle Berry;Action;2019;bluray
+;john_wick_4;https://www.youtube.com/watch?v=6itn_8L6-Z8&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\john_wick_4.jpg;Keanu Reeves;Action;2023;bluray
+;joker;https://www.youtube.com/watch?v=OoTx1cYC5u8;C:\Users\odefaudlegros\Documents\films papa\images\joker.jpg;Joaquin Phoenix, Robert De Niro;Thriller;2019;bluray
+;joyeux_bordel;https://www.youtube.com/watch?v=ifk8lQ_5b6Y;C:\Users\odefaudlegros\Documents\films papa\images\joyeux_bordel.jpg;Jason Bateman, Olivia Munn;Comédie;2016;bluray
+;jumanji;https://www.youtube.com/watch?v=oZI2njF5rx0;C:\Users\odefaudlegros\Documents\films papa\images\jumanji.jpg;Dwayne Johnson, Kevin Hart, Jack Black;Aventure;2017;bluray
+;jumanji_2;https://www.youtube.com/watch?v=RhWRa0wBBHA;C:\Users\odefaudlegros\Documents\films papa\images\jumanji_2.jpg;Dwayne Johnson, Kevin Hart, Jack Black;Aventure;2019;bluray
+;jungle_cruise;https://www.youtube.com/watch?v=CWpcUeAZgD0&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\jungle_cruise.jpg;Dwayne Johnson, Emily Blunt;Aventure;2021;bluray
+;jurassic_park_1;https://www.youtube.com/watch?v=ZEY7iMX_oZs&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_1.jpg;Sam Neill, Laura Dern, Jeff Goldblum;Aventure, Science-fiction;1993;bluray
+;jurassic_park_2;https://www.youtube.com/watch?v=z6hwDlf8vMk&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_2.jpg;Jeff Goldblum, Julianne Moore;Aventure, Science-fiction;1997;bluray
+;jurassic_park_3;https://www.youtube.com/watch?v=FxOfakcWAeE;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_3.jpg;Sam Neill, William H. Macy;Aventure, Science-fiction;2001;bluray
+;jurassic_park_4;https://www.youtube.com/watch?v=wmzAfqhphq8;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_4.jpg;Chris Pratt, Bryce Dallas Howard;Aventure, Science-fiction;2015;bluray
+;jurassic_park_5;https://www.youtube.com/watch?v=6Eokj_7aIQ0;C:\Users\odefaudlegros\Documents\films papa\images\jurassic_park_5.jpg;Chris Pratt, Bryce Dallas Howard;Aventure, Science-fiction;2025;bluray
+;justice_league;https://www.youtube.com/watch?v=cvUFoxU_Lq0&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\justice_league.jpg;Ben Affleck, Gal Gadot, Henry Cavill;Action, Fantasy;2017;bluray
+;justice_league_zack_snider;https://www.youtube.com/watch?v=nKmVTdkUI6A;C:\Users\odefaudlegros\Documents\films papa\images\justice_league_zack_snider.jpg;Ben Affleck, Gal Gadot, Henry Cavill;Action, Fantasy;2021;bluray
+;kin;https://www.youtube.com/watch?v=KGsqiAF6MJk&t=49s;C:\Users\odefaudlegros\Documents\films papa\images\kin.jpg;Myles Truitt, Jack Reynor;Action, Science-fiction;2018;bluray
+;kings_man_1;https://www.youtube.com/watch?v=s-YfBT7Wu9o;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_1.jpg;Taron Egerton, Colin Firth;Action;2015;bluray
+;kings_man_2;https://www.youtube.com/watch?v=QImgyRave8c;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_2.jpg;Taron Egerton, Colin Firth, Julianne Moore;Action;2017;bluray
+;kings_man_3;https://www.youtube.com/watch?v=QMQ53iuCsp0;C:\Users\odefaudlegros\Documents\films papa\images\kings_man_3.jpg;Ralph Fiennes, Harris Dickinson;Action;2021;bluray
+;kite;https://www.youtube.com/watch?v=B7_hddE3i4k&t=3s;C:\Users\odefaudlegros\Documents\films papa\images\kite.jpg;India Eisley, Callan McAuliffe;Action;2014;bluray
+;knock_knock;https://www.youtube.com/watch?v=RxFWCjH_t6k&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\knock_knock.jpg;Keanu Reeves, Lorenza Izzo;Thriller;2015;bluray
+;l_arme_fatale_1;https://www.youtube.com/watch?v=OeBVtCT6HW8;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_1.jpg;Mel Gibson, Danny Glover;Action, Comédie;1987;bluray
+;l_arme_fatale_2;https://www.youtube.com/watch?v=5AdW-ShY9T4;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_2.jpg;Mel Gibson, Danny Glover;Action, Comédie;1989;bluray
+;l_arme_fatale_3;https://www.youtube.com/watch?v=w0Y6L5Y9M3s&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_3.jpg;Mel Gibson, Danny Glover;Action, Comédie;1992;bluray
+;l_arme_fatale_4;https://www.youtube.com/watch?v=Es4CYLavwuw&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\larme_fatale_4.jpg;Mel Gibson, Danny Glover;Action, Comédie;1998;bluray
+;l_incroyable_hulk;https://www.youtube.com/watch?v=LCjTxK1B5Pg&t=38s;C:\Users\odefaudlegros\Documents\films papa\images\lincroyable_hulk.jpg;Edward Norton, Liv Tyler;Action, Science-fiction;2008;bluray
+;la_boum_1;https://www.youtube.com/watch?v=uqKKiUSLZK8;C:\Users\odefaudlegros\Documents\films papa\images\la_boum_1.jpg;Sophie Marceau, Claude Brasseur;Comédie, Romance;1980;bluray
+;la_boum_2;https://www.youtube.com/watch?v=NnHZuv7ITic&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\la_boum_2.jpg;Sophie Marceau, Claude Brasseur;Comédie, Romance;1982;bluray
+;la_famille_belier;https://www.youtube.com/watch?v=tEgw97vpkDM&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\la_famille_belier.jpg;Louane Emera, Karin Viard;Comédie, Musical;2014;bluray
+;la_ligne_verte;https://www.youtube.com/watch?v=mccs8Ql8m8o&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\la_ligne_verte.jpg;Tom Hanks, Michael Clarke Duncan;Fantasy;1999;bluray
+;la_mule;https://www.youtube.com/watch?v=bGgyUSO24BA;C:\Users\odefaudlegros\Documents\films papa\images\la_mule.jpg;Clint Eastwood, Bradley Cooper;;2018;bluray
+;la_petite_sirene;https://www.youtube.com/watch?v=J5VvzJmiqJc;C:\Users\odefaudlegros\Documents\films papa\images\la_petite_sirene.jpg;Jodi Benson, Christopher Daniel Barnes (voices);;2023;bluray
+;la_planete_des_singes_1;https://www.youtube.com/watch?v=Vn8GriIog1s&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_1.jpg;Mark Wahlberg, Tim Roth;;2011;bluray
+;la_planete_des_singes_2;https://www.youtube.com/watch?v=dPcwB7okdzU&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_2.jpg;Andy Serkis, Jason Clarke;;2014;bluray
+;la_planete_des_singes_3;https://www.youtube.com/watch?v=GyUI-Cr9lak&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\la_planete_des_singes_3.jpg;Andy Serkis, Woody Harrelson;;2017;bluray
+;largo_winch;https://www.youtube.com/watch?v=rnYZHu_YaQY&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\largo_winch.jpg;Tomer Sisley, Kristin Scott Thomas;;2008;bluray
+;le_crime_de_l'orient_express;https://www.youtube.com/watch?v=FMlYxRCBSSM;C:\Users\odefaudlegros\Documents\films papa\images\le_crime.jpg;Kenneth Branagh, Johnny Depp;;2017;bluray
+;le_doudou;https://www.youtube.com/watch?v=P4_rE7qGXFE&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\le_doudou.jpg;Kad Merad, Malik Bentalha;;2017;bluray
+;le_drole_de_noel_de_scroodge;https://www.youtube.com/watch?v=PcNLFXSdO5A&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\le_drole_de_noel_de_scroodge.jpg;Jim Carrey, Gary Oldman (voices);;2009;bluray
+;le_grand_bleu;https://www.youtube.com/watch?v=xGmVAPwWwSM;C:\Users\odefaudlegros\Documents\films papa\images\le_grand_bleu.jpg;Jean-Marc Barr, Jean Reno;;1988;bluray
+;le_hobbit_1;https://www.youtube.com/watch?v=tiy7peMH3g8&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_1.jpg;Martin Freeman, Ian McKellen;;2012;bluray
+;le_hobbit_2;https://www.youtube.com/watch?v=bvKLagxYhrc&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_2.jpg;Martin Freeman, Benedict Cumberbatch;;2013;bluray
+;le_hobbit_3;https://www.youtube.com/watch?v=E5qN3zUF3Rw;C:\Users\odefaudlegros\Documents\films papa\images\le_hobbit_3.jpg;Martin Freeman, Ian McKellen;;2014;bluray
+;le_jeu;https://www.youtube.com/watch?v=1fGdZehIGFE;C:\Users\odefaudlegros\Documents\films papa\images\le_jeu.jpg;Bérénice Bejo, Suzanne Clément;;2018;bluray
+;le_labirynthe;https://www.youtube.com/watch?v=LyPiCH_4Al4;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe.jpg;Dylan O'Brien, Kaya Scodelario;;2014;bluray
+;le_labirynthe_2;https://www.youtube.com/watch?v=K7jyL2cS6dc;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe_2.jpg;Dylan O'Brien, Kaya Scodelario;;2015;bluray
+;le_labirynthe_3;https://www.youtube.com/watch?v=HuXEKU0PTzw;C:\Users\odefaudlegros\Documents\films papa\images\le_labirynthe_3.jpg;Dylan O'Brien, Kaya Scodelario;;2018;bluray
+;le_mans_66;https://www.youtube.com/watch?v=UG3Z-MIDdGs;C:\Users\odefaudlegros\Documents\films papa\images\le_mans_66.jpg;Matt Damon, Christian Bale;;2019;bluray
+;le_monde_fantastique_d_oz;https://www.youtube.com/watch?v=2Hsq8qq0jdo&t=45s;C:\Users\odefaudlegros\Documents\films papa\images\le_monde_fantastique_doz.jpg;James Franco, Mila Kunis;;2013;bluray
+;le_prestige;https://www.youtube.com/watch?v=2zVbrV1ehnU;C:\Users\odefaudlegros\Documents\films papa\images\le_prestige.jpg;Christian Bale, Hugh Jackman;;2006;bluray
+;le_seigneur_des_anneaux_1;https://www.youtube.com/watch?v=nalLU8i4zgs;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_1.jpg;Elijah Wood, Ian McKellen;;2001;bluray
+;le_seigneur_des_anneaux_2;https://www.youtube.com/watch?v=c9blKqmyeV4;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_2.jpg;Elijah Wood, Ian McKellen;;2002;bluray
+;le_seigneur_des_anneaux_3;https://www.youtube.com/watch?v=RCuDRcK0BBM;C:\Users\odefaudlegros\Documents\films papa\images\le_seigneur_des_anneaux_3.jpg;Elijah Wood, Ian McKellen;;2003;bluray
+;le_transporteur_heritage;https://www.youtube.com/watch?v=DRuyPTWsydY&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\le_transporteur_heritage.jpg;Ed Skrein, Ray Stevenson;;2015;bluray
+;leon;https://www.youtube.com/watch?v=M242Bp0PcwE;C:\Users\odefaudlegros\Documents\films papa\images\leon.jpg;Jean Reno, Natalie Portman;;1994;bluray
+;les_animaux_fantastiques;https://www.youtube.com/watch?v=jC8xuFcMq20;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques.jpg;Eddie Redmayne, Katherine Waterston;;2016;bluray
+;les_animaux_fantastiques_2;https://www.youtube.com/watch?v=Dnb6eAfSHtw&t=47s;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques_2.jpg;Eddie Redmayne, Johnny Depp;;2018;bluray
+;les_animaux_fantastiques_3;https://www.youtube.com/watch?v=k39acJCDSKY;C:\Users\odefaudlegros\Documents\films papa\images\les_animaux_fantastiques_3.jpg;Eddie Redmayne, Jude Law;;2022;bluray
+;les_chevaliers_du_zodiac;https://www.youtube.com/watch?v=nEWL1GQ5Pks;C:\Users\odefaudlegros\Documents\films papa\images\les_chevaliers_du_zodiac.jpg;;;2023;bluray
+;les_eternels;https://www.youtube.com/watch?v=nHcubNwuKFA&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_eternelles.jpg;Gemma Chan, Richard Madden;;2021;bluray
+;les_gardiens_de_la_galaxie_1;https://www.youtube.com/watch?v=HbB1LC_QyK0&t=24s;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_1.jpg;Chris Pratt, Zoe Saldana;;2014;bluray
+;les_gardiens_de_la_galaxie_2;https://www.youtube.com/watch?v=e2LkglavLRs&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_2.jpg;Chris Pratt, Zoe Saldana;;2017;bluray
+;les_gardiens_de_la_galaxie_3;https://www.youtube.com/watch?v=0RsvBSFm938;C:\Users\odefaudlegros\Documents\films papa\images\les_gardiens_de_la_galaxie_3.jpg;Chris Pratt, Zoe Saldana;;2023;bluray
+;les_schtroumpfs;https://www.youtube.com/watch?v=3GclcezQvFU&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_schtroumphs.jpg;Neil Patrick Harris, Jayma Mays (live-action);;2011;bluray
+;les_tuche_1;https://www.youtube.com/watch?v=ndCzT6dyOqk&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_1.jpg;Jean-Paul Rouve, Isabelle Nanty;;2010;bluray
+;les_tuche_2;https://www.youtube.com/watch?v=pKbox8S-se4&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_2.jpg;Jean-Paul Rouve, Isabelle Nanty;;2016;bluray
+;les_tuche_3;https://www.youtube.com/watch?v=WqSPFOLA9sE&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_3.jpg;Jean-Paul Rouve, Isabelle Nanty;;2018;bluray
+;les_tuche_4;https://www.youtube.com/watch?v=vxWSTApFmR4;C:\Users\odefaudlegros\Documents\films papa\images\les_tuche_4.jpg;Jean-Paul Rouve, Isabelle Nanty;;2021;bluray
+;logan;https://www.youtube.com/watch?v=i-iqiI5uikE;C:\Users\odefaudlegros\Documents\films papa\images\logan.jpg;Hugh Jackman, Patrick Stewart;;2017;bluray
+;malefique_1;https://www.youtube.com/watch?v=8yBDfD88W3U&t=48s;C:\Users\odefaudlegros\Documents\films papa\images\malefique_1.jpg;Angelina Jolie, Elle Fanning;;2014;enfant
+;malefique_2;https://www.youtube.com/watch?v=R2kmlH2VkME&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\malefique_2.jpg;Angelina Jolie, Elle Fanning;;2019;enfant
+;man_of_steel;https://www.youtube.com/watch?v=Xw4VeR7tCxU&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\man_of_steel.jpg;Henry Cavill, Amy Adams;;2013;bluray
+;matrix_1;https://www.youtube.com/watch?v=8xx91zoASLY&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_1.jpg;Keanu Reeves, Laurence Fishburne;;1999;bluray
+;matrix_2;https://www.youtube.com/watch?v=0ha2XYVC7_s&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_2.jpg;Keanu Reeves, Laurence Fishburne;;2003;bluray
+;matrix_3;https://www.youtube.com/watch?v=sK51m1tj_bE&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_3.jpg;Keanu Reeves, Laurence Fishburne;;2003;bluray
+;matrix_4;https://www.youtube.com/watch?v=Tj63xbpKnqo&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\matrix_4.jpg;Keanu Reeves, Carrie-Anne Moss;;2021;bluray
+;men_in_black_1;https://www.youtube.com/watch?v=2wVy3QmCyJU&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_1.jpg;Will Smith, Tommy Lee Jones;;1997;bluray
+;men_in_black_2;https://www.youtube.com/watch?v=HuQmpzpAhHo&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_2.jpg;Will Smith, Tommy Lee Jones;;2002;bluray
+;men_in_black_3;https://www.youtube.com/watch?v=Ep6NGpX66oU&t=38s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_3.jpg;Will Smith, Josh Brolin;;2012;bluray
+;men_in_black_international;https://www.youtube.com/watch?v=JHQq7eOOxdc&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\men_in_black_international.jpg;Chris Hemsworth, Tessa Thompson;;2019;bluray
+;midnight_express;https://www.youtube.com/watch?v=OFVsGmNGGys&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\midnight_express.jpg;Brad Davis, John Hurt;;1978;bluray
+;minority_report;https://www.youtube.com/watch?v=V0Ay_CB9quU;C:\Users\odefaudlegros\Documents\films papa\images\minority_report.jpg;Tom Cruise, Colin Farrell;;2002;bluray
+;mission_impossible_1;https://www.youtube.com/watch?v=EvOqiaqfewU&t=53s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_1.jpg;Tom Cruise, Jon Voight;;1996;bluray
+;mission_impossible_2;https://www.youtube.com/watch?v=aHjhMW1WvWk&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_2.jpg;Tom Cruise, Dougray Scott;;2000;bluray
+;mission_impossible_3;https://www.youtube.com/watch?v=Lb8mK7w_ig4&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_3.jpg;Tom Cruise, Philip Seymour Hoffman;;2006;bluray
+;mission_impossible_4;https://www.youtube.com/watch?v=r5Pw_ntvbEo&t=5s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_4.jpg;Tom Cruise, Jeremy Renner;;2011;bluray
+;mission_impossible_5;https://www.youtube.com/watch?v=wX8fhP-fsPg&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_5.jpg;Tom Cruise, Rebecca Ferguson;;2015;bluray
+;mission_impossible_6;https://www.youtube.com/watch?v=n4qbj1lFEpU&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_6.jpg;Tom Cruise, Henry Cavill;;2018;bluray
+;mission_impossible_dead_reckoning_part_1;https://www.youtube.com/watch?v=kz34RaRBczI;C:\Users\odefaudlegros\Documents\films papa\images\mission_impossible_dead_reckoning_part_1.jpg;;;2023;bluray
+;moonfall;https://www.youtube.com/watch?v=z3LNxIZI1go&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\moonfall.jpg;Halle Berry, Patrick Wilson;;2022;bluray
+;morbius;https://www.youtube.com/watch?v=6pGgkOcIyQA;C:\Users\odefaudlegros\Documents\films papa\images\morbius.jpg;Jared Leto, Matt Smith;;2022;bluray
+;nos_etoiles_contraires;https://www.youtube.com/watch?v=X6WVLSdigCk&t=6s;C:\Users\odefaudlegros\Documents\films papa\images\nos_eoiles_contraires.jpg;Shailene Woodley, Ansel Elgort;;2014;bluray
+;nuit_blanche_a_seattle;https://www.youtube.com/watch?v=XACtsPeHvxA;C:\Users\odefaudlegros\Documents\films papa\images\nuit_blanche_a_seattle.jpg;Tom Hanks, Meg Ryan;;1993;bluray
+;oblivion;https://www.youtube.com/watch?v=XH1su3FVEA4&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\oblivion.jpg;Tom Cruise, Morgan Freeman;;2013;bluray
+;oppenheimer;https://www.youtube.com/watch?v=CoXtvSRpHgM;C:\Users\odefaudlegros\Documents\films papa\images\oppenheimer.jpg;;;2023;bluray
+;pattaya;https://www.youtube.com/watch?v=cICeyHsS16Y;C:\Users\odefaudlegros\Documents\films papa\images\pattaya.jpg;Franck Gastambide, Malik Bentalha;;2016;bluray
+;peppermint;https://www.youtube.com/watch?v=EE1wg5HHwK0&t=1s;C:\Users\odefaudlegros\Documents\films papa\images\peppermint.jpg;Jennifer Garner, John Gallagher Jr.;;2018;bluray
+;peter_et_elliot_le_dragon;https://www.youtube.com/watch?v=MEXN66uRNe8&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\peter_et_elliot_le_dragon.jpg;Oakes Fegley, Bryce Dallas Howard;;2016;bluray
+;philadelphia;https://www.youtube.com/watch?v=rYfl8rmZBKc&t=9s;C:\Users\odefaudlegros\Documents\films papa\images\philadelphia.jpg;Tom Hanks, Denzel Washington;;1993;bluray
+;pirate_des_caraibes_1;https://www.youtube.com/watch?v=WiZC7l0ovvk;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_1.jpg;Johnny Depp, Orlando Bloom;;2003;bluray
+;pirate_des_caraibes_2;https://www.youtube.com/watch?v=ZJwdTWd8o_w;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_2.jpg;Johnny Depp, Orlando Bloom;;2006;bluray
+;pirate_des_caraibes_3;https://www.youtube.com/watch?v=rF6k1bXAVIg;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_3.jpg;Johnny Depp, Orlando Bloom;;2007;bluray
+;pirate_des_caraibes_4;https://www.youtube.com/watch?v=Kcqf4RqBaUI;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_4.jpg;Johnny Depp, Penélope Cruz;;2011;bluray
+;pirate_des_caraibes_5;https://www.youtube.com/watch?v=OTEGxxMTnPU;C:\Users\odefaudlegros\Documents\films papa\images\pirate_des_caraibes_5.jpg;Johnny Depp, Javier Bardem;;2017;bluray
+;point_break;https://www.youtube.com/watch?v=5L7zkTFUxjo&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\point_break.jpg;Patrick Swayze, Keanu Reeves;;1991;bluray
+;poseidon;https://www.youtube.com/watch?v=TtZGfLoe1lA&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\poseidon.jpg;Josh Lucas, Kurt Russell;;2006;bluray
+;pretty_woman;https://www.youtube.com/watch?v=eBl8jzO6KHg;C:\Users\odefaudlegros\Documents\films papa\images\pretty_woman.jpg;Richard Gere, Julia Roberts;;1990;bluray
+;radin;https://www.youtube.com/watch?v=8hmQFU2hpJM&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\radin.jpg;Dany Boon, Laurence Arné;;2016;bluray
+;rain_man;https://www.youtube.com/watch?v=G2q2IVHu8p4&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\rain_man.jpg;Dustin Hoffman, Tom Cruise;;1988;bluray
+;rampage;https://www.youtube.com/watch?v=8ckz-mk9-Tg;C:\Users\odefaudlegros\Documents\films papa\images\rampage.jpg;Dwayne Johnson, Naomie Harris;;2018;bluray
+;ready_player_one;https://www.youtube.com/watch?v=oYGkAMHCOC4&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\ready_player.jpg;Tye Sheridan, Olivia Cooke;;2018;bluray
+;remember_me;https://www.youtube.com/watch?v=xi5I1JX0UIY&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\remember_me.jpg;Robert Pattinson, Emilie de Ravin;;2010;bluray
+;replicas;https://www.youtube.com/watch?v=CQopGH4qMEI&t=7s;C:\Users\odefaudlegros\Documents\films papa\images\replicas.jpg;Keanu Reeves, Alice Eve;;2018;bluray
+;resident_evil_1;https://www.youtube.com/watch?v=amWEDXmkoXo;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_1.jpg;Milla Jovovich, Michelle Rodriguez;;2002;bluray
+;resident_evil_2;https://www.youtube.com/watch?v=axd-h6a0Wgg;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_2.jpg;Milla Jovovich, Sienna Guillory;;2004;bluray
+;resident_evil_3;https://www.youtube.com/watch?v=lb52BesCCa8;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_3.jpg;Milla Jovovich, Oded Fehr;;2007;bluray
+;resident_evil_4;https://www.youtube.com/watch?v=eaKOg7w8meQ;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_4.jpg;Milla Jovovich, Ali Larter;;2010;bluray
+;resident_evil_5;https://www.youtube.com/watch?v=65g5-p3CQcM;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_5.jpg;Milla Jovovich, Sienna Guillory;;2012;bluray
+;resident_evil_6;https://www.youtube.com/watch?v=xHohwszlCEw;C:\Users\odefaudlegros\Documents\films papa\images\resident_evil_6.png;Milla Jovovich, Iain Glen;;2017;bluray
+;retour_vers_le_futur;https://www.youtube.com/watch?v=cU5BREZ9ke0;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur.jpg;Michael J. Fox, Christopher Lloyd;;1985;bluray
+;retour_vers_le_futur_2;https://www.youtube.com/watch?v=u72lyJirxGQ&t=14s;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur_2.jpg;Michael J. Fox, Christopher Lloyd;;1989;bluray
+;retour_vers_le_futur_3;https://www.youtube.com/watch?v=Ugth9lQsKb0;C:\Users\odefaudlegros\Documents\films papa\images\retour_vers_le_futur_3.jpg;Michael J. Fox, Christopher Lloyd;;1990;bluray
+;rogue_one_star_wars;https://www.youtube.com/watch?v=ox6Dsbvp7ng&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\rogue_on_star_wars.jpg;Felicity Jones, Diego Luna;;2016;bluray
+;san_andreas;https://www.youtube.com/watch?v=HGpwaIf3ZKk&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\san_andreas.jpg;Dwayne Johnson, Carla Gugino;;2015;bluray
+;saw_1;https://www.youtube.com/watch?v=8Swsh-up3iM&t=54s;C:\Users\odefaudlegros\Documents\films papa\images\saw_1.jpg;Cary Elwes, Leigh Whannell;;2004;bluray
+;saw_2;https://www.youtube.com/watch?v=RzsCFIbUoVQ&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\saw_2.jpg;Donnie Wahlberg, Tobin Bell;;2005;bluray
+;saw_3;https://www.youtube.com/watch?v=91B113M4usE;C:\Users\odefaudlegros\Documents\films papa\images\saw_3.jpg;Tobin Bell, Shawnee Smith;;2006;bluray
+;saw_4;https://www.youtube.com/watch?v=Qe8ZSX2NW0A;C:\Users\odefaudlegros\Documents\films papa\images\saw_4.jpg;Tobin Bell, Costas Mandylor;;2007;bluray
+;saw_5;https://www.youtube.com/watch?v=3MiXFmlVPOY&t=44s;C:\Users\odefaudlegros\Documents\films papa\images\saw_5.jpg;Tobin Bell, Costas Mandylor;;2008;bluray
+;saw_6;https://www.youtube.com/watch?v=4rv9dq2IQ-I;C:\Users\odefaudlegros\Documents\films papa\images\saw_6.jpg;Tobin Bell, Costas Mandylor;;2009;bluray
+;saw_7;https://www.youtube.com/watch?v=oqE1tTFClh4;C:\Users\odefaudlegros\Documents\films papa\images\saw_7.jpg;Tobin Bell, Costas Mandylor;;2010;bluray
+;saw_8;https://www.youtube.com/watch?v=QxiztUnTivE&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\saw_8.jpg;Tobin Bell, Costas Mandylor;;2017;bluray
+;shang_chi;https://www.youtube.com/watch?v=PD3rUCBFDlI&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\shang_chi.jpg;Simu Liu, Awkwafina;;2021;bluray
+;shazam;https://www.youtube.com/watch?v=KThUY2k_yW4;C:\Users\odefaudlegros\Documents\films papa\images\shazam.jpg;Zachary Levi, Asher Angel;;2019;bluray
+;shazam_2;https://www.youtube.com/watch?v=VM5Hz-csjt8&t=4s;C:\Users\odefaudlegros\Documents\films papa\images\shazam_2.jpg;Zachary Levi, Helen Mirren;;2023;bluray
+;sinister;https://www.youtube.com/watch?v=4sfzhzRAceE;C:\Users\odefaudlegros\Documents\films papa\images\sinister.jpg;Ethan Hawke, Juliet Rylance;;2012;bluray
+;sinister_2;https://www.youtube.com/watch?v=DAVMVdX9AIE&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\sinister_2.jpg;James Ransone, Shannyn Sossamon;;2015;bluray
+;sixieme_sens;https://www.youtube.com/watch?v=HEd92ksuHNo;C:\Users\odefaudlegros\Documents\films papa\images\sixieme_sens.jpg;Bruce Willis, Haley Joel Osment;;1999;bluray
+;skyscraper;https://www.youtube.com/watch?v=clKMwavvv6o;C:\Users\odefaudlegros\Documents\films papa\images\skyscraper.jpg;Dwayne Johnson, Neve Campbell;;2018;bluray
+;sonic;https://www.youtube.com/watch?v=NCZTYdAP6w0;C:\Users\odefaudlegros\Documents\films papa\images\sonic.jpg;Ben Schwartz, James Marsden (voice/live-action);;2020;enfant
+;sonic_2;https://www.youtube.com/watch?v=SqH3-sCkZQw;C:\Users\odefaudlegros\Documents\films papa\images\sonic_2.jpg;Ben Schwartz, James Marsden (voice/live-action);;2022;enfant
+;spider_man_far_from_home;https://www.youtube.com/watch?v=FguIk-SEkWI&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_far_from_home.jpg;Tom Holland, Zendaya;;2019;bluray
+;spider_man_homecoming;https://www.youtube.com/watch?v=Y8ErdqD5YPc;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_homecoming.jpg;Tom Holland, Michael Keaton;;2017;bluray
+;spider_man_no_way_home;https://www.youtube.com/watch?v=7w_w10HVa54;C:\Users\odefaudlegros\Documents\films papa\images\spider_man_no_way_home.jpg;Tom Holland, Zendaya;;2021;bluray
+;star_wars_1;https://www.youtube.com/watch?v=0q-Q99DtNkw;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_1.jpg;Liam Neeson, Ewan McGregor, Natalie Portman;;1999;bluray
+;star_wars_2;https://www.youtube.com/watch?v=1D7DUNCHXkg;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_2.jpg;Ewan McGregor, Natalie Portman, Hayden Christensen;;2002;bluray
+;star_wars_3;https://www.youtube.com/watch?v=t1qtvKYwTV0;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_3.jpg;Ewan McGregor, Hayden Christensen, Natalie Portman;;2008;bluray
+;star_wars_4;https://www.youtube.com/watch?v=PNyht4iTMX8;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_4.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1977;bluray
+;star_wars_5;https://www.youtube.com/watch?v=_y-xlGOuVaE;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_5.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1980;bluray
+;star_wars_6;https://www.youtube.com/watch?v=5QSEJx3R968;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_6.jpg;Mark Hamill, Harrison Ford, Carrie Fisher;;1983;bluray
+;star_wars_7;https://www.youtube.com/watch?v=mH9Ygfs5avo&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_7.jpg;Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher;;2015;bluray
+;star_wars_8;https://www.youtube.com/watch?v=wY708Ky2SG8;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_8.jpg;Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher;;2017;bluray
+;star_wars_9;https://www.youtube.com/watch?v=pHgwf2eMFnA&t=41s;C:\Users\odefaudlegros\Documents\films papa\images\star_wars_9.jpg;Daisy Ridley, Adam Driver;;2019;bluray
+;suicide_squad;https://www.youtube.com/watch?v=XfboDbU3xnA;C:\Users\odefaudlegros\Documents\films papa\images\suicide_squad.jpg;Will Smith, Margot Robbie;;2021;bluray
+;super_mario;https://www.youtube.com/watch?v=iwst-UZn3wM;C:\Users\odefaudlegros\Documents\films papa\images\super_mario.jpg;Bob Hoskins, John Leguizamo;;2023;enfant
+;taken_1;https://www.youtube.com/watch?v=UX_71dbzJIw&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\taken_1.jpg;Liam Neeson, Maggie Grace;;2008;bluray
+;taken_2;https://www.youtube.com/watch?v=G_U2ZpXjpeg&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\taken_2.jpg;Liam Neeson, Maggie Grace;;2012;bluray
+;taken_3;https://www.youtube.com/watch?v=nSInrKvxIdI&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\taken_3.jpg;Liam Neeson, Forest Whitaker;;2015;bluray
+;tenet;https://www.youtube.com/watch?v=6UG5LJQNjts;C:\Users\odefaudlegros\Documents\films papa\images\tenet.jpg;John David Washington, Robert Pattinson;;2020;bluray
+;the_batman;https://www.youtube.com/watch?v=hGQo1axtj60&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\the_batman.jpg;Robert Pattinson, Zoë Kravitz;;2022;bluray
+;the_doors;https://www.youtube.com/watch?v=z5X9rhbDtl4&t=33s;C:\Users\odefaudlegros\Documents\films papa\images\the_doors.jpg;Val Kilmer, Meg Ryan;;1991;bluray
+;the_flash;https://www.youtube.com/watch?v=mUMlQZfjK1c;C:\Users\odefaudlegros\Documents\films papa\images\the_flash.jpg;;;2023;bluray
+;the_island;https://www.youtube.com/watch?v=EiBZakZa0TY&t=36s;C:\Users\odefaudlegros\Documents\films papa\images\the_island.jpg;Ewan McGregor, Scarlett Johansson;;2005;bluray
+;the_marvels;https://www.youtube.com/watch?v=9z9_bfhpLzU;C:\Users\odefaudlegros\Documents\films papa\images\the_marvels.jpg;;;2023;bluray
+;the_suicide_squad;https://www.youtube.com/watch?v=lu4P7YmGgiE;C:\Users\odefaudlegros\Documents\films papa\images\the_suicide_squad.jpg;Margot Robbie, Idris Elba;;2021;bluray
+;thor_1;https://www.youtube.com/watch?v=pzT3yeV9lT4&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\thor_1.jpg;Chris Hemsworth, Natalie Portman;;2011;bluray
+;thor_le_monde_des_tenebres;https://www.youtube.com/watch?v=WocFedghAHI;C:\Users\odefaudlegros\Documents\films papa\images\thor_le_monde_des_tenebres.jpg;Chris Hemsworth, Natalie Portman;;2013;bluray
+;thor_love_and_thunder;https://www.youtube.com/watch?v=K8iHxGiPyZk;C:\Users\odefaudlegros\Documents\films papa\images\thor_love_and_thunder.jpg;Chris Hemsworth, Natalie Portman;;2022;bluray
+;thor_ragnarok;https://www.youtube.com/watch?v=RtG6scyBIeM&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\thor_ragnarok.jpg;Chris Hemsworth, Tom Hiddleston;;2017;bluray
+;titanic;https://www.youtube.com/watch?v=Quf4qIkD3KY&t=31s;C:\Users\odefaudlegros\Documents\films papa\images\titanic.jpg;Leonardo DiCaprio, Kate Winslet;;1997;bluray
+;tomb_raider;https://www.youtube.com/watch?v=UmXKhK9YKZg&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\tomb_raider.jpg;Angelina Jolie, Jon Voight;;2018;bluray
+;top_gun;https://www.youtube.com/watch?v=i8sEGppZX-s;C:\Users\odefaudlegros\Documents\films papa\images\top_gun.jpg;Tom Cruise, Kelly McGillis;;1986;bluray
+;top_gun_2_maverick;https://www.youtube.com/watch?v=JYaFU81-t6c;C:\Users\odefaudlegros\Documents\films papa\images\maverick.jpg;Tom Cruise, Miles Teller;;2022;bluray
+;transformers_1;https://www.youtube.com/watch?v=_XKAU3tYO9M&t=11s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_1.jpg;Shia LaBeouf, Megan Fox;;2007;bluray
+;transformers_2;https://www.youtube.com/watch?v=u9uUVkYB6Aw&t=13s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_2.jpg;Shia LaBeouf, Megan Fox;;2009;bluray
+;transformers_3;https://www.youtube.com/watch?v=7-ZBYb2poUM&t=12s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_3.jpg;Shia LaBeouf, Rosie Huntington-Whiteley;;2011;bluray
+;transformers_4;https://www.youtube.com/watch?v=O3cpckQmmk8&t=60s;C:\Users\odefaudlegros\Documents\films papa\images\transformers_4.jpg;Mark Wahlberg, Stanley Tucci;;2014;bluray
+;transformers_5;https://www.youtube.com/watch?v=IsUacT2oFwU;C:\Users\odefaudlegros\Documents\films papa\images\transformers_5.jpg;Mark Wahlberg, Anthony Hopkins;;2017;bluray
+;transformers_6;https://www.youtube.com/watch?v=BO9d1C9ZsCs;C:\Users\odefaudlegros\Documents\films papa\images\transformers_6.jpg;;;2023;bluray
+;twilight_1;https://www.youtube.com/watch?v=xzO_Iiwt4b4;C:\Users\odefaudlegros\Documents\films papa\images\twilight_1.jpg;Kristen Stewart, Robert Pattinson;;2009;bluray
+;twilight_2;https://www.youtube.com/watch?v=ShHNEvFPtvc;C:\Users\odefaudlegros\Documents\films papa\images\twilight_2.jpg;Kristen Stewart, Robert Pattinson;;2009;bluray
+;twilight_3;https://www.youtube.com/watch?v=yi4xJGebtuk;C:\Users\odefaudlegros\Documents\films papa\images\twilight_3.jpg;Kristen Stewart, Robert Pattinson;;2010;bluray
+;twilight_4;https://www.youtube.com/watch?v=_jWriOZlsnw&t=50s;C:\Users\odefaudlegros\Documents\films papa\images\twilight_4.jpg;Kristen Stewart, Robert Pattinson;;2011;bluray
+;twilight_5;https://www.youtube.com/watch?v=CjdPAg-gyFE&t=43s;C:\Users\odefaudlegros\Documents\films papa\images\twilight_5.jpg;Kristen Stewart, Robert Pattinson;;2012;bluray
+;un_hologram_pour_le_roi;https://www.youtube.com/watch?v=TLpl17kCevA&t=42s;C:\Users\odefaudlegros\Documents\films papa\images\un_hologram_pour_le_roi.jpg;Tom Hanks, Alexander Black;;2016;bluray
+;underworld_1;https://www.youtube.com/watch?v=2_IoL7g5Ub8&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_1.jpg;Kate Beckinsale, Scott Speedman;;2001;bluray
+;underworld_2;https://www.youtube.com/watch?v=v86oFYYz3Bg&t=40s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_2.jpg;Kate Beckinsale, Scott Speedman;;2006;bluray
+;underworld_3;https://www.youtube.com/watch?v=Ebp9UDnzE7c&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\underworld_3.jpg;Michael Sheen, Bill Nighy;;2009;bluray
+;underworld_4;https://www.youtube.com/watch?v=76U14o8QeXk;C:\Users\odefaudlegros\Documents\films papa\images\underworld_4.jpg;Kate Beckinsale, Stephen Rea;;2012;bluray
+;underworld_5;https://www.youtube.com/watch?v=a61vd2UpaDg;C:\Users\odefaudlegros\Documents\films papa\images\underworld_5.jpg;Kate Beckinsale, Theo James;;2016;bluray
+;very_bad_trip_1;https://www.youtube.com/watch?v=hHqR9Tq16_E&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_1.jpg;Bradley Cooper, Ed Helms;;2009;bluray
+;very_bad_trip_2;https://www.youtube.com/watch?v=DFw9AlqUbYQ&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_2.jpg;Bradley Cooper, Ed Helms;;2011;bluray
+;very_bad_trip_3;https://www.youtube.com/watch?v=ibq2kS7NRaU&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\very_bad_trip_3.jpg;Bradley Cooper, Ed Helms;;2013;bluray
+;volte_face;https://www.youtube.com/watch?v=K-gncct2TX8;C:\Users\odefaudlegros\Documents\films papa\images\volte_face.jpg;John Travolta, Nicolas Cage;;1997;bluray
+;vox_lux;https://www.youtube.com/watch?v=fMCYE9hKP68&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\vox_lux.jpg;Natalie Portman, Jude Law;;2018;bluray
+;wolverine;https://www.youtube.com/watch?v=WKrknCZIj2Q;C:\Users\odefaudlegros\Documents\films papa\images\wolverine.jpg;Hugh Jackman, Tao Okamoto;;2013;bluray
+;wonder_woman;https://www.youtube.com/watch?v=CWe308Fpywg;C:\Users\odefaudlegros\Documents\films papa\images\wonder_woman.jpg;Gal Gadot, Chris Pine;;2017;bluray
+;wonder_woman_1984;https://www.youtube.com/watch?v=rhlHVvmVf04;C:\Users\odefaudlegros\Documents\films papa\images\wonder_woman_1984.jpg;Gal Gadot, Chris Pine;;2020;bluray
+;xmen_1;https://www.youtube.com/watch?v=QLtF7ZmXfjw;C:\Users\odefaudlegros\Documents\films papa\images\xmen_1.jpg;Hugh Jackman, Patrick Stewart;;2000;bluray
+;xmen_2;https://www.youtube.com/watch?v=WmzABBFM6CY&t=34s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_2.jpg;Hugh Jackman, Halle Berry;;2003;bluray
+;xmen_3;https://www.youtube.com/watch?v=dE5rzrBKfPc&t=14s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_3.jpg;Hugh Jackman, Halle Berry;;2006;bluray
+;xmen_apocalyspse;https://www.youtube.com/watch?v=8chgx3qqZNA&t=9s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_apocalyspse.jpg;James McAvoy, Michael Fassbender;;2016;bluray
+;xmen_dark_phoenix;https://www.youtube.com/watch?v=11_xxw6VZv8&t=2s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_dark_phoenix.jpg;Sophie Turner, James McAvoy;;2019;bluray
+;xmen_days_of_futur_past;https://www.youtube.com/watch?v=6esGeXis858;C:\Users\odefaudlegros\Documents\films papa\images\xmen_days_of_futur_past.jpg;Hugh Jackman, James McAvoy;;2014;bluray
+;xmen_le_commencement;https://www.youtube.com/watch?v=tT8oQT8ILpY&t=30s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_le_commencement.jpg;James McAvoy, Michael Fassbender;;2011;bluray
+;xmen_origins;https://www.youtube.com/watch?v=yawHvdrZrcs&t=35s;C:\Users\odefaudlegros\Documents\films papa\images\xmen_origins.jpg;Hugh Jackman, Liev Schreiber;;2009;bluray
+;american_sniper;https://www.youtube.com/watch?v=biaNCv--D4s&t=32s;C:\Users\odefaudlegros\Documents\films papa\images\american_sniper.jpg;Clint Eastwood;;;bluray
+;au_dela;https://www.youtube.com/watch?v=EnYjJjeo488&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\au_dela.jpg;Clint Eastwood;;;bluray
+;breezy;https://www.youtube.com/watch?v=38zpqhU_GcM&t=21s;C:\Users\odefaudlegros\Documents\films papa\images\breezy.jpg;Clint Eastwood;;;bluray
+;ca_va_cogner;;C:\Users\odefaudlegros\Documents\films papa\images\ca_va_cogner.jpg;Clint Eastwood;;;bluray
+;creance_de_sang;https://www.youtube.com/watch?v=BR1p0Kgu9bo;C:\Users\odefaudlegros\Documents\films papa\images\creance_de_sang.jpg;Clint Eastwood;;;bluray
+;de_lor_pour_les_braves;https://www.youtube.com/watch?v=5kc-9llhtHc;C:\Users\odefaudlegros\Documents\films papa\images\de_lor_pour_les_braves.jpg;Clint Eastwood;;;bluray
+;et_pour_quelques_dollards_de_plus;https://www.youtube.com/watch?v=_0fFfnzIyCg;C:\Users\odefaudlegros\Documents\films papa\images\et_pour_quelques_dollards_de_plus.jpg;Clint Eastwood;;;bluray
+;firefox;https://www.youtube.com/watch?v=Iv7-SOR7TQs&t=17s;C:\Users\odefaudlegros\Documents\films papa\images\firefox.jpg;Clint Eastwood;;;bluray
+;gran_torino;https://www.youtube.com/watch?v=ih9_s8YcfLc;C:\Users\odefaudlegros\Documents\films papa\images\gran_torino.jpg;Clint Eastwood;;;bluray
+;haut_les_flingues;https://www.youtube.com/watch?v=xAvYuFtHuV4&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\haut_les_flingues.jpg;Clint Eastwood;;;bluray
+;impitoyable;https://www.youtube.com/watch?v=H3g3IH8Mgx0&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\impitoyable.jpg;Clint Eastwood;;;bluray
+;invictus;https://www.youtube.com/watch?v=PEO6-fe9qPA&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\invictus.jpg;Clint Eastwood;;;bluray
+;j_edgar;https://www.youtube.com/watch?v=3P-unVGBRAM&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\j_edgar.jpg;Clint Eastwood;;;bluray
+;jersey_boys;https://www.youtube.com/watch?v=jgBr2iNGXzQ&t=18s;C:\Users\odefaudlegros\Documents\films papa\images\jersey_boys.jpg;Clint Eastwood;;;bluray
+;josey_wales;https://www.youtube.com/watch?v=qiSp6hiQrjc;C:\Users\odefaudlegros\Documents\films papa\images\josey_wales.jpg;Clint Eastwood;;;bluray
+;juge_coupable;https://www.youtube.com/watch?v=L9v6kR1nGow&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\juge_coupable.jpg;Clint Eastwood;;;bluray
+;l_echange;https://www.youtube.com/watch?v=l3nYub3gL6w&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\l_echange.jpg;Clint Eastwood;;;bluray
+;la_derniere_cible;https://www.youtube.com/watch?v=9LYYp002Mbk&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\la_derniere_cible.jpg;Clint Eastwood;;;bluray
+;la_releve;https://www.youtube.com/watch?v=a_hDCwQORLQ;C:\Users\odefaudlegros\Documents\films papa\images\la_releve.jpg;Clint Eastwood;;;bluray
+;la_sanction;https://www.youtube.com/watch?v=LWbM8aEbSR8;C:\Users\odefaudlegros\Documents\films papa\images\la_sanction.jpg;Clint Eastwood;;;bluray
+;le_bon_la_brute_et_le_tuand;https://www.youtube.com/watch?v=WA1hCZFOPqs&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\le_bon_la_brute_et_le_tuand.jpg;Clint Eastwood;;;bluray
+;le_maitre_de_guerre;https://www.youtube.com/watch?v=8GcZkgg2URs&t=37s;C:\Users\odefaudlegros\Documents\films papa\images\le_maitre_de_guerre.jpg;Clint Eastwood;;;bluray
+;le_retour_de_linspecteur_harry;https://www.youtube.com/watch?v=snIfTY9VeCI;C:\Users\odefaudlegros\Documents\films papa\images\le_retour_de_linspecteur_harry.jpg;Clint Eastwood;;;bluray
+;les_pleins_pouvoirs;https://www.youtube.com/watch?v=J6786udAomM;C:\Users\odefaudlegros\Documents\films papa\images\les_pleins_pouvoirs.jpg;Clint Eastwood;;;bluray
+;lettres_d_iwo_jima;https://www.youtube.com/watch?v=lXV1Xi_xyck&t=19s;C:\Users\odefaudlegros\Documents\films papa\images\lettres_d_iwo_jima.jpg;Clint Eastwood;;;bluray
+;l_evade_d_alcatraz;https://www.youtube.com/watch?v=VNSd9hDWWd4;C:\Users\odefaudlegros\Documents\films papa\images\l_evade_d_alcatraz.jpg;Clint Eastwood;;;bluray
+;l_homme_des_hautes_plaines;https://www.youtube.com/watch?v=OjHFfhBFNWs;C:\Users\odefaudlegros\Documents\films papa\images\l_homme_des_hautes_plaines.jpg;Clint Eastwood;;;bluray
+;l_inspecteur_harry;https://www.youtube.com/watch?v=Dl39nG83WDM&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\l_inspecteur_harry.jpg;Clint Eastwood;;;bluray
+;l_inspecteur_ne_renonce_jamais;https://www.youtube.com/watch?v=NfK6T5yljkg&t=23s;C:\Users\odefaudlegros\Documents\films papa\images\l_inspecteur_ne_renonce_jamais.jpg;Clint Eastwood;;;bluray
+;magnum_force;https://www.youtube.com/watch?v=wtLoFPIACVw&t=27s;C:\Users\odefaudlegros\Documents\films papa\images\magnum_force.jpg;Clint Eastwood;;;bluray
+;memoires_de_nos_peres;https://www.youtube.com/watch?v=Kez8jsb-s2Q&t=22s;C:\Users\odefaudlegros\Documents\films papa\images\memoires_de_nos_peres.jpg;Clint Eastwood;;;bluray
+;million_dollard_baby;https://www.youtube.com/watch?v=krz9U4ZrGog&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\million_dollard_baby.jpg;Clint Eastwood;;;bluray
+;mystic_river;https://www.youtube.com/watch?v=yniM_7MzOgo&t=20s;C:\Users\odefaudlegros\Documents\films papa\images\mystic_river.jpg;Clint Eastwood;;;bluray
+;pale_rider;https://www.youtube.com/watch?v=bS_cnoSjucc;C:\Users\odefaudlegros\Documents\films papa\images\pale_rider.jpg;Clint Eastwood;;;bluray
+;pour_une_poignee_de_dollards;https://www.youtube.com/watch?v=aBmcIKDW5D8;C:\Users\odefaudlegros\Documents\films papa\images\pour_une_poignee_de_dollards.jpg;Clint Eastwood;;;bluray
+;quand_les_aigles_attaques;https://www.youtube.com/watch?v=kqwUCHZlRmU&t=26s;C:\Users\odefaudlegros\Documents\films papa\images\quand_les_aigles_attaques.jpg;Clint Eastwood;;;bluray
+;space_cowboys;https://www.youtube.com/watch?v=wou34lVVUac&t=29s;C:\Users\odefaudlegros\Documents\films papa\images\space_cowboys.jpg;Clint Eastwood;;;bluray
+;sur_la_route_de_madison;https://www.youtube.com/watch?v=mirWUoFE1OY&t=39s;C:\Users\odefaudlegros\Documents\films papa\images\sur_la_route_de_madison.jpg;Clint Eastwood;;;bluray
+;the_walking_dead_saisons_1_a_7_;https://www.youtube.com/watch?v=AbtiqJGhWyY&t=13s;C:\Users\odefaudlegros\Documents\films papa\images\the_walking_dead_saisons_1_a_7_.jpg;;;;bluray
+;un_monde_parfait;https://www.youtube.com/watch?v=H1g3PETKszA&t=28s;C:\Users\odefaudlegros\Documents\films papa\images\un_monde_parfait.jpg;Clint Eastwood;;;bluray
+;une_nouvelle_chance;https://www.youtube.com/watch?v=rOEIOA4lIw4&t=25s;C:\Users\odefaudlegros\Documents\films papa\images\une_nouvelle_chance.jpg;Clint Eastwood;;;bluray
+;african_bambi;https://www.youtube.com/watch?v=EDzq285OJ2g;C:\Users\odefaudlegros\Documents\films papa\images\african_bambi.jpg;;;;enfant
+;aladdin_animé;https://www.youtube.com/watch?v=NZqFRTbi7IE;C:\Users\odefaudlegros\Documents\films papa\images\aladdin_animé.jpg;;;;enfant
+;alerte_rouge;https://www.youtube.com/watch?v=41pXKTSrC_g;C:\Users\odefaudlegros\Documents\films papa\images\alerte_rouge.jpg;;;;enfant
+;alice_au_pays_des_merveilles;https://www.youtube.com/watch?v=ePElCshaYpQ;C:\Users\odefaudlegros\Documents\films papa\images\alice_au_pays_des_merveilles.jpg;;;;enfant
+;baby_boss;https://www.youtube.com/watch?v=u52L6ZZMU4o;C:\Users\odefaudlegros\Documents\films papa\images\baby_boss.jpg;;;;enfant
+;bee_movie;https://www.youtube.com/watch?v=8luPknhlzpM;C:\Users\odefaudlegros\Documents\films papa\images\bee_movie.jpg;;;;enfant
+;blanche_neige_et_les_septs_nains;https://www.youtube.com/watch?v=eyjc8txuG44;C:\Users\odefaudlegros\Documents\films papa\images\blanche_neige_et_les_septs_nains.jpg;;;;enfant
+;buzz_l_éclair;https://www.youtube.com/watch?v=q41VoF95fmI;C:\Users\odefaudlegros\Documents\films papa\images\buzz_l_éclair.jpg;;;;enfant
+;cars;https://www.youtube.com/watch?v=UIXZUfzrIUQ;C:\Users\odefaudlegros\Documents\films papa\images\cars.jpg;;;;enfant
+;cars_2;https://www.youtube.com/watch?v=z1DD1pQmXP0;C:\Users\odefaudlegros\Documents\films papa\images\cars_2.jpg;;;;enfant
+;cendrillon;https://www.youtube.com/watch?v=mB8RJ7xA7rw;C:\Users\odefaudlegros\Documents\films papa\images\cendrillon.jpg;;;;enfant
+;happy_feet;https://www.youtube.com/watch?v=iTZ5yEg65XQ;C:\Users\odefaudlegros\Documents\films papa\images\happy_feet.jpg;;;;enfant
+;l_apprenti_père_Noel;https://www.youtube.com/watch?v=mHph8Eitu5U;C:\Users\odefaudlegros\Documents\films papa\images\l_apprenti_père_Noel.jpg;;;;enfant
+;l_apprenti_père_Noel_et_le_flocon_magique;https://www.youtube.com/watch?v=6AEvuThaklQ;C:\Users\odefaudlegros\Documents\films papa\images\l_apprenti_père_Noel_et_le_flocon_magique.jpg;;;;enfant
+;la_belle_au_bois_dormant;https://www.youtube.com/watch?v=gV-8k4b2eTY;C:\Users\odefaudlegros\Documents\films papa\images\la_belle_au_bois_dormant.jpg;;;;enfant
+;la_belle_et_la_bête;https://www.youtube.com/watch?v=lXmvFs0LL58;C:\Users\odefaudlegros\Documents\films papa\images\la_belle_et_la_bête.jpg;;;;enfant
+;là_haut;https://www.youtube.com/watch?v=p-TdCD6DBfM;C:\Users\odefaudlegros\Documents\films papa\images\là_haut.jpg;;;;enfant
+;la_petite_sirene_animé;https://www.youtube.com/watch?v=363URFzzCgg;C:\Users\odefaudlegros\Documents\films papa\images\la_petite_sirene_animé.jpg;;;;enfant
+;la_reine_des_neiges;https://www.youtube.com/watch?v=uyP70r9PS6A;C:\Users\odefaudlegros\Documents\films papa\images\la_reine_des_neiges.jpg;;;;enfant
+;la_reine_des_neiges_2;https://www.youtube.com/watch?v=XEWZw_5yIrs;C:\Users\odefaudlegros\Documents\films papa\images\la_reine_des_neiges_2.jpg;;;;enfant
+;l'age_de_glace;https://www.youtube.com/watch?v=DWMgt-wM34Q;C:\Users\odefaudlegros\Documents\films papa\images\l'age_de_glace.jpg;;;;enfant
+;le_monde_de_dory;https://www.youtube.com/watch?v=yE3VBMHFQQs;C:\Users\odefaudlegros\Documents\films papa\images\le_monde_de_dory.jpg;;;;enfant
+;le_monde_de_nemo;https://www.youtube.com/watch?v=XtAnXfDIBqY;C:\Users\odefaudlegros\Documents\films papa\images\le_monde_de_nemo.jpg;;;;enfant
+;le_roi_lion;https://www.youtube.com/watch?v=-KfIYw-D4Iw;C:\Users\odefaudlegros\Documents\films papa\images\Le_Roi_lion.jpg;;;;enfant
+;le_voyage_d_arlo;https://www.youtube.com/watch?v=sa-_HfLs4X8;C:\Users\odefaudlegros\Documents\films papa\images\le_voyage_d_arlo.jpg;;;;enfant
+;les_nouveaux_héros;https://www.youtube.com/watch?v=bCqe_Pokr-k;C:\Users\odefaudlegros\Documents\films papa\images\les_nouveaux_héros.jpg;;;;enfant
+;madagascar;https://www.youtube.com/watch?v=BaK_dCpAidE;C:\Users\odefaudlegros\Documents\films papa\images\madagascar.jpg;;;;enfant
+;merlin_l'enchanteur;https://www.youtube.com/watch?v=Y9TrjKkqGOs;C:\Users\odefaudlegros\Documents\films papa\images\merlin_l'enchanteur.jpg;;;;enfant
+;mission_noel_les_aventures_de_la_famille_Noel;https://www.youtube.com/watch?v=F-eAFVgvd5Y;C:\Users\odefaudlegros\Documents\films papa\images\mission_noel_les_aventures_de_la_famille_Noel.jpg;;;;enfant
+;peter_pan;https://www.youtube.com/watch?v=mZs_n92dLfY;C:\Users\odefaudlegros\Documents\films papa\images\peter_pan.jpg;;;;enfant
+;pinocchio;https://www.youtube.com/watch?v=OJ_Z-XEfv1w;C:\Users\odefaudlegros\Documents\films papa\images\pinocchio.jpg;;;;enfant
+;plane;https://www.youtube.com/watch?v=Ky-K-DBCkjQ;C:\Users\odefaudlegros\Documents\films papa\images\plane.jpg;;;;enfant
+;plane_2;https://www.youtube.com/watch?v=nQOafb9vwSU;C:\Users\odefaudlegros\Documents\films papa\images\plane_2.jpg;;;;enfant
+;shrek;https://www.youtube.com/watch?v=08dotHAQ-6M;C:\Users\odefaudlegros\Documents\films papa\images\shrek.jpg;;;;enfant
+;toy_story;https://www.youtube.com/watch?v=q_1wTx-qIpk;C:\Users\odefaudlegros\Documents\films papa\images\toy_story.jpg;;;;enfant
+;toy_story_2;https://www.youtube.com/watch?v=2FlAUxq1MUU;C:\Users\odefaudlegros\Documents\films papa\images\toy_story_2.jpg;;;;enfant
+;toy_story_3;https://www.youtube.com/watch?v=1jd_vUeEZfo;C:\Users\odefaudlegros\Documents\films papa\images\toy_story_3.jpg;;;;enfant
+;toy_story_4;https://www.youtube.com/watch?v=ZoIxOE74wBw;C:\Users\odefaudlegros\Documents\films papa\images\toy_story_4.jpg;;;;enfant
+;vaiana;https://www.youtube.com/watch?v=JIl74jge_Wg;C:\Users\odefaudlegros\Documents\films papa\images\vaiana.jpg;;;;enfant

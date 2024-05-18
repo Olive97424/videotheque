@@ -79,7 +79,7 @@ function populateFilms() {
 }
 
 function filterFilms() {
-    const searchTerm = document.getElementById('search').value.toLowerCase();
+    const searchTerm = document.getElementById('search').value.toLowerCase().replace(/_/g, ' '); // Remplacer les underscores par des espaces
     const searchActor = document.getElementById('searchActor').value.toLowerCase();
     const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
 
@@ -87,7 +87,7 @@ function filterFilms() {
     gallery.innerHTML = '';
 
     films.forEach(film => {
-        const matchTitle = film.titre.toLowerCase().includes(searchTerm);
+        const matchTitle = film.titre.toLowerCase().replace(/_/g, ' ').includes(searchTerm); // Remplacer les underscores par des espaces dans les titres des films
         const matchActor = film.acteurs.toLowerCase().includes(searchActor);
         const matchGenre = selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre);
 
@@ -121,6 +121,18 @@ function filterFilmsByGenre() {
             setTimeout(() => {
                 filmElement.classList.add('show');
             }, 100 * index);
+        }
+    });
+    updateFilmCount();
+}
+
+function filterFilmsBySection(section) {
+    const gallery = document.getElementById('filmGallery');
+    gallery.innerHTML = '';
+
+    films.forEach(film => {
+        if (film.section === section) {
+            gallery.appendChild(createFilmElement(film));
         }
     });
     updateFilmCount();

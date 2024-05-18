@@ -185,14 +185,18 @@
         Ma Vidéothèque
     </h1>
     <div class="controls">
-        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
-        <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
-        <select id="genreSelect" onchange="filterFilmsByGenre()">
-            <option value="">Tous les genres</option>
-        </select>
-        <button onclick="sortFilmsByTitle()">Trier par titre</button>
-        <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
-    </div>
+    <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
+    <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
+    <select id="genreSelect" onchange="filterFilmsByGenre()">
+        <option value="">Tous les genres</option>
+    </select>
+    <button onclick="sortFilmsByTitle()">Trier par titre</button>
+    <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
+    <button onclick="filterFilmsBySection('bluray')">Blu-ray</button>
+    <button onclick="filterFilmsBySection('dvd')">DVD</button>
+    <button onclick="filterFilmsBySection('enfant')">Enfant</button>
+</div>
+
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
 
