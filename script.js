@@ -1,6 +1,6 @@
-function createFilmElement(film) {
+function createFilmElement(film, isSearchResult = false) {
     const filmDiv = document.createElement('div');
-    filmDiv.className = 'film';
+    filmDiv.className = `film ${isSearchResult ? 'search-result' : film.section}`;  // Ajouter la classe de la section ou search-result
 
     const img = document.createElement('img');
     img.src = film.image;
@@ -92,7 +92,7 @@ function filterFilms() {
         const matchGenre = selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre);
 
         if (matchTitle && matchActor && matchGenre) {
-            gallery.appendChild(createFilmElement(film));
+            gallery.appendChild(createFilmElement(film, true));  // true indique que c'est un résultat de recherche
         }
     });
     updateFilmCount();
@@ -104,7 +104,7 @@ function filterFilmsByActor() {
     gallery.innerHTML = '';
     films.forEach(film => {
         if (film.acteurs.toLowerCase().includes(searchTerm)) {
-            gallery.appendChild(createFilmElement(film));
+            gallery.appendChild(createFilmElement(film, true));  // true indique que c'est un résultat de recherche
         }
     });
     updateFilmCount();
@@ -116,7 +116,7 @@ function filterFilmsByGenre() {
     gallery.innerHTML = '';
     films.forEach((film, index) => {
         if (selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre)) {
-            const filmElement = createFilmElement(film);
+            const filmElement = createFilmElement(film, true);  // true indique que c'est un résultat de recherche
             gallery.appendChild(filmElement);
             setTimeout(() => {
                 filmElement.classList.add('show');

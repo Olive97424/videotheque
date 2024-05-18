@@ -177,6 +177,46 @@
                 width: calc(100% - 40px);
             }
         }
+
+        .bluray {
+            border: 3px solid #1E90FF;  /* Bleu pour Blu-ray */
+        }
+        .dvd {
+            border: 3px solid #CD853F;  /* Marron pour DVD */
+        }
+        .enfant {
+            border: 3px solid #FFD700;  /* Jaune pour Enfant */
+        }
+        .search-result {
+            border: 3px solid #444;  /* Gris pour résultats de recherche */
+        }
+        .section-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            background: linear-gradient(45deg, #ff5722, #ff9800);
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-button:hover {
+            background: linear-gradient(45deg, #ff9800, #ff5722);
+            transform: scale(1.05);
+        }
+
+        .section-button img {
+            max-width: 30px;  /* Limiter la largeur de l'image */
+            max-height: 30px; /* Limiter la hauteur de l'image */
+            height: auto;     /* Maintenir le ratio de l'image */
+            width: auto;      /* Maintenir le ratio de l'image */
+        }
     </style>
 </head>
 <body>
@@ -185,18 +225,23 @@
         Ma Vidéothèque
     </h1>
     <div class="controls">
-    <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
-    <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
-    <select id="genreSelect" onchange="filterFilmsByGenre()">
-        <option value="">Tous les genres</option>
-    </select>
-    <button onclick="sortFilmsByTitle()">Trier par titre</button>
-    <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
-    <button onclick="filterFilmsBySection('bluray')">Blu-ray</button>
-    <button onclick="filterFilmsBySection('dvd')">DVD</button>
-    <button onclick="filterFilmsBySection('enfant')">Enfant</button>
-</div>
-
+        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
+        <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
+        <select id="genreSelect" onchange="filterFilmsByGenre()">
+            <option value="">Tous les genres</option>
+        </select>
+        <button onclick="sortFilmsByTitle()">Trier par titre</button>
+        <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
+        <button class="section-button" onclick="filterFilmsBySection('bluray')">
+            <img src="images/bluray.png" alt="Blu-ray">Blu-ray
+        </button>
+        <button class="section-button" onclick="filterFilmsBySection('dvd')">
+            <img src="images/dvd.png" alt="DVD">DVD
+        </button>
+        <button class="section-button" onclick="filterFilmsBySection('enfant')">
+            <img src="images/enfant.png" alt="Enfant">Enfant
+        </button>
+    </div>
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
 
