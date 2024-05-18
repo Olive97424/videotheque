@@ -5,6 +5,7 @@ function createFilmElement(film, isSearchResult = false) {
     const img = document.createElement('img');
     img.src = film.image;
     img.alt = film.titre.replace(/_/g, ' ');
+    img.loading = 'lazy'; // Ajouter lazy loading
     img.onload = () => img.classList.add('loaded');
 
     const caption = document.createElement('div');
@@ -144,7 +145,7 @@ function sortFilmsByTitle() {
 }
 
 function sortFilmsByDate() {
-    films.sort((a, b) => new Date(a.date_sortie) - new Date(b.date_sortie));
+    films.sort((a, b) => new Date(b.date_sortie) - new Date(a.date_sortie)); // Tri du plus récent au plus ancien
     populateFilms();
 }
 

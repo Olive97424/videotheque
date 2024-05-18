@@ -10,9 +10,15 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        body.dark {
             background: linear-gradient(to bottom right, #121212, #323232);
             color: white;
-            transition: background-color 0.3s ease;
+        }
+        body.light {
+            background: linear-gradient(to bottom right, #FFFFFF, #CCCCCC);
+            color: black;
         }
         h1 {
             text-align: center;
@@ -45,7 +51,12 @@
             justify-content: space-around;
             flex-wrap: wrap;
             padding: 10px;
+        }
+        body.dark .controls {
             background: rgba(0, 0, 0, 0.5);
+        }
+        body.light .controls {
+            background: rgba(255, 255, 255, 0.5);
         }
         .controls input[type="text"], .controls select, .controls button {
             width: calc(33% - 20px);
@@ -56,13 +67,25 @@
             background: rgba(255,255,255,0.1);
             color: white;
         }
+        body.light .controls input[type="text"], body.light .controls select, body.light .controls button {
+            background: rgba(0, 0, 0, 0.1);
+            color: black;
+        }
         .controls select {
             background: #424242;
             color: white;
         }
+        body.light .controls select {
+            background: #CCCCCC;
+            color: black;
+        }
         .controls select option {
             background: #424242;
             color: white;
+        }
+        body.light .controls select option {
+            background: #CCCCCC;
+            color: black;
         }
         .film-count {
             text-align: center;
@@ -88,6 +111,10 @@
             flex-direction: column;
             justify-content: space-between;
         }
+        body.light .film {
+            background: #FFF;
+            color: black;
+        }
         .film.show {
             opacity: 1;
             transform: scale(1);
@@ -100,6 +127,7 @@
             height: auto;
             object-fit: cover;
             aspect-ratio: 2/3;
+            loading: lazy; /* Lazy loading des images */
         }
         .film div {
             padding: 5px;
@@ -110,8 +138,16 @@
             font-size: 1em;
             font-weight: 500;
         }
+        body.light .film div {
+            background: #FFF;
+            color: black;
+        }
         .film div:hover {
             background-color: #444;
+            color: #FF5733;
+        }
+        body.light .film div:hover {
+            background-color: #DDD;
             color: #FF5733;
         }
         .modal {
@@ -219,7 +255,7 @@
         }
     </style>
 </head>
-<body>
+<body class="dark">
     <h1>
         <img src="images/icon.png" alt="Logo" width="50" height="50">
         Ma Vidéothèque
@@ -241,6 +277,7 @@
         <button class="section-button" onclick="filterFilmsBySection('enfant')">
             <img src="images/enfant.png" alt="Enfant">Enfant
         </button>
+        <button onclick="toggleTheme()">Basculer le thème</button>
     </div>
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
@@ -255,5 +292,15 @@
 
     <script src="films.js"></script>
     <script src="script.js"></script>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            if (body.classList.contains('dark')) {
+                body.classList.replace('dark', 'light');
+            } else {
+                body.classList.replace('light', 'dark');
+            }
+        }
+    </script>
 </body>
 </html>
