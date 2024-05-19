@@ -244,6 +244,7 @@
         }
 
         .section-button:hover {
+            background: linear-gradient(45deg, #ff9800, #ff5722);
             transform: scale(1.05);
         }
 
@@ -252,16 +253,6 @@
             max-height: 30px; /* Limiter la hauteur de l'image */
             height: auto;     /* Maintenir le ratio de l'image */
             width: auto;      /* Maintenir le ratio de l'image */
-        }
-
-        .section-button.bluray:hover {
-            background: #1E90FF; /* Bleu pour Blu-ray */
-        }
-        .section-button.dvd:hover {
-            background: #32CD32; /* Vert pour DVD */
-        }
-        .section-button.enfant:hover {
-            background: #FFD700; /* Jaune pour Enfant */
         }
 
         .theme-switch-wrapper {
@@ -353,13 +344,13 @@
         </select>
         <button onclick="sortFilmsByTitle()">Trier par titre</button>
         <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
-        <button class="section-button bluray" onclick="filterFilmsBySection('bluray')">
+        <button class="section-button" onclick="filterFilmsBySection('bluray')">
             <img src="images/bluray.png" alt="Blu-ray">Blu-ray
         </button>
-        <button class="section-button dvd" onclick="filterFilmsBySection('dvd')">
+        <button class="section-button" onclick="filterFilmsBySection('dvd')">
             <img src="images/dvd.png" alt="DVD">DVD
         </button>
-        <button class="section-button enfant" onclick="filterFilmsBySection('enfant')">
+        <button class="section-button" onclick="filterFilmsBySection('enfant')">
             <img src="images/enfant.png" alt="Enfant">Enfant
         </button>
     </div>
