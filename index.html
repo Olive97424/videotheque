@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidéothèque</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -32,7 +32,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
-            margin-top: 50px; /* Ajout d'un espace au-dessus de la bannière */
+            margin-top: 50px;
         }
         h1:hover {
             animation: hoverAnimation 0.5s ease-in-out forwards;
@@ -60,7 +60,6 @@
             background: rgba(255, 255, 255, 0.5);
         }
         .controls input[type="text"], .controls select, .controls button {
-            width: calc(33% - 20px);
             padding: 10px;
             border: none;
             border-radius: 5px;
@@ -128,7 +127,7 @@
             height: auto;
             object-fit: cover;
             aspect-ratio: 2/3;
-            loading: lazy; /* Lazy loading des images */
+            loading: lazy;
         }
         .film div {
             padding: 5px;
@@ -216,19 +215,19 @@
         }
 
         .bluray {
-            border: 3px solid #1E90FF;  /* Bleu pour Blu-ray */
+            border: 3px solid #1E90FF;
         }
         .dvd {
-            border: 3px solid #32CD32;  /* Vert pour DVD */
+            border: 3px solid #32CD32;
         }
         .enfant {
-            border: 3px solid #FFD700;  /* Jaune pour Enfant */
+            border: 3px solid #FFD700;
         }
         .search-result {
-            border: 3px solid #444;  /* Gris pour résultats de recherche */
+            border: 3px solid #444;
         }
         .section-button {
-            padding: 10px 20px;
+            padding: 15px 40px; /* Augmenter la taille des boutons */
             border: none;
             border-radius: 5px;
             margin: 10px;
@@ -237,7 +236,7 @@
             font-size: 1.2em;
             font-weight: bold;
             cursor: pointer;
-            transition: background 0.3s, transform 0.3s;
+            transition: background 0.3s, transform 0.3s, color 0.3s; /* Ajout de la transition pour la couleur */
             display: inline-flex;
             align-items: center;
             gap: 10px;
@@ -246,13 +245,14 @@
         .section-button:hover {
             background: linear-gradient(45deg, #ff9800, #ff5722);
             transform: scale(1.05);
+            color: #000; /* Changer la couleur au survol */
         }
 
         .section-button img {
-            max-width: 30px;  /* Limiter la largeur de l'image */
-            max-height: 30px; /* Limiter la hauteur de l'image */
-            height: auto;     /* Maintenir le ratio de l'image */
-            width: auto;      /* Maintenir le ratio de l'image */
+            max-width: 30px;
+            max-height: 30px;
+            height: auto;
+            width: auto;
         }
 
         .theme-switch-wrapper {
@@ -269,9 +269,9 @@
         }
         .theme-switch {
             display: inline-block;
-            height: 24px; /* Hauteur réduite */
+            height: 24px;
             position: relative;
-            width: 50px; /* Largeur réduite */
+            width: 50px;
         }
         .theme-switch input {
             display: none;
@@ -285,18 +285,18 @@
             right: 0;
             top: 0;
             transition: .4s;
-            border-radius: 24px; /* Ajout de la bordure arrondie pour le slider */
+            border-radius: 24px;
         }
         .slider:before {
             background-color: white;
-            bottom: 2px; /* Espacement réduit */
+            bottom: 2px;
             content: "";
-            height: 20px; /* Hauteur réduite */
-            left: 2px; /* Espacement réduit */
+            height: 20px;
+            left: 2px;
             position: absolute;
             transition: .4s;
-            width: 20px; /* Largeur réduite */
-            border-radius: 50%; /* Bordures arrondies */
+            width: 20px;
+            border-radius: 50%;
         }
         input:checked + .slider {
             background-color: #2196F3;
@@ -311,7 +311,6 @@
             border-radius: 50%;
         }
 
-        /* Media query pour les petits écrans */
         @media (max-width: 768px) {
             .theme-switch-wrapper {
                 position: fixed;
@@ -319,8 +318,49 @@
                 right: 10px;
             }
             .theme-switch-wrapper em {
-                display: none; /* Cacher le texte sur les petits écrans */
+                display: none;
             }
+        }
+
+        .suggestions {
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-height: 150px;
+            overflow-y: auto;
+            z-index: 1000;
+            width: calc(33% - 20px);
+        }
+        .suggestions div {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .suggestions div:hover {
+            background: #f0f0f0;
+        }
+
+        /* Style pour limiter la taille du carrousel */
+        .carousel {
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .carousel-inner img {
+            height: 300px;
+            object-fit: contain;
+        }
+
+        /* Gérer l'affichage des boutons sur une ligne */
+        .section-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        /* Masquer les indicateurs de carrousel lorsque la modale est ouverte */
+        .modal-open .carousel-indicators {
+            display: none;
         }
     </style>
 </head>
@@ -336,14 +376,53 @@
         <img src="images/icon.png" alt="Logo" width="50" height="50">
         Ma Vidéothèque
     </h1>
+
+    <!-- Carrousel -->
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel" data-interval="2000"> <!-- Réduire le temps d'intervalle à 2 secondes -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/film1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/film2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/film3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/film4.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/film5.jpg" alt="Fifth slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     <div class="controls">
-        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film...">
+        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film..." oninput="showSuggestions()">
         <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
         <select id="genreSelect" onchange="filterFilmsByGenre()">
             <option value="">Tous les genres</option>
         </select>
         <button onclick="sortFilmsByTitle()">Trier par titre</button>
         <button onclick="sortFilmsByDate()">Trier par date de sortie</button>
+    </div>
+    <div class="section-buttons">
         <button class="section-button" onclick="filterFilmsBySection('bluray')">
             <img src="images/bluray.png" alt="Blu-ray">Blu-ray
         </button>
@@ -356,6 +435,7 @@
     </div>
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
+    <div id="suggestions" class="suggestions"></div>
 
     <!-- Modal -->
     <div id="videoModal" class="modal">
@@ -365,6 +445,9 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="films.js"></script>
     <script src="script.js"></script>
     <script>
@@ -373,8 +456,10 @@
             const checkbox = document.getElementById('checkbox');
             if (checkbox.checked) {
                 body.classList.replace('dark', 'light');
+                localStorage.setItem('theme', 'light');
             } else {
                 body.classList.replace('light', 'dark');
+                localStorage.setItem('theme', 'dark');
             }
         }
     </script>
