@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidéothèque</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=1.0"> <!-- Ajouter un paramètre de version -->
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -33,6 +32,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+            margin-top: 50px; /* Ajout d'un espace au-dessus de la bannière */
         }
         h1:hover {
             animation: hoverAnimation 0.5s ease-in-out forwards;
@@ -219,7 +219,7 @@
             border: 3px solid #1E90FF;  /* Bleu pour Blu-ray */
         }
         .dvd {
-            border: 3px solid #CD853F;  /* Marron pour DVD */
+            border: 3px solid #32CD32;  /* Vert pour DVD */
         }
         .enfant {
             border: 3px solid #FFD700;  /* Jaune pour Enfant */
@@ -309,6 +309,18 @@
         }
         .slider.round:before {
             border-radius: 50%;
+        }
+
+        /* Media query pour les petits écrans */
+        @media (max-width: 768px) {
+            .theme-switch-wrapper {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+            }
+            .theme-switch-wrapper em {
+                display: none; /* Cacher le texte sur les petits écrans */
+            }
         }
     </style>
 </head>
