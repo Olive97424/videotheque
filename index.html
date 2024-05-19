@@ -253,9 +253,70 @@
             height: auto;     /* Maintenir le ratio de l'image */
             width: auto;      /* Maintenir le ratio de l'image */
         }
+
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 10px;
+        }
+        .theme-switch-wrapper.right {
+            right: 10px;
+        }
+        .theme-switch-wrapper.left {
+            left: 10px;
+        }
+        .theme-switch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+        }
+        .theme-switch input {
+            display:none;
+        }
+        .slider {
+            background-color: #ccc;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .4s;
+        }
+        .slider:before {
+            background-color: white;
+            bottom: 4px;
+            content: "";
+            height: 26px;
+            left: 4px;
+            position: absolute;
+            transition: .4s;
+            width: 26px;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        .slider.round {
+            border-radius: 34px;
+        }
+        .slider.round:before {
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body class="dark">
+    <div class="theme-switch-wrapper right">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" onchange="toggleTheme()">
+            <span class="slider round"></span>
+        </label>
+        <em>Changer de thème</em>
+    </div>
     <h1>
         <img src="images/icon.png" alt="Logo" width="50" height="50">
         Ma Vidéothèque
@@ -277,7 +338,6 @@
         <button class="section-button" onclick="filterFilmsBySection('enfant')">
             <img src="images/enfant.png" alt="Enfant">Enfant
         </button>
-        <button onclick="toggleTheme()">Basculer le thème</button>
     </div>
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
@@ -295,7 +355,8 @@
     <script>
         function toggleTheme() {
             const body = document.body;
-            if (body.classList.contains('dark')) {
+            const checkbox = document.getElementById('checkbox');
+            if (checkbox.checked) {
                 body.classList.replace('dark', 'light');
             } else {
                 body.classList.replace('light', 'dark');
