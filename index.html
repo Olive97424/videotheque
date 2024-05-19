@@ -87,6 +87,10 @@
             background: #CCCCCC;
             color: black;
         }
+        .controls input[type="text"] {
+            width: calc(100% - 20px); /* Ajustez cette valeur pour plus de marge si nécessaire */
+            max-width: 300px; /* Ajustez cette valeur selon vos besoins */
+        }
         .film-count {
             text-align: center;
             margin: 10px 0;
@@ -378,7 +382,7 @@
     </h1>
 
     <!-- Carrousel -->
-    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel" data-interval="2000"> <!-- Réduire le temps d'intervalle à 2 secondes -->
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel" data-interval="3000"> <!-- Réduire le temps d'intervalle à 2 secondes -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
