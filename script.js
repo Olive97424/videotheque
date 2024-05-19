@@ -29,12 +29,12 @@ function openModal(videoUrl) {
     const modal = document.getElementById('videoModal');
     const videoFrame = document.getElementById('videoFrame');
 
-    const videoId = videoUrl.split('v=')[1].split('&')[0];
+    const videoId = videoUrl.split('v=')[1]?.split('&')[0] ?? videoUrl.split('/').pop();
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
     
     videoFrame.src = embedUrl;
     modal.style.display = "block";
-    document.body.classList.add('modal-open');  // Ajouter la classe modal-open
+    document.body.classList.add('modal-open');
 }
 
 // Fonction pour fermer la modal de vidéo
@@ -43,7 +43,7 @@ function closeModal() {
     const videoFrame = document.getElementById('videoFrame');
     modal.style.display = "none";
     videoFrame.src = "";
-    document.body.classList.remove('modal-open');  // Supprimer la classe modal-open
+    document.body.classList.remove('modal-open');
 }
 
 // Fonction pour peupler la galerie de films
@@ -60,6 +60,44 @@ function populateFilms() {
     updateFilmCount();
 }
 
+// Fonction pour afficher les films dans le carrousel
+function displayCarousel(films) {
+    const carouselInner = document.querySelector('.carousel-inner');
+    const carouselIndicators = document.querySelector('.carousel-indicators');
+
+    carouselInner.innerHTML = '';
+    carouselIndicators.innerHTML = '';
+
+    // Modifier ce nombre pour afficher plus ou moins de films dans le carrousel
+    const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 10);
+
+    nouveautes.forEach((film, index) => {
+        const carouselItem = document.createElement('div');
+        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+        carouselItem.innerHTML = `
+            <img class="d-block w-100" src="${film.image}" alt="${film.titre}" data-video="${film.video}">
+        `;
+        carouselInner.appendChild(carouselItem);
+
+        const indicator = document.createElement('li');
+        indicator.setAttribute('data-target', '#carouselExampleIndicators');
+        indicator.setAttribute('data-slide-to', index);
+        if (index === 0) {
+            indicator.className = 'active';
+        }
+        carouselIndicators.appendChild(indicator);
+    });
+
+    // Ajouter des écouteurs d'événements aux images du carrousel
+    const carouselImages = document.querySelectorAll('.carousel-inner img');
+    carouselImages.forEach(img => {
+        img.addEventListener('click', () => {
+            const videoUrl = img.getAttribute('data-video');
+            openModal(videoUrl);
+        });
+    });
+}
+
 // Fonction pour filtrer les films par recherche
 function filterFilms() {
     const searchTerm = document.getElementById('search').value.toLowerCase().replace(/_/g, ' ');
@@ -69,7 +107,6 @@ function filterFilms() {
     const gallery = document.getElementById('filmGallery');
     gallery.innerHTML = '';
 
-    let hasResults = false;
     films.forEach(film => {
         const matchTitle = film.titre.toLowerCase().replace(/_/g, ' ').includes(searchTerm);
         const matchActor = film.acteurs.toLowerCase().includes(searchActor);
@@ -77,15 +114,8 @@ function filterFilms() {
 
         if (matchTitle && matchActor && matchGenre) {
             gallery.appendChild(createFilmElement(film, true));
-            hasResults = true;
         }
     });
-    
-    // Masquer les suggestions après la recherche
-    const suggestionsDiv = document.getElementById('suggestions');
-    suggestionsDiv.innerHTML = '';
-    suggestionsDiv.style.display = 'none';
-
     updateFilmCount();
 }
 
@@ -94,20 +124,11 @@ function filterFilmsByActor() {
     const searchTerm = document.getElementById('searchActor').value.toLowerCase();
     const gallery = document.getElementById('filmGallery');
     gallery.innerHTML = '';
-
-    let hasResults = false;
     films.forEach(film => {
         if (film.acteurs.toLowerCase().includes(searchTerm)) {
             gallery.appendChild(createFilmElement(film, true));
-            hasResults = true;
         }
     });
-    
-    // Masquer les suggestions après la recherche
-    const suggestionsDiv = document.getElementById('suggestions');
-    suggestionsDiv.innerHTML = '';
-    suggestionsDiv.style.display = 'none';
-
     updateFilmCount();
 }
 
@@ -116,8 +137,6 @@ function filterFilmsByGenre() {
     const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
     const gallery = document.getElementById('filmGallery');
     gallery.innerHTML = '';
-
-    let hasResults = false;
     films.forEach((film, index) => {
         if (selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre)) {
             const filmElement = createFilmElement(film, true);
@@ -125,15 +144,8 @@ function filterFilmsByGenre() {
             setTimeout(() => {
                 filmElement.classList.add('show');
             }, 100 * index);
-            hasResults = true;
         }
     });
-    
-    // Masquer les suggestions après la recherche
-    const suggestionsDiv = document.getElementById('suggestions');
-    suggestionsDiv.innerHTML = '';
-    suggestionsDiv.style.display = 'none';
-
     updateFilmCount();
 }
 
@@ -193,24 +205,16 @@ function showSuggestions() {
 
     if (searchTerm.length > 2) {
         const suggestions = films.filter(film => film.titre.toLowerCase().includes(searchTerm));
-        if (suggestions.length > 0) {
-            suggestions.forEach(film => {
-                const suggestionItem = document.createElement('div');
-                suggestionItem.textContent = film.titre.replace(/_/g, ' ');
-                suggestionItem.onclick = () => {
-                    document.getElementById('search').value = film.titre.replace(/_/g, ' ');
-                    filterFilms();
-                    suggestionsDiv.innerHTML = '';
-                    suggestionsDiv.style.display = 'none';
-                };
-                suggestionsDiv.appendChild(suggestionItem);
-            });
-            suggestionsDiv.style.display = 'block';
-        } else {
-            suggestionsDiv.style.display = 'none';
-        }
-    } else {
-        suggestionsDiv.style.display = 'none';
+        suggestions.forEach(film => {
+            const suggestionItem = document.createElement('div');
+            suggestionItem.textContent = film.titre.replace(/_/g, ' ');
+            suggestionItem.onclick = () => {
+                document.getElementById('search').value = film.titre.replace(/_/g, ' ');
+                filterFilms();
+                suggestionsDiv.innerHTML = '';
+            };
+            suggestionsDiv.appendChild(suggestionItem);
+        });
     }
 }
 
@@ -235,6 +239,7 @@ window.onload = () => {
         document.getElementById('checkbox').checked = (savedTheme === 'light');
     }
     populateFilms();
+    displayCarousel(films);
     populateGenres();
     updateFilmCount();
 
