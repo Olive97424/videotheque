@@ -103,7 +103,7 @@
             border-radius: 10px;
             overflow: hidden;
             margin: 10px;
-            width: calc(100% / 5 - 20px);
+            width: calc(100% / 5 - 40px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
             opacity: 0;
@@ -189,37 +189,28 @@
 
         @media (max-width: 1200px) {
             .film {
-                width: calc(100% / 4 - 20px);
+                width: calc(100% / 4 - 40px);
             }
         }
 
         @media (max-width: 900px) {
             .film {
-                width: calc(100% / 3 - 20px);
+                width: calc(100% / 3 - 40px);
             }
         }
 
         @media (max-width: 600px) {
             .film {
-                width: calc(100% / 3 - 20px); /* Afficher 3 films par ligne sur les petits écrans */
+                width: calc(100% / 2 - 40px);
             }
             #videoFrame {
                 height: 200px;
-            }
-            .controls input[type="text"], .controls select, .controls button {
-                margin: 5px;
-            }
-            .controls input[type="text"], .controls select {
-                width: calc(100% - 30px); /* Ajustement de la largeur pour petits écrans */
-            }
-            .section-buttons {
-                flex-direction: column;
             }
         }
 
         @media (max-width: 400px) {
             .film {
-                width: calc(100% / 2 - 20px); /* Afficher 2 films par ligne sur les très petits écrans */
+                width: calc(100% - 40px);
             }
         }
 
@@ -236,7 +227,7 @@
             border: 3px solid #444;
         }
         .section-button {
-            padding: 15px 50px; /* Augmenter la taille des boutons */
+            padding: 15px 40px; /* Augmenter la taille des boutons */
             border: none;
             border-radius: 5px;
             margin: 10px;
@@ -387,7 +378,7 @@
     </h1>
 
     <!-- Carrousel -->
-    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel" data-interval="3000"> <!-- Réduire le temps d'intervalle à 3 secondes -->
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel" data-interval="2000"> <!-- Réduire le temps d'intervalle à 2 secondes -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
