@@ -205,7 +205,10 @@
 
         @media (max-width: 768px) {
             .controls {
-                display: none;
+                display: flex; /* Rendre la barre de recherche visible */
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding: 10px;
             }
 
             .film {
@@ -304,14 +307,9 @@
         .theme-switch-wrapper {
             display: flex;
             align-items: center;
-            position: absolute;
+            position: absolute; /* Utilisation de absolute pour qu'il ne soit pas fixé au défilement */
             top: 10px;
-        }
-        .theme-switch-wrapper.right {
             right: 10px;
-        }
-        .theme-switch-wrapper.left {
-            left: 10px;
         }
         .theme-switch {
             display: inline-block;
@@ -359,9 +357,8 @@
 
         @media (max-width: 768px) {
             .theme-switch-wrapper {
-                position: fixed;
-                top: 10px;
-                right: 10px;
+                top: 10px; /* Ajustement pour les petits écrans */
+                right: 10px; /* Ajustement pour les petits écrans */
             }
             .theme-switch-wrapper em {
                 display: none;
@@ -369,21 +366,7 @@
         }
 
         .suggestions {
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            max-height: 150px;
-            overflow-y: auto;
-            z-index: 1000;
-            width: calc(33% - 20px);
-        }
-        .suggestions div {
-            padding: 10px;
-            cursor: pointer;
-        }
-        .suggestions div:hover {
-            background: #f0f0f0;
+            display: none; /* Masquer les suggestions */
         }
 
         /* Style pour limiter la taille du carrousel */
@@ -438,8 +421,7 @@
     </div>
 
     <div class="controls">
-        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher un film..." oninput="showSuggestions()">
-        <input type="text" id="searchActor" onkeyup="filterFilmsByActor()" placeholder="Rechercher par acteur...">
+        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher par titre ou acteur...">
         <select id="genreSelect" onchange="filterFilmsByGenre()">
             <option value="">Tous les genres</option>
         </select>
@@ -458,7 +440,6 @@
     </div>
     <div class="film-count" id="filmCount"></div>
     <div class="gallery" id="filmGallery"></div>
-    <div id="suggestions" class="suggestions"></div>
 
     <!-- Modal -->
     <div id="videoModal" class="modal">

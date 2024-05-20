@@ -101,7 +101,6 @@ function displayCarousel(films) {
 // Fonction pour filtrer les films par recherche
 function filterFilms() {
     const searchTerm = document.getElementById('search').value.toLowerCase().replace(/_/g, ' ');
-    const searchActor = document.getElementById('searchActor').value.toLowerCase();
     const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
 
     const gallery = document.getElementById('filmGallery');
@@ -109,23 +108,10 @@ function filterFilms() {
 
     films.forEach(film => {
         const matchTitle = film.titre.toLowerCase().replace(/_/g, ' ').includes(searchTerm);
-        const matchActor = film.acteurs.toLowerCase().includes(searchActor);
+        const matchActor = film.acteurs.toLowerCase().includes(searchTerm);
         const matchGenre = selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre);
 
-        if (matchTitle && matchActor && matchGenre) {
-            gallery.appendChild(createFilmElement(film, true));
-        }
-    });
-    updateFilmCount();
-}
-
-// Fonction pour filtrer les films par acteur
-function filterFilmsByActor() {
-    const searchTerm = document.getElementById('searchActor').value.toLowerCase();
-    const gallery = document.getElementById('filmGallery');
-    gallery.innerHTML = '';
-    films.forEach(film => {
-        if (film.acteurs.toLowerCase().includes(searchTerm)) {
+        if ((matchTitle || matchActor) && matchGenre) {
             gallery.appendChild(createFilmElement(film, true));
         }
     });
@@ -168,13 +154,6 @@ function sortFilmsByTitle() {
     populateFilms();
 }
 
-// Supprimer cette fonction
-// Fonction pour trier les films par date de sortie
-// function sortFilmsByDate() {
-//     films.sort((a, b) => new Date(b.date_sortie) - new Date(a.date_sortie));
-//     populateFilms();
-// }
-
 // Fonction pour peupler les genres
 function populateGenres() {
     const genreSet = new Set();
@@ -199,25 +178,25 @@ function updateFilmCount() {
 }
 
 // Fonction pour afficher les suggestions de recherche en temps réel
-function showSuggestions() {
-    const searchTerm = document.getElementById('search').value.toLowerCase();
-    const suggestionsDiv = document.getElementById('suggestions');
-    suggestionsDiv.innerHTML = '';
+// function showSuggestions() {
+//     const searchTerm = document.getElementById('search').value.toLowerCase();
+//     const suggestionsDiv = document.getElementById('suggestions');
+//     suggestionsDiv.innerHTML = '';
 
-    if (searchTerm.length > 2) {
-        const suggestions = films.filter(film => film.titre.toLowerCase().includes(searchTerm));
-        suggestions.forEach(film => {
-            const suggestionItem = document.createElement('div');
-            suggestionItem.textContent = film.titre.replace(/_/g, ' ');
-            suggestionItem.onclick = () => {
-                document.getElementById('search').value = film.titre.replace(/_/g, ' ');
-                filterFilms();
-                suggestionsDiv.innerHTML = '';
-            };
-            suggestionsDiv.appendChild(suggestionItem);
-        });
-    }
-}
+//     if (searchTerm.length > 2) {
+//         const suggestions = films.filter(film => film.titre.toLowerCase().includes(searchTerm) || film.acteurs.toLowerCase().includes(searchTerm));
+//         suggestions.forEach(film => {
+//             const suggestionItem = document.createElement('div');
+//             suggestionItem.textContent = film.titre.replace(/_/g, ' ');
+//             suggestionItem.onclick = () => {
+//                 document.getElementById('search').value = film.titre.replace(/_/g, ' ');
+//                 filterFilms();
+//                 suggestionsDiv.innerHTML = '';
+//             };
+//             suggestionsDiv.appendChild(suggestionItem);
+//         });
+//     }
+// }
 
 // Fonction pour basculer le thème
 function toggleTheme() {
