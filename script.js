@@ -1,7 +1,14 @@
 // Fonction pour créer un élément de film
 function createFilmElement(film, isSearchResult = false) {
     const filmDiv = document.createElement('div');
-    filmDiv.className = `film ${isSearchResult ? 'search-result' : film.section}`;
+
+    // Assurez-vous que film.sections est défini et est un tableau
+    const sections = film.sections ? film.sections.join(' ') : '';
+    filmDiv.className = `film ${isSearchResult ? 'search-result' : sections}`;
+    
+    if (film.sections && film.sections.length > 1) {
+        filmDiv.classList.add('multiple-sections');
+    }
 
     const img = document.createElement('img');
     img.src = film.image;
@@ -22,6 +29,49 @@ function createFilmElement(film, isSearchResult = false) {
     setTimeout(() => filmDiv.classList.add('show'), 100);
 
     return filmDiv;
+}
+
+// Fonction pour peupler la galerie de films
+function populateFilms() {
+    const gallery = document.getElementById('filmGallery');
+    gallery.innerHTML = ''; 
+    films.forEach((film, index) => {
+        const filmElement = createFilmElement(film);
+        gallery.appendChild(filmElement);
+        setTimeout(() => {
+            filmElement.classList.add('show');
+        }, 100 * index);
+    });
+    updateFilmCount();
+}
+
+// Fonction pour filtrer les films par section
+function filterFilmsBySection(section) {
+    const gallery = document.getElementById('filmGallery');
+    gallery.innerHTML = '';
+
+    films.forEach(film => {
+        if (film.sections && film.sections.includes(section)) {
+            gallery.appendChild(createFilmElement(film));
+        }
+    });
+    updateFilmCount();
+}
+
+// Fonction pour filtrer les films par titre ou acteur
+function filterFilms() {
+    const searchInput = document.getElementById('search').value.toLowerCase();
+    const gallery = document.getElementById('filmGallery');
+    gallery.innerHTML = '';
+
+    films.forEach(film => {
+        const titre = film.titre.toLowerCase().replace(/_/g, ' ');
+        const acteurs = film.acteurs.toLowerCase();
+        if (titre.includes(searchInput) || acteurs.includes(searchInput)) {
+            gallery.appendChild(createFilmElement(film, true));
+        }
+    });
+    updateFilmCount();
 }
 
 // Fonction pour ouvrir la modal de vidéo
@@ -46,76 +96,10 @@ function closeModal() {
     document.body.classList.remove('modal-open');
 }
 
-// Fonction pour peupler la galerie de films
-function populateFilms() {
-    const gallery = document.getElementById('filmGallery');
-    gallery.innerHTML = ''; 
-    films.forEach((film, index) => {
-        const filmElement = createFilmElement(film);
-        gallery.appendChild(filmElement);
-        setTimeout(() => {
-            filmElement.classList.add('show');
-        }, 100 * index);
-    });
-    updateFilmCount();
-}
-
-// Fonction pour afficher les films dans le carrousel
-function displayCarousel(films) {
-    const carouselInner = document.querySelector('.carousel-inner');
-    const carouselIndicators = document.querySelector('.carousel-indicators');
-
-    carouselInner.innerHTML = '';
-    carouselIndicators.innerHTML = '';
-
-    // Modifier ce nombre pour afficher plus ou moins de films dans le carrousel
-    const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 10);
-
-    nouveautes.forEach((film, index) => {
-        const carouselItem = document.createElement('div');
-        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
-        carouselItem.innerHTML = `
-            <img class="d-block w-100" src="${film.image}" alt="${film.titre}" data-video="${film.video}">
-        `;
-        carouselInner.appendChild(carouselItem);
-
-        const indicator = document.createElement('li');
-        indicator.setAttribute('data-target', '#carouselExampleIndicators');
-        indicator.setAttribute('data-slide-to', index);
-        if (index === 0) {
-            indicator.className = 'active';
-        }
-        carouselIndicators.appendChild(indicator);
-    });
-
-    // Ajouter des écouteurs d'événements aux images du carrousel
-    const carouselImages = document.querySelectorAll('.carousel-inner img');
-    carouselImages.forEach(img => {
-        img.addEventListener('click', () => {
-            const videoUrl = img.getAttribute('data-video');
-            openModal(videoUrl);
-        });
-    });
-}
-
-// Fonction pour filtrer les films par recherche
-function filterFilms() {
-    const searchTerm = document.getElementById('search').value.toLowerCase().replace(/_/g, ' ');
-    const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
-
-    const gallery = document.getElementById('filmGallery');
-    gallery.innerHTML = '';
-
-    films.forEach(film => {
-        const matchTitle = film.titre.toLowerCase().replace(/_/g, ' ').includes(searchTerm);
-        const matchActor = film.acteurs.toLowerCase().includes(searchTerm);
-        const matchGenre = selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre);
-
-        if ((matchTitle || matchActor) && matchGenre) {
-            gallery.appendChild(createFilmElement(film, true));
-        }
-    });
-    updateFilmCount();
+// Fonction pour trier les films par titre
+function sortFilmsByTitle() {
+    films.sort((a, b) => a.titre.localeCompare(b.titre));
+    populateFilms();
 }
 
 // Fonction pour filtrer les films par genre
@@ -123,6 +107,7 @@ function filterFilmsByGenre() {
     const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
     const gallery = document.getElementById('filmGallery');
     gallery.innerHTML = '';
+
     films.forEach((film, index) => {
         if (selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre)) {
             const filmElement = createFilmElement(film, true);
@@ -133,25 +118,6 @@ function filterFilmsByGenre() {
         }
     });
     updateFilmCount();
-}
-
-// Fonction pour filtrer les films par section
-function filterFilmsBySection(section) {
-    const gallery = document.getElementById('filmGallery');
-    gallery.innerHTML = '';
-
-    films.forEach(film => {
-        if (film.section === section) {
-            gallery.appendChild(createFilmElement(film));
-        }
-    });
-    updateFilmCount();
-}
-
-// Fonction pour trier les films par titre
-function sortFilmsByTitle() {
-    films.sort((a, b) => a.titre.localeCompare(b.titre));
-    populateFilms();
 }
 
 // Fonction pour peupler les genres
@@ -176,27 +142,6 @@ function updateFilmCount() {
     const count = document.getElementById('filmGallery').childElementCount;
     document.getElementById('filmCount').textContent = `Nombre de films : ${count}`;
 }
-
-// Fonction pour afficher les suggestions de recherche en temps réel
-// function showSuggestions() {
-//     const searchTerm = document.getElementById('search').value.toLowerCase();
-//     const suggestionsDiv = document.getElementById('suggestions');
-//     suggestionsDiv.innerHTML = '';
-
-//     if (searchTerm.length > 2) {
-//         const suggestions = films.filter(film => film.titre.toLowerCase().includes(searchTerm) || film.acteurs.toLowerCase().includes(searchTerm));
-//         suggestions.forEach(film => {
-//             const suggestionItem = document.createElement('div');
-//             suggestionItem.textContent = film.titre.replace(/_/g, ' ');
-//             suggestionItem.onclick = () => {
-//                 document.getElementById('search').value = film.titre.replace(/_/g, ' ');
-//                 filterFilms();
-//                 suggestionsDiv.innerHTML = '';
-//             };
-//             suggestionsDiv.appendChild(suggestionItem);
-//         });
-//     }
-// }
 
 // Fonction pour basculer le thème
 function toggleTheme() {
@@ -242,3 +187,41 @@ window.onload = () => {
         }
     });
 };
+
+// Fonction pour afficher les films dans le carrousel
+function displayCarousel(films) {
+    const carouselInner = document.querySelector('.carousel-inner');
+    const carouselIndicators = document.querySelector('.carousel-indicators');
+
+    carouselInner.innerHTML = '';
+    carouselIndicators.innerHTML = '';
+
+    // Modifier ce nombre pour afficher plus ou moins de films dans le carrousel
+    const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 10);
+
+    nouveautes.forEach((film, index) => {
+        const carouselItem = document.createElement('div');
+        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+        carouselItem.innerHTML = `
+            <img class="d-block w-100" src="${film.image}" alt="${film.titre}" data-video="${film.video}">
+        `;
+        carouselInner.appendChild(carouselItem);
+
+        const indicator = document.createElement('li');
+        indicator.setAttribute('data-target', '#carouselExampleIndicators');
+        indicator.setAttribute('data-slide-to', index);
+        if (index === 0) {
+            indicator.className = 'active';
+        }
+        carouselIndicators.appendChild(indicator);
+    });
+
+    // Ajouter des écouteurs d'événements aux images du carrousel
+    const carouselImages = document.querySelectorAll('.carousel-inner img');
+    carouselImages.forEach(img => {
+        img.addEventListener('click', () => {
+            const videoUrl = img.getAttribute('data-video');
+            openModal(videoUrl);
+        });
+    });
+}

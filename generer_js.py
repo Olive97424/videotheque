@@ -20,7 +20,7 @@ nouveaute_column = 'nouveaute'  # Nouvelle colonne pour nouveauté
 films_js = "const films = [\n"
 
 try:
-    with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
+    with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=';')
         for row in reader:
             title = row.get(title_column, '').strip()
@@ -29,15 +29,16 @@ try:
             actors = row.get(actors_column, '').strip()
             genres = row.get(genre_column, '').strip().split(',') if row.get(genre_column) else []
             release_date = row.get(release_date_column, '').strip()
-            section = row.get(section_column, '').strip()
+            sections = row.get(section_column, '').strip().split(',') if row.get(section_column) else []
             nouveaute = row.get(nouveaute_column, '').strip()
 
             if title and video_link and image_path:
                 image_file = image_path.split('\\')[-1]
                 image_relative_path = f"{images_folder_relative}{image_file}"
                 genre_list = ", ".join(f'"{genre.strip()}"' for genre in genres)
+                section_list = ", ".join(f'"{section.strip()}"' for section in sections)
 
-                films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_relative_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{release_date}\", section: \"{section}\", nouveaute: \"{nouveaute}\" }},\n"
+                films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_relative_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{release_date}\", sections: [{section_list}], nouveaute: \"{nouveaute}\" }},\n"
 
     films_js = films_js.rstrip(",\n") + "\n];"
 
