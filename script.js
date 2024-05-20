@@ -5,7 +5,7 @@ function createFilmElement(film, isSearchResult = false) {
     // Assurez-vous que film.sections est défini et est un tableau
     const sections = film.sections ? film.sections.join(' ') : '';
     filmDiv.className = `film ${isSearchResult ? 'search-result' : sections}`;
-    
+
     if (film.sections && film.sections.length > 1) {
         filmDiv.classList.add('multiple-sections');
     }
@@ -120,21 +120,45 @@ function filterFilmsByGenre() {
     updateFilmCount();
 }
 
-// Fonction pour peupler les genres
-function populateGenres() {
+// Fonction pour détecter et supprimer les genres inutilisés
+function updateGenres() {
     const genreSet = new Set();
     films.forEach(film => {
         film.genres.forEach(genre => {
             genreSet.add(genre);
         });
     });
+
     const genreSelect = document.getElementById('genreSelect');
+    genreSelect.innerHTML = '<option value="">Tous les genres</option>'; // Réinitialiser le sélecteur des genres
     genreSet.forEach(genre => {
         const option = document.createElement('option');
         option.value = genre.toLowerCase();
         option.textContent = genre;
         genreSelect.appendChild(option);
     });
+}
+
+// Fonction pour ajouter un film et mettre à jour les genres
+function addFilm(newFilm) {
+    films.push(newFilm);
+    populateFilms();
+    updateGenres(); // Mettre à jour les genres après l'ajout d'un film
+}
+
+// Fonction pour supprimer un film et mettre à jour les genres
+function deleteFilm(filmTitle) {
+    const filmIndex = films.findIndex(film => film.titre === filmTitle);
+    if (filmIndex > -1) {
+        films.splice(filmIndex, 1);
+        populateFilms();
+        updateGenres(); // Mettre à jour les genres après la suppression d'un film
+    }
+}
+
+// Fonction pour peupler les genres
+function populateGenres() {
+    updateGenres(); // Appeler la fonction mise à jour des genres
 }
 
 // Fonction pour mettre à jour le nombre de films
