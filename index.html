@@ -204,17 +204,28 @@
         }
 
         @media (max-width: 600px) {
-            .film {
-                width: calc(100% / 2 - 40px);
+            /* Ajuster la galerie pour afficher 4 à 5 affiches par ligne */
+            .controls {
+                display: none;
             }
-            #videoFrame {
-                height: 200px;
+
+            .film {
+                width: calc(100% / 4 - 10px); /* 4 films par ligne */
+            }
+
+            .film div {
+                display: none;
+            }
+
+            .section-button {
+                padding: 10px 20px;
+                font-size: 0.8em;
             }
         }
 
-        @media (max-width: 400px) {
+        @media (max-width: 480px) {
             .film {
-                width: calc(100% - 40px);
+                width: calc(100% / 3 - 10px); /* 3 films par ligne */
             }
         }
 
