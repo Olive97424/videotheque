@@ -203,14 +203,13 @@
             }
         }
 
-        @media (max-width: 600px) {
-            /* Ajuster la galerie pour afficher 4 à 5 affiches par ligne */
+        @media (max-width: 768px) {
             .controls {
                 display: none;
             }
 
             .film {
-                width: calc(100% / 4 - 10px); /* 4 films par ligne */
+                width: calc(100% / 5 - 10px); /* 5 films par ligne */
             }
 
             .film div {
@@ -223,9 +222,21 @@
             }
         }
 
+        @media (max-width: 600px) {
+            .film {
+                width: calc(100% / 4 - 10px); /* 4 films par ligne */
+            }
+        }
+
         @media (max-width: 480px) {
             .film {
                 width: calc(100% / 3 - 10px); /* 3 films par ligne */
+            }
+        }
+
+        @media (max-width: 360px) {
+            .film {
+                width: calc(100% / 2 - 10px); /* 2 films par ligne */
             }
         }
 
