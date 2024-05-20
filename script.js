@@ -168,11 +168,12 @@ function sortFilmsByTitle() {
     populateFilms();
 }
 
+// Supprimer cette fonction
 // Fonction pour trier les films par date de sortie
-function sortFilmsByDate() {
-    films.sort((a, b) => new Date(b.date_sortie) - new Date(a.date_sortie));
-    populateFilms();
-}
+// function sortFilmsByDate() {
+//     films.sort((a, b) => new Date(b.date_sortie) - new Date(a.date_sortie));
+//     populateFilms();
+// }
 
 // Fonction pour peupler les genres
 function populateGenres() {
