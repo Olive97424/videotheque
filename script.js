@@ -30,6 +30,15 @@ function createFilmElement(film, isSearchResult = false) {
 
     return filmDiv;
 }
+// Fonction pour mettre à jour le nombre de films
+function updateFilmCount() {
+    // Utiliser un ensemble pour éviter les doublons
+    const filmTitles = new Set();
+    films.forEach(film => {
+        filmTitles.add(film.titre);
+    });
+    document.getElementById('filmCount').textContent = `Nombre de films : ${filmTitles.size}`;
+}
 
 // Fonction pour peupler la galerie de films
 function populateFilms() {
@@ -42,7 +51,7 @@ function populateFilms() {
             filmElement.classList.add('show');
         }, 100 * index);
     });
-    updateFilmCount();
+    updateFilmCount(); // Mise à jour du nombre de films
 }
 
 // Fonction pour filtrer les films par section
