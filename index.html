@@ -442,6 +442,20 @@
         </button>
     </div>
     <div class="film-count" id="filmCount"></div>
+<div class="controls">
+    <form id="addFilmForm">
+        <input type="text" id="titre" placeholder="Titre du film" required>
+        <input type="text" id="video" placeholder="URL de la vidéo" required>
+        <input type="text" id="image" placeholder="URL de l'image" required>
+        <input type="text" id="acteurs" placeholder="Acteurs">
+        <input type="text" id="genres" placeholder="Genres (séparés par des virgules)">
+        <input type="text" id="date_sortie" placeholder="Date de sortie">
+        <input type="text" id="sections" placeholder="Sections (séparées par des virgules)">
+        <input type="checkbox" id="nouveaute" value="oui"> Nouveauté
+        <button type="submit">Ajouter un film</button>
+    </form>
+</div>
+
     <div class="gallery" id="filmGallery"></div>
 
     <!-- Modal -->
