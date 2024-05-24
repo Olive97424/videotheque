@@ -290,11 +290,7 @@ document.getElementById('addFilmForm').addEventListener('submit', function(event
         nouveaute: document.getElementById('nouveaute').checked ? 'oui' : ''
     };
 
-    // Ajouter le nouveau film à la liste des films
-    addFilm(newFilm);
-
-    // Envoyer les données au serveur pour les sauvegarder dans le fichier CSV
-    fetch('/add-film', {
+    fetch('http://localhost:5000/add-film', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -304,6 +300,15 @@ document.getElementById('addFilmForm').addEventListener('submit', function(event
       .then(data => {
           if (data.success) {
               alert('Film ajouté avec succès!');
+              // Recharger la liste des films
+              fetch('films.js')
+                .then(response => response.text())
+                .then(scriptContent => {
+                    eval(scriptContent);
+                    populateFilms();
+                    updateGenres();
+                    updateFilmCount();
+                });
           } else {
               alert('Erreur lors de l\'ajout du film.');
           }

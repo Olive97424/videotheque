@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import csv
 import os
 import subprocess
 
 app = Flask(__name__)
+CORS(app)  # Activer CORS pour toutes les routes
 
 @app.route('/add-film', methods=['POST'])
 def add_film():
