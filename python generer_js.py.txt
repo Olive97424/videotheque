@@ -1,1 +1,8 @@
 python generer_js.py
+
+ouvrir serveur node
+node server.js
+
+
+ouvrir sur navigateur web
+http://localhost:3000/formulaire.html
