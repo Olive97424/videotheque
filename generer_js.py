@@ -1,5 +1,4 @@
 import csv
-import json
 
 # Chemin vers le fichier CSV
 csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/films.csv'
