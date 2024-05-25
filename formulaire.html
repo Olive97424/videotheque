@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Film</title>
+    <style>
+        form {
+            max-width: 500px;
+            margin: auto;
+            padding: 1em;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        label {
+            margin-top: 1em;
+            display: block;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 0.5em;
+            margin-top: 0.5em;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            margin-top: 1em;
+            padding: 0.7em;
+            border-radius: 5px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="filmForm">
+        <h2>Ajouter un nouveau film</h2>
+        <label for="titre">Titre:</label>
+        <input type="text" id="titre" name="titre">
+        <label for="video">URL de la vidéo:</label>
+        <input type="text" id="video" name="video">
+        <label for="image">URL de l'image:</label>
+        <input type="text" id="image" name="image">
+        <label for="acteurs">Acteurs:</label>
+        <input type="text" id="acteurs" name="acteurs">
+        <label for="genres">Genres (séparés par des virgules):</label>
+        <input type="text" id="genres" name="genres">
+        <label for="date_sortie">Date de sortie:</label>
+        <input type="text" id="date_sortie" name="date_sortie">
+        <label for="sections">Sections (séparées par des virgules):</label>
+        <input type="text" id="sections" name="sections">
+        <label for="nouveaute">Nouveauté:</label>
+        <input type="text" id="nouveaute" name="nouveaute">
+        <input type="submit" value="Ajouter">
+    </form>
+    <script>
+        document.getElementById('filmForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Empêche le rechargement de la page
+
+            const filmData = {
+                titre: document.getElementById('titre').value,
+                video: document.getElementById('video').value,
+                image: document.getElementById('image').value,
+                acteurs: document.getElementById('acteurs').value,
+                genres: document.getElementById('genres').value,
+                date_sortie: document.getElementById('date_sortie').value,
+                sections: document.getElementById('sections').value,
+                nouveaute: document.getElementById('nouveaute').value
+            };
+
+            fetch('/saveFilm', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(filmData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Film ajouté avec succès');
+                    document.getElementById('filmForm').reset();
+                } else {
+                    alert('Erreur lors de l\'ajout du film');
+                }
+            })
+            .catch(error => console.error('Erreur:', error));
+        });
+    </script>
+</body>
+</html>

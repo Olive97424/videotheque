@@ -1,6 +1,8 @@
+// Fonction pour créer un élément de film
 function createFilmElement(film, isSearchResult = false) {
     const filmDiv = document.createElement('div');
 
+    // Assurez-vous que film.sections est défini et est un tableau
     const sections = film.sections ? film.sections.join(' ') : '';
     filmDiv.className = `film ${isSearchResult ? 'search-result' : sections}`;
 
@@ -17,16 +19,8 @@ function createFilmElement(film, isSearchResult = false) {
     const caption = document.createElement('div');
     caption.textContent = film.titre.replace(/_/g, ' ');
 
-    const deleteButton = document.createElement('button');
-    deleteButton.textContent = 'Supprimer';
-    deleteButton.onclick = (event) => {
-        event.stopPropagation(); // Pour éviter d'ouvrir la modal
-        deleteFilm(film.titre);
-    };
-
     filmDiv.appendChild(img);
     filmDiv.appendChild(caption);
-    filmDiv.appendChild(deleteButton);
 
     filmDiv.onclick = () => {
         openModal(film.video);
@@ -89,16 +83,12 @@ function filterFilms() {
     updateFilmCount();
 }
 
+// Fonction pour ouvrir la modal de vidéo
 function openModal(videoUrl) {
     const modal = document.getElementById('videoModal');
     const videoFrame = document.getElementById('videoFrame');
 
-    let videoId;
-    if (videoUrl.includes('youtube.com')) {
-        videoId = videoUrl.split('v=')[1]?.split('&')[0];
-    } else {
-        videoId = videoUrl.split('/').pop();
-    }
+    const videoId = videoUrl.split('v=')[1]?.split('&')[0] ?? videoUrl.split('/').pop();
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
     
     videoFrame.src = embedUrl;
@@ -198,14 +188,6 @@ function toggleTheme() {
         localStorage.setItem('theme', 'dark');
     }
 }
-function deleteFilm(filmTitle) {
-    const filmIndex = films.findIndex(film => film.titre === filmTitle);
-    if (filmIndex > -1) {
-        films.splice(filmIndex, 1);
-        populateFilms();
-        updateGenres(); // Mettre à jour les genres après la suppression d'un film
-    }
-}
 
 // Initialisation à la charge de la page
 window.onload = () => {
@@ -276,41 +258,40 @@ function displayCarousel(films) {
         });
     });
 }
-document.getElementById('addFilmForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('filmForm');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Empêche le rechargement de la page
 
-    const newFilm = {
-        titre: document.getElementById('titre').value,
-        video: document.getElementById('video').value,
-        image: document.getElementById('image').value,
-        acteurs: document.getElementById('acteurs').value,
-        genres: document.getElementById('genres').value.split(',').map(genre => genre.trim()),
-        date_sortie: document.getElementById('date_sortie').value,
-        sections: document.getElementById('sections').value.split(',').map(section => section.trim()),
-        nouveaute: document.getElementById('nouveaute').checked ? 'oui' : ''
-    };
+            const filmData = {
+                titre: document.getElementById('titre').value,
+                video: document.getElementById('video').value,
+                image: document.getElementById('image').value,
+                acteurs: document.getElementById('acteurs').value,
+                genres: document.getElementById('genres').value,
+                date_sortie: document.getElementById('date_sortie').value,
+                sections: document.getElementById('sections').value,
+                nouveaute: document.getElementById('nouveaute').value
+            };
 
-    fetch('http://localhost:5000/add-film', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(newFilm)
-    }).then(response => response.json())
-      .then(data => {
-          if (data.success) {
-              alert('Film ajouté avec succès!');
-              // Recharger la liste des films
-              fetch('films.js')
-                .then(response => response.text())
-                .then(scriptContent => {
-                    eval(scriptContent);
-                    populateFilms();
-                    updateGenres();
-                    updateFilmCount();
-                });
-          } else {
-              alert('Erreur lors de l\'ajout du film.');
-          }
-      });
+            fetch('/saveFilm', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(filmData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Film ajouté avec succès');
+                    document.getElementById('filmForm').reset();
+                } else {
+                    alert('Erreur lors de l\'ajout du film');
+                }
+            })
+            .catch(error => console.error('Erreur:', error));
+        });
+    }
 });
