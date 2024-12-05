@@ -230,7 +230,7 @@ function displayCarousel(films) {
     carouselIndicators.innerHTML = '';
 
     // Modifier ce nombre pour afficher plus ou moins de films dans le carrousel
-    const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 10);
+    const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 13);
 
     nouveautes.forEach((film, index) => {
         const carouselItem = document.createElement('div');
