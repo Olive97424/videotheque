@@ -1,12 +1,22 @@
 // Fonction pour créer un élément de film
-function createFilmElement(film, isSearchResult = false) {
+function createFilmElement(film) {
     const filmDiv = document.createElement('div');
+    filmDiv.classList.add('film');
 
-    // Assurez-vous que film.sections est défini et est un tableau
-    const sections = film.sections ? film.sections.join(' ') : '';
-    filmDiv.className = `film ${isSearchResult ? 'search-result' : sections}`;
+    // Toujours transformer sections en tableau utilisable
+    const sections = Array.isArray(film.sections)
+        ? film.sections
+        : typeof film.sections === 'string' && film.sections !== ''
+        ? [film.sections]
+        : [];
 
-    if (film.sections && film.sections.length > 1) {
+    // Ajouter les classes de section (bluray, dvd, enfant)
+    sections.forEach(section => {
+        filmDiv.classList.add(section);
+    });
+
+    // Classe spéciale pour les films avec plusieurs sections
+    if (sections.length > 1) {
         filmDiv.classList.add('multiple-sections');
     }
 
@@ -30,20 +40,17 @@ function createFilmElement(film, isSearchResult = false) {
 
     return filmDiv;
 }
-// Fonction pour mettre à jour le nombre de films
+
+// Le reste du fichier reste inchangé
+
 function updateFilmCount() {
-    // Utiliser un ensemble pour éviter les doublons
-    const filmTitles = new Set();
-    films.forEach(film => {
-        filmTitles.add(film.titre);
-    });
-    document.getElementById('filmCount').textContent = `Nombre de films : ${filmTitles.size}`;
+    const count = document.getElementById('filmGallery').childElementCount;
+    document.getElementById('filmCount').textContent = `Nombre de films : ${count}`;
 }
 
-// Fonction pour peupler la galerie de films
 function populateFilms() {
     const gallery = document.getElementById('filmGallery');
-    gallery.innerHTML = ''; 
+    gallery.innerHTML = '';
     films.forEach((film, index) => {
         const filmElement = createFilmElement(film);
         gallery.appendChild(filmElement);
@@ -51,10 +58,9 @@ function populateFilms() {
             filmElement.classList.add('show');
         }, 100 * index);
     });
-    updateFilmCount(); // Mise à jour du nombre de films
+    updateFilmCount();
 }
 
-// Fonction pour filtrer les films par section
 function filterFilmsBySection(section) {
     const gallery = document.getElementById('filmGallery');
     gallery.innerHTML = '';
@@ -67,7 +73,6 @@ function filterFilmsBySection(section) {
     updateFilmCount();
 }
 
-// Fonction pour filtrer les films par titre ou acteur
 function filterFilms() {
     const searchInput = document.getElementById('search').value.toLowerCase();
     const gallery = document.getElementById('filmGallery');
@@ -77,26 +82,24 @@ function filterFilms() {
         const titre = film.titre.toLowerCase().replace(/_/g, ' ');
         const acteurs = film.acteurs.toLowerCase();
         if (titre.includes(searchInput) || acteurs.includes(searchInput)) {
-            gallery.appendChild(createFilmElement(film, true));
+            gallery.appendChild(createFilmElement(film));
         }
     });
     updateFilmCount();
 }
 
-// Fonction pour ouvrir la modal de vidéo
 function openModal(videoUrl) {
     const modal = document.getElementById('videoModal');
     const videoFrame = document.getElementById('videoFrame');
 
     const videoId = videoUrl.split('v=')[1]?.split('&')[0] ?? videoUrl.split('/').pop();
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
-    
+
     videoFrame.src = embedUrl;
     modal.style.display = "block";
     document.body.classList.add('modal-open');
 }
 
-// Fonction pour fermer la modal de vidéo
 function closeModal() {
     const modal = document.getElementById('videoModal');
     const videoFrame = document.getElementById('videoFrame');
@@ -105,13 +108,11 @@ function closeModal() {
     document.body.classList.remove('modal-open');
 }
 
-// Fonction pour trier les films par titre
 function sortFilmsByTitle() {
     films.sort((a, b) => a.titre.localeCompare(b.titre));
     populateFilms();
 }
 
-// Fonction pour filtrer les films par genre
 function filterFilmsByGenre() {
     const selectedGenre = document.getElementById('genreSelect').value.toLowerCase();
     const gallery = document.getElementById('filmGallery');
@@ -119,7 +120,7 @@ function filterFilmsByGenre() {
 
     films.forEach((film, index) => {
         if (selectedGenre === '' || film.genres.map(g => g.toLowerCase()).includes(selectedGenre)) {
-            const filmElement = createFilmElement(film, true);
+            const filmElement = createFilmElement(film);
             gallery.appendChild(filmElement);
             setTimeout(() => {
                 filmElement.classList.add('show');
@@ -129,7 +130,6 @@ function filterFilmsByGenre() {
     updateFilmCount();
 }
 
-// Fonction pour détecter et supprimer les genres inutilisés
 function updateGenres() {
     const genreSet = new Set();
     films.forEach(film => {
@@ -139,7 +139,7 @@ function updateGenres() {
     });
 
     const genreSelect = document.getElementById('genreSelect');
-    genreSelect.innerHTML = '<option value="">Tous les genres</option>'; // Réinitialiser le sélecteur des genres
+    genreSelect.innerHTML = '<option value="">Tous les genres</option>';
     genreSet.forEach(genre => {
         const option = document.createElement('option');
         option.value = genre.toLowerCase();
@@ -148,35 +148,25 @@ function updateGenres() {
     });
 }
 
-// Fonction pour ajouter un film et mettre à jour les genres
 function addFilm(newFilm) {
     films.push(newFilm);
     populateFilms();
-    updateGenres(); // Mettre à jour les genres après l'ajout d'un film
+    updateGenres();
 }
 
-// Fonction pour supprimer un film et mettre à jour les genres
 function deleteFilm(filmTitle) {
     const filmIndex = films.findIndex(film => film.titre === filmTitle);
     if (filmIndex > -1) {
         films.splice(filmIndex, 1);
         populateFilms();
-        updateGenres(); // Mettre à jour les genres après la suppression d'un film
+        updateGenres();
     }
 }
 
-// Fonction pour peupler les genres
 function populateGenres() {
-    updateGenres(); // Appeler la fonction mise à jour des genres
+    updateGenres();
 }
 
-// Fonction pour mettre à jour le nombre de films
-function updateFilmCount() {
-    const count = document.getElementById('filmGallery').childElementCount;
-    document.getElementById('filmCount').textContent = `Nombre de films : ${count}`;
-}
-
-// Fonction pour basculer le thème
 function toggleTheme() {
     const body = document.body;
     const checkbox = document.getElementById('checkbox');
@@ -189,7 +179,6 @@ function toggleTheme() {
     }
 }
 
-// Initialisation à la charge de la page
 window.onload = () => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
@@ -221,7 +210,6 @@ window.onload = () => {
     });
 };
 
-// Fonction pour afficher les films dans le carrousel
 function displayCarousel(films) {
     const carouselInner = document.querySelector('.carousel-inner');
     const carouselIndicators = document.querySelector('.carousel-indicators');
@@ -229,7 +217,6 @@ function displayCarousel(films) {
     carouselInner.innerHTML = '';
     carouselIndicators.innerHTML = '';
 
-    // Modifier ce nombre pour afficher plus ou moins de films dans le carrousel
     const nouveautes = films.filter(film => film.nouveaute.toLowerCase() === 'oui').slice(0, 13);
 
     nouveautes.forEach((film, index) => {
@@ -249,7 +236,6 @@ function displayCarousel(films) {
         carouselIndicators.appendChild(indicator);
     });
 
-    // Ajouter des écouteurs d'événements aux images du carrousel
     const carouselImages = document.querySelectorAll('.carousel-inner img');
     carouselImages.forEach(img => {
         img.addEventListener('click', () => {
