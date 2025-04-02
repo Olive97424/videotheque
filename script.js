@@ -93,7 +93,7 @@ function openModal(videoUrl) {
     const videoFrame = document.getElementById('videoFrame');
 
     const videoId = videoUrl.split('v=')[1]?.split('&')[0] ?? videoUrl.split('/').pop();
-    const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
     videoFrame.src = embedUrl;
     modal.style.display = "block";

@@ -129,8 +129,7 @@
         .film img {
             width: 100%;
             height: auto;
-            object-fit: cover;
-            aspect-ratio: 2/3;
+            object-fit: contain;
             loading: lazy;
         }
         .film div {
@@ -155,6 +154,17 @@
             color: #FF5733;
         }
         .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease-out;
             display: none;
             position: fixed;
             z-index: 10;
@@ -397,7 +407,27 @@
  .carousel-indicators {
         display: none;
     }
-    </style>
+    
+        .modal.show {
+            display: flex !important;
+        }
+        .modal-content {
+            max-width: 80%;
+            max-height: 80%;
+            background: #000;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+            animation: zoomIn 0.4s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.7); }
+            to { transform: scale(1); }
+        }
+        
+</style>
 </head>
 <body class="dark">
     <div class="theme-switch-wrapper right">
@@ -447,10 +477,10 @@
     <div class="film-count" id="filmCount"></div>
     <div class="legend text-center my-4">
         <h5>Légende des couleurs :</h5>
-        <span style="display: inline-block; border: 3px solid #1E90FF; padding: 5px 10px; margin: 5px;">Bluray</span>
+        <span style="display: inline-block; border: 3px solid #1E90FF; padding: 5px 10px; margin: 5px;">Blu-ray</span>
         <span style="display: inline-block; border: 3px solid #32CD32; padding: 5px 10px; margin: 5px;">DVD</span>
-        <span style="display: inline-block; border: 3px solid #FFD700; padding: 5px 10px; margin: 5px;">DVD Enfant</span>
-        <span style="display: inline-block; border: 3px solid #FF4500; padding: 5px 10px; margin: 5px;">Bluray Enfant</span>
+        <span style="display: inline-block; border: 3px solid #FFD700; padding: 5px 10px; margin: 5px;">Enfant</span>
+        <span style="display: inline-block; border: 3px solid #FF4500; padding: 5px 10px; margin: 5px;">Blu-ray Enfant</span>
     </div>
 
     <div class="gallery" id="filmGallery"></div>
@@ -483,9 +513,3 @@
     </script>
 </body>
 </html>
-
-        @media (min-width: 1600px) {
-            .film {
-                width: calc(100% / 7 - 20px);
-            }
-        }
