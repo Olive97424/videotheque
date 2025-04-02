@@ -107,7 +107,7 @@
             border-radius: 10px;
             overflow: hidden;
             margin: 10px;
-            width: calc(100% / 5 - 40px);
+            width: calc(100% / 6 - 20px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
             opacity: 0;
@@ -447,10 +447,10 @@
     <div class="film-count" id="filmCount"></div>
     <div class="legend text-center my-4">
         <h5>Légende des couleurs :</h5>
-        <span style="display: inline-block; border: 3px solid #1E90FF; padding: 5px 10px; margin: 5px;">Blu-ray</span>
+        <span style="display: inline-block; border: 3px solid #1E90FF; padding: 5px 10px; margin: 5px;">Bluray</span>
         <span style="display: inline-block; border: 3px solid #32CD32; padding: 5px 10px; margin: 5px;">DVD</span>
-        <span style="display: inline-block; border: 3px solid #FFD700; padding: 5px 10px; margin: 5px;">Enfant</span>
-        <span style="display: inline-block; border: 3px solid #FF4500; padding: 5px 10px; margin: 5px;">Blu-ray Enfant</span>
+        <span style="display: inline-block; border: 3px solid #FFD700; padding: 5px 10px; margin: 5px;">DVD Enfant</span>
+        <span style="display: inline-block; border: 3px solid #FF4500; padding: 5px 10px; margin: 5px;">Bluray Enfant</span>
     </div>
 
     <div class="gallery" id="filmGallery"></div>
@@ -483,3 +483,9 @@
     </script>
 </body>
 </html>
+
+        @media (min-width: 1600px) {
+            .film {
+                width: calc(100% / 7 - 20px);
+            }
+        }
