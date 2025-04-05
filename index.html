@@ -103,11 +103,20 @@
             padding: 20px;
         }
         .film {
-            background: #333;
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 10px;
-            width: calc(100% / 5 - 40px);
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: calc(100% / 5 - 40px); /* Valeur par défaut */
+    /* autres styles... */
+}
+
+@media (min-width: 1201px) {
+    .film {
+        width: calc(100% / 6 - 40px); /* Réduction uniquement sur grand écran */
+    }
+}
+
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
             opacity: 0;
@@ -445,6 +454,16 @@
         </button>
     </div>
     <div class="film-count" id="filmCount"></div>
+
+<div class="legend" style="text-align: center; margin: 20px 0;">
+    <strong>Légende :</strong>
+    <span style="border: 3px solid #1E90FF; padding: 4px 8px; margin: 0 5px;">Bluray</span>
+    <span style="border: 3px solid #32CD32; padding: 4px 8px; margin: 0 5px;">DVD</span>
+    <span style="border: 3px solid #FFD700; padding: 4px 8px; margin: 0 5px;">Bluray Enfant</span>
+    <span style="border: 3px solid #FF4500; padding: 4px 8px; margin: 0 5px;">DVD enfant</span>
+</div>
+
+
     <div class="gallery" id="filmGallery"></div>
 
     <!-- Modal -->
