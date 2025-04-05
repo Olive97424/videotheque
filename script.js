@@ -29,6 +29,14 @@ function createFilmElement(film) {
     const caption = document.createElement('div');
     caption.textContent = film.titre.replace(/_/g, ' ');
 
+    // Badge NOUVEAU si applicable
+    if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
+        const badge = document.createElement('span');
+        badge.textContent = 'NOUVEAU';
+        badge.classList.add('badge-nouveau');
+        filmDiv.appendChild(badge);
+    }
+
     filmDiv.appendChild(img);
     filmDiv.appendChild(caption);
 
@@ -81,9 +89,17 @@ function filterFilms() {
     films.forEach(film => {
         const titre = film.titre.toLowerCase().replace(/_/g, ' ');
         const acteurs = film.acteurs.toLowerCase();
-        if (titre.includes(searchInput) || acteurs.includes(searchInput)) {
+               const isNouveau = film.nouveaute && film.nouveaute.toLowerCase() === "oui";
+
+        if (
+            titre.includes(searchInput) ||
+            acteurs.includes(searchInput) ||
+            (isNouveau && "nouveau".includes(searchInput))
+        ) {
             gallery.appendChild(createFilmElement(film));
         }
+
+
     });
     updateFilmCount();
 }
@@ -128,6 +144,18 @@ function filterFilmsByGenre() {
             }, 100 * index);
         }
     });
+    updateFilmCount();
+}
+function filterByNouveautes() {
+    const gallery = document.getElementById('filmGallery');
+    gallery.innerHTML = '';
+
+    films.forEach(film => {
+        if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
+            gallery.appendChild(createFilmElement(film));
+        }
+    });
+
     updateFilmCount();
 }
 

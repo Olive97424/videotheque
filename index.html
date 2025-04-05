@@ -301,6 +301,24 @@
         .bluray {
             border: 3px solid #1E90FF;
         }
+      .badge-nouveau {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background: red;
+        color: white;
+        padding: 5px 8px;
+        font-size: 0.7em;
+        font-weight: bold;
+        border-radius: 4px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+
+    .film {
+        position: relative;
+    }
+
         .dvd {
             border: 3px solid #32CD32;
         }
@@ -432,6 +450,8 @@
  .carousel-indicators {
         display: none;
     }
+
+
     </style>
 </head>
 <body class="dark">
@@ -462,10 +482,13 @@
     </div>
 
     <div class="controls">
-        <input type="text" id="search" onkeyup="filterFilms()" placeholder="Rechercher par titre ou acteur...">
-        <select id="genreSelect" onchange="filterFilmsByGenre()">
-            <option value="">Tous les genres</option>
-        </select>
+    <button onclick="filterByNouveautes()" class="btn btn-warning">🆕 Nouveautés</button>
+    <input type="text" id="search" placeholder="Rechercher un film ou acteur..." oninput="filterFilms()">
+            <select id="genreSelect" onchange="filterFilmsByGenre()">
+    <option value="">Tous les genres</option>
+    <!-- Tu peux ajouter les genres ici si tu veux les fixer -->
+</select>
+
         <button onclick="sortFilmsByTitle()">Trier par titre</button>
     </div>
     <div class="section-buttons">

@@ -38,6 +38,10 @@ try:
             date_sortie = row.get(columns['release_date'], '').strip()
             nouveaute = row.get(columns['nouveaute'], '').strip()
 
+            # Marquer comme nouveauté si date >= 2022
+            if not nouveaute and date_sortie.isdigit() and int(date_sortie) >= 2022:
+                nouveaute = "oui"
+
             genre_list = ', '.join(f'"{g}"' for g in genres)
             section_list = ', '.join(f'"{s}"' for s in sections)
 
