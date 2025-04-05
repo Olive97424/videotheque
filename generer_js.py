@@ -1,45 +1,56 @@
 import csv
-import json
-import os
-import unicodedata
 
-def normalize_filename(name):
-    """Nettoie et transforme un titre en nom de fichier d'image"""
-    name = unicodedata.normalize('NFKD', name)
-    name = name.encode('ascii', 'ignore').decode('utf-8')
-    name = name.lower().strip().replace(" ", "_")
-    return f"{name}.jpg"
+# Chemin vers le fichier CSV
+csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/films.csv'
 
-films = []
-image_folder = "images"
+# Chemin relatif pour les images dans `films.js`
+images_folder_relative = 'images/'  # Pour GitHub Pages
 
-with open('films.csv', newline='', encoding='utf-8-sig') as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=';')
-    for row in reader:
-        titre = row["nom films"].strip()
-        image_name = normalize_filename(titre)
-        image_path = f"{image_folder}/{image_name}"
+# Noms des colonnes dans le fichier CSV
+title_column = 'nom films'
+video_column = 'liens vidéo'
+image_column = 'chemin accès'
+actors_column = 'acteurs'  # Assurez-vous que cette colonne existe dans votre CSV
+genre_column = 'genre'     # Assurez-vous que cette colonne existe dans votre CSV
+release_date_column = 'date_sortie'  # Nouvelle colonne pour la date de sortie
+section_column = 'section'  # Nouvelle colonne pour la section
+nouveaute_column = 'nouveaute'  # Nouvelle colonne pour nouveauté
 
-        # Vérifie si le fichier image existe
-        if not os.path.isfile(image_path):
-            print(f"⚠️ Image manquante : {image_path}")
+# Créer le contenu du fichier JavaScript
+films_js = "const films = [\n"
 
-        film = {
-            "titre": titre,
-            "video": row["liens vidéo"].strip(),
-            "image": image_path,
-            "acteurs": row.get("acteurs", "").strip(),
-            "genres": [g.strip() for g in row.get("genre", "").split(",") if g.strip()],
-            "annee": row.get("annee", "").strip(),
-            "duree": row.get("duree", "").strip(),
-            "resume": row.get("resume", "").strip(),
-            "sections": [row.get("section", "").strip()],
-            "nouveaute": row.get("nouveaute", "").strip()
-        }
-        films.append(film)
+try:
+    with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            title = row.get(title_column, '').strip()
+            video_link = row.get(video_column, '').strip()
+            image_path = row.get(image_column, '').strip()
+            actors = row.get(actors_column, '').strip()
+            genres = row.get(genre_column, '').strip().split(',') if row.get(genre_column) else []
+            release_date = row.get(release_date_column, '').strip()
+            sections = row.get(section_column, '').strip().split(',') if row.get(section_column) else []
+            nouveaute = row.get(nouveaute_column, '').strip()
 
-# Sauvegarde dans films.js
-with open('films.js', 'w', encoding='utf-8') as jsfile:
-    jsfile.write("const films = ")
-    json.dump(films, jsfile, indent=4, ensure_ascii=False)
-    jsfile.write(";")
+            if title and video_link and image_path:
+                image_file = image_path.split('\\')[-1]
+                image_relative_path = f"{images_folder_relative}{image_file}"
+                genre_list = ", ".join(f'"{genre.strip()}"' for genre in genres)
+                section_list = ", ".join(f'"{section.strip()}"' for section in sections)
+
+                films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_relative_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{release_date}\", sections: [{section_list}], nouveaute: \"{nouveaute}\" }},\n"
+
+    films_js = films_js.rstrip(",\n") + "\n];"
+
+    # Sauvegarder le fichier JavaScript généré
+    with open('films.js', 'w', encoding='utf-8') as jsfile:
+        jsfile.write(films_js)
+
+    print("Le fichier 'films.js' a été généré avec succès.")
+
+except FileNotFoundError:
+    print("Le fichier CSV n'a pas été trouvé.")
+except KeyError as e:
+    print(f"Erreur de clé : {e}")
+except Exception as e:
+    print(f"Erreur inattendue : {e}")
