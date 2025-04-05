@@ -8,9 +8,9 @@ const films = [
             "action",
             "guerre"
         ],
-        "annee": "2007",
-        "duree": "2h20",
-        "resume": "test de commentaire",
+        "annee": "",
+        "duree": "",
+        "resume": "",
         "sections": [
             "bluray"
         ],
@@ -25,7 +25,7 @@ const films = [
             "science-fiction",
             "catastrophe"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -58,7 +58,7 @@ const films = [
             "thriller",
             "action"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -75,7 +75,7 @@ const films = [
             "romance",
             "drame"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -92,7 +92,7 @@ const films = [
             "romance",
             "drame"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -109,7 +109,7 @@ const films = [
             "romance",
             "drame"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -125,7 +125,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2000",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -142,7 +142,7 @@ const films = [
             "musical",
             "drame"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -158,7 +158,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -188,7 +188,7 @@ const films = [
         "genres": [
             "aventure"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -199,7 +199,7 @@ const films = [
     {
         "titre": "aladdin_animé",
         "video": "https://www.youtube.com/watch?v=NZqFRTbi7IE",
-        "image": "images/aladdin_animé.jpg",
+        "image": "images/aladdin_anime.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -236,7 +236,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -269,7 +269,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "1979",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -286,7 +286,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "1986",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -303,7 +303,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "1992",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -320,7 +320,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "1997",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -337,7 +337,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -354,7 +354,7 @@ const films = [
             "horreur",
             "science-fiction"
         ],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -371,7 +371,7 @@ const films = [
             "biopic",
             "drame"
         ],
-        "annee": "2020",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -387,7 +387,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -404,7 +404,7 @@ const films = [
             "horreur",
             "action"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -421,7 +421,7 @@ const films = [
             "horreur",
             "action"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -438,7 +438,7 @@ const films = [
             "horreur",
             "action"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -455,7 +455,7 @@ const films = [
             "horreur",
             "action"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -489,7 +489,7 @@ const films = [
             "thriller",
             "mystère"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -505,7 +505,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -521,7 +521,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -538,7 +538,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -555,7 +555,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -572,7 +572,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -588,7 +588,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -602,7 +602,7 @@ const films = [
         "image": "images/aquaman_2.jpg",
         "acteurs": "Jason Momoa, Patrick Wilson",
         "genres": [],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -619,7 +619,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "1998",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -636,7 +636,7 @@ const films = [
             "aventure",
             "comédie"
         ],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -653,7 +653,7 @@ const films = [
             "aventure",
             "comédie"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -670,7 +670,7 @@ const films = [
             "aventure",
             "comédie"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -687,7 +687,7 @@ const films = [
             "aventure",
             "comédie"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -720,7 +720,7 @@ const films = [
             "science-fiction",
             "action"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -737,7 +737,7 @@ const films = [
             "science-fiction",
             "action"
         ],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -753,7 +753,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -769,7 +769,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -785,7 +785,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -801,7 +801,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -831,7 +831,7 @@ const films = [
         "image": "images/babylon.jpg",
         "acteurs": "Brad Pitt, Margot Robbie",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -903,7 +903,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -920,7 +920,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -937,7 +937,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -970,7 +970,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2020",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -987,7 +987,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1003,7 +1003,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1020,7 +1020,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1037,7 +1037,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1054,7 +1054,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1071,7 +1071,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1088,7 +1088,7 @@ const films = [
             "science-fiction",
             "thriller"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1121,7 +1121,7 @@ const films = [
             "romance",
             "thriller"
         ],
-        "annee": "1992",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1138,7 +1138,7 @@ const films = [
             "musical",
             "drame"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1154,7 +1154,7 @@ const films = [
         "genres": [
             "musical"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1181,7 +1181,7 @@ const films = [
     {
         "titre": "buzz_l_éclair",
         "video": "https://www.youtube.com/watch?v=q41VoF95fmI",
-        "image": "images/buzz_l_éclair.jpg",
+        "image": "images/buzz_l_eclair.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -1202,7 +1202,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1218,7 +1218,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1252,7 +1252,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1269,7 +1269,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1286,7 +1286,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1303,7 +1303,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1319,7 +1319,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1383,7 +1383,7 @@ const films = [
         "genres": [
             "catastrophe"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1394,7 +1394,7 @@ const films = [
     {
         "titre": "cléopatre_la_dernière_reine_d_égypte",
         "video": "https://www.youtube.com/watch?v=EuSPbfuWGuA",
-        "image": "images/cléopatre_la_dernière_reine_d_égypte.jpg",
+        "image": "images/cleopatre_la_derniere_reine_d_egypte.jpg",
         "acteurs": "",
         "genres": [
             "musical"
@@ -1416,7 +1416,7 @@ const films = [
             "romance",
             "comédie"
         ],
-        "annee": "1988",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1433,7 +1433,7 @@ const films = [
             "science-fiction",
             "thriller"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1466,7 +1466,7 @@ const films = [
             "thriller",
             "mystère"
         ],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1499,7 +1499,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1516,7 +1516,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1533,7 +1533,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1549,7 +1549,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2000",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1565,7 +1565,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1581,7 +1581,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1597,7 +1597,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1613,7 +1613,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1630,7 +1630,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "1988",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1647,7 +1647,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "1990",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1664,7 +1664,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "1995",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1681,7 +1681,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1698,7 +1698,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1715,7 +1715,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1732,7 +1732,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1749,7 +1749,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1765,7 +1765,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1781,7 +1781,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1798,7 +1798,7 @@ const films = [
             "guerre",
             "action"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1816,7 +1816,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1834,7 +1834,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1851,7 +1851,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1868,7 +1868,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -1885,7 +1885,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2142,7 +2142,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2159,7 +2159,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2176,7 +2176,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2192,7 +2192,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2001",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2208,7 +2208,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2224,7 +2224,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2240,7 +2240,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2256,7 +2256,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2272,7 +2272,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2288,7 +2288,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2304,7 +2304,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2320,7 +2320,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2336,7 +2336,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2352,7 +2352,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2368,7 +2368,7 @@ const films = [
         "genres": [
             "biopic"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2400,7 +2400,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "1994",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2432,7 +2432,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "1984",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2448,7 +2448,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "1985",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2464,7 +2464,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "1987",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2480,7 +2480,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "1988",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2513,7 +2513,7 @@ const films = [
             "action",
             "thriller"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2530,7 +2530,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2547,7 +2547,7 @@ const films = [
             "romance",
             "thriller"
         ],
-        "annee": "2000",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2580,7 +2580,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2597,7 +2597,7 @@ const films = [
             "musical",
             "comédie"
         ],
-        "annee": "1978",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2613,7 +2613,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2629,7 +2629,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2645,7 +2645,7 @@ const films = [
         "genres": [
             "horreur"
         ],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2661,7 +2661,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2694,7 +2694,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2001",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2711,7 +2711,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2728,7 +2728,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2004",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2745,7 +2745,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2005",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2762,7 +2762,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2779,7 +2779,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2796,7 +2796,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2813,7 +2813,7 @@ const films = [
             "aventure",
             "familial"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2846,7 +2846,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2863,7 +2863,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2880,7 +2880,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2897,7 +2897,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2914,7 +2914,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2931,7 +2931,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2942,7 +2942,7 @@ const films = [
     {
         "titre": "il_était_une_fois_la_vie",
         "video": "https://www.youtube.com/watch?v=kNnpHAszq64",
-        "image": "images/il_était_une_fois_la_vie.jpg",
+        "image": "images/il_etait_une_fois_la_vie.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -2963,7 +2963,7 @@ const films = [
         "genres": [
             "guerre"
         ],
-        "annee": "1998",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -2996,7 +2996,7 @@ const films = [
             "thriller",
             "science-fiction"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3013,7 +3013,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "1996",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3030,7 +3030,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3047,7 +3047,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3063,7 +3063,7 @@ const films = [
         "genres": [
             "thriller"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3079,7 +3079,7 @@ const films = [
         "genres": [
             "thriller"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3095,7 +3095,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3129,7 +3129,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3146,7 +3146,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3163,7 +3163,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3207,7 +3207,7 @@ const films = [
     {
         "titre": "jason_bourne_l_héritage",
         "video": "https://www.youtube.com/watch?v=lUALPKrNkII",
-        "image": "images/jason_bourne_l_héritage.jpg",
+        "image": "images/jason_bourne_l_heritage.jpg",
         "acteurs": "",
         "genres": [
             "action"
@@ -3223,7 +3223,7 @@ const films = [
     {
         "titre": "jason_bourne_la_mémoire_dans_le_peau",
         "video": "https://www.youtube.com/watch?v=zTRMFgZK4oE",
-        "image": "images/jason_bourne_la_mémoire_dans_le_peau.jpg",
+        "image": "images/jason_bourne_la_memoire_dans_le_peau.jpg",
         "acteurs": "",
         "genres": [
             "action"
@@ -3276,7 +3276,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3310,7 +3310,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3326,7 +3326,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3342,7 +3342,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3358,7 +3358,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3374,7 +3374,7 @@ const films = [
         "genres": [
             "thriller"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3406,7 +3406,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3438,7 +3438,7 @@ const films = [
         "genres": [
             "aventure"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3454,7 +3454,7 @@ const films = [
         "genres": [
             "aventure"
         ],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3470,7 +3470,7 @@ const films = [
         "genres": [
             "aventure"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3487,7 +3487,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "1993",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3504,7 +3504,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "1997",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3521,7 +3521,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "2001",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3538,7 +3538,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3555,7 +3555,7 @@ const films = [
             "aventure",
             "science-fiction"
         ],
-        "annee": "2025",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3572,7 +3572,7 @@ const films = [
             "action",
             "fantasy"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3589,7 +3589,7 @@ const films = [
             "action",
             "fantasy"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3606,7 +3606,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3622,7 +3622,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3638,7 +3638,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3654,7 +3654,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3670,7 +3670,7 @@ const films = [
         "genres": [
             "action"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3686,7 +3686,7 @@ const films = [
         "genres": [
             "thriller"
         ],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3700,7 +3700,7 @@ const films = [
         "image": "images/la_soupe_aux_choux.jpg",
         "acteurs": "Louis de Funès, Jacques Villeret",
         "genres": [],
-        "annee": "1981",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3711,7 +3711,7 @@ const films = [
     {
         "titre": "l_apprenti_père_Noel",
         "video": "https://www.youtube.com/watch?v=mHph8Eitu5U",
-        "image": "images/l_apprenti_père_noel.jpg",
+        "image": "images/l_apprenti_pere_noel.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -3727,7 +3727,7 @@ const films = [
     {
         "titre": "l_apprenti_père_Noel_et_le_flocon_magique",
         "video": "https://www.youtube.com/watch?v=6AEvuThaklQ",
-        "image": "images/l_apprenti_père_noel_et_le_flocon_magique.jpg",
+        "image": "images/l_apprenti_pere_noel_et_le_flocon_magique.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -3749,7 +3749,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "1987",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3766,7 +3766,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "1989",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3783,7 +3783,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "1992",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3800,7 +3800,7 @@ const films = [
             "action",
             "comédie"
         ],
-        "annee": "1998",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3866,7 +3866,7 @@ const films = [
             "action",
             "science-fiction"
         ],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3925,7 +3925,7 @@ const films = [
     {
         "titre": "la_belle_et_la_bête",
         "video": "https://www.youtube.com/watch?v=lXmvFs0LL58",
-        "image": "images/la_belle_et_la_bête.jpg",
+        "image": "images/la_belle_et_la_bete.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -3947,7 +3947,7 @@ const films = [
             "comédie",
             "romance"
         ],
-        "annee": "1980",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3964,7 +3964,7 @@ const films = [
             "comédie",
             "romance"
         ],
-        "annee": "1982",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -3997,7 +3997,7 @@ const films = [
             "comédie",
             "musical"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4008,7 +4008,7 @@ const films = [
     {
         "titre": "là_haut",
         "video": "https://www.youtube.com/watch?v=p-TdCD6DBfM",
-        "image": "images/là_haut.jpg",
+        "image": "images/la_haut.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -4029,7 +4029,7 @@ const films = [
         "genres": [
             "fantasy"
         ],
-        "annee": "1999",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4046,7 +4046,7 @@ const films = [
             "drame",
             "thriller"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4063,7 +4063,7 @@ const films = [
             "famille",
             "fantastique"
         ],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4074,7 +4074,7 @@ const films = [
     {
         "titre": "la_petite_sirene_animé",
         "video": "https://www.youtube.com/watch?v=363URFzzCgg",
-        "image": "images/la_petite_sirene_animé.jpg",
+        "image": "images/la_petite_sirene_anime.jpg",
         "acteurs": "",
         "genres": [
             "dessin animé"
@@ -4095,7 +4095,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4111,7 +4111,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4127,7 +4127,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4143,7 +4143,7 @@ const films = [
         "genres": [
             "science-fiction"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4240,7 +4240,7 @@ const films = [
             "action",
             "aventure"
         ],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4273,7 +4273,7 @@ const films = [
             "aventure",
             "historique"
         ],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4289,7 +4289,7 @@ const films = [
         "genres": [
             "drame"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4305,7 +4305,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4319,7 +4319,7 @@ const films = [
         "image": "images/le_drole_de_noel_de_scroodge.jpg",
         "acteurs": "Jim Carrey, Gary Oldman (voices)",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4333,7 +4333,7 @@ const films = [
         "image": "images/le_grand_bleu.jpg",
         "acteurs": "Jean-Marc Barr, Jean Reno",
         "genres": [],
-        "annee": "1988",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4347,7 +4347,7 @@ const films = [
         "image": "images/le_hobbit_1.jpg",
         "acteurs": "Martin Freeman, Ian McKellen",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4361,7 +4361,7 @@ const films = [
         "image": "images/le_hobbit_2.jpg",
         "acteurs": "Martin Freeman, Benedict Cumberbatch",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4375,7 +4375,7 @@ const films = [
         "image": "images/le_hobbit_3.jpg",
         "acteurs": "Martin Freeman, Ian McKellen",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4389,7 +4389,7 @@ const films = [
         "image": "images/le_jeu.jpg",
         "acteurs": "Bérénice Bejo, Suzanne Clément",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4403,7 +4403,7 @@ const films = [
         "image": "images/le_labirynthe.jpg",
         "acteurs": "Dylan O'Brien, Kaya Scodelario",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4417,7 +4417,7 @@ const films = [
         "image": "images/le_labirynthe_2.jpg",
         "acteurs": "Dylan O'Brien, Kaya Scodelario",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4431,7 +4431,7 @@ const films = [
         "image": "images/le_labirynthe_3.jpg",
         "acteurs": "Dylan O'Brien, Kaya Scodelario",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4459,7 +4459,7 @@ const films = [
         "image": "images/le_mans_66.jpg",
         "acteurs": "Matt Damon, Christian Bale",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4501,7 +4501,7 @@ const films = [
         "image": "images/le_monde_fantastique_doz.jpg",
         "acteurs": "James Franco, Mila Kunis",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4512,7 +4512,7 @@ const films = [
     {
         "titre": "le_père_noel_est_une_ordure",
         "video": "https://www.youtube.com/watch?v=cm8Bk3TbSnQ",
-        "image": "images/le_père_noel_est_une_ordure.jpg",
+        "image": "images/le_pere_noel_est_une_ordure.jpg",
         "acteurs": "",
         "genres": [],
         "annee": "",
@@ -4529,7 +4529,7 @@ const films = [
         "image": "images/le_prestige.jpg",
         "acteurs": "Christian Bale, Hugh Jackman",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4589,7 +4589,7 @@ const films = [
         "image": "images/le_seigneur_des_anneaux_1.jpg",
         "acteurs": "Elijah Wood, Ian McKellen",
         "genres": [],
-        "annee": "2001",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4603,7 +4603,7 @@ const films = [
         "image": "images/le_seigneur_des_anneaux_2.jpg",
         "acteurs": "Elijah Wood, Ian McKellen",
         "genres": [],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4617,7 +4617,7 @@ const films = [
         "image": "images/le_seigneur_des_anneaux_3.jpg",
         "acteurs": "Elijah Wood, Ian McKellen",
         "genres": [],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4631,7 +4631,7 @@ const films = [
         "image": "images/le_transporteur_heritage.jpg",
         "acteurs": "Ed Skrein, Ray Stevenson",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4661,7 +4661,7 @@ const films = [
         "image": "images/leon.jpg",
         "acteurs": "Jean Reno, Natalie Portman",
         "genres": [],
-        "annee": "1994",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4689,7 +4689,7 @@ const films = [
         "image": "images/les_animaux_fantastiques.jpg",
         "acteurs": "Eddie Redmayne, Katherine Waterston",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4703,7 +4703,7 @@ const films = [
         "image": "images/les_animaux_fantastiques_2.jpg",
         "acteurs": "Eddie Redmayne, Johnny Depp",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4717,7 +4717,7 @@ const films = [
         "image": "images/les_animaux_fantastiques_3.jpg",
         "acteurs": "Eddie Redmayne, Jude Law",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4742,7 +4742,7 @@ const films = [
     {
         "titre": "les_bronzés_font_du_ski",
         "video": "https://www.youtube.com/watch?v=xgQH75teJGk",
-        "image": "images/les_bronzés_font_du_ski.jpg",
+        "image": "images/les_bronzes_font_du_ski.jpg",
         "acteurs": "",
         "genres": [],
         "annee": "",
@@ -4759,7 +4759,7 @@ const films = [
         "image": "images/les_chevaliers_du_zodiac.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4773,7 +4773,7 @@ const films = [
         "image": "images/les_eternelles.jpg",
         "acteurs": "Gemma Chan, Richard Madden",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4787,7 +4787,7 @@ const films = [
         "image": "images/les_gardiens_de_la_galaxie_1.jpg",
         "acteurs": "Chris Pratt, Zoe Saldana",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4801,7 +4801,7 @@ const films = [
         "image": "images/les_gardiens_de_la_galaxie_2.jpg",
         "acteurs": "Chris Pratt, Zoe Saldana",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4815,7 +4815,7 @@ const films = [
         "image": "images/les_gardiens_de_la_galaxie_3.jpg",
         "acteurs": "Chris Pratt, Zoe Saldana",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4826,7 +4826,7 @@ const films = [
     {
         "titre": "les_nouveaux_héros",
         "video": "https://www.youtube.com/watch?v=bCqe_Pokr-k",
-        "image": "images/les_nouveaux_héros.jpg",
+        "image": "images/les_nouveaux_heros.jpg",
         "acteurs": "",
         "genres": [],
         "annee": "",
@@ -4857,7 +4857,7 @@ const films = [
         "image": "images/les_schtroumphs.jpg",
         "acteurs": "Neil Patrick Harris, Jayma Mays (live-action)",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4873,7 +4873,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4889,7 +4889,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4905,7 +4905,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4921,7 +4921,7 @@ const films = [
         "genres": [
             "comédie"
         ],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -4949,7 +4949,7 @@ const films = [
         "image": "images/logan.jpg",
         "acteurs": "Hugh Jackman, Patrick Stewart",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5063,7 +5063,7 @@ const films = [
         "image": "images/malefique_1.jpg",
         "acteurs": "Angelina Jolie, Elle Fanning",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5077,7 +5077,7 @@ const films = [
         "image": "images/malefique_2.jpg",
         "acteurs": "Angelina Jolie, Elle Fanning",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5091,7 +5091,7 @@ const films = [
         "image": "images/man_of_steel.jpg",
         "acteurs": "Henry Cavill, Amy Adams",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5105,7 +5105,7 @@ const films = [
         "image": "images/matrix_1.jpg",
         "acteurs": "Keanu Reeves, Laurence Fishburne",
         "genres": [],
-        "annee": "1999",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5119,7 +5119,7 @@ const films = [
         "image": "images/matrix_2.jpg",
         "acteurs": "Keanu Reeves, Laurence Fishburne",
         "genres": [],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5133,7 +5133,7 @@ const films = [
         "image": "images/matrix_3.jpg",
         "acteurs": "Keanu Reeves, Laurence Fishburne",
         "genres": [],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5147,7 +5147,7 @@ const films = [
         "image": "images/matrix_4.jpg",
         "acteurs": "Keanu Reeves, Carrie-Anne Moss",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5175,7 +5175,7 @@ const films = [
         "image": "images/men_in_black_1.jpg",
         "acteurs": "Will Smith, Tommy Lee Jones",
         "genres": [],
-        "annee": "1997",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5189,7 +5189,7 @@ const films = [
         "image": "images/men_in_black_2.jpg",
         "acteurs": "Will Smith, Tommy Lee Jones",
         "genres": [],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5203,7 +5203,7 @@ const films = [
         "image": "images/men_in_black_3.jpg",
         "acteurs": "Will Smith, Josh Brolin",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5217,7 +5217,7 @@ const films = [
         "image": "images/men_in_black_international.jpg",
         "acteurs": "Chris Hemsworth, Tessa Thompson",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5245,7 +5245,7 @@ const films = [
         "image": "images/midnight_express.jpg",
         "acteurs": "Brad Davis, John Hurt",
         "genres": [],
-        "annee": "1978",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5273,7 +5273,7 @@ const films = [
         "image": "images/minority_report.jpg",
         "acteurs": "Tom Cruise, Colin Farrell",
         "genres": [],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5287,7 +5287,7 @@ const films = [
         "image": "images/mission_impossible_1.jpg",
         "acteurs": "Tom Cruise, Jon Voight",
         "genres": [],
-        "annee": "1996",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5301,7 +5301,7 @@ const films = [
         "image": "images/mission_impossible_2.jpg",
         "acteurs": "Tom Cruise, Dougray Scott",
         "genres": [],
-        "annee": "2000",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5315,7 +5315,7 @@ const films = [
         "image": "images/mission_impossible_3.jpg",
         "acteurs": "Tom Cruise, Philip Seymour Hoffman",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5329,7 +5329,7 @@ const films = [
         "image": "images/mission_impossible_4.jpg",
         "acteurs": "Tom Cruise, Jeremy Renner",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5343,7 +5343,7 @@ const films = [
         "image": "images/mission_impossible_5.jpg",
         "acteurs": "Tom Cruise, Rebecca Ferguson",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5357,7 +5357,7 @@ const films = [
         "image": "images/mission_impossible_6.jpg",
         "acteurs": "Tom Cruise, Henry Cavill",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5371,7 +5371,7 @@ const films = [
         "image": "images/mission_impossible_dead_reckoning_part_1.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5399,7 +5399,7 @@ const films = [
         "image": "images/moonfall.jpg",
         "acteurs": "Halle Berry, Patrick Wilson",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5413,7 +5413,7 @@ const films = [
         "image": "images/morbius.jpg",
         "acteurs": "Jared Leto, Matt Smith",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5424,7 +5424,7 @@ const films = [
     {
         "titre": "mozart_l_opéra_rock",
         "video": "https://www.youtube.com/watch?v=aS1SGkWoHec",
-        "image": "images/mozart_l_opéra_rock.jpg",
+        "image": "images/mozart_l_opera_rock.jpg",
         "acteurs": "",
         "genres": [],
         "annee": "",
@@ -5455,7 +5455,7 @@ const films = [
         "image": "images/nos_eoiles_contraires.jpg",
         "acteurs": "Shailene Woodley, Ansel Elgort",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5483,7 +5483,7 @@ const films = [
         "image": "images/nuit_blanche_a_seattle.jpg",
         "acteurs": "Tom Hanks, Meg Ryan",
         "genres": [],
-        "annee": "1993",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5497,7 +5497,7 @@ const films = [
         "image": "images/oblivion.jpg",
         "acteurs": "Tom Cruise, Morgan Freeman",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5511,7 +5511,7 @@ const films = [
         "image": "images/oppenheimer.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5539,7 +5539,7 @@ const films = [
         "image": "images/pattaya.jpg",
         "acteurs": "Franck Gastambide, Malik Bentalha",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5553,7 +5553,7 @@ const films = [
         "image": "images/peppermint.jpg",
         "acteurs": "Jennifer Garner, John Gallagher Jr.",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5595,7 +5595,7 @@ const films = [
         "image": "images/peter_et_elliot_le_dragon.jpg",
         "acteurs": "Oakes Fegley, Bryce Dallas Howard",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5623,7 +5623,7 @@ const films = [
         "image": "images/philadelphia.jpg",
         "acteurs": "Tom Hanks, Denzel Washington",
         "genres": [],
-        "annee": "1993",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5651,7 +5651,7 @@ const films = [
         "image": "images/pirate_des_caraibes_1.jpg",
         "acteurs": "Johnny Depp, Orlando Bloom",
         "genres": [],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5665,7 +5665,7 @@ const films = [
         "image": "images/pirate_des_caraibes_2.jpg",
         "acteurs": "Johnny Depp, Orlando Bloom",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5679,7 +5679,7 @@ const films = [
         "image": "images/pirate_des_caraibes_3.jpg",
         "acteurs": "Johnny Depp, Orlando Bloom",
         "genres": [],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5693,7 +5693,7 @@ const films = [
         "image": "images/pirate_des_caraibes_4.jpg",
         "acteurs": "Johnny Depp, Penélope Cruz",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5707,7 +5707,7 @@ const films = [
         "image": "images/pirate_des_caraibes_5.jpg",
         "acteurs": "Johnny Depp, Javier Bardem",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5753,7 +5753,7 @@ const films = [
         "image": "images/point_break.jpg",
         "acteurs": "Patrick Swayze, Keanu Reeves",
         "genres": [],
-        "annee": "1991",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5767,7 +5767,7 @@ const films = [
         "image": "images/poseidon.jpg",
         "acteurs": "Josh Lucas, Kurt Russell",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5795,7 +5795,7 @@ const films = [
         "image": "images/pretty_woman.jpg",
         "acteurs": "Richard Gere, Julia Roberts",
         "genres": [],
-        "annee": "1990",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5823,7 +5823,7 @@ const films = [
         "image": "images/radin.jpg",
         "acteurs": "Dany Boon, Laurence Arné",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5837,7 +5837,7 @@ const films = [
         "image": "images/rain_man.jpg",
         "acteurs": "Dustin Hoffman, Tom Cruise",
         "genres": [],
-        "annee": "1988",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5902,7 +5902,7 @@ const films = [
         "image": "images/rampage.jpg",
         "acteurs": "Dwayne Johnson, Naomie Harris",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5916,7 +5916,7 @@ const films = [
         "image": "images/ready_player.jpg",
         "acteurs": "Tye Sheridan, Olivia Cooke",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5930,7 +5930,7 @@ const films = [
         "image": "images/remember_me.jpg",
         "acteurs": "Robert Pattinson, Emilie de Ravin",
         "genres": [],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5944,7 +5944,7 @@ const films = [
         "image": "images/replicas.jpg",
         "acteurs": "Keanu Reeves, Alice Eve",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5958,7 +5958,7 @@ const films = [
         "image": "images/resident_evil_1.jpg",
         "acteurs": "Milla Jovovich, Michelle Rodriguez",
         "genres": [],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5972,7 +5972,7 @@ const films = [
         "image": "images/resident_evil_2.jpg",
         "acteurs": "Milla Jovovich, Sienna Guillory",
         "genres": [],
-        "annee": "2004",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -5986,7 +5986,7 @@ const films = [
         "image": "images/resident_evil_3.jpg",
         "acteurs": "Milla Jovovich, Oded Fehr",
         "genres": [],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6000,7 +6000,7 @@ const films = [
         "image": "images/resident_evil_4.jpg",
         "acteurs": "Milla Jovovich, Ali Larter",
         "genres": [],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6014,7 +6014,7 @@ const films = [
         "image": "images/resident_evil_5.jpg",
         "acteurs": "Milla Jovovich, Sienna Guillory",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6028,7 +6028,7 @@ const films = [
         "image": "images/resident_evil_6.jpg",
         "acteurs": "Milla Jovovich, Iain Glen",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6042,7 +6042,7 @@ const films = [
         "image": "images/retour_vers_le_futur.jpg",
         "acteurs": "Michael J. Fox, Christopher Lloyd",
         "genres": [],
-        "annee": "1985",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6056,7 +6056,7 @@ const films = [
         "image": "images/retour_vers_le_futur_2.jpg",
         "acteurs": "Michael J. Fox, Christopher Lloyd",
         "genres": [],
-        "annee": "1989",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6070,7 +6070,7 @@ const films = [
         "image": "images/retour_vers_le_futur_3.jpg",
         "acteurs": "Michael J. Fox, Christopher Lloyd",
         "genres": [],
-        "annee": "1990",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6100,7 +6100,7 @@ const films = [
         "image": "images/rogue_on_star_wars.jpg",
         "acteurs": "Felicity Jones, Diego Luna",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6114,7 +6114,7 @@ const films = [
         "image": "images/san_andreas.jpg",
         "acteurs": "Dwayne Johnson, Carla Gugino",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6128,7 +6128,7 @@ const films = [
         "image": "images/saw_1.jpg",
         "acteurs": "Cary Elwes, Leigh Whannell",
         "genres": [],
-        "annee": "2004",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6142,7 +6142,7 @@ const films = [
         "image": "images/saw_10.jpg",
         "acteurs": "Tobin Bell",
         "genres": [],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6156,7 +6156,7 @@ const films = [
         "image": "images/saw_2.jpg",
         "acteurs": "Donnie Wahlberg, Tobin Bell",
         "genres": [],
-        "annee": "2005",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6170,7 +6170,7 @@ const films = [
         "image": "images/saw_3.jpg",
         "acteurs": "Tobin Bell, Shawnee Smith",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6184,7 +6184,7 @@ const films = [
         "image": "images/saw_4.jpg",
         "acteurs": "Tobin Bell, Costas Mandylor",
         "genres": [],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6198,7 +6198,7 @@ const films = [
         "image": "images/saw_5.jpg",
         "acteurs": "Tobin Bell, Costas Mandylor",
         "genres": [],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6212,7 +6212,7 @@ const films = [
         "image": "images/saw_6.jpg",
         "acteurs": "Tobin Bell, Costas Mandylor",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6226,7 +6226,7 @@ const films = [
         "image": "images/saw_7.jpg",
         "acteurs": "Tobin Bell, Costas Mandylor",
         "genres": [],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6240,7 +6240,7 @@ const films = [
         "image": "images/saw_8.jpg",
         "acteurs": "Tobin Bell, Costas Mandylor",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6254,7 +6254,7 @@ const films = [
         "image": "images/scream.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6268,7 +6268,7 @@ const films = [
         "image": "images/shang_chi.jpg",
         "acteurs": "Simu Liu, Awkwafina",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6282,7 +6282,7 @@ const films = [
         "image": "images/shazam.jpg",
         "acteurs": "Zachary Levi, Asher Angel",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6296,7 +6296,7 @@ const films = [
         "image": "images/shazam_2.jpg",
         "acteurs": "Zachary Levi, Helen Mirren",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6326,7 +6326,7 @@ const films = [
         "image": "images/sinister.jpg",
         "acteurs": "Ethan Hawke, Juliet Rylance",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6340,7 +6340,7 @@ const films = [
         "image": "images/sinister_2.jpg",
         "acteurs": "James Ransone, Shannyn Sossamon",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6351,7 +6351,7 @@ const films = [
     {
         "titre": "sissi_l_impératrice",
         "video": "https://www.youtube.com/watch?v=oBQtYm7JYrg",
-        "image": "images/sissi_l_impératrice.jpg",
+        "image": "images/sissi_l_imperatrice.jpg",
         "acteurs": "",
         "genres": [],
         "annee": "",
@@ -6368,7 +6368,7 @@ const films = [
         "image": "images/sixieme_sens.jpg",
         "acteurs": "Bruce Willis, Haley Joel Osment",
         "genres": [],
-        "annee": "1999",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6382,7 +6382,7 @@ const films = [
         "image": "images/skyscraper.jpg",
         "acteurs": "Dwayne Johnson, Neve Campbell",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6396,7 +6396,7 @@ const films = [
         "image": "images/sonic.jpg",
         "acteurs": "Ben Schwartz, James Marsden (voice/live-action)",
         "genres": [],
-        "annee": "2020",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6410,7 +6410,7 @@ const films = [
         "image": "images/sonic_2.jpg",
         "acteurs": "Ben Schwartz, James Marsden (voice/live-action)",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6438,7 +6438,7 @@ const films = [
         "image": "images/spider_man_far_from_home.jpg",
         "acteurs": "Tom Holland, Zendaya",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6452,7 +6452,7 @@ const films = [
         "image": "images/spider_man_homecoming.jpg",
         "acteurs": "Tom Holland, Michael Keaton",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6466,7 +6466,7 @@ const films = [
         "image": "images/spider_man_no_way_home.jpg",
         "acteurs": "Tom Holland, Zendaya",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6522,7 +6522,7 @@ const films = [
         "image": "images/star_wars_1.jpg",
         "acteurs": "Liam Neeson, Ewan McGregor, Natalie Portman",
         "genres": [],
-        "annee": "1999",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6536,7 +6536,7 @@ const films = [
         "image": "images/star_wars_2.jpg",
         "acteurs": "Ewan McGregor, Natalie Portman, Hayden Christensen",
         "genres": [],
-        "annee": "2002",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6550,7 +6550,7 @@ const films = [
         "image": "images/star_wars_3.jpg",
         "acteurs": "Ewan McGregor, Hayden Christensen, Natalie Portman",
         "genres": [],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6564,7 +6564,7 @@ const films = [
         "image": "images/star_wars_4.jpg",
         "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
         "genres": [],
-        "annee": "1977",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6578,7 +6578,7 @@ const films = [
         "image": "images/star_wars_5.jpg",
         "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
         "genres": [],
-        "annee": "1980",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6592,7 +6592,7 @@ const films = [
         "image": "images/star_wars_6.jpg",
         "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
         "genres": [],
-        "annee": "1983",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6606,7 +6606,7 @@ const films = [
         "image": "images/star_wars_7.jpg",
         "acteurs": "Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6620,7 +6620,7 @@ const films = [
         "image": "images/star_wars_8.jpg",
         "acteurs": "Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6634,7 +6634,7 @@ const films = [
         "image": "images/star_wars_9.jpg",
         "acteurs": "Daisy Ridley, Adam Driver",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6648,7 +6648,7 @@ const films = [
         "image": "images/suicide_squad.jpg",
         "acteurs": "Will Smith, Margot Robbie",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6659,10 +6659,10 @@ const films = [
     {
         "titre": "super_héros_malgrès_lui",
         "video": "https://www.youtube.com/watch?v=y6LXJnItN1U",
-        "image": "images/super_héros_malgrès_lui.jpg",
+        "image": "images/super_heros_malgres_lui.jpg",
         "acteurs": "Philippe Lacheau, Élodie Fontan,Tarek Boudali",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6676,7 +6676,7 @@ const films = [
         "image": "images/super_mario.jpg",
         "acteurs": "Bob Hoskins, John Leguizamo",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6704,7 +6704,7 @@ const films = [
         "image": "images/taken_1.jpg",
         "acteurs": "Liam Neeson, Maggie Grace",
         "genres": [],
-        "annee": "2008",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6718,7 +6718,7 @@ const films = [
         "image": "images/taken_2.jpg",
         "acteurs": "Liam Neeson, Maggie Grace",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6732,7 +6732,7 @@ const films = [
         "image": "images/taken_3.jpg",
         "acteurs": "Liam Neeson, Forest Whitaker",
         "genres": [],
-        "annee": "2015",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6746,7 +6746,7 @@ const films = [
         "image": "images/tenet.jpg",
         "acteurs": "John David Washington, Robert Pattinson",
         "genres": [],
-        "annee": "2020",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6760,7 +6760,7 @@ const films = [
         "image": "images/the_batman.jpg",
         "acteurs": "Robert Pattinson, Zoë Kravitz",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6774,7 +6774,7 @@ const films = [
         "image": "images/the_doors.jpg",
         "acteurs": "Val Kilmer, Meg Ryan",
         "genres": [],
-        "annee": "1991",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6788,7 +6788,7 @@ const films = [
         "image": "images/the_fall_guy.jpg",
         "acteurs": "Ryan Gosling, Emily Blunt",
         "genres": [],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6802,7 +6802,7 @@ const films = [
         "image": "images/the_flash.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6816,7 +6816,7 @@ const films = [
         "image": "images/the_island.jpg",
         "acteurs": "Ewan McGregor, Scarlett Johansson",
         "genres": [],
-        "annee": "2005",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6830,7 +6830,7 @@ const films = [
         "image": "images/the_marvels.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6844,7 +6844,7 @@ const films = [
         "image": "images/the_suicide_squad.jpg",
         "acteurs": "Margot Robbie, Idris Elba",
         "genres": [],
-        "annee": "2021",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6872,7 +6872,7 @@ const films = [
         "image": "images/thor_1.jpg",
         "acteurs": "Chris Hemsworth, Natalie Portman",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6886,7 +6886,7 @@ const films = [
         "image": "images/thor_le_monde_des_tenebres.jpg",
         "acteurs": "Chris Hemsworth, Natalie Portman",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6900,7 +6900,7 @@ const films = [
         "image": "images/thor_love_and_thunder.jpg",
         "acteurs": "Chris Hemsworth, Natalie Portman",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6914,7 +6914,7 @@ const films = [
         "image": "images/thor_ragnarok.jpg",
         "acteurs": "Chris Hemsworth, Tom Hiddleston",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6928,7 +6928,7 @@ const films = [
         "image": "images/titanic.jpg",
         "acteurs": "Leonardo DiCaprio, Kate Winslet",
         "genres": [],
-        "annee": "1997",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6942,7 +6942,7 @@ const films = [
         "image": "images/tomb_raider.jpg",
         "acteurs": "Angelina Jolie, Jon Voight",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6956,7 +6956,7 @@ const films = [
         "image": "images/top_gun.jpg",
         "acteurs": "Tom Cruise, Kelly McGillis",
         "genres": [],
-        "annee": "1986",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -6970,7 +6970,7 @@ const films = [
         "image": "images/maverick.jpg",
         "acteurs": "Tom Cruise, Miles Teller",
         "genres": [],
-        "annee": "2022",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7040,7 +7040,7 @@ const films = [
         "image": "images/transformers_1.jpg",
         "acteurs": "Shia LaBeouf, Megan Fox",
         "genres": [],
-        "annee": "2007",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7054,7 +7054,7 @@ const films = [
         "image": "images/transformers_2.jpg",
         "acteurs": "Shia LaBeouf, Megan Fox",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7068,7 +7068,7 @@ const films = [
         "image": "images/transformers_3.jpg",
         "acteurs": "Shia LaBeouf, Rosie Huntington-Whiteley",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7082,7 +7082,7 @@ const films = [
         "image": "images/transformers_4.jpg",
         "acteurs": "Mark Wahlberg, Stanley Tucci",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7096,7 +7096,7 @@ const films = [
         "image": "images/transformers_5.jpg",
         "acteurs": "Mark Wahlberg, Anthony Hopkins",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7110,7 +7110,7 @@ const films = [
         "image": "images/transformers_6.jpg",
         "acteurs": "",
         "genres": [],
-        "annee": "2023",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7124,7 +7124,7 @@ const films = [
         "image": "images/twilight_1.jpg",
         "acteurs": "Kristen Stewart, Robert Pattinson",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7138,7 +7138,7 @@ const films = [
         "image": "images/twilight_2.jpg",
         "acteurs": "Kristen Stewart, Robert Pattinson",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7152,7 +7152,7 @@ const films = [
         "image": "images/twilight_3.jpg",
         "acteurs": "Kristen Stewart, Robert Pattinson",
         "genres": [],
-        "annee": "2010",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7166,7 +7166,7 @@ const films = [
         "image": "images/twilight_4.jpg",
         "acteurs": "Kristen Stewart, Robert Pattinson",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7180,7 +7180,7 @@ const films = [
         "image": "images/twilight_5.jpg",
         "acteurs": "Kristen Stewart, Robert Pattinson",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7194,7 +7194,7 @@ const films = [
         "image": "images/twisters.jpg",
         "acteurs": "Glen Powel, Daisy Edgar-Jones, Anthony Ramos",
         "genres": [],
-        "annee": "2024",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7208,7 +7208,7 @@ const films = [
         "image": "images/un_hologram_pour_le_roi.jpg",
         "acteurs": "Tom Hanks, Alexander Black",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7236,7 +7236,7 @@ const films = [
         "image": "images/underworld_1.jpg",
         "acteurs": "Kate Beckinsale, Scott Speedman",
         "genres": [],
-        "annee": "2001",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7250,7 +7250,7 @@ const films = [
         "image": "images/underworld_2.jpg",
         "acteurs": "Kate Beckinsale, Scott Speedman",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7264,7 +7264,7 @@ const films = [
         "image": "images/underworld_3.jpg",
         "acteurs": "Michael Sheen, Bill Nighy",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7278,7 +7278,7 @@ const films = [
         "image": "images/underworld_4.jpg",
         "acteurs": "Kate Beckinsale, Stephen Rea",
         "genres": [],
-        "annee": "2012",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7292,7 +7292,7 @@ const films = [
         "image": "images/underworld_5.jpg",
         "acteurs": "Kate Beckinsale, Theo James",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7336,7 +7336,7 @@ const films = [
         "image": "images/very_bad_trip_1.jpg",
         "acteurs": "Bradley Cooper, Ed Helms",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7350,7 +7350,7 @@ const films = [
         "image": "images/very_bad_trip_2.jpg",
         "acteurs": "Bradley Cooper, Ed Helms",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7364,7 +7364,7 @@ const films = [
         "image": "images/very_bad_trip_3.jpg",
         "acteurs": "Bradley Cooper, Ed Helms",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7378,7 +7378,7 @@ const films = [
         "image": "images/volte_face.jpg",
         "acteurs": "John Travolta, Nicolas Cage",
         "genres": [],
-        "annee": "1997",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7392,7 +7392,7 @@ const films = [
         "image": "images/vox_lux.jpg",
         "acteurs": "Natalie Portman, Jude Law",
         "genres": [],
-        "annee": "2018",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7420,7 +7420,7 @@ const films = [
         "image": "images/wolverine.jpg",
         "acteurs": "Hugh Jackman, Tao Okamoto",
         "genres": [],
-        "annee": "2013",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7434,7 +7434,7 @@ const films = [
         "image": "images/wonder_woman.jpg",
         "acteurs": "Gal Gadot, Chris Pine",
         "genres": [],
-        "annee": "2017",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7448,7 +7448,7 @@ const films = [
         "image": "images/wonder_woman_1984.jpg",
         "acteurs": "Gal Gadot, Chris Pine",
         "genres": [],
-        "annee": "2020",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7462,7 +7462,7 @@ const films = [
         "image": "images/xmen_1.jpg",
         "acteurs": "Hugh Jackman, Patrick Stewart",
         "genres": [],
-        "annee": "2000",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7476,7 +7476,7 @@ const films = [
         "image": "images/xmen_2.jpg",
         "acteurs": "Hugh Jackman, Halle Berry",
         "genres": [],
-        "annee": "2003",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7490,7 +7490,7 @@ const films = [
         "image": "images/xmen_3.jpg",
         "acteurs": "Hugh Jackman, Halle Berry",
         "genres": [],
-        "annee": "2006",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7504,7 +7504,7 @@ const films = [
         "image": "images/xmen_apocalyspse.jpg",
         "acteurs": "James McAvoy, Michael Fassbender",
         "genres": [],
-        "annee": "2016",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7518,7 +7518,7 @@ const films = [
         "image": "images/xmen_dark_phoenix.jpg",
         "acteurs": "Sophie Turner, James McAvoy",
         "genres": [],
-        "annee": "2019",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7532,7 +7532,7 @@ const films = [
         "image": "images/xmen_days_of_futur_past.jpg",
         "acteurs": "Hugh Jackman, James McAvoy",
         "genres": [],
-        "annee": "2014",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7546,7 +7546,7 @@ const films = [
         "image": "images/xmen_le_commencement.jpg",
         "acteurs": "James McAvoy, Michael Fassbender",
         "genres": [],
-        "annee": "2011",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
@@ -7560,7 +7560,7 @@ const films = [
         "image": "images/xmen_origins.jpg",
         "acteurs": "Hugh Jackman, Liev Schreiber",
         "genres": [],
-        "annee": "2009",
+        "annee": "",
         "duree": "",
         "resume": "",
         "sections": [
