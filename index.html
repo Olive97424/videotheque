@@ -253,9 +253,20 @@
         }
 
         @media (max-width: 480px) {
-            .film {
-                width: calc(100% / 3 - 10px); /* 3 films par ligne */
-            }
+    .film {
+        width: calc(100% / 4 - 10px);
+    }
+
+    .film img {
+        height: 100px; /* plus compact */
+    }
+
+    .film div {
+        display: none; /* masque le texte */
+    }
+}
+
+            
 
             .carousel-inner img {
                 height: 120px;
