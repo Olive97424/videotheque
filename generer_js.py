@@ -1,56 +1,56 @@
 import csv
+import os
 
 # Chemin vers le fichier CSV
-csv_file_path = 'C:/Users/odefaudlegros/Documents/films papa/videotheque/films.csv'
+csv_file_path = 'films.csv'  # À adapter si nécessaire
 
-# Chemin relatif pour les images dans `films.js`
-images_folder_relative = 'images/'  # Pour GitHub Pages
+# Chemin relatif pour les images dans le site
+images_folder_relative = 'images/'
 
-# Noms des colonnes dans le fichier CSV
-title_column = 'nom films'
-video_column = 'liens vidéo'
-image_column = 'chemin accès'
-actors_column = 'acteurs'  # Assurez-vous que cette colonne existe dans votre CSV
-genre_column = 'genre'     # Assurez-vous que cette colonne existe dans votre CSV
-release_date_column = 'date_sortie'  # Nouvelle colonne pour la date de sortie
-section_column = 'section'  # Nouvelle colonne pour la section
-nouveaute_column = 'nouveaute'  # Nouvelle colonne pour nouveauté
+# Colonnes utilisées
+columns = {
+    'title': 'nom films',
+    'video': 'liens vidéo',
+    'image': 'chemin accès',
+    'actors': 'acteurs',
+    'genres': 'genre',
+    'release_date': 'date_sortie',
+    'sections': 'section',
+    'nouveaute': 'nouveaute'
+}
 
-# Créer le contenu du fichier JavaScript
+# Génération du contenu JS
 films_js = "const films = [\n"
 
 try:
     with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=';')
         for row in reader:
-            title = row.get(title_column, '').strip()
-            video_link = row.get(video_column, '').strip()
-            image_path = row.get(image_column, '').strip()
-            actors = row.get(actors_column, '').strip()
-            genres = row.get(genre_column, '').strip().split(',') if row.get(genre_column) else []
-            release_date = row.get(release_date_column, '').strip()
-            sections = row.get(section_column, '').strip().split(',') if row.get(section_column) else []
-            nouveaute = row.get(nouveaute_column, '').strip()
+            title = row.get(columns['title'], '').strip()
+            video = row.get(columns['video'], '').strip()
+            image_path = row.get(columns['image'], '').strip()
+            image_file = os.path.basename(image_path)
+            image_web_path = f"{images_folder_relative}{image_file}"
 
-            if title and video_link and image_path:
-                image_file = image_path.split('\\')[-1]
-                image_relative_path = f"{images_folder_relative}{image_file}"
-                genre_list = ", ".join(f'"{genre.strip()}"' for genre in genres)
-                section_list = ", ".join(f'"{section.strip()}"' for section in sections)
+            actors = row.get(columns['actors'], '').strip()
+            genres = [g.strip() for g in row.get(columns['genres'], '').split(',') if g.strip()]
+            sections = [s.strip() for s in row.get(columns['sections'], '').split(',') if s.strip()]
+            date_sortie = row.get(columns['release_date'], '').strip()
+            nouveaute = row.get(columns['nouveaute'], '').strip()
 
-                films_js += f"    {{ titre: \"{title}\", video: \"{video_link}\", image: \"{image_relative_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{release_date}\", sections: [{section_list}], nouveaute: \"{nouveaute}\" }},\n"
+            genre_list = ', '.join(f'"{g}"' for g in genres)
+            section_list = ', '.join(f'"{s}"' for s in sections)
 
-    films_js = films_js.rstrip(",\n") + "\n];"
+            films_js += f"    {{ titre: \"{title}\", video: \"{video}\", image: \"{image_web_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{date_sortie}\", sections: [{section_list}], nouveaute: \"{nouveaute}\" }},\n"
 
-    # Sauvegarder le fichier JavaScript généré
+    films_js = films_js.rstrip(',\n') + "\n];"
+
     with open('films.js', 'w', encoding='utf-8') as jsfile:
         jsfile.write(films_js)
 
-    print("Le fichier 'films.js' a été généré avec succès.")
+    print("✅ Fichier 'films.js' généré avec succès !")
 
 except FileNotFoundError:
-    print("Le fichier CSV n'a pas été trouvé.")
-except KeyError as e:
-    print(f"Erreur de clé : {e}")
+    print("❌ Le fichier CSV est introuvable.")
 except Exception as e:
-    print(f"Erreur inattendue : {e}")
+    print(f"❌ Erreur inattendue : {e}")
