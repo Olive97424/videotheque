@@ -146,19 +146,34 @@ function filterFilmsByGenre() {
     });
     updateFilmCount();
 }
+let filtreNouveauteActif = false;
+
 function filterByNouveautes() {
     const gallery = document.getElementById('filmGallery');
+    const button = document.querySelector('button[onclick="filterByNouveautes()"]');
+
+    filtreNouveauteActif = !filtreNouveauteActif;
+
     gallery.innerHTML = '';
 
-    films.forEach(film => {
-        if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
+    if (filtreNouveauteActif) {
+        films.forEach(film => {
+            if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
+                gallery.appendChild(createFilmElement(film));
+            }
+        });
+        button.classList.add('active');
+        button.textContent = '🔁 Tous les films';
+    } else {
+        films.forEach(film => {
             gallery.appendChild(createFilmElement(film));
-        }
-    });
+        });
+        button.classList.remove('active');
+        button.textContent = '🆕 Nouveautés';
+    }
 
     updateFilmCount();
 }
-
 function updateGenres() {
     const genreSet = new Set();
     films.forEach(film => {

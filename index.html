@@ -420,6 +420,11 @@
                 display: none;
             }
         }
+	@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
 
         .suggestions {
             display: none; /* Masquer les suggestions */
@@ -448,11 +453,15 @@
             display: none;
         }
  .carousel-indicators {
-        display: none;
-    }
+    display: none;
+}
 
-
-    </style>
+button.active {
+    border: 2px solid #fff;
+    background-color: #ffbb00;
+    color: #000;
+}
+</style>
 </head>
 <body class="dark">
     <div class="theme-switch-wrapper right">
@@ -484,12 +493,11 @@
     <div class="controls">
     <button onclick="filterByNouveautes()" class="btn btn-warning">🆕 Nouveautés</button>
     <input type="text" id="search" placeholder="Rechercher un film ou acteur..." oninput="filterFilms()">
-            <select id="genreSelect" onchange="filterFilmsByGenre()">
+            <select id="genreSelect" onchange="filterFilmsByGenre()" class="hide-on-mobile">
     <option value="">Tous les genres</option>
-    <!-- Tu peux ajouter les genres ici si tu veux les fixer -->
 </select>
+<button onclick="sortFilmsByTitle()" class="hide-on-mobile">Trier par titre</button>
 
-        <button onclick="sortFilmsByTitle()">Trier par titre</button>
     </div>
     <div class="section-buttons">
         <button class="section-button" onclick="filterFilmsBySection('bluray')">
