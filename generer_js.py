@@ -1,64 +1,68 @@
 import csv
+import json
 import os
+import unicodedata
 
-# Chemin vers le fichier CSV
-csv_file_path = 'films.csv'  # À adapter si nécessaire
-
-# Chemin relatif pour les images dans le site
+csv_file_path = 'films_corrige.csv'
+json_file_path = 'films.js'
 images_folder_relative = 'images/'
 
-# Colonnes utilisées
-columns = {
-    'title': 'nom films',
-    'video': 'liens vidéo',
-    'image': 'chemin accès',
-    'actors': 'acteurs',
-    'genres': 'genre',
-    'release_date': 'date_sortie',
-    'sections': 'section',
-    'nouveaute': 'nouveaute',
-    'synopsis': 'synopsis',
-    'restriction': 'restriction'
-}
+def nettoyer_texte(texte):
+    texte = texte.replace('"', '\\"')
+    texte = unicodedata.normalize('NFD', texte).encode('ascii', 'ignore').decode('utf-8')
+    return texte.strip()
 
-# Génération du contenu JS
-films_js = "const films = [\n"
+films = []
+extensions_images = ['.jpg', '.jpeg', '.png', '.webp']
 
-try:
-    with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=';')
-        for row in reader:
-            title = row.get(columns['title'], '').strip()
-            video = row.get(columns['video'], '').strip()
-            image_path = row.get(columns['image'], '').strip()
-            image_file = os.path.basename(image_path)
-            image_web_path = f"{images_folder_relative}{image_file}"
+with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
+    reader = csv.DictReader(csvfile, delimiter=';')
+    print("🔍 Colonnes détectées :", reader.fieldnames)
 
-            actors = row.get(columns['actors'], '').strip()
-            genres = [g.strip() for g in row.get(columns['genres'], '').split(',') if g.strip()]
-            sections = [s.strip() for s in row.get(columns['sections'], '').split(',') if s.strip()]
-            date_sortie = row.get(columns['release_date'], '').strip()
-            nouveaute = row.get(columns['nouveaute'], '').strip()
-            synopsis = row.get(columns['synopsis'], '').strip()
-            restriction = row.get(columns['restriction'], '').strip()
+    for row in reader:
+        # Trouve automatiquement la colonne contenant une image valide
+        image_column_name = next(
+            (col for col in row if any(ext in row[col].lower() for ext in extensions_images)),
+            None
+        )
 
-            # Marquer comme nouveauté si date >= 2022
-            if not nouveaute and date_sortie.isdigit() and int(date_sortie) >= 2022:
-                nouveaute = "oui"
+        if not image_column_name:
+            print(f"❌ Aucune colonne image détectée pour la ligne : {row}")
+            continue
 
-            genre_list = ', '.join(f'"{g}"' for g in genres)
-            section_list = ', '.join(f'"{s}"' for s in sections)
+        titre = nettoyer_texte(row.get('nom films', ''))
+        video = row.get('liens video', '').strip()
 
-            films_js += f"    {{ titre: \"{title}\", video: \"{video}\", image: \"{image_web_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{date_sortie}\", sections: [{section_list}], nouveaute: \"{nouveaute}\", synopsis: \"{synopsis}\", restriction: \"{restriction}\" }},\n"
+        image_path = row[image_column_name].replace('\\', '/').strip()
+        image_file = os.path.basename(image_path)
+        image_web_path = f"{images_folder_relative}{image_file}"
 
-    films_js = films_js.rstrip(',\n') + "\n];"
+        acteurs = nettoyer_texte(row.get('acteurs', ''))
+        genres = [g.strip() for g in row.get('genre', '').split(',') if g.strip()]
+        date_sortie = row.get('date_sortie', '').strip()
+        sections = [s.strip() for s in row.get('section', '').split(',') if s.strip()]
+        nouveaute = row.get('nouveaute', '').strip()
+        synopsis = nettoyer_texte(row.get('synopsis', ''))
+        restriction = row.get('restriction', '').strip()
 
-    with open('films.js', 'w', encoding='utf-8') as jsfile:
-        jsfile.write(films_js)
+        film = {
+            "titre": titre,
+            "video": video,
+            "image": image_web_path,
+            "acteurs": acteurs,
+            "genres": genres,
+            "date_sortie": date_sortie,
+            "sections": sections,
+            "nouveaute": nouveaute,
+            "synopsis": synopsis,
+            "restriction": restriction
+        }
 
-    print("✅ Fichier 'films.js' généré avec succès !")
+        films.append(film)
 
-except FileNotFoundError:
-    print("❌ Le fichier CSV est introuvable.")
-except Exception as e:
-    print(f"❌ Erreur inattendue : {e}")
+with open(json_file_path, 'w', encoding='utf-8') as jsfile:
+    jsfile.write("const films = ")
+    jsfile.write(json.dumps(films, ensure_ascii=False, indent=2))
+    jsfile.write(";")
+
+print(f"\n✅ Fichier '{json_file_path}' généré avec succès ! ({len(films)} films)")
