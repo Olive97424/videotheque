@@ -42,8 +42,8 @@ try:
             synopsis = row.get(columns['synopsis'], '').strip()
             restriction = row.get(columns['restriction'], '').strip()
 
-            # Marquer comme nouveauté si date >= 2024
-            if not nouveaute and date_sortie.isdigit() and int(date_sortie) >= 2024:
+            # Marquer comme nouveauté si date >= 2022
+            if not nouveaute and date_sortie.isdigit() and int(date_sortie) >= 2022:
                 nouveaute = "oui"
 
             genre_list = ', '.join(f'"{g}"' for g in genres)
