@@ -309,14 +309,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Seule survivante d'un carnage sur une planete lointaine, Ripley s'echoue sur Fiorina 161, planete oubliee de l'univers, balayee par des vents puissants. Une communaute d'une vingtaine d'hommes y vit. Violeurs, assassins, infanticides, ce sont les plus dangereux detenus de droits communs de l'univers. L'arrivee de Ripley va les confronter a un danger qui sera plus fort qu'eux.",
+    "restriction": "12 ans"
   },
   {
     "titre": "aliens_4",
     "video": "https://www.youtube.com/watch?v=JMpSSEWoqWA&t=25s",
     "image": "images/aliens_4.jpg",
-    "acteurs": "",
+    "acteurs": "Sigourney Weaver,Winona Ryder,Dan Hedaya",
     "genres": [
       "horreur",
       "science-fiction"
@@ -326,8 +326,8 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Deux cents ans apres la mort de l'officier Ripley, une equipe de geneticiens ressuscite la jeune femme en croisant son ADN avec celui d'un Alien. Le cauchemar reprend. A bord de la station Auriga, Ripley donne naissance a un fils qui lui est aussitot enleve. Prisonniere, elle s'efforce de renouer avec son lointain passe humain. Bientot un autre vaisseau rejoint l'Auriga. Parmi l'equipage compose de brutes et de mercenaires, Ripley decouvre une belle jeune femme, Call, avec laquelle elle ne tarde pas a se lier d'amitie.",
+    "restriction": "12 ans"
   },
   {
     "titre": "aliens_5",
@@ -350,7 +350,7 @@ const films = [
     "titre": "aliens_6_prometeus",
     "video": "https://www.youtube.com/watch?v=Oxv5SP3sags&t=53s",
     "image": "images/aliens_6_prometeus.jpg",
-    "acteurs": "Noomi Rapace, Michael Fassbender",
+    "acteurs": "Noomi Rapace,Michael Fassbender,Charlize Theron",
     "genres": [
       "horreur",
       "science-fiction"
@@ -360,8 +360,8 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Une equipe dexplorateurs decouvre un indice sur lorigine de lhumanite sur Terre. Cette decouverte les entraine dans un voyage fascinant jusquaux recoins les plus sombres de lunivers. La-bas, un affrontement terrifiant qui decidera de lavenir de lhumanite les attend.",
+    "restriction": "12 ans"
   },
   {
     "titre": "alien_romulus",
@@ -377,14 +377,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Alors quil entreprend des fouilles dans une station spatiale abandonnee, un groupe de jeunes voyageurs se retrouve confronte a la forme de vie la plus terrifiante de l'univers",
+    "restriction": "12 ans"
   },
   {
     "titre": "aline",
     "video": "https://www.youtube.com/watch?v=4dWI7GDkaPg",
     "image": "images/aline.jpg",
-    "acteurs": "Valerie Lemercier",
+    "acteurs": "Valerie Lemercier,Sylvain Marcel,Danielle Fichaud",
     "genres": [
       "biopic",
       "drame"
@@ -394,14 +394,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
+    "synopsis": "Petite derniere d'une fratrie de 14 enfants, la petite Aline, qui vit dans un village du Quebec, montre des dons precoces pour le chant. Le producteur Guy-Claude voit en elle un diamant brut. Il s'occupe de son aspect physique et de lui trouver de potentiels hits. Au fil du temps, Aline tombe amoureuse de son mentor...",
     "restriction": ""
   },
   {
     "titre": "alita",
     "video": "https://www.youtube.com/watch?v=c4nJBG8xB7s",
     "image": "images/alita.jpg",
-    "acteurs": "Rosa Salazar, Christoph Waltz",
+    "acteurs": "Rosa Salazar,Christoph Waltz,Jennifer Connelly",
     "genres": [
       "science-fiction"
     ],
@@ -410,14 +410,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "LorsquAlita se reveille sans aucun souvenir de qui elle est, dans un futur quelle ne reconnait pas, elle est accueillie par Ido, un medecin qui comprend que derriere ce corps de cyborg abandonne, se cache une jeune femme au passe extraordinaire. Ce nest que lorsque les forces dangereuses et corrompues qui gerent la villedIron Cityse lancent a sa poursuite quAlita decouvre la cle de son passe - elle a des capacites de combat uniques, que ceux qui detiennent le pouvoir veulent absolument maitriser. Si elle reussit a leur echapper, elle pourrait sauver ses amis, sa famille, et le monde quelle a appris a aimer.",
+    "restriction": "12 ans"
   },
   {
     "titre": "amercican_nigthmare_1",
     "video": "https://www.youtube.com/watch?v=AVRk-UhPkHU",
     "image": "images/amercican_nigthmare_1.jpg",
-    "acteurs": "Ethan Hawke, Lena Headey",
+    "acteurs": "Ethan Hawke,Lena Headey,Max Burkholder",
     "genres": [
       "horreur",
       "action"
@@ -427,14 +427,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Dans une Amerique rongee par une criminalite debridee et des prisons surpeuplees, le gouvernement a donne son accord pour quune fois par an, pendant 12 heures, toutes activites criminelles, meurtres inclus, soient legalisees. La police ne peut intervenir. Les hopitaux suspendent leurs services. Une nuit durant, les citoyens sont a meme de definir leurs propres regles et de faire leur propre loi, sans avoir a craindre de sanctions. Au cours dune telle nuit hantee par la violence et le crime, une famille va devoir faire un choix  bourreau ou victime ?  face a un inconnu venu frapper a sa porte.",
+    "restriction": "12 ans"
   },
   {
     "titre": "amercican_nigthmare_2",
     "video": "https://www.youtube.com/watch?v=tpNKIBt-pXA",
     "image": "images/amercican_nigthmare_2.jpg",
-    "acteurs": "Frank Grillo, Carmen Ejogo",
+    "acteurs": "Frank Grillo,Carmen Ejogo,Zach Gilford",
     "genres": [
       "horreur",
       "action"
@@ -444,14 +444,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Leo, un homme sombre et enigmatique, brigadier de police, est hante par la disparition de son fils. S'armant d'un arsenal offensif et defensif, cet homme possede est resolu a se purger de ses demons. Eva, une mere celibataire tentant tant bien que mal de joindre les deux bouts, et sa fille adolescente Cali vivent dans un quartier defavorise et n'ont pas les moyens de s'offrir une bonne protection. Quand une poignee de purgeurs masques penetrent chez elles et les capturent, elles n'ont d'autre choix que de s'en remettre a leur liberateur fortuit, Leo. Au detriment de sa mission de vengeance autorisee contre celui qui a porte prejudice a sa famille, Leo, temoin de l'enlevement d'Eva et Cali, ouvre le feu sur leurs agresseurs alors que Shane et Liz, un couple sur le point de se separer, sont les victimes d'un acte de sabotage sur leur voiture a quelques minutes seulement du debut de la Purge. Trouvant refuge dans le vehicule blinde que Leo a laisse ouvert pour porter secours a Eva et Cali, Shane et Liz s'allient alors a eux pour tenter de se defendre contre ceux qui ont la ferme intention d'exercer leur droit a la tuerie. Alors que ces cinq nouveaux allies sont poursuivis a travers la ville, dans un sinistre jeu de tue-moi ou je te tue effacant la frontiere entre vengeance sponsorisee et justice humaine, tous sont amenes a remettre en question tout ce que leurs dirigeants leur ont toujours prone.",
+    "restriction": "12 ans"
   },
   {
     "titre": "amercican_nigthmare_3",
     "video": "https://www.youtube.com/watch?v=FW8CqyN7esE",
     "image": "images/amercican_nigthmare_3.jpg",
-    "acteurs": "Frank Grillo, Elizabeth Mitchell",
+    "acteurs": "Frank Grillo,Elizabeth Mitchell,Mykelti Williamson",
     "genres": [
       "horreur",
       "action"
@@ -461,14 +461,14 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Une senatrice americaine candidate a la presidence fait campagne pour abolir la purge, cette demi-journee annuelle pendant laquelle le meurtre devient legal. Pour elle, il n'y a rien de cathartique dans ce moment de violence barbare. Mais la date de la nouvelle purge approche, et ses promoteurs fanatiques promettent d'en profiter pour eliminer la candidate. La malheureuse n'as pas beaucoup d'allies. Tout le monde se barricade et espere sortir vivant de ces douze heures de cauchemar. Quand les sirenes annoncant l'ouverture de la purge retentissent, l'elue ne peut compter que sur son garde du corps. Ce troisieme volet, sorti en 2016, fait echo de maniere astucieuse aux elections americaines de cette annee-la.",
+    "restriction": "12 ans"
   },
   {
     "titre": "amercican_nigthmare_4",
     "video": "https://www.youtube.com/watch?v=O6_CqoAT2bM",
     "image": "images/amercican_nigthmare_4.jpg",
-    "acteurs": "Y'lan Noel, Lex Scott Davis",
+    "acteurs": "Y'lan Noel,Lex Scott Davis,Joivan Wade",
     "genres": [
       "horreur",
       "action"
@@ -478,8 +478,8 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": ""
+    "synopsis": "Pour faire passer le taux de criminalite en-dessous de 1% le reste de lannee, les Nouveaux Peres Fondateurs testent une theorie sociale qui permettrait devacuer la violence durant une nuit dans une ville isolee. Mais lorsque lagressivite des tyrans rencontre la rage de communautes marginalisees, le phenomene va setendre au-dela des frontieres de la ville test jusqua atteindre la nation entiere.",
+    "restriction": "12 ans"
   },
   {
     "titre": "american_sniper",
