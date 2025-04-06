@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajouter un film</title>
+  <script defer>
+    async function envoyerFilm() {
+      const form = document.getElementById('filmForm');
+      const formData = new FormData(form);
+
+      try {
+        const res = await fetch('http://localhost:5000/ajouter-film', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await res.json();
+        alert(data.message);
+        if (data.status === "ok") form.reset();
+      } catch (err) {
+        alert("Erreur lors de l'envoi : " + err);
+      }
+    }
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; max-width: 800px; margin: auto; }
+    label { font-weight: bold; display: block; margin-top: 1rem; }
+    input, textarea { width: 100%; padding: 0.5rem; margin-top: 0.25rem; }
+    button { margin-top: 1rem; padding: 0.75rem 1.5rem; font-size: 1rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Ajouter un film</h1>
+  <form id="filmForm" enctype="multipart/form-data" onsubmit="event.preventDefault(); envoyerFilm();">
+    <label for="titre">Titre</label>
+    <input type="text" name="titre" id="titre">
+
+    <label for="acteurs">Acteurs (séparés par virgule)</label>
+    <input type="text" name="acteurs" id="acteurs">
+
+    <label for="genres">Genres (séparés par virgule)</label>
+    <input type="text" name="genres" id="genres">
+
+    <label for="date">Année de sortie</label>
+    <input type="text" name="date" id="date">
+
+    <label for="section">Sections (ex: film, série)</label>
+    <input type="text" name="section" id="section">
+
+    <label for="image">Image (fichier)</label>
+    <input type="file" name="image" id="image" accept="image/*">
+
+    <label for="video">Lien vidéo</label>
+    <input type="text" name="video" id="video">
+
+    <label><input type="checkbox" name="nouveaute" id="nouveaute"> Coche si c'est une nouveauté</label>
+
+    <label for="synopsis">Synopsis</label>
+    <textarea name="synopsis" id="synopsis" rows="4"></textarea>
+
+    <label for="restriction">Restriction (ex: - de 16 ans)</label>
+    <input type="text" name="restriction" id="restriction">
+
+    <button type="submit">Ajouter au CSV</button>
+  </form>
+</body>
+</html>
