@@ -16,7 +16,9 @@ columns = {
     'genres': 'genre',
     'release_date': 'date_sortie',
     'sections': 'section',
-    'nouveaute': 'nouveaute'
+    'nouveaute': 'nouveaute',
+    'synopsis': 'synopsis',
+    'restriction': 'restriction'
 }
 
 # Génération du contenu JS
@@ -37,6 +39,8 @@ try:
             sections = [s.strip() for s in row.get(columns['sections'], '').split(',') if s.strip()]
             date_sortie = row.get(columns['release_date'], '').strip()
             nouveaute = row.get(columns['nouveaute'], '').strip()
+            synopsis = row.get(columns['synopsis'], '').strip()
+            restriction = row.get(columns['restriction'], '').strip()
 
             # Marquer comme nouveauté si date >= 2022
             if not nouveaute and date_sortie.isdigit() and int(date_sortie) >= 2022:
@@ -45,7 +49,7 @@ try:
             genre_list = ', '.join(f'"{g}"' for g in genres)
             section_list = ', '.join(f'"{s}"' for s in sections)
 
-            films_js += f"    {{ titre: \"{title}\", video: \"{video}\", image: \"{image_web_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{date_sortie}\", sections: [{section_list}], nouveaute: \"{nouveaute}\" }},\n"
+            films_js += f"    {{ titre: \"{title}\", video: \"{video}\", image: \"{image_web_path}\", acteurs: \"{actors}\", genres: [{genre_list}], date_sortie: \"{date_sortie}\", sections: [{section_list}], nouveaute: \"{nouveaute}\", synopsis: \"{synopsis}\", restriction: \"{restriction}\" }},\n"
 
     films_js = films_js.rstrip(',\n') + "\n];"
 

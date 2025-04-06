@@ -37,16 +37,70 @@ function createFilmElement(film) {
         filmDiv.appendChild(badge);
     }
 
-    filmDiv.appendChild(img);
-    filmDiv.appendChild(caption);
+   filmDiv.appendChild(img);
+filmDiv.appendChild(caption);
 
-    filmDiv.onclick = () => {
-        openModal(film.video);
+const infoBtn = document.createElement('span');
+infoBtn.classList.add('info-bulle');
+infoBtn.textContent = 'ℹ️';
+
+infoBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+
+    // Si une bulle est déjà affichée pour ce film, on la supprime
+    const existing = document.querySelector('.popover-info');
+    if (existing && existing.dataset.source === film.titre) {
+        existing.remove();
+        return;
+    }
+
+    // Supprimer les autres bulles ouvertes
+    document.querySelectorAll('.popover-info').forEach(p => p.remove());
+
+    // Créer la nouvelle bulle
+    const popover = document.createElement('div');
+    popover.classList.add('popover-info');
+    popover.dataset.source = film.titre; // pour savoir qui l'a déclenchée
+    popover.innerHTML = `
+        <p><strong>${film.titre.replace(/_/g, ' ')}</strong></p>
+        <p><strong>Restriction :</strong> ${film.restriction || 'Aucune'}</p>
+        <p><strong>Acteurs :</strong> ${film.acteurs}</p>
+        <p><strong>Année :</strong> ${film.date_sortie}</p>
+        <p><strong>Genres :</strong> ${film.genres.join(', ')}</p>
+        <p><strong>Synopsis :</strong><br>${film.synopsis || 'Pas de synopsis'}</p>
+    `;
+    document.body.appendChild(popover);
+
+    // Positionner la bulle
+    const rect = infoBtn.getBoundingClientRect();
+    popover.style.left = `${rect.left + window.scrollX}px`;
+    popover.style.top = `${rect.top + window.scrollY - popover.offsetHeight - 10}px`;
+
+    // Fermer si on clique ailleurs
+    const closePopover = (event) => {
+        if (!popover.contains(event.target) && event.target !== infoBtn) {
+            popover.remove();
+            document.removeEventListener('click', closePopover);
+        }
     };
+    setTimeout(() => {
+        document.addEventListener('click', closePopover);
+    }, 10);
+});
 
-    setTimeout(() => filmDiv.classList.add('show'), 100);
+filmDiv.appendChild(infoBtn);
 
-    return filmDiv;
+filmDiv.addEventListener('click', (e) => {
+    // Ne pas ouvrir la vidéo si le clic vient du bouton info
+    if (e.target.classList.contains('info-bulle')) return;
+    openModal(film.video);
+});
+
+setTimeout(() => filmDiv.classList.add('show'), 100);
+
+return filmDiv;
+
+
 }
 
 // Le reste du fichier reste inchangé
