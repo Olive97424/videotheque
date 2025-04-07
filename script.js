@@ -73,10 +73,32 @@ infoBtn.addEventListener('click', (e) => {
     `;
     document.body.appendChild(popover);
 
-    // Positionner la bulle
     const rect = infoBtn.getBoundingClientRect();
-    popover.style.left = `${rect.left + window.scrollX}px`;
-    popover.style.top = `${rect.top + window.scrollY - popover.offsetHeight - 10}px`;
+const popoverWidth = 300; // largeur estimée de la bulle
+const popoverHeight = 250; // hauteur approximative
+const padding = 10;
+
+let left = rect.right + window.scrollX + padding; // ouverture à droite par défaut
+let top = rect.top + window.scrollY - popoverHeight / 2;
+
+// Si trop proche du bord droit, ouvrir vers la gauche
+if (rect.right + popoverWidth + padding > window.innerWidth) {
+    left = rect.left + window.scrollX - popoverWidth - padding;
+}
+
+// S'assurer que la bulle reste dans la fenêtre verticalement
+if (top < window.scrollY + padding) {
+    top = window.scrollY + padding;
+} else if (top + popoverHeight > window.scrollY + window.innerHeight) {
+    top = window.scrollY + window.innerHeight - popoverHeight - padding;
+}
+
+popover.style.position = 'absolute';
+popover.style.left = `${left}px`;
+popover.style.top = `${top}px`;
+popover.style.maxWidth = `${popoverWidth}px`;
+popover.style.zIndex = '1000';
+
 
     // Fermer si on clique ailleurs
     const closePopover = (event) => {
