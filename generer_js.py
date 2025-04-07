@@ -20,7 +20,6 @@ with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
     print("🔍 Colonnes détectées :", reader.fieldnames)
 
     for row in reader:
-        # Trouve automatiquement la colonne contenant une image valide
         image_column_name = next(
             (col for col in row if any(ext in row[col].lower() for ext in extensions_images)),
             None
@@ -44,6 +43,7 @@ with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
         nouveaute = row.get('nouveaute', '').strip()
         synopsis = nettoyer_texte(row.get('synopsis', ''))
         restriction = row.get('restriction', '').strip()
+        duree = row.get('duree', '').strip()  # <--- Ajout de la durée
 
         film = {
             "titre": titre,
@@ -55,7 +55,8 @@ with open(csv_file_path, newline='', encoding='utf-8-sig') as csvfile:
             "sections": sections,
             "nouveaute": nouveaute,
             "synopsis": synopsis,
-            "restriction": restriction
+            "restriction": restriction,
+            "duree": duree  # <--- Ajouté ici aussi
         }
 
         films.append(film)

@@ -66,8 +66,10 @@ infoBtn.addEventListener('click', (e) => {
         <p><strong>Restriction :</strong> ${film.restriction || 'Aucune'}</p>
         <p><strong>Acteurs :</strong> ${film.acteurs}</p>
         <p><strong>Année :</strong> ${film.date_sortie}</p>
+	<p><strong>Durée :</strong> ${film.duree || 'Non spécifiée'}</p>
         <p><strong>Genres :</strong> ${film.genres.join(', ')}</p>
         <p><strong>Synopsis :</strong><br>${film.synopsis || 'Pas de synopsis'}</p>
+    	
     `;
     document.body.appendChild(popover);
 
