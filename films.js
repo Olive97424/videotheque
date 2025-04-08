@@ -6573,54 +6573,61 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Primatologue de profession, David Okoye a plus de mal a nouer des liens avec ses semblables qu'avec les singes. Pas etonnant qu'il se soit pris d'affection pour George, adorable gorille d'une intelligence hors du commun, dont il s'occupe depuis sa naissance. Mais suite a une experience genetique catastrophique, George se metamorphose en monstre incontrolable. Et il n'est pas le seul puisque d'autres animaux se transforment en predateurs enrages aux quatre coins du pays, detruisant tout sur leur passage. Okoye decide alors de travailler d'arrache-pied avec une geneticienne pour mettre au point un antidote. Pourront-ils a temps empecher la planete d'etre ravagee ?",
+    "restriction": "tout public",
+    "duree": "1h 48min"
   },
   {
     "titre": "ready_player_one",
     "video": "https://www.youtube.com/watch?v=oYGkAMHCOC4&t=42s",
     "image": "images/ready_player.jpg",
     "acteurs": "Tye Sheridan, Olivia Cooke",
-    "genres": [],
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "2045. Le monde est au bord du chaos. Les etres humains se refugient dans l'OASIS, univers virtuel mis au point par le brillant et excentrique James Halliday. Avant de disparaitre, celui-ci a decide de leguer son immense fortune a quiconque decouvrira l'uf de Paques numerique qu'il a pris soin de dissimuler dans l'OASIS. L'appat du gain provoque une competition planetaire. Mais lorsqu'un jeune garcon, Wade Watts, qui n'a pourtant pas le profil d'un heros, decide de participer a la chasse au tresor, il est plonge dans un monde parallele a la fois mysterieux et inquietant",
+    "restriction": "tout public",
+    "duree": "2h 20min"
   },
   {
     "titre": "remember_me",
     "video": "https://www.youtube.com/watch?v=xi5I1JX0UIY&t=32s",
     "image": "images/remember_me.jpg",
-    "acteurs": "Robert Pattinson, Emilie de Ravin",
-    "genres": [],
+    "acteurs": "Robert Pattinson,Emilie de Ravin,Chris Cooper",
+    "genres": [
+      "drame"
+    ],
     "date_sortie": "2010",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Tyler est un jeune New-yorkais de 22 ans en rebellion contre sa famille et la societe suite a un drame familial. Apres une altercation avec un policier, il decide de se venger en seduisant la fille de celui-ci. Mais Ally se revele etre une jeune fille fragile et imprevisible dont il va tomber fou amoureux. Ce qui ne devait etre qu'une plaisanterie cruelle se transforme vite en une histoire qui les marquera a jamais...",
+    "restriction": "tout public",
+    "duree": "1h 53min"
   },
   {
     "titre": "replicas",
     "video": "https://www.youtube.com/watch?v=CQopGH4qMEI&t=7s",
     "image": "images/replicas.jpg",
-    "acteurs": "Keanu Reeves, Alice Eve",
-    "genres": [],
+    "acteurs": "Keanu Reeves,Alice Eve,Thomas Middleditch",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Un neuroscientifique dont la famille est tuee dans un accident de voiture utilise ses connaissances pour tenter de les ramener a la vie. Mais le gouvernement et la police s'y opposent.",
+    "restriction": "tout public",
+    "duree": "1h 48min"
   },
   {
     "titre": "repomen",
@@ -6635,144 +6642,171 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans un futur proche, les hommes sont parvenus a prolonger et ameliorer la vie de leurs semblables a l'aide d'organes artificiels extremement sophistiques et couteux, elabores par une societe connue sous le nom de L'Union. Le sombre pendant de cette percee scientifique : lorsque les \\\"greffes\\\" ne sont plus a meme d'honorer les echeances de leur credit, L'Union envoie alors ses agents specialises, les Repo Men, pour reprendre la marchandise, sans se preoccuper du confort ou de la survie de leurs clients insolvables. Remy, un des meilleurs repo men sur le marche, est victime d'un arret cardiaque et se reveille avec le dernier modele de cur artificiel implante dans le thorax, et la note salee qui l'accompagne. Cette intervention forcee produit cependant un effet indesirable : Remy n'a plus le cur a l'ouvrage. Quand il se retrouve dans l'incapacite de payer ses traites, L'Union assigne alors son agent le plus coriace, Jake, l'ex-coequipier de Remy, pour le retrouver et recuperer son bien. Le chasseur est devenu la proie...",
+    "restriction": "Interdit - 12 ans avec avertissement",
+    "duree": "1h 51min"
   },
   {
     "titre": "resident_evil_1",
     "video": "https://www.youtube.com/watch?v=amWEDXmkoXo",
     "image": "images/resident_evil_1.jpg",
-    "acteurs": "Milla Jovovich, Michelle Rodriguez",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Eric Mabius,Michelle Rodriguez",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2002",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans un immense laboratoire souterrain, ont lieu des recherches ultras secretes, supervisees par des centaines de scientifiques. Lorsque l'alarme retentit, tout le monde croit a une simple simulation d'evacuation. Mais bientot, l'horreur les rattrape. Un virus hautement mortel se propage a un rythme effrene dans les couloirs : en quelques minutes, il met fin a toute vie humaine. Au meme moment, Alice se reveille dans un somptueux manoir. Ignorant comment elle a pu atterrir la, elle fait la rencontre de Matt, un policier. Avant meme qu'ils n'aient pu trouver une explication logique a ces phenomenes etranges, un groupe d'intervention militaire, les S.T.A.R.S, debarque de nulle part et les oblige a les suivre. Ces derniers ont recu l'ordre d'infiltrer le laboratoire et de neutraliser laRed Queen, le super-ordinateur devenu fou que l'on tient pour responsable du desastre.",
+    "restriction": "12 ans",
+    "duree": "1h 41min"
   },
   {
     "titre": "resident_evil_2",
     "video": "https://www.youtube.com/watch?v=axd-h6a0Wgg",
     "image": "images/resident_evil_2.jpg",
-    "acteurs": "Milla Jovovich, Sienna Guillory",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Sienna Guillory,Oded Fehr",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2004",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alice a survecu a l'effroyable cauchemar qui a devaste le complexe scientifique ultrasecret d'Umbrella Corporation, mais elle n'est pas la seule a en etre ressortie... Un virus mortel s'est abattu sur la ville de Raccoon et rien ne semble pouvoir lui echapper. Avec un groupe de survivants, Alice, dont le metabolisme a mysterieusement ete modifie, doit affronter le pire. Certes, elle a gagne de nouveaux pouvoirs, elle est plus puissante, ses sens sont surmultiplies et sa dexterite est hallucinante, mais ca ne sera pas forcement suffisant... Elle est rejointe dans son combat par Jill Valentine, un ancien membre des forces speciales d'Umbrella. Ensemble, elles vont tenter de resoudre les enigmes et faire face a une force malefique, un ennemi absolu lance sur leurs traces. Son nom ? Nemesis. Son but ? Eliminer toute vie. Cette fois, s'echapper ne suffira pas. Il va falloir affronter...",
+    "restriction": "12 ans",
+    "duree": "1h 40min"
   },
   {
     "titre": "resident_evil_3",
     "video": "https://www.youtube.com/watch?v=lb52BesCCa8",
     "image": "images/resident_evil_3.jpg",
-    "acteurs": "Milla Jovovich, Oded Fehr",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Oded Fehr,Ali Larter",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2007",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Le virus experimental mis au point par la toute-puissante Umbrella Corporation a detruit l'humanite, transformant la population du monde en zombies avides de chair humaine. Fuyant les villes, Carlos, L.J., Claire, K-Mart, Nurse Betty et quelques survivants ont pris la route dans un convoi arme, esperant retrouver d'autres humains non infectes et gagner l'Alaska, leur dernier espoir d'une terre preservee. Ils sont accompagnes dans l'ombre par Alice, une jeune femme sur laquelle Umbrella a mene autrefois de terribles experiences biogeniques qui, en modifiant son ADN, lui ont apporte des capacites surhumaines. Depuis le laboratoire d'Umbrella, le Dr. Isaacs les surveille. Il est pret a tout pour retrouver celle qui represente l'accomplissement ultime des recherches de la firme, la seule personne qui rende possible la mise au point d'un remede : Alice. S'ils veulent avoir une chance, les survivants doivent echapper a la fois aux morts-vivants qui infestent le pays et a Umbrella Corporation. Pour Alice et ses compagnons d'infortune, le combat ne fait que commencer...",
+    "restriction": "12 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "resident_evil_4",
     "video": "https://www.youtube.com/watch?v=eaKOg7w8meQ",
     "image": "images/resident_evil_4.jpg",
-    "acteurs": "Milla Jovovich, Ali Larter",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Ali Larter,Shawn Roberts",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2010",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans un monde ravage par un virus, transformant ses victimes en morts-vivants, Alice continue sa lutte a mort avec Umbrella Corporation. Elle poursuit son voyage a la recherche de survivants et d'un lieu sur ou les mener. Cette quete les mene a Los Angeles mais ils constatent tres vite que la ville est infestee par des milliers de morts-vivants. Alice et ses compagnons (dont un vieil ami inattendu) sont sur le point de tomber dans un piege d'Umbrella.",
+    "restriction": "12 ans",
+    "duree": "1h 40min"
   },
   {
     "titre": "resident_evil_5",
     "video": "https://www.youtube.com/watch?v=65g5-p3CQcM",
     "image": "images/resident_evil_5.jpg",
-    "acteurs": "Milla Jovovich, Sienna Guillory",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Michelle Rodriguez,Kevin Durand",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Le terrifiant virus mis au point par Umbrella Corporation continue a faire des ravages partout sur Terre, transformant les populations en legions de morts-vivants affames de chair humaine. Alice, lultime espoir de notre espece, seveille au cur du plus secret des complexes industriels dUmbrella. Au gre de son exploration a haut risque et de ses decouvertes, les zones dombre de sa vie seclairent Plus que jamais, Alice continue a traquer les responsables de latroce infection. De Tokyo a New York, de Washington a Moscou, elle les pourchasse jusqua la revelation explosive qui va remettre en cause toutes ses certitudes. Avec laide de nouveaux allies et danciens amis, Alice va devoir se battre pour survivre dans un monde hostile, au bord du neant. Le compte a rebours a commence",
+    "restriction": "12 ans",
+    "duree": "1h 35min"
   },
   {
     "titre": "resident_evil_6",
     "video": "https://www.youtube.com/watch?v=xHohwszlCEw",
     "image": "images/resident_evil_6.jpg",
-    "acteurs": "Milla Jovovich, Iain Glen",
-    "genres": [],
+    "acteurs": "Milla Jovovich,Ali Larter,Iain Glen",
+    "genres": [
+      "horreur",
+      "science-fiction"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alice, seule survivante de la bataille de Washington contre les zombies, doit retourner a lendroit ou le cauchemar a debute: le Hive a Raccoon City. Cest la, quUmbrella Corporation a regroupe ses forces pour mener un assaut final contre les survivants de lapocalypse.",
+    "restriction": "12 ans",
+    "duree": "1h 47min"
   },
   {
     "titre": "retour_vers_le_futur",
     "video": "https://www.youtube.com/watch?v=cU5BREZ9ke0",
     "image": "images/retour_vers_le_futur.jpg",
-    "acteurs": "Michael J. Fox, Christopher Lloyd",
-    "genres": [],
+    "acteurs": "Michael J. Fox,Christopher Lloyd,Lea Thompson",
+    "genres": [
+      "aventure",
+      "science-fiction"
+    ],
     "date_sortie": "1985",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "1985. Le jeune Marty McFly mene une existence anonyme aupres de sa petite amie Jennifer, seulement troublee par sa famille en crise et un proviseur qui serait ravi de l'expulser du lycee. Ami de l'excentrique professeur Emmett Brown, il l'accompagne un soir tester sa nouvelle experience : le voyage dans le tempsviaune DeLorean modifiee. La demonstration tourne mal : des trafiquants d'armes debarquent et assassinent le scientifique. Marty se refugie dans la voiture et se retrouve transporte en 1955. La, il empeche malgre lui la rencontre de ses parents, et doit tout faire pour les remettre ensemble, sous peine de ne pouvoir exister...",
+    "restriction": "tout public",
+    "duree": "1h 56min"
   },
   {
     "titre": "retour_vers_le_futur_2",
     "video": "https://www.youtube.com/watch?v=u72lyJirxGQ&t=14s",
     "image": "images/retour_vers_le_futur_2.jpg",
-    "acteurs": "Michael J. Fox, Christopher Lloyd",
-    "genres": [],
+    "acteurs": "Michael J. Fox,Christopher Lloyd,Lea Thompson",
+    "genres": [
+      "aventure",
+      "science-fiction"
+    ],
     "date_sortie": "1989",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Lors de son premier voyage en 1985, Marty a commis quelques erreurs. L'avenir qu'il s'etait trace n'est pas si rose, et son rejeton est tombe sous la coupe du voyou Griff Tannen, qui veut regner sur la ville. En compagnie de son ami Emmett \\\"Doc\\\" Brown et de sa fiancee Jennifer, Marty va devoir entreprendre un voyage vers le futur, pour tenter de donner un peu plus de moralite a son heritier. Un voyage aux consequences dramatiques...",
+    "restriction": "tout public",
+    "duree": "1h 48min"
   },
   {
     "titre": "retour_vers_le_futur_3",
     "video": "https://www.youtube.com/watch?v=Ugth9lQsKb0",
     "image": "images/retour_vers_le_futur_3.jpg",
-    "acteurs": "Michael J. Fox, Christopher Lloyd",
-    "genres": [],
+    "acteurs": "Michael J. Fox,Christopher Lloyd,Lea Thompson",
+    "genres": [
+      "aventure",
+      "science-fiction"
+    ],
     "date_sortie": "1990",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres son voyage mouvemente entre passe, present et futur, Marty McFly apprend par une lettre vieille de cent ans que son vieil ami Emmett \\\"Doc\\\" Brown se serait crashe en 1880 au volant de sa DeLorean, restant ainsi prisonnier du far-west, sous la menace de Buford \\\"Molosse\\\" Tannen qui s'est jure de le tuer. Il n'a que cinq jours pour retrouver Doc et le ramener vivant vers le present...",
+    "restriction": "tout public",
+    "duree": "1h 58min"
   },
   {
     "titre": "robin_des_bois",
@@ -6795,16 +6829,19 @@ const films = [
     "titre": "rogue_one_star_wars",
     "video": "https://www.youtube.com/watch?v=ox6Dsbvp7ng&t=35s",
     "image": "images/rogue_on_star_wars.jpg",
-    "acteurs": "Felicity Jones, Diego Luna",
-    "genres": [],
+    "acteurs": "Felicity Jones,Diego Luna,Ben Mendelsohn",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2016",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Situe entre les episodes III et IV de la saga Star Wars, le film nous entraine aux cotes dindividus ordinaires qui, pour rester fideles a leurs valeurs, vont tenter limpossible au peril de leur vie. Ils navaient pas prevu de devenir des heros, mais dans une epoque de plus en plus sombre, ils vont devoir derober les plans de lEtoile de la Mort, larme de destruction ultime de lEmpire.",
+    "restriction": "tout public",
+    "duree": "2h 14min"
   },
   {
     "titre": "san_andreas",
@@ -6817,174 +6854,196 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Lorsque la tristement celebre Faille de San Andreas finit par s'ouvrir, et par provoquer un seisme de magnitude 9 en Californie, un pilote d'helicoptere de secours en montagne et la femme dont il s'est separe quittent Los Angeles pour San Francisco dans l'espoir de sauver leur fille unique. Alors qu'ils s'engagent dans ce dangereux periple vers le nord de l'Etat, pensant que le pire est bientot derriere eux, ils ne tardent pas a comprendre que la realite est bien plus effroyable encore",
+    "restriction": "tout public",
+    "duree": "1h 54min"
   },
   {
     "titre": "saw_1",
     "video": "https://www.youtube.com/watch?v=8Swsh-up3iM&t=54s",
     "image": "images/saw_1.jpg",
     "acteurs": "Cary Elwes, Leigh Whannell",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2004",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Deux hommes se reveillent enchaines au mur d'une salle de bains. Ils ignorent ou ils sont et ne se connaissent pas. Ils savent juste que l'un doit absolument tuer l'autre, sinon dans moins de huit heures, ils seront executes tous les deux... Voici l'une des situations imaginees par un machiavelique maitre criminel qui impose a ses victimes des choix auxquels personne ne souhaite jamais etre confronte un jour. Un detective est charge de l'enquete...",
+    "restriction": "16 ans",
+    "duree": "1h 44min"
   },
   {
     "titre": "saw_10",
     "video": "https://www.youtube.com/watch?v=-8nu5Z3069Y",
     "image": "images/saw_10.jpg",
-    "acteurs": "Tobin Bell",
-    "genres": [],
+    "acteurs": "Tobin Bell,Shawnee Smith,Synnve Macody Lund",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2024",
     "sections": [
       "bluray"
     ],
     "nouveaute": "oui",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "John Kramer, le tueur au puzzle, est de retour dans le volet le plus perturbant de la franchise SAW. Les evenements se situent entre SAW I et II, on y retrouve un John, malade et desespere, qui se rend au Mexique afin de subir une operation experimentale capable de guerir son cancer, mais il decouvre que tout ceci nest quune escroquerie visant des malades vulnerables et affliges. Anime d'un nouveau but, le celebre tueur en serie retourne a son uvre, et va prendre sa revanche sur ces escrocs dans un terrible  jeu  dont il a le secret, a travers des pieges toujours plus machiaveliques et ingenieux les uns que les autres.",
+    "restriction": "16 ans",
+    "duree": "1h 58min"
   },
   {
     "titre": "saw_2",
     "video": "https://www.youtube.com/watch?v=RzsCFIbUoVQ&t=21s",
     "image": "images/saw_2.jpg",
     "acteurs": "Donnie Wahlberg, Tobin Bell",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2005",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Charge de l'enquete autour d'une mort sanglante, l'Inspecteur Eric Mason est persuade que le crime est l'oeuvre du redoutable Jigsaw, un criminel machiavelique qui impose a ses victimes des choix auxquels personne ne souhaite jamais etre confronte. Cette fois-ci, ce ne sont plus deux mais huit personnes qui ont ete piegees par Jigsaw...",
+    "restriction": "16 ans",
+    "duree": "1h 35min"
   },
   {
     "titre": "saw_3",
     "video": "https://www.youtube.com/watch?v=91B113M4usE",
     "image": "images/saw_3.jpg",
     "acteurs": "Tobin Bell, Shawnee Smith",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2006",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Le Tueur au puzzle a mysterieusement echappe a ceux qui pensaient le tenir. Pendant que la police se demene pour tenter de remettre la main dessus, le genie criminel a decide de reprendre son jeu terrifiant avec l'aide de sa protegee, Amanda... Le docteur Lynn Denlon et Jeff ne le savent pas encore, mais ils sont les nouveaux pions de la partie qui va commencer...",
+    "restriction": "18 ans",
+    "duree": "1h 47min"
   },
   {
     "titre": "saw_4",
     "video": "https://www.youtube.com/watch?v=Qe8ZSX2NW0A",
     "image": "images/saw_4.jpg",
     "acteurs": "Tobin Bell, Costas Mandylor",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2007",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Le Tueur au puzzle et sa protegee, Amanda, ont disparu, mais la partie continue. Apres le meurtre de l'inspectrice Kerry, deux profileurs chevronnes du FBI, les agents Strahm et Perez, viennent aider le detective Hoffman a reunir les pieces du dernier puzzle macabre laisse par le Tueur pour essayer, enfin, de comprendre. C'est alors que le commandant du SWAT, Rigg, est enleve... Force de participer au jeu mortel, il n'a que 90 minutes pour triompher d'une serie de pieges machiaveliques et sauver sa vie. En cherchant Rigg a travers la ville, le detective Hoffman et les deux profileurs vont decouvrir des cadavres et des indices qui vont les conduire a l'ex-femme du Tueur, Jill. L'histoire et les veritables intentions du Tueur au puzzle vont peu a peu etre devoilees, ainsi que ses plans sinistres pour ses victimes passees, presentes... et futures.",
+    "restriction": "16 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "saw_5",
     "video": "https://www.youtube.com/watch?v=3MiXFmlVPOY&t=44s",
     "image": "images/saw_5.jpg",
     "acteurs": "Tobin Bell, Costas Mandylor",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2008",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans ce nouveau volet de la sagaSaw, il semble que Hoffman soit le seul heritier du pouvoir du Tueur au puzzle. Mais lorsque son secret risque d'etre decouvert, il n'a pas le droit a l'erreur et doit eliminer chaque menace. Les pieges vont se multiplier pour se refermer, inexorablement, en declenchant autant de frissons que de cas de conscience...",
+    "restriction": "16 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "saw_6",
     "video": "https://www.youtube.com/watch?v=4rv9dq2IQ-I",
     "image": "images/saw_6.jpg",
-    "acteurs": "Tobin Bell, Costas Mandylor",
-    "genres": [],
+    "acteurs": "Tobin Bell,Costas Mandylor,Betsy Russell",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "L'agent special Strahm est mort, et le detective Hoffman s'impose alors comme le legataire inconteste de l'heritage de Jigsaw. Cependant, tandis que le FBI se rapproche de plus en plus dangereusement de lui, Hoffman est oblige de commencer un nouveau jeu qui revelera enfin quel est le veritable grand dessein derriere les machinations de Jigsaw...",
+    "restriction": "16 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "saw_7",
     "video": "https://www.youtube.com/watch?v=oqE1tTFClh4",
     "image": "images/saw_7.jpg",
-    "acteurs": "Tobin Bell, Costas Mandylor",
-    "genres": [],
+    "acteurs": "Cary Elwes,Tobin Bell,Costas Mandylor",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2010",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alors que la bataille fait rage autour de lheritage terrifiant du Tueur au puzzle, un groupe de survivants sassocie et fait appel a un autre rescape, Bobby Dagen, une sorte de gourou. En croyant trouver de laide, ils vont vivre le pire. Bobby cache deffroyables secrets. Une vague de terreur sans precedent va surgir",
+    "restriction": "16 ans",
+    "duree": "1h 27min"
   },
   {
     "titre": "saw_8",
     "video": "https://www.youtube.com/watch?v=QxiztUnTivE&t=39s",
     "image": "images/saw_8.jpg",
     "acteurs": "Tobin Bell, Costas Mandylor",
-    "genres": [],
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres une serie de meurtres qui ressemblent etrangement a ceux de Jigsaw, le tueur au puzzle, la police se lance a la poursuite d'un homme mort depuis plus de dix ans. Un nouveau jeu vient de commencer... John Kramer est-il revenu d'entre les morts pour rappeler au monde qu'il faut sans cesse celebrer la vie, ou bien s'agit-il d'un piege tendu par un assassin qui poursuit d'autres ambitions ?",
+    "restriction": "16 ans",
+    "duree": "1h 32min"
   },
   {
     "titre": "scream",
     "video": "https://www.youtube.com/watch?v=QCbLIEE0WoE",
     "image": "images/scream.jpg",
-    "acteurs": "",
-    "genres": [],
+    "acteurs": "Melissa Barrera,Jenna Ortega,Courteney Cox",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2023",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres avoir frappe a trois reprises a Woodsboro, apres avoir terrorise le campus de Windsor et les studios dHollywood, Ghostface a decide de sevir dans Big Apple, mais dans une ville aussi grande que New-York personne ne vous entendra crier",
+    "restriction": "16 ans",
+    "duree": "2h 02min"
   },
   {
     "titre": "shang_chi",
     "video": "https://www.youtube.com/watch?v=PD3rUCBFDlI&t=37s",
     "image": "images/shang_chi.jpg",
-    "acteurs": "Simu Liu, Awkwafina",
-    "genres": [],
+    "acteurs": "Simu Liu,Tony Leung Chiu-Wai,Awkwafina",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2021",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Shang-Chi va devoir affronter un passe quil pensait avoir laisse derriere lui lorsquil est pris dans la toile de la mysterieuse organisation des dix anneaux.",
+    "restriction": "tout public",
+    "duree": "2h 12min"
   },
   {
     "titre": "shazam",
@@ -6997,9 +7056,9 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "On a tous un super-heros qui sommeille au fond de soi il faut juste un peu de magie pour le reveiller. Pour Billy Batson, gamin debrouillard de 14 ans place dans une famille d'accueil, il suffit de crier \\\"Shazam !\\\" pour se transformer en super-heros. Ado dans un corps d'adulte sculpte a la perfection, Shazam s'eclate avec ses tout nouveaux superpouvoirs. Est-il capable de voler ? De voir a travers n'importe quel type de matiere ? De faire jaillir la foudre de ses mains ? Et de sauter son examen de sciences sociales ? Shazam repousse les limites de ses facultes avec l'insouciance d'un enfant. Mais il lui faudra maitriser rapidement ses pouvoirs pour combattre les forces des tenebres du Dr Thaddeus Sivana",
+    "restriction": "tout public",
+    "duree": "2h 12min"
   },
   {
     "titre": "shazam_2",
@@ -7012,56 +7071,60 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Investis des pouvoirs des dieux, Billy Batson et ses copains apprennent encore a concilier leur vie dados avec leurs responsabilites de super-heros des lors quils se transforment en adultes. Mais quand les Filles de lAtlas, trio danciennes deesses ivres de vengeance, debarquent sur Terre pour retrouver la magie quon leur a volee il y a longtemps, Billy, alias Shazam, et sa famille sengagent dans une bataille destinee a conserver leurs superpouvoirs, a rester en vie et a sauver la planete. Mais une bande dadolescents peut-elle vraiment empecher la destruction du monde ? Et, surtout, Billy en a-t-il seulement envie ... ?",
+    "restriction": "tout public",
+    "duree": "2h 10min"
   },
   {
     "titre": "shrek",
     "video": "https://www.youtube.com/watch?v=08dotHAQ-6M",
     "image": "images/shrek.jpg",
-    "acteurs": "",
+    "acteurs": "Alain Chabat,Mike Myers,Med Hondo",
     "genres": [
-      "dessin anime"
+      "animation"
     ],
-    "date_sortie": "",
+    "date_sortie": "2001",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Shrek, un ogre verdatre, cynique et malicieux, a elu domicile dans un marecage qu'il croit etre un havre de paix. Un matin, alors qu'il sort faire sa toilette, il decouvre de petites creatures agacantes qui errent dans son marais. Shrek se rend alors au chateau du seigneur Lord Farquaad, qui aurait soit-disant expulse ces etres de son royaume. Ce dernier souhaite epouser la princesse Fiona, mais celle-ci est retenue prisonniere par un abominable dragon. Il lui faut un chevalier assez brave pour secourir la belle. Shrek accepte d'accomplir cette mission. En echange, le seigneur devra debarrasser son marecage de ces creatures envahissantes. Or, la princesse Fiona cache un secret terrifiant qui va entrainer Shrek et son compagnon l'ane dans une palpitante et perilleuse aventure.",
+    "restriction": "tout public",
+    "duree": "1h 29min"
   },
   {
     "titre": "sinister",
     "video": "https://www.youtube.com/watch?v=4sfzhzRAceE",
     "image": "images/sinister.jpg",
-    "acteurs": "Ethan Hawke, Juliet Rylance",
-    "genres": [],
+    "acteurs": "Ethan Hawke,Juliet Rylance,Fred Dalton Thompson",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Ellison est un auteur de romans policiers inspires de faits reels. Dans lespoir decrire un nouveau livre a succes, il emmenage avec sa famille dans une maison ou les anciens proprietaires ont ete retrouves inexplicablement pendus. Ellison y decouvre dans le grenier des bobines 8mm contenant les images de meurtres dautres familles. Qui a filme ces tueries et pour quelle raison ? Ellison va tenter de repondre a ces questions tandis que le tueur presume, une entite surnaturelle presente sur les films, menace de plus en plus sa famille.",
+    "restriction": "Interdit - 12 ans avec avertissement",
+    "duree": "1h 50min"
   },
   {
     "titre": "sinister_2",
     "video": "https://www.youtube.com/watch?v=DAVMVdX9AIE&t=33s",
     "image": "images/sinister_2.jpg",
-    "acteurs": "James Ransone, Shannyn Sossamon",
-    "genres": [],
+    "acteurs": "James Ransone,Shannyn Sossamon,Robert Sloan",
+    "genres": [
+      "horreur"
+    ],
     "date_sortie": "2015",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alors quil reprend son enquete inachevee sur les homicides non resolus, lex-sherif adjoint fait la connaissance dune jeune mere de famille et de ses jumeaux. Ces derniers viennent de sinstaller dans une maison ou des evenements macabres se sont produits. Tout porte a croire quil sagit une nouvelle fois de la meme entite surnaturelle et que la famille est en danger ...",
+    "restriction": "Interdit - 12 ans avec avertissement",
+    "duree": "1h 37min"
   },
   {
     "titre": "sissi_l_imperatrice",
@@ -7082,31 +7145,35 @@ const films = [
     "titre": "sixieme_sens",
     "video": "https://www.youtube.com/watch?v=HEd92ksuHNo",
     "image": "images/sixieme_sens.jpg",
-    "acteurs": "Bruce Willis, Haley Joel Osment",
-    "genres": [],
+    "acteurs": "Bruce Willis,Haley Joel Osment,Toni Collette",
+    "genres": [
+      "drame"
+    ],
     "date_sortie": "1999",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Cole Sear, garconnet de huit ans est hante par un terrible secret. Son imaginaire est visite par des esprits menacants. Trop jeune pour comprendre le pourquoi de ces apparitions et traumatise par ces pouvoirs paranormaux, Cole s'enferme dans une peur maladive et ne veut reveler a personne la cause de son enfermement, a l'exception d'un psychologue pour enfants. La recherche d'une explication rationnelle guidera l'enfant et le therapeute vers une verite foudroyante et inexplicable.",
+    "restriction": "12 ans",
+    "duree": "1h 47min"
   },
   {
     "titre": "skyscraper",
     "video": "https://www.youtube.com/watch?v=clKMwavvv6o",
     "image": "images/skyscraper.jpg",
-    "acteurs": "Dwayne Johnson, Neve Campbell",
-    "genres": [],
+    "acteurs": "Dwayne Johnson,Neve Campbell,Chin Han",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Ancien chef du commando de liberation des otages du FBI et veteran de l'armee americaine, Will Sawyer est desormais responsable de la securite des gratte-ciels. Alors qu'il est affecte a Hong Kong, il est accuse d'avoir declenche un incendie dans la tour la plus haute et reputee la plus sure du monde  Considere comme fugitif, Will doit retrouver les criminels, prouver son innocence et surtout sauver sa femme et ses deux enfants prisonniers du batiment en flammes",
+    "restriction": "tout public",
+    "duree": "1h 43min"
   },
   {
     "titre": "smile_2",
@@ -7121,311 +7188,353 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "A laube dune nouvelle tournee mondiale, la star de la pop Skye Riley se met a vivre des evenements aussi terrifiants quinexplicables. Submergee par la pression de la celebrite et devant un quotidien qui bascule de plus en plus dans lhorreur, Skye est forcee de se confronter a son passe obscur pour tenter de reprendre le controle de sa vie avant quil ne soit trop tard.",
+    "restriction": "16 ans",
+    "duree": "2h 12min"
   },
   {
     "titre": "sonic",
     "video": "https://www.youtube.com/watch?v=NCZTYdAP6w0",
     "image": "images/sonic.jpg",
-    "acteurs": "Ben Schwartz, James Marsden (voice/live-action)",
-    "genres": [],
+    "acteurs": "Jim Carrey,Ben Schwartz,James Marsden",
+    "genres": [
+      "aventure",
+      "action"
+    ],
     "date_sortie": "2020",
     "sections": [
       "enfant",
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "L'histoire du herisson bleu le plus rapide du monde qui arrive sur Terre, sa nouvelle maison. Sonic et son nouveau meilleur ami Tomfont equipe pour sauver la planete du diabolique Dr. Robotnik,bien determine a regner sur le monde entier.",
+    "restriction": "tout public",
+    "duree": "1h 39min"
   },
   {
     "titre": "sonic_2",
     "video": "https://www.youtube.com/watch?v=SqH3-sCkZQw",
     "image": "images/sonic_2.jpg",
-    "acteurs": "Ben Schwartz, James Marsden (voice/live-action)",
-    "genres": [],
+    "acteurs": "Jim Carrey,Emmanuel Curtil,James Marsden",
+    "genres": [
+      "aventure",
+      "action"
+    ],
     "date_sortie": "2022",
     "sections": [
       "enfant",
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Bien installe dans la petite ville de Green Hills, Sonic veut maintenant prouver quil a letoffe d' un veritable heros. Un defi de taille se presente a lui quand le Dr Robotnik refait son apparition. Accompagne de son nouveau complice Knuckles, ils sont en quete dune emeraude dont le pouvoir permettrait de detruire lhumanite toute entiere. Pour sassurer que lemeraude ne tombe entre de mauvaises mains, Sonic fait equipe avec Tails. Commence alors un voyage a travers le monde, plein de peripeties.",
+    "restriction": "tout public",
+    "duree": "2h 02min"
   },
   {
     "titre": "space_cowboys",
     "video": "https://www.youtube.com/watch?v=wou34lVVUac&t=29s",
     "image": "images/space_cowboys.jpg",
-    "acteurs": "Clint Eastwood",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Clint Eastwood,Tommy Lee Jones,Donald Sutherland",
+    "genres": [
+      "action"
+    ],
+    "date_sortie": "2000",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "En 1958, les astronautes Frank Corvin, Hawk Hawkins, Jerry O'Neill et Tank Sullivan se preparent pour une mission spatiale mais, au dernier moment, la Nasa leur prefere un singe. Quarante-deux ans plus tard, le satellite russe de communication Ikon menace de secraser sur la Terre. Corvin est le seul homme capable de maitriser l'antique systeme de guidage, calque sur celui qu'il avait concu quelques decennies plus tot pour Skylab. Il accepte la mission, a condition que ses trois compagnons partent avec lui...",
+    "restriction": "tout public",
+    "duree": "2h 10min"
   },
   {
     "titre": "spider_man_far_from_home",
     "video": "https://www.youtube.com/watch?v=FguIk-SEkWI&t=34s",
     "image": "images/spider_man_far_from_home.jpg",
-    "acteurs": "Tom Holland, Zendaya",
-    "genres": [],
+    "acteurs": "Tom Holland,Jake Gyllenhaal,Zendaya",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2019",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "L'araignee sympa du quartier decide de rejoindre ses meilleurs amis Ned, MJ, et le reste de la bande pour des vacances en Europe. Cependant, le projet de Peter de laisser son costume de super-heros derriere lui pendant quelques semaines est rapidement compromis quand il accepte a contrecoeur d'aider Nick Fury a decouvrir le mystere de plusieurs attaques de creatures, qui ravagent le continent !",
+    "restriction": "tout public",
+    "duree": "2h 10min"
   },
   {
     "titre": "spider_man_homecoming",
     "video": "https://www.youtube.com/watch?v=Y8ErdqD5YPc",
     "image": "images/spider_man_homecoming.jpg",
-    "acteurs": "Tom Holland, Michael Keaton",
-    "genres": [],
+    "acteurs": "Tom Holland,Michael Keaton,Robert Downey Jr.",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres ses spectaculaires debuts dans Captain America : Civil War, le jeune Peter Parker decouvre peu a peu sa nouvelle identite, celle de Spider-Man, le super-heros lanceur de toile. Galvanise par son experience avec les Avengers, Peter rentre chez lui aupres de sa tante May, sous lil attentif de son nouveau mentor, Tony Stark. Il sefforce de reprendre sa vie davant, mais au fond de lui, Peter reve de se prouver quil est plus que le sympathique super heros du quartier. Lapparition dun nouvel ennemi, le Vautour, va mettre en danger tout ce qui compte pour lui...",
+    "restriction": "tout public",
+    "duree": "2h 13min"
   },
   {
     "titre": "spider_man_no_way_home",
     "video": "https://www.youtube.com/watch?v=7w_w10HVa54",
     "image": "images/spider_man_no_way_home.jpg",
-    "acteurs": "Tom Holland, Zendaya",
-    "genres": [],
+    "acteurs": "Tom Holland,Zendaya,Benedict Cumberbatch",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2021",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Pour la premiere fois dans son histoire cinematographique, Spider-Man, le heros sympa du quartier est demasque et ne peut desormais plus separer sa vie normale de ses lourdes responsabilites de super-heros. Quand il demande de l'aide a Doctor Strange, les enjeux deviennent encore plus dangereux, le forcant a decouvrir ce qu'etre Spider-Man signifie veritablement.",
+    "restriction": "tout public",
+    "duree": "2h 28min"
   },
   {
     "titre": "spiderman_1",
     "video": "https://www.youtube.com/watch?v=ea6iiJs9BeI",
     "image": "images/Spider_Man.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Tobey Maguire,Willem Dafoe,Kirsten Dunst",
+    "genres": [
+      "action"
+    ],
+    "date_sortie": "2002",
     "sections": [
       "dvd"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Orphelin, Peter Parker est eleve par sa tante May et son oncle Ben dans le quartier Queens de New York. Tout en poursuivant ses etudes a l'universite, il trouve un emploi de photographe au journalDaily Bugle. Il partage son appartement avec Harry Osborn, son meilleur ami, et reve de seduire la belle Mary Jane. Cependant, apres avoir ete mordu par une araignee genetiquement modifiee, Peter voit son agilite et sa force s'accroitre et se decouvre des pouvoirs surnaturels. Devenu Spider-Man, il decide d'utiliser ses nouvelles capacites au service du bien. Au meme moment, le pere de Harry, le richissime industriel Norman Osborn, est victime d'un accident chimique qui a demesurement augmente ses facultes intellectuelles et sa force, mais l'a rendu fou. Il est devenu le Bouffon Vert, une creature demoniaque qui menace la ville. Entre lui et Spider-Man, une lutte sans merci s'engage.",
+    "restriction": "tout public",
+    "duree": "2h 01min"
   },
   {
     "titre": "spiderman_2",
     "video": "https://www.youtube.com/watch?v=sckzK6kXBQA",
     "image": "images/spiderman_2.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Tobey Maguire,Kirsten Dunst,Alfred Molina",
+    "genres": [
+      "action"
+    ],
+    "date_sortie": "2004",
     "sections": [
       "dvd"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Ecartele entre son identite secrete de Spider-Man et sa vie d'etudiant, Peter Parker n'a pas reussi a garder celle qu'il aime, Mary Jane, qui est aujourd'hui comedienne et frequente quelqu'un d'autre. Guide par son seul sens du devoir, Peter vit desormais chacun de ses pouvoirs a la fois comme un don et comme une malediction. Par ailleurs, l'amitie entre Peter et Harry Osborn est elle aussi menacee. Harry reve plus que jamais de se venger de Spider-Man, qu'il juge responsable de la mort de son pere. La vie de Peter se complique encore lorsque surgit un nouvel ennemi : le redoutable Dr Otto Octavius. Cerne par les choix et les epreuves qui engagent aussi bien sa vie intime que l'avenir du monde, Peter doit affronter son destin et faire appel a tous ses pouvoirs afin de se battre sur tous les fronts...",
+    "restriction": "tout public",
+    "duree": "2h 07min"
   },
   {
     "titre": "spiderman_3",
     "video": "https://www.youtube.com/watch?v=tn2V4EWJeOA",
     "image": "images/spiderman_3.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Tobey Maguire,Kirsten Dunst,James Franco",
+    "genres": [
+      "action"
+    ],
+    "date_sortie": "2007",
     "sections": [
       "dvd"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Peter Parker a enfin reussi a concilier son amour pour Mary-Jane et ses devoirs de super-heros. Mais l'horizon s'obscurcit. La brutale mutation de son costume, qui devient noir, decuple ses pouvoirs et transforme egalement sa personnalite pour laisser ressortir l'aspect sombre et vengeur que Peter s'efforce de controler. Sous l'influence de son costume, Peter devient trop sur de lui et commence a negliger ses proches. Contraint de choisir entre le pouvoir si seduisant de ce nouveau costume et la compassion qui le caracterisait avant, Peter va faire face a ses demons lorsqu'il affrontera deux des pires mechants de l'histoire, l'Homme-sable et Venom, dont l'extraordinaire puissance et la soif de vengeance menacent Peter et tous ceux qui lui sont chers.",
+    "restriction": "tout public",
+    "duree": "2h 19min"
   },
   {
     "titre": "star_wars_1",
     "video": "https://www.youtube.com/watch?v=0q-Q99DtNkw",
     "image": "images/star_wars_1.jpg",
-    "acteurs": "Liam Neeson, Ewan McGregor, Natalie Portman",
-    "genres": [],
+    "acteurs": "Liam Neeson,Ewan McGregor,Natalie Portman",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "1999",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Avant de devenir un celebre chevalier Jedi, et bien avant de se reveler lame la plus noire de la galaxie, Anakin Skywalker est un jeune esclave sur la planete Tatooine. La Force est deja puissante en lui et il est un remarquable pilote de Pod racer. Le maitre Jedi Qui-Gon Jinn le decouvre et entrevoit alors son immense potentiel. Pendant ce temps, larmee de droides de linsatiable Federation du Commerce a envahi Naboo, une planete pacifique, dans le cadre dun plan secret des Sith visant a accroitre leur pouvoir. Pour defendre la reine de Naboo, Amidala, les chevaliers Jedi vont devoir affronter le redoutable Seigneur Sith, Dark Maul.",
+    "restriction": "tout public",
+    "duree": "2h 13min"
   },
   {
     "titre": "star_wars_2",
     "video": "https://www.youtube.com/watch?v=1D7DUNCHXkg",
     "image": "images/star_wars_2.jpg",
-    "acteurs": "Ewan McGregor, Natalie Portman, Hayden Christensen",
-    "genres": [],
+    "acteurs": "Ewan McGregor,Natalie Portman,Hayden Christensen",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2002",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Depuis le blocus de la planete Naboo par la Federation du commerce, la Republique, gouvernee par le Chancelier Palpatine, connait une veritable crise. Un groupe de dissidents, mene par le sombre Jedi comte Dooku, manifeste son mecontentement envers le fonctionnement du regime. Le Senat et la population intergalactique se montrent pour leur part inquiets face a l'emergence d'une telle menace. Certains senateurs demandent a ce que la Republique soit dotee d'une solide armee pour empecher que la situation ne se deteriore davantage. Parallelement, Padme Amidala, devenue senatrice, est menacee par les separatistes et echappe de justesse a un attentat. Le Padawan Anakin Skywalker est charge de sa protection. Son maitre, Obi-Wan Kenobi, part enqueter sur cette tentative de meurtre et decouvre la constitution d'une mysterieuse armee de clones...",
+    "restriction": "tout public",
+    "duree": "2h 22min"
   },
   {
     "titre": "star_wars_3",
     "video": "https://www.youtube.com/watch?v=t1qtvKYwTV0",
     "image": "images/star_wars_3.jpg",
-    "acteurs": "Ewan McGregor, Hayden Christensen, Natalie Portman",
-    "genres": [],
+    "acteurs": "Ewan McGregor,Natalie Portman,Hayden Christensen",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2008",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "La Guerre des Clones fait rage. Une franche hostilite oppose desormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hesite sur la conduite a tenir. Seduit par la promesse d'un pouvoir sans precedent, tente par le cote obscur de la Force, il prete allegeance au malefique Darth Sidious et devient Dark Vador. Les Seigneurs Sith s'unissent alors pour preparer leur revanche, qui commence par l'extermination des Jedi. Seuls rescapes du massacre, Yoda et Obi Wan se lancent a la poursuite des Sith. La traque se conclut par un spectaculaire combat au sabre entre Anakin et Obi Wan, qui decidera du sort de la galaxie.",
+    "restriction": "tout public",
+    "duree": "2h 20min"
   },
   {
     "titre": "star_wars_4",
     "video": "https://www.youtube.com/watch?v=PNyht4iTMX8",
     "image": "images/star_wars_4.jpg",
-    "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
-    "genres": [],
+    "acteurs": "Mark Hamill,Harrison Ford,Carrie Fisher",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "1977",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Il y a bien longtemps, dans une galaxie tres lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturee par les troupes de choc de l'Empereur menees par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l'Etoile Noire, une station spatiale invulnerable, a son droide R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagne de son fidele compagnon, le droide de protocole C-3PO, R2-D2 s'echoue sur la planete Tatooine et termine sa quete chez le jeune Luke Skywalker. Revant de devenir pilote mais confine aux travaux de la ferme, ce dernier se lance a la recherche de ce mysterieux Obi-Wan Kenobi, devenu ermite au coeur des montagnes desertiques de Tatooine...",
+    "restriction": "tout public",
+    "duree": "2h 01min"
   },
   {
     "titre": "star_wars_5",
     "video": "https://www.youtube.com/watch?v=_y-xlGOuVaE",
     "image": "images/star_wars_5.jpg",
     "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
-    "genres": [],
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "1980",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Malgre la destruction de l'Etoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relache sa lutte contre l'Alliance rebelle. Bases sur la planete glacee de Hoth, les rebelles essuient un assaut des troupes imperiales. Parvenus a s'echapper, la princesse Leia, Han Solo, Chewbacca et C-3P0 se dirigent vers Bespin, la cite des nuages gouvernee par Lando Calrissian, ancien compagnon de Han. Suivant les instructions d'Obi-Wan Kenobi, Luke Skywalker se rend quant a lui vers le systeme de Dagobah, planete marecageuse ou il doit recevoir l'enseignement du dernier maitre Jedi, Yoda. Apprenant l'arrestation de ses compagnons par lesstormtroopersde Dark Vador apres la trahison de Lando, Luke decide d'interrompre son entrainement pour porter secours a ses amis et affronter le sombre seigneur Sith...",
+    "restriction": "tout public",
+    "duree": "2h 04min"
   },
   {
     "titre": "star_wars_6",
     "video": "https://www.youtube.com/watch?v=5QSEJx3R968",
     "image": "images/star_wars_6.jpg",
     "acteurs": "Mark Hamill, Harrison Ford, Carrie Fisher",
-    "genres": [],
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "1983",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "L'Empire galactique est plus puissant que jamais : la construction de la nouvelle arme, l'Etoile de la Mort, menace l'univers tout entier... Arrete apres la trahison de Lando Calrissian, Han Solo est remis a l'ignoble contrebandier Jabba Le Hutt par le chasseur de primes Boba Fett. Apres l'echec d'une premiere tentative d'evasion menee par la princesse Leia, egalement arretee par Jabba, Luke Skywalker et Lando parviennent a liberer leurs amis. Han, Leia, Chewbacca, C-3PO et Luke, devenu un Jedi, s'envolent des lors pour une mission d'extreme importance sur la lune forestiere d'Endor, afin de detruire le generateur du bouclier de l'Etoile de la Mort et permettre une attaque des pilotes de l'Alliance rebelle. Conscient d'etre un danger pour ses compagnons, Luke prefere se rendre aux mains de Dark Vador, son pere et ancien Jedi passe du cote obscur de la Force.",
+    "restriction": "tout public",
+    "duree": "2h 13min"
   },
   {
     "titre": "star_wars_7",
     "video": "https://www.youtube.com/watch?v=mH9Ygfs5avo&t=40s",
     "image": "images/star_wars_7.jpg",
-    "acteurs": "Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher",
-    "genres": [],
+    "acteurs": "Daisy Ridley,John Boyega,Adam Driver",
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2015",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans une galaxie lointaine, tres lointaine, un nouvel episode de la saga \\\"Star Wars\\\", 30 ans apres les evenements du \\\"Retour du Jedi\\\".",
+    "restriction": "tout public",
+    "duree": "2h 15min"
   },
   {
     "titre": "star_wars_8",
     "video": "https://www.youtube.com/watch?v=wY708Ky2SG8",
     "image": "images/star_wars_8.jpg",
     "acteurs": "Daisy Ridley, John Boyega, Harrison Ford, Carrie Fisher",
-    "genres": [],
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Les heros duReveil de la force rejoignent les figures legendaires de la galaxie dans une aventure epique qui revele des secrets ancestraux sur la Force et entraine de surprenantes revelations sur le passe",
+    "restriction": "tout public",
+    "duree": "2h 32min"
   },
   {
     "titre": "star_wars_9",
     "video": "https://www.youtube.com/watch?v=pHgwf2eMFnA&t=41s",
     "image": "images/star_wars_9.jpg",
     "acteurs": "Daisy Ridley, Adam Driver",
-    "genres": [],
+    "genres": [
+      "science-fiction"
+    ],
     "date_sortie": "2019",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "La conclusion de la saga Skywalker. De nouvelles legendes vont naitre dans cette bataille epique pour la liberte.",
+    "restriction": "tout public",
+    "duree": "2h 22min"
   },
   {
     "titre": "suicide_squad",
     "video": "https://www.youtube.com/watch?v=XfboDbU3xnA",
     "image": "images/suicide_squad.jpg",
     "acteurs": "Will Smith, Margot Robbie",
-    "genres": [],
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2021",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Les pires mechants de lunivers DC Comics reunis dans un meme film. C'est tellement jouissif d'etre un salopard !Face a une menace aussi enigmatique qu'invincible, l'agent secret Amanda Waller reunit une armada de crapules de la pire espece. Armes jusqu'aux dents par le gouvernement, ces Super-Mechants s'embarquent alors pour une mission-suicide. Jusqu'au moment ou ils comprennent qu'ils ont ete sacrifies. Vont-ils accepter leur sort ou se rebeller ?",
+    "restriction": "tout public",
+    "duree": "2h 03min"
   },
   {
     "titre": "super_heros_malgres_lui",
     "video": "https://www.youtube.com/watch?v=y6LXJnItN1U",
     "image": "images/super_heros_malgres_lui.jpg",
     "acteurs": "Philippe Lacheau, elodie Fontan,Tarek Boudali",
-    "genres": [],
+    "genres": [
+      "comedie"
+    ],
     "date_sortie": "2022",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apprenti comedien en galere, Cedric decroche enfin son premier role dans un film de super-heros. Un soir, alors qu'il emprunte la voiture de tournage, il est victime d'un accident qui lui fait perdre la memoire. A son reveil, vetu de son costume de justicier et au milieu des accessoires du film, il est persuade d'etre devenu le personnage du film avec une mission perilleuse a accomplir. Mais n'est pas heros et encore moins super-heros qui veut... Et encore moins Cedric",
+    "restriction": "tout public",
+    "duree": "1h 22min"
   },
   {
     "titre": "super_mario",
@@ -7438,189 +7547,216 @@ const films = [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alors quils tentent de reparer une canalisation souterraine, Mario et son frere Luigi, tous deux plombiers, se retrouvent plonges dans un nouvel univers feerique a travers un mysterieux conduit. Mais lorsque les deux freres sont separes, Mario sengage dans une aventure trepidante pour retrouver Luigi. Dans sa quete, il peut compter sur laide du champignon Toad, habitant du Royaume Champignon, et les conseils avises, en matiere de techniques de combat, de la Princesse Peach, guerriere determinee a la tete du Royaume. Cest ainsi que Mario reussit a mobiliser ses propres forces pour aller au bout de sa mission.",
+    "restriction": "tout public",
+    "duree": "1h 32min"
   },
   {
     "titre": "sur_la_route_de_madison",
     "video": "https://www.youtube.com/watch?v=mirWUoFE1OY&t=39s",
     "image": "images/sur_la_route_de_madison.jpg",
-    "acteurs": "Clint Eastwood",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Meryl Streep,Clint Eastwood,Annie Corley",
+    "genres": [
+      "drame"
+    ],
+    "date_sortie": "1995",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Michael Johnson et sa soeur Caroline reviennent dans la ferme de leur enfance regler la succession de leur mere, Francesca. Ils vont decouvrir tout un pan de la vie de leur mere ignore de tous, sa breve, intense et inoubliable liaison avec un photographe de passage.",
+    "restriction": "tout public",
+    "duree": "2h 15min"
   },
   {
     "titre": "taken_1",
     "video": "https://www.youtube.com/watch?v=UX_71dbzJIw&t=22s",
     "image": "images/taken_1.jpg",
-    "acteurs": "Liam Neeson, Maggie Grace",
-    "genres": [],
+    "acteurs": "Liam Neeson,Maggie Grace,Famke Janssen",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2008",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Que peut-on imaginer de pire pour un pere que d'assister impuissant a l'enlevement de sa fille via un telephone portable ? C'est le cauchemar vecu par Bryan, ancien agent des services secrets americains, qui n'a que quelques heures pour arracher Kim des mains d'un redoutable gang specialise dans la traite des femmes. Premier probleme a resoudre : il est a Los Angeles, elle vient de se faire enlever a Paris.",
+    "restriction": "12 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "taken_2",
     "video": "https://www.youtube.com/watch?v=G_U2ZpXjpeg&t=26s",
     "image": "images/taken_2.jpg",
     "acteurs": "Liam Neeson, Maggie Grace",
-    "genres": [],
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "DansTaken, Bryan Mills, ex-agent de la CIA aux competences si particulieres, a reussi a arracher sa fille des mains dun gang mafieux. Un an plus tard, le chef du clan reclame vengeance. Cette fois-ci, cest apres lui quils en ont.",
+    "restriction": "12 ans",
+    "duree": "1h 38min"
   },
   {
     "titre": "taken_3",
     "video": "https://www.youtube.com/watch?v=nSInrKvxIdI&t=42s",
     "image": "images/taken_3.jpg",
-    "acteurs": "Liam Neeson, Forest Whitaker",
-    "genres": [],
+    "acteurs": "Liam Neeson,Forest Whitaker,Famke Janssen",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2015",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Lex-agent special Bryan Mills voit son retour a une vie tranquille bouleverse lorsquil est accuse a tort du meurtre de son ex-femme, chez lui, a Los Angeles. En fuite et traque par linspecteur Dotzler, Mills va devoir employer ses competences particulieres une derniere fois pour trouver le veritable coupable, prouver son innocence et proteger la seule personne qui compte desormais pour lui  sa fille.",
+    "restriction": "12 ans",
+    "duree": "1h 43min"
   },
   {
     "titre": "tenet",
     "video": "https://www.youtube.com/watch?v=6UG5LJQNjts",
     "image": "images/tenet.jpg",
-    "acteurs": "John David Washington, Robert Pattinson",
-    "genres": [],
+    "acteurs": "John David Washington,Kenneth Branagh,Robert Pattinson",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2020",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Muni d'un seul mot  Tenet  et decide a se battre pour sauver le monde, notre protagoniste sillonne l'univers crepusculaire de l'espionnage international. Sa mission le projettera dans une dimension qui depasse le temps. Pourtant, il ne s'agit pas d'un voyage dans le temps, mais d'un renversement temporel",
+    "restriction": "tout public",
+    "duree": "2h 30min"
   },
   {
     "titre": "the_batman",
     "video": "https://www.youtube.com/watch?v=hGQo1axtj60&t=34s",
     "image": "images/the_batman.jpg",
-    "acteurs": "Robert Pattinson, Zoe Kravitz",
-    "genres": [],
+    "acteurs": "Robert Pattinson,Zoe Kravitz,Paul Dano",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2022",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Deux annees a arpenter les rues en tant que Batman et a insuffler la peur chez les criminels ont mene Bruce Wayne au coeur des tenebres de Gotham City. Avec seulement quelques allies de confiance - Alfred Pennyworth, le lieutenant James Gordon - parmi le reseau corrompu de fonctionnaires et de personnalites de la ville, le justicier solitaire s'est impose comme la seule incarnation de la vengeance parmi ses concitoyens. Lorsqu'un tueur s'en prend a l'elite de Gotham par une serie de machinations sadiques, une piste d'indices cryptiques envoie le plus grand detective du monde sur une enquete dans la pegre, ou il rencontre des personnages tels que Selina Kyle, alias Catwoman, Oswald Cobblepot, alias le Pingouin, Carmine Falcone et Edward Nashton, alias lHomme-Mystere. Alors que les preuves saccumulent et que l'ampleur des plans du coupable devient clair, Batman doit forger de nouvelles relations, demasquer le coupable et retablir un semblant de justice au milieu de labus de pouvoir et de corruption sevissant a Gotham City depuis longtemps.",
+    "restriction": "tout public",
+    "duree": "2h 57min"
   },
   {
     "titre": "the_doors",
     "video": "https://www.youtube.com/watch?v=z5X9rhbDtl4&t=33s",
     "image": "images/the_doors.jpg",
-    "acteurs": "Val Kilmer, Meg Ryan",
-    "genres": [],
+    "acteurs": "Val Kilmer,Meg Ryan,Kyle MacLachlan",
+    "genres": [
+      "biopic"
+    ],
     "date_sortie": "1991",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "1965. Jim Morrison, qui ecrit des poemes et suit les cours a UCLA, s'eprend de Pamela Courson. Il lui lit ses ecrits influences par le mysticisme des Indiens, qu'il a decouvert durant son enfance au Nouveau-Mexique. La sensibilite des poemes de Morrison impressionne Ray Manzarek et, bientot, un groupe musical se forme",
+    "restriction": "tout public",
+    "duree": "2h 18min"
   },
   {
     "titre": "the_fall_guy",
     "video": "https://www.youtube.com/watch?v=ilU15hwe3-0",
     "image": "images/the_fall_guy.jpg",
-    "acteurs": "Ryan Gosling, Emily Blunt",
-    "genres": [],
+    "acteurs": "Ryan Gosling,Emily Blunt,Aaron Taylor-Johnson",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2024",
     "sections": [
       "bluray"
     ],
     "nouveaute": "oui",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "C'est lhistoire dun cascadeur, et comme tous les cascadeurs, il se fait tirer dessus, exploser, ecraser, jeter par les fenetres et tombe toujours de plus en plus haut pour le plus grand plaisir du public. Apres un accident qui a failli mettre fin a sa carriere, ce heros anonyme du cinema va devoir retrouver une star portee disparue, dejouer un complot et tenter de reconquerir la femme de sa vie tout en bravant la mort tous les jours sur les plateaux. Que pourrait-il lui arriver de pire ?",
+    "restriction": "tout public",
+    "duree": "2h 05min"
   },
   {
     "titre": "the_flash",
     "video": "https://www.youtube.com/watch?v=mUMlQZfjK1c",
     "image": "images/the_flash.jpg",
-    "acteurs": "",
-    "genres": [],
+    "acteurs": "Ezra Miller,Sasha Calle,Michael Shannon",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2023",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Les realites saffrontent dans THE FLASH lorsque Barry se sert de ses super-pouvoirs pour remonter le temps et modifier son passe. Mais ses efforts pour sauver sa famille ne sont pas sans consequences sur lavenir, et Barry se retrouve pris au piege dune realite ou le general Zod est de retour, menacant daneantir la planete, et ou les super-heros ont disparu. A moins que Barry ne reussisse a tirer de sa retraite un Batman bien change et a venir en aide a un Kryptonien incarcere, qui nest pas forcement celui quil recherche. Barry sengage alors dans une terrible course contre la montre pour proteger le monde dans lequel il est et retrouver le futur quil connait. Mais son sacrifice ultime suffira-t-il a sauver lunivers ?",
+    "restriction": "tout public",
+    "duree": "2h 24min"
   },
   {
     "titre": "the_island",
     "video": "https://www.youtube.com/watch?v=EiBZakZa0TY&t=36s",
     "image": "images/the_island.jpg",
-    "acteurs": "Ewan McGregor, Scarlett Johansson",
-    "genres": [],
+    "acteurs": "Ewan McGregor,Scarlett Johansson,Djimon Hounsou",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2005",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "D'ici quelques decennies... Lincoln Six-Echo et sa camarade Jordan Two-Delta font partie des centaines de Produits d'une immense colonie souterraine ou la vie est etroitement surveillee et regie par des codes tres stricts. Le seul espoir d'echapper a cet univers sterile est d'etre selectionne pour un transfert sur \\\"l'Ile\\\". A en croire les dirigeants de la colonie, l'Ile serait le dernier territoire a avoir echappe a la catastrophe ecologique qui ravagea notre planete quelques annees auparavant et en rendit l'atmosphere a jamais irrespirable... Lincoln, comme la totalite de ses congeneres, a longtemps cru a ce paradis. Mais depuis quelque temps, des cauchemars recurrents troublent ses nuits, et le jeune homme commence a s'interroger sur le sens de sa vie et les restrictions faites a sa liberte. Pousse par une curiosite tenace, Lincoln decouvre bientot l'atroce verite...",
+    "restriction": "tout public",
+    "duree": "2h 12min"
   },
   {
     "titre": "the_marvels",
     "video": "https://www.youtube.com/watch?v=9z9_bfhpLzU",
     "image": "images/the_marvels.jpg",
-    "acteurs": "",
-    "genres": [],
+    "acteurs": "Brie Larson,Iman Vellani,Teyonah Parris",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2023",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Carol Danvers, alias Captain Marvel, doit faire face aux consequences imprevues de sa victoire contre les Krees. Des effets inattendus lobligent desormais a assumer le fardeau d'un univers destabilise. Au cours dune mission qui la propulse au sein dun etrange vortex etroitement lie aux actions dune revolutionnaire Kree, ses pouvoirs se melent a ceux de Kamala Khan - alias Miss Marvel, sa super-fan de Jersey City - et a ceux de sa  niece , la Capitaine Monica Rambeau, desormais astronaute au sein du S.A.B.E.R. Dabord chaotique, ce trio improbable se retrouve bientot oblige de faire equipe et dapprendre a travailler de concert pour sauver l'univers. Un seul nom pour cela : \\\"The Marvels\\\" !",
+    "restriction": "tout public",
+    "duree": "1h 45min"
   },
   {
     "titre": "the_suicide_squad",
     "video": "https://www.youtube.com/watch?v=lu4P7YmGgiE",
     "image": "images/the_suicide_squad.jpg",
-    "acteurs": "Margot Robbie, Idris Elba",
-    "genres": [],
+    "acteurs": "Margot Robbie,Idris Elba,John Cena",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2021",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Bienvenue en enfer - aka Belle Reve, la prison dotee du taux de mortalite le plus eleve des Etats-Unis d'Amerique. La ou sont detenus les pires super-vilains, qui feront tout pour en sortir - y compris rejoindre la super secrete et la super louche Task Force X. La mission mortelle du jour ? Assemblez une belle collection d'escrocs, et notamment Bloodsport, Peacemaker, Captain Boomerang, Ratcatcher 2, Savant, King Shark, Blackguard, Javelin et la psychopathe preferee de tous : Harley Quinn. Armez-les lourdement et jetez-les (litteralement) sur l'ile lointaine et bourree d'ennemis de Corto Maltese. Traversant une jungle qui grouille d'adversaires et de guerilleros a chaque tournant, l'Escouade est lancee dans une mission de recherche et de destruction, avec le seul Colonel Rick Flag pour les encadrer sur le terrain et la technologie du gouvernement dans leurs oreilles, afin qu'Amanda Waller puisse suivre le moindre de leurs mouvements. Comme toujours, un faux pas est synonyme de mort (que ce soit des mains de leurs opposants, d'un coequipier ou de Waller elle-meme). Si quelqu'un veut parier, mieux vaut miser contre eux - et contre eux tous.",
+    "restriction": "tout public",
+    "duree": "2h 12min"
   },
   {
     "titre": "the_walking_dead_saisons_1_a_7_",
@@ -7641,61 +7777,69 @@ const films = [
     "titre": "thor_1",
     "video": "https://www.youtube.com/watch?v=pzT3yeV9lT4&t=35s",
     "image": "images/thor_1.jpg",
-    "acteurs": "Chris Hemsworth, Natalie Portman",
-    "genres": [],
+    "acteurs": "Chris Hemsworth,Natalie Portman,Anthony Hopkins",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2011",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Au royaume dAsgard, Thor est un guerrier aussi puissant quarrogant dont les actes temeraires declenchent une guerre ancestrale. Banni et envoye sur Terre, par son pere Odin, il est condamne a vivre parmi les humains. Mais lorsque les forces du mal de son royaume sappretent a se dechainer sur la Terre, Thor va apprendre a se comporter en veritable heros",
+    "restriction": "tout public",
+    "duree": "1h 55min"
   },
   {
     "titre": "thor_le_monde_des_tenebres",
     "video": "https://www.youtube.com/watch?v=WocFedghAHI",
     "image": "images/thor_le_monde_des_tenebres.jpg",
     "acteurs": "Chris Hemsworth, Natalie Portman",
-    "genres": [],
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2013",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Thor : Le Monde des tenebresnous entraine dans les nouvelles aventures de Thor, le puissant Avenger, qui lutte pour sauver la Terre et les neuf mondes dun mysterieux ennemi qui convoite lunivers tout entier Apres les films MarvelThoretAvengers, Thor se bat pour restaurer lordre dans le cosmos, mais une ancienne race, sous la conduite du terrible Malekith, un etre assoiffe de vengeance, revient pour repandre les tenebres. Confronte a un ennemi que meme Odin et Asgard ne peuvent contrer, Thor doit sengager dans son aventure la plus dangereuse et la plus personnelle, au cours de laquelle il va devoir sallier au traitre Loki pour sauver non seulement son peuple et ceux qui lui sont chers, mais aussi lunivers lui-meme.",
+    "restriction": "tout public",
+    "duree": "1h 52min"
   },
   {
     "titre": "thor_love_and_thunder",
     "video": "https://www.youtube.com/watch?v=K8iHxGiPyZk",
     "image": "images/thor_love_and_thunder.jpg",
     "acteurs": "Chris Hemsworth, Natalie Portman",
-    "genres": [],
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2022",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alors que Thor est en pleine introspection et en quete de serenite, sa retraite est interrompue par un tueur galactique connu sous le nom de Gorr, qui sest donne pour mission dexterminer tous les dieux. Pour affronter cette menace, Thor demande laide de Valkyrie, de Korg et de son ex-petite amie Jane Foster, qui, a sa grande surprise, manie inexplicablement son puissant marteau, le Mjolnir. Ensemble, ils se lancent dans une dangereuse aventure cosmique pour comprendre les motivations qui poussent Gorr a la vengeance et larreter avant quil ne soit trop tard.",
+    "restriction": "tout public",
+    "duree": "1h 59min"
   },
   {
     "titre": "thor_ragnarok",
     "video": "https://www.youtube.com/watch?v=RtG6scyBIeM&t=42s",
     "image": "images/thor_ragnarok.jpg",
     "acteurs": "Chris Hemsworth, Tom Hiddleston",
-    "genres": [],
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Prive de son puissant marteau,Thorest retenu prisonnier sur une lointaine planete aux confins de lunivers. Pour sauver Asgard, il va devoir lutter contre le temps afin dempecher limpitoyableHeladaccomplir leRagnarok la destruction de son monde et la fin de la civilisation asgardienne. Mais pour y parvenir, il va dabord devoir mener un combat titanesque de gladiateurs contre celui qui etait autrefois son allie au sein des Avengers: lincroyable Hulk",
+    "restriction": "tout public",
+    "duree": "2h 11min"
   },
   {
     "titre": "titanic",
@@ -7708,730 +7852,853 @@ const films = [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Southampton, 10 avril 1912. Le paquebot le plus grand et le plus moderne du monde, repute pour son insubmersibilite, le \\\"Titanic\\\", appareille pour son premier voyage. Quatre jours plus tard, il heurte un iceberg. A son bord, un artiste pauvre et une grande bourgeoise tombent amoureux.",
+    "restriction": "tout public",
+    "duree": "3h 14min"
   },
   {
     "titre": "tomb_raider",
     "video": "https://www.youtube.com/watch?v=UmXKhK9YKZg&t=35s",
     "image": "images/tomb_raider.jpg",
-    "acteurs": "Angelina Jolie, Jon Voight",
-    "genres": [],
+    "acteurs": "Alicia Vikander,Dominic West,Walton Goggins",
+    "genres": [
+      "action",
+      "aventure"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porte disparu depuis sept ans, cette jeune femme rebelle et independante refuse de reprendre l'empire de son pere. Convaincue qu'il n'est pas mort, elle met le cap sur la destination ou son pere a ete vu pour la derniere fois : la tombe legendaire d'une ile mythique au large du Japon. Mais le voyage se revele des plus perilleux et il lui faudra affronter d'innombrables ennemis et repousser ses propres limites pour devenir \\\"Tomb Raider\\\"",
+    "restriction": "tout public",
+    "duree": "1h 58min"
   },
   {
     "titre": "top_gun",
     "video": "https://www.youtube.com/watch?v=i8sEGppZX-s",
     "image": "images/top_gun.jpg",
-    "acteurs": "Tom Cruise, Kelly McGillis",
-    "genres": [],
+    "acteurs": "Tom Cruise,Kelly McGillis,Tom Skerritt",
+    "genres": [
+      "action",
+      "drame"
+    ],
     "date_sortie": "1986",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Jeune as du pilotage et tete brulee d'une ecole reservee a l'elite de l'aeronavale US (\\\"Top Gun\\\"), Pete Mitchell, dit \\\"Maverick\\\", tombe sous le charme d'une instructrice alors qu'il est en competition pour le titre du meilleur pilote...",
+    "restriction": "tout public",
+    "duree": "1h 50min"
   },
   {
     "titre": "top_gun_2_maverick",
     "video": "https://www.youtube.com/watch?v=JYaFU81-t6c",
     "image": "images/maverick.jpg",
-    "acteurs": "Tom Cruise, Miles Teller",
-    "genres": [],
+    "acteurs": "Tom Cruise,Miles Teller,Jennifer Connelly",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2022",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres avoir ete lun des meilleurs pilotes de chasse de la Marine americaine pendant plus de trente ans, Pete Maverick\\\" Mitchell continue a repousser ses limites en tant que pilote d'essai. Il refuse de monter en grade, car cela lobligerait a renoncer a voler. Il est charge de former un detachement de jeunes diplomes de lecole Top Gun pour une mission speciale quaucun pilote n'aurait jamais imaginee. Lors de cette mission, Maverick rencontre le lieutenant Bradley Rooster Bradshaw, le fils de son defunt ami, le navigateur Nick Goose Bradshaw. Face a un avenir incertain, hante par ses fantomes, Maverick va devoir affronter ses pires cauchemars au cours dune mission qui exigera les plus grands des sacrifices.",
+    "restriction": "tout public",
+    "duree": "2h 11min"
   },
   {
     "titre": "toy_story",
     "video": "https://www.youtube.com/watch?v=q_1wTx-qIpk",
     "image": "images/toy_story.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Richard Darbois,Tim Allen,Jacques Ferriere",
+    "genres": [
+      "animation"
+    ],
+    "date_sortie": "1996",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Quand le jeune Andy quitte sa chambre, ses jouets se mettent a mener leur propre vie sous la houlette de son pantin prefere, Woody le cow-boy. Andy ignore egalement que chaque anniversaire est une source d'angoisse pour ses jouets qui paniquent a l'idee d'etre supplantes par un nouveau venu. Ce qui arrive quand Buzz l'eclair est offert a Andy. Cet intrepide aventurier de l'espace, venu d'une lointaine galaxie, va semer la zizanie dans ce petit monde et vivre avec Woody d'innombrables aventures aussi dangereuses que palpitantes.",
+    "restriction": "tout public",
+    "duree": "1h 17min"
   },
   {
     "titre": "toy_story_2",
     "video": "https://www.youtube.com/watch?v=2FlAUxq1MUU",
     "image": "images/toy_story_2.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Jean-Philippe Puymartin,Tom Hanks,Richard Darbois",
+    "genres": [
+      "animation"
+    ],
+    "date_sortie": "2000",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Woody, le cow-boy a la demarche dehanchee, reste le jouet prefere d'Andy, meme si aujourd'hui Buzz partage cette amitie. Toujours chef de bande, Woody protege et rassure tous les jouets de la chambre. Kidnappe par un collectionneur sans scrupules, Woody va decouvrir qu'il fut jadis une vraie star. Apres maintes peripeties, il va etre confronte a la decision la plus importante de sa vie: rentrer chez lui pour retrouver Andy et les jouets ou rester pour devenir une piece rare de musee.",
+    "restriction": "tout public",
+    "duree": "1h 33min"
   },
   {
     "titre": "toy_story_3",
     "video": "https://www.youtube.com/watch?v=1jd_vUeEZfo",
     "image": "images/toy_story_3.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Jean-Philippe Puymartin,Tom Hanks,Richard Darbois",
+    "genres": [
+      "animation"
+    ],
+    "date_sortie": "2010",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Les createurs des tres populaires films Toy Story ouvrent a nouveau le coffre a jouets et invitent les spectateurs a retrouver le monde delicieusement magique de Woody et Buzz au moment ou Andy s'apprete a partir pour l'universite. Delaissee, la plus celebre bande de jouets se retrouve... a la creche ! Les bambins dechaines et leurs petits doigts capables de tout arracher sont une vraie menace pour nos amis ! Il devient urgent d'echafauder un plan pour leur echapper au plus vite. Quelques nouveaux venus vont se joindre a la Grande evasion, dont l'eternel seducteur et celibataire Ken, compagnon de Barbie, un herisson comedien nomme Larosse, et un ours rose parfume a la fraise appele Lotso.",
+    "restriction": "tout public",
+    "duree": "1h 40min"
   },
   {
     "titre": "toy_story_4",
     "video": "https://www.youtube.com/watch?v=ZoIxOE74wBw",
     "image": "images/toy_story_4.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Jean-Philippe Puymartin,Tom Hanks,Richard Darbois",
+    "genres": [
+      "animation"
+    ],
+    "date_sortie": "2019",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Woody a toujours privilegie la joie et le bien-etre de ses jeunes proprietaires  Andy puis Bonnie  et de ses compagnons, nhesitant pas a prendre tous les risques pour eux, aussi inconsideres soient-ils. Larrivee de Fourchetteun nouveau jouet qui ne veut pas en etre un dans la chambre de Bonnie met toute la petite bande en emoi. Cest le debut dune grande aventure et dun extraordinaire voyage pour Woody et ses amis. Le cowboy va decouvrir a quel point le monde peut etre vaste pour un jouet",
+    "restriction": "tout public",
+    "duree": "1h 40min"
   },
   {
     "titre": "transformers_1",
     "video": "https://www.youtube.com/watch?v=_XKAU3tYO9M&t=11s",
     "image": "images/transformers_1.jpg",
-    "acteurs": "Shia LaBeouf, Megan Fox",
-    "genres": [],
+    "acteurs": "Shia LaBeouf,Megan Fox,Josh Duhamel",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2007",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Une guerre sans merci oppose depuis des temps immemoriaux deux races de robots extraterrestres : les Autobots et les cruels Decepticons. Son enjeu : la maitrise de l'univers... Dans les premieres annees du 21eme siecle, le conflit s'etend a la Terre, et le jeune Sam Witwicky devient, a son insu, l'ultime espoir de l'humanite. Semblable a des milliers d'adolescents, Sam n'a connu que les soucis de son age : le lycee, les amis, les voitures, les filles... Entraine avec sa nouvelle copine, Mikaela, au coeur d'un mortel affrontement, il ne tardera pas a comprendre le sens de la devise de la famille Witwicky :\\\"Sans sacrifice, point de victoire !\\\"",
+    "restriction": "tout public",
+    "duree": "2h 24min"
   },
   {
     "titre": "transformers_2",
     "video": "https://www.youtube.com/watch?v=u9uUVkYB6Aw&t=13s",
     "image": "images/transformers_2.jpg",
     "acteurs": "Shia LaBeouf, Megan Fox",
-    "genres": [],
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Deux ans se sont ecoules depuis que Sam Witwicky a sauve l'univers d'une bataille decisive entre les deux clans rivaux de robots extraterrestres. Malgre ses exploits, Sam reste un adolescent preoccupe par les soucis des jeunes gens de son age : alors qu'il s'apprete a entrer a l'universite, il doit se separer de sa petite amie Mikaela et de ses parents pour la premiere fois de sa vie. Il lui faut aussi tenter d'expliquer son depart a son nouvel ami, le robot Bumblebee. Sam aspire a vivre une vie normale d'etudiant, mais il doit tourner le dos a son destin pour y parvenir. Si Sam a fait ce qu'il a pu pour tirer un trait sur le conflit qui a eu lieu a Mission City et revenir a ses preoccupations quotidiennes, la guerre entre les Autobots et les Decepticons, tout en etant classee secret defense, a entraine plusieurs changements. Le Secteur 7 a ainsi ete dissout et son plus fidele soldat, l'agent Simmons, a ete revoque sans menagement. Resultat : une nouvelle agence, NEST, a ete mise en place...",
+    "restriction": "tout public",
+    "duree": "2h 31min"
   },
   {
     "titre": "transformers_3",
     "video": "https://www.youtube.com/watch?v=7-ZBYb2poUM&t=12s",
     "image": "images/transformers_3.jpg",
-    "acteurs": "Shia LaBeouf, Rosie Huntington-Whiteley",
-    "genres": [],
+    "acteurs": "Shia LaBeouf,Rosie Huntington-Whiteley,Patrick Dempsey",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2011",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Un evenement mysterieux lie a notre passe eclate au grand jour. Cest la guerre qui menace aujourdhui notre Terre ; une guerre dune telle ampleur que laide des Transformers pourrait, cette fois, ne pas suffire a nous sauver.",
+    "restriction": "tout public",
+    "duree": "2h 35min"
   },
   {
     "titre": "transformers_4",
     "video": "https://www.youtube.com/watch?v=O3cpckQmmk8&t=60s",
     "image": "images/transformers_4.jpg",
-    "acteurs": "Mark Wahlberg, Stanley Tucci",
-    "genres": [],
+    "acteurs": "Mark Wahlberg,Stanley Tucci,Nicola Peltz Beckham",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2014",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Quatre ans apres les evenements mouvementes de \\\"Transformers : La Face cachee de la Lune\\\", un groupe de puissants scientifiques cherche a repousser, via des Transformers, les limites de la technologie. Au meme moment, un pere de famille texan, Cade Yeager, decouvre un vieux camion qui nest autre quOptimus Prime. Cette decouverte va lui attirer les foudres dun certain Savoy, dont le but est deliminer les Transformers. Pendant ce temps, le combat entre les Autobots et les Decepticons refait surface",
+    "restriction": "tout public",
+    "duree": "2h 46min"
   },
   {
     "titre": "transformers_5",
     "video": "https://www.youtube.com/watch?v=IsUacT2oFwU",
     "image": "images/transformers_5.jpg",
-    "acteurs": "Mark Wahlberg, Anthony Hopkins",
-    "genres": [],
+    "acteurs": "Mark Wahlberg,Laura Haddock,Anthony Hopkins",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "The Last Knight fait voler en eclats les mythes essentiels de la franchise Transformers, et redefinit ce que signifie etre un heros.Humains et Transformers sont en guerre. Optimus Prime nest plus la La cle de notre salut est enfouie dans les secrets du passe, dans lhistoire cachee des Transformers sur Terre. Sauver notre monde sera la mission dune alliance inattendue : Cade Yeager, Bumblebee, un Lord anglais et un professeur dOxford. Il arrive un moment, dans la vie de chacun, ou lon se doit de faire la difference. DansTransformers: The Last Knight, les victimes deviendront les heros. Les heros deviendront les mechants. Un seul monde survivra : le leur ou le notre.",
+    "restriction": "tout public",
+    "duree": "2h 29min"
   },
   {
     "titre": "transformers_6",
     "video": "https://www.youtube.com/watch?v=BO9d1C9ZsCs",
     "image": "images/transformers_6.jpg",
-    "acteurs": "",
-    "genres": [],
+    "acteurs": "Anthony Ramos,Dominique Fishback,Luna Lauren Velez",
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2023",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Transformers : Rise of the Beasts renoue avec l'action et le grand spectacle qui ont seduit des millions de spectateurs a travers le monde. Ce nouveau volet se deroule au cur des annees 90 et nous emmene aux quatre coins du globe. Une toute nouvelle faction de robots Transformers - les Maximals - se joindront aux Autobots dans leternelle bataille quils livrent face aux Decepticons.",
+    "restriction": "tout public",
+    "duree": "2h 08min"
   },
   {
     "titre": "twilight_1",
     "video": "https://www.youtube.com/watch?v=xzO_Iiwt4b4",
     "image": "images/twilight_1.jpg",
-    "acteurs": "Kristen Stewart, Robert Pattinson",
-    "genres": [],
+    "acteurs": "Kristen Stewart,Robert Pattinson,Taylor Lautner",
+    "genres": [
+      "romance",
+      "fantastique"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Isabella Swan, 17 ans, demenage a Forks, petite ville pluvieuse dans l'Etat de Washington, pour vivre avec son pere. Elle s'attend a ce que sa nouvelle vie soit aussi ennuyeuse que la ville elle-meme. Or, au lycee, elle est terriblement intriguee par le comportement d'une etrange fratrie, deux filles et trois garcons. Bella tombe follement amoureuse de l'un d'eux, Edward Cullen. Une relation sensuelle et dangereuse commence alors entre les deux jeunes gens : lorsque Isabella comprend que Edward est un vampire, il est deja trop tard.",
+    "restriction": "tout public",
+    "duree": "2h 10min"
   },
   {
     "titre": "twilight_2",
     "video": "https://www.youtube.com/watch?v=ShHNEvFPtvc",
     "image": "images/twilight_2.jpg",
     "acteurs": "Kristen Stewart, Robert Pattinson",
-    "genres": [],
+    "genres": [
+      "romance",
+      "fantastique"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "\\\"Tu ne me reverras plus. Je ne reviendrai pas. Poursuis ta vie, ce sera comme si je n'avais jamais existe.\\\" Abandonnee par Edward, celui qu'elle aime passionnement, Bella ne s'en releve pas. Comment oublier son amour pour un vampire et revenir a une vie normale ? Pour combler son vide affectif, Bella court apres le danger et prends des risques de plus en plus inconsideres. Edward n'etant plus la pour la proteger, c'est Jacob, l'ami discret et indefectible qui va la defendre et veiller sur elle. Mais peu a peu elle realise l'ambiguite des sentiments qu'ils eprouvent l'un envers l'autre...\\\"",
+    "restriction": "tout public",
+    "duree": "2h 10min"
   },
   {
     "titre": "twilight_3",
     "video": "https://www.youtube.com/watch?v=yi4xJGebtuk",
     "image": "images/twilight_3.jpg",
     "acteurs": "Kristen Stewart, Robert Pattinson",
-    "genres": [],
+    "genres": [
+      "romance",
+      "fantastique"
+    ],
     "date_sortie": "2010",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Des morts suspectes dans les environs de Seattle laissent presager une nouvelle menace pour Bella. Victoria cherche toujours a assouvir sa vengeance contre elle et rassemble une armee. Malgre leur haine ancestrale, les Cullen et les Quileutes vont devoir faire une treve et s'associer pour avoir une chance de la sauver. Mais Bella est obligee de choisir entre son amour pour Edward et son amitie pour Jacob tout en sachant que sa decision risque de relancer la guerre entre les deux clans. Alors que l'armee de Victoria approche, Bella est confrontee a la plus importante decision de sa vie.",
+    "restriction": "tout public",
+    "duree": "2h 04min"
   },
   {
     "titre": "twilight_4",
     "video": "https://www.youtube.com/watch?v=_jWriOZlsnw&t=50s",
     "image": "images/twilight_4.jpg",
     "acteurs": "Kristen Stewart, Robert Pattinson",
-    "genres": [],
+    "genres": [
+      "romance",
+      "fantastique"
+    ],
     "date_sortie": "2011",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Bella a fait son choix : elle sapprete a epouser Edward. Mais le jeune homme honorera-t-il sa part du marche ? Acceptera-t-il de la transformer en vampire et de la voir renoncer a sa vie humaine ?",
+    "restriction": "tout public",
+    "duree": "1h 57min"
   },
   {
     "titre": "twilight_5",
     "video": "https://www.youtube.com/watch?v=CjdPAg-gyFE&t=43s",
     "image": "images/twilight_5.jpg",
     "acteurs": "Kristen Stewart, Robert Pattinson",
-    "genres": [],
+    "genres": [
+      "romance",
+      "fantastique"
+    ],
     "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Apres la naissance de sa fille Renesmee, Bella sadapte peu a peu a sa nouvelle vie de vampire avec le soutien dEdward. Se sentant menaces par cette naissance dun nouveau genre, les Volturi declarent la guerre a la famille Cullen. Pour preparer leur defense, les Cullen vont parcourir le monde pour rassembler les familles de vampires alliees et tenter de repousser les Volturi lors dun ultime affrontement.",
+    "restriction": "tout public",
+    "duree": "1h 55min"
   },
   {
     "titre": "twisters",
     "video": "https://www.youtube.com/watch?v=Zcp8L7NBKiI",
     "image": "images/twisters.jpg",
-    "acteurs": "Glen Powel, Daisy Edgar-Jones, Anthony Ramos",
-    "genres": [],
+    "acteurs": "Daisy Edgar-Jones,Glen Powell,Anthony Ramos",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2024",
     "sections": [
       "bluray"
     ],
     "nouveaute": "oui",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Par les producteurs de Jurassic World, ce film catastrophe nous propulse au cur des tornades pour une experience des plus immersives !  Ancienne chasseuse de tornades, Kate est encore traumatisee par sa confrontation avec une tornade lorsquelle etait etudiante. Desormais, elle prefere etudier le comportement des tempetes en toute securite depuis New York. Mais lorsque son ami Javi lui demande de tester un nouveau detecteur de tornades, elle accepte de retourner au cur de laction. Elle rencontre alors le charmant et temeraire Tyler Owens, celebre pour ses videos de chasse aux tornades postees sur les reseaux sociaux. Alors que la saison des tempetes atteint son paroxysme, des tornades dune ampleur sans precedent mettent leurs vies en peril.",
+    "restriction": "tout public",
+    "duree": "2h 02min"
   },
   {
     "titre": "un_hologram_pour_le_roi",
     "video": "https://www.youtube.com/watch?v=TLpl17kCevA&t=42s",
     "image": "images/un_hologram_pour_le_roi.jpg",
-    "acteurs": "Tom Hanks, Alexander Black",
+    "acteurs": "Tom Hanks,Sarita Choudhury,Alexander Black",
     "genres": [],
     "date_sortie": "2016",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Alors que l'Amerique est en pleine recession, un homme d'affaires tente une derniere fois d'eviter la banqueroute dans le but de payer les etudes de sa fille, en se rendant en Arabie Saoudite pour vendre son idee a un puissant monarque",
+    "restriction": "tout public",
+    "duree": "1h 38min"
   },
   {
     "titre": "un_monde_parfait",
     "video": "https://www.youtube.com/watch?v=H1g3PETKszA&t=28s",
     "image": "images/un_monde_parfait.jpg",
-    "acteurs": "Clint Eastwood",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Kevin Costner,Clint Eastwood,Laura Dern",
+    "genres": [
+      "drame"
+    ],
+    "date_sortie": "1993",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Texas, 1963. La cavale d'un dangereux voleur recidiviste et de son otage, un jeune temoin de Jehovah qui, le temps de cette folle equipee, va devenir son ami.",
+    "restriction": "tout public",
+    "duree": "2h 17min"
   },
   {
     "titre": "underworld_1",
     "video": "https://www.youtube.com/watch?v=2_IoL7g5Ub8&t=21s",
     "image": "images/underworld_1.jpg",
-    "acteurs": "Kate Beckinsale, Scott Speedman",
-    "genres": [],
+    "acteurs": "Kate Beckinsale,Scott Speedman,Bill Nighy",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2001",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Selene est une guerriere vampire puissante. Dans la lutte qui oppose depuis des siecles son peuple a celui des Lycans, des loups-garous, elle est reconnue pour etre l'une des tueuses les plus efficaces. Jusqu'au jour ou elle tombe amoureuse de Michael Corvin, un humain qui se retrouve pris malgre lui dans l'affrontement des deux clans. Mordu par l'un des loups-garous, il devient rapidement l'un d'entre eux. Entre passion et devoir, Selene doit alors choisir son camp...",
+    "restriction": "12 ans",
+    "duree": "2h 01min"
   },
   {
     "titre": "underworld_2",
     "video": "https://www.youtube.com/watch?v=v86oFYYz3Bg&t=40s",
     "image": "images/underworld_2.jpg",
-    "acteurs": "Kate Beckinsale, Scott Speedman",
-    "genres": [],
+    "acteurs": "Kate Beckinsale,Scott Speedman,Tony Curran",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2006",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "La lutte millenaire que se livrent Vampires et Lycans est sur le point de connaitre un tournant decisif... Pour avoir decouvert le secret du massacre de sa famille, Selene, la redoutable guerriere vampire, est plus que jamais seule et menacee. Ses veritables ennemis ne sont pas forcement ceux qu'elle croyait. Michael, devenu le premier hybride a la fois vampire et lycan, aimerait se joindre a elle, mais il est incapable de controler la part lycan qui fait rage en lui. Pour chacun d'eux, il est temps de percer le mystere de leurs origines et de la guerre, mais dans cette quete de verite, ils devront affronter les plus puissants des adversaires, les plus proches aussi... Plus que jamais, au plus profond des tenebres, loin du regard des hommes, se joue le sort du monde...",
+    "restriction": "12 ans",
+    "duree": "1h 46min"
   },
   {
     "titre": "underworld_3",
     "video": "https://www.youtube.com/watch?v=Ebp9UDnzE7c&t=28s",
     "image": "images/underworld_3.jpg",
-    "acteurs": "Michael Sheen, Bill Nighy",
-    "genres": [],
+    "acteurs": "Michael Sheen,Kate Beckinsale,Bill Nighy",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Au Moyen-Age, l'equilibre regne entre les Vampires diriges d'une main de fer par Victor et leurs serviteurs les Lycans. Mais lorsque la fille de Victor s'eprend de Lucian, un Lycan, c'est le debut d'une longue guerre sanglante qui continuera jusqu'a aujourd'hui.",
+    "restriction": "12 ans",
+    "duree": "1h 25min"
   },
   {
     "titre": "underworld_4",
     "video": "https://www.youtube.com/watch?v=76U14o8QeXk",
     "image": "images/underworld_4.jpg",
-    "acteurs": "Kate Beckinsale, Stephen Rea",
-    "genres": [],
+    "acteurs": "Kate Beckinsale,Theo James,India Eisley",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Depuis des siecles Lycans et Vampires se livrent une bataille sans merci. Mais les deux races sont a laube dune ere nouvelle car les humains, qui ont recemment decouvert leur existence, decident de cesser leurs conflits internes pour sengager ensemble dans la lutte contre ce quils considerent comme des fleaux. Selene sattire la convoitise de larmee et des scientifiques. Une traque incessante commence alors contre la plus redoutable des vampires.",
+    "restriction": "12 ans",
+    "duree": "1h 30min"
   },
   {
     "titre": "underworld_5",
     "video": "https://www.youtube.com/watch?v=a61vd2UpaDg",
     "image": "images/underworld_5.jpg",
-    "acteurs": "Kate Beckinsale, Theo James",
-    "genres": [],
+    "acteurs": "Kate Beckinsale,Theo James,Tobias Menzies",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2016",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans ce nouvel opus de la franchise de blockbusters,Underworld: Blood Wars suit la chasseuse de lycans Selene face aux agressions brutales des clans lycans et vampires qui lont trahie. Avec ses seuls allies, David et son pere Thomas, elle doit mettre fin a la guerre sempiternelle entre les deux clans, meme si cela implique pour elle de faire le sacrifice ultime.",
+    "restriction": "12 ans",
+    "duree": "1h 31min"
   },
   {
     "titre": "une_nouvelle_chance",
     "video": "https://www.youtube.com/watch?v=rOEIOA4lIw4&t=25s",
     "image": "images/une_nouvelle_chance.jpg",
-    "acteurs": "Clint Eastwood",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Clint Eastwood,Amy Adams,Justin Timberlake",
+    "genres": [
+      "drame"
+    ],
+    "date_sortie": "2012",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Un decouvreur de talents specialise dans le baseball voit sa vie basculer avec la perte progressive de sa vue. Il decide pourtant de faire un dernier voyage a Atlanta, accompagne de sa fille, a la recherche d'un talent prometteur.",
+    "restriction": "tout public",
+    "duree": "1h 51min"
   },
   {
     "titre": "vaiana",
     "video": "https://www.youtube.com/watch?v=JIl74jge_Wg",
     "image": "images/vaiana.jpg",
-    "acteurs": "",
+    "acteurs": "Cerise Calixte,Auli'i Cravalho,Anthony Kavanagh",
     "genres": [
-      "dessin anime"
+      "animation"
     ],
-    "date_sortie": "",
+    "date_sortie": "2016",
     "sections": [
       "enfant"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Il y a 3 000 ans, les plus grands marins du monde voyagerent dans le vaste ocean Pacifique, a la decouverte des innombrables iles de l'Oceanie. Mais pendant le millenaire qui suivit, ils cesserent de voyager. Et personne ne sait pourquoi... Vaiana, la legende du bout du monde raconte l'aventure d'une jeune fille temeraire qui se lance dans un voyage audacieux pour accomplir la quete inachevee de ses ancetres et sauver son peuple. Au cours de sa traversee du vaste ocean, Vaiana va rencontrer Maui, un demi-dieu. Ensemble, ils vont accomplir un voyage epique riche d'action, de rencontres et d'epreuves... En accomplissant la quete inaboutie de ses ancetres, Vaiana va decouvrir la seule chose qu'elle a toujours cherchee : elle-meme.",
+    "restriction": "tout public",
+    "duree": "1h 47min"
   },
   {
     "titre": "venom_1",
     "video": "https://www.youtube.com/watch?v=Pw9ZvTicmIg",
     "image": "images/venom_1.jpg",
     "acteurs": "Tom Hardy,Michelle Williams,Riz Ahmed",
-    "genres": [],
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Possede par un symbiote qui agit de maniere autonome, le journaliste Eddie Brock devient le protecteur letal Venom.",
+    "restriction": "tout public",
+    "duree": "1h 52min"
   },
   {
     "titre": "venom_2",
     "video": "https://www.youtube.com/watch?v=Pj_uJvUatnU",
     "image": "images/venom_2.jpeg",
     "acteurs": "Tom Hardy,Woody Harrelson,Michelle Williams",
-    "genres": [],
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2021",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Le quotidien d'Eddie Brock est loin d'etre de tout repos. Depuis que le symbiote Venom partage son corps, il doit refrener les pulsions meurtrieres de son visiteur extraterrestre. Sur les conseils d'un policier, le journaliste est appele a recueillir les confidences de Cletus Kasady, un tueur en serie qui reve de s'echapper de prison avant d'etre condamne a mort. Son souhait pourrait se realiser lorsqu'il entre en contact avec le sang de Venom, lui conferant des pouvoirs extraordinaires. Seul Eddie pourra l'arreter... mais pour y arriver, il doit faire la paix avec Venom.",
+    "restriction": "12 ans",
+    "duree": "1h 38min"
   },
   {
     "titre": "venom_3",
     "video": "https://www.youtube.com/watch?v=uCJu2RjSZyE",
     "image": "images/venom_3.jpg",
     "acteurs": "Tom Hardy, Juno Temple, Alanna Ubach",
-    "genres": [],
+    "genres": [
+      "action",
+      "science-fiction"
+    ],
     "date_sortie": "2024",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Eddie et Venom sont en cavale. Chacun est traque par ses semblables et alors que l'etau se resserre, le duo doit prendre une decision devastatrice qui annonce la conclusion des aventures d'Eddie et de Venom.",
+    "restriction": "tout public",
+    "duree": "1h 50min"
   },
   {
     "titre": "very_bad_trip_1",
     "video": "https://www.youtube.com/watch?v=hHqR9Tq16_E&t=23s",
     "image": "images/very_bad_trip_1.jpg",
-    "acteurs": "Bradley Cooper, Ed Helms",
-    "genres": [],
+    "acteurs": "Bradley Cooper,Ed Helms,Zach Galifianakis",
+    "genres": [
+      "comedie"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Au reveil d'un enterrement de vie de garcon bien arrose, les trois amis du fiance se rendent compte qu'il a disparu 40 heures avant la ceremonie de mariage. Ils vont alors devoir faire fi de leur gueule de bois et rassembler leurs bribes de souvenirs pour comprendre ce qui s'est passe",
+    "restriction": "tout public",
+    "duree": "1h 30min"
   },
   {
     "titre": "very_bad_trip_2",
     "video": "https://www.youtube.com/watch?v=DFw9AlqUbYQ&t=25s",
     "image": "images/very_bad_trip_2.jpg",
-    "acteurs": "Bradley Cooper, Ed Helms",
-    "genres": [],
+    "acteurs": "Bradley Cooper,Ed Helms,Zach Galifianakis",
+    "genres": [
+      "comedie"
+    ],
     "date_sortie": "2011",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Phil, Stu, Alan et Doug soffrent un voyage exotique en Thailande, a loccasion du mariage de Stu. Apres linoubliable soiree denterrement de sa vie de garcon a Las Vegas, Stu ne veut rien laisser au hasard et opte pour un brunch leger, sans risque, avant la ceremonie. Mais les choses ne se passent pas toujours comme prevu. Ce qui s'est passe a Las Vegas est imaginable a Las Vegas, mais ce qui se passe a Bangkok depasse limagination...",
+    "restriction": "Tout public",
+    "duree": "1h 42min"
   },
   {
     "titre": "very_bad_trip_3",
     "video": "https://www.youtube.com/watch?v=ibq2kS7NRaU&t=29s",
     "image": "images/very_bad_trip_3.jpg",
-    "acteurs": "Bradley Cooper, Ed Helms",
-    "genres": [],
+    "acteurs": "Bradley Cooper,Ed Helms,Zach Galifianakis",
+    "genres": [
+      "comedie"
+    ],
     "date_sortie": "2013",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Deux ans ont passe. Phil (Bradley Cooper), Stu (Ed Helms) et Doug (Justin Bartha) menent des existences tranquilles et heureuses. Ils ont fait disparaitre leurs tatouages et se sont rachetes une conduite. Aux dernieres nouvelles, Leslie Chow (Ken Jeong), qui attirait les catastrophes, a echoue dans une prison en Thailande : depuis qu'il n'est plus dans le secteur, nos trois lascars ont - presque - oublie leurs folles virees nocturnes a travers les quartiers sordides de Las Vegas, a moitie shootes, et le jour ou ils se sont fait kidnapper, tirer dessus et prendre en chasse par une bande de dangereux dealers a Bangkok... Le seul de la Meute a ne pas avoir trouve son equilibre est Alan (Zach Galifianakis). Se cherchant toujours, la brebis galeuse du groupe a arrete les medocs et donne libre cours a ses impulsions, ce qui, dans son cas, revient a ne reculer devant rien et a ne se fixer aucune limite... Jusqu'a ce qu'il traverse une crise douloureuse et qu'il se mette en quete du soutien dont il a besoin. Et qui mieux que ses trois meilleurs copains pourraient l'aider a s'engager dans la bonne voie ? Cette fois, il n'y a pas de mariage, ni de fete d'enterrement de vie de garcon. Qu'est-ce-qui pourrait donc bien degenerer ? Mais quand la Meute s'en mele, il faut etre pret a tout ! Et pour boucler la boucle, la petite bande doit retourner la ou tout a commence : a Las Vegas...",
+    "restriction": "tout public",
+    "duree": "1h 40min"
   },
   {
     "titre": "volte_face",
     "video": "https://www.youtube.com/watch?v=K-gncct2TX8",
     "image": "images/volte_face.jpg",
-    "acteurs": "John Travolta, Nicolas Cage",
-    "genres": [],
+    "acteurs": "John Travolta,Nicolas Cage,Joan Allen",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "1997",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Castor Troy, dangereux terroriste, est tombe dans le coma a la suite d'un affrontement avec Sean Archer, agent de la CIA. Grace a une intervention chirurgicale, Archer prend le visage de Troy pour faire avouer au frere de ce dernier l'emplacement d'une bombe. Mais Troy sort du coma et prend a son tour le visage d'Archer.",
+    "restriction": "12 ans",
+    "duree": "2h 19min"
   },
   {
     "titre": "vox_lux",
     "video": "https://www.youtube.com/watch?v=fMCYE9hKP68&t=29s",
     "image": "images/vox_lux.jpg",
-    "acteurs": "Natalie Portman, Jude Law",
-    "genres": [],
+    "acteurs": "Natalie Portman,Jude Law,Stacy Martin",
+    "genres": [
+      "drame"
+    ],
     "date_sortie": "2018",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Sur une periode de quinze ans, l'ascension de Celeste, une star de la pop.",
+    "restriction": "tout public",
+    "duree": "1h 50min"
   },
   {
     "titre": "wayne_s_world",
     "video": "https://www.youtube.com/watch?v=3plL6MNrhVo",
     "image": "images/wayne_s_world.jpg",
-    "acteurs": "",
-    "genres": [],
-    "date_sortie": "",
+    "acteurs": "Mike Myers,Dana Carvey,Rob Lowe",
+    "genres": [
+      "comedie"
+    ],
+    "date_sortie": "1992",
     "sections": [
       "dvd"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Wayne et Garth ont transforme une cave en studio de television et y animent chaque nuit une emission musicale diffusee sur un reseau cable local. Un ambitieux producteur de television, seduit par leur style debride, decide de leur donner leur premiere grande chance.",
+    "restriction": "tout public",
+    "duree": "1h 32min"
   },
   {
     "titre": "wolverine",
     "video": "https://www.youtube.com/watch?v=WKrknCZIj2Q",
     "image": "images/wolverine.jpg",
-    "acteurs": "Hugh Jackman, Tao Okamoto",
-    "genres": [],
+    "acteurs": "Hugh Jackman,Tao Okamoto,Rila Fukushima",
+    "genres": [
+      "action"
+    ],
     "date_sortie": "2013",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Wolverine, le personnage le plus emblematique de lunivers des X-Men, est entraine dans une aventure ultime au cur du Japon contemporain. Plonge dans un monde quil ne connait pas, il doit faire face au seul ennemi de son envergure, dans une bataille a la vie a la mort. Vulnerable pour la premiere fois et pousse au bout de ses limites physiques et emotionnelles, Wolverine affrontera non seulement lacier mortel du samourai mais aussi les questions liees a sa propre immortalite.",
+    "restriction": "tout public",
+    "duree": "2h 06min"
   },
   {
     "titre": "wonder_woman",
     "video": "https://www.youtube.com/watch?v=CWe308Fpywg",
     "image": "images/wonder_woman.jpg",
-    "acteurs": "Gal Gadot, Chris Pine",
-    "genres": [],
+    "acteurs": "Gal Gadot,Chris Pine,Connie Nielsen",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2017",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "C'etait avant qu'elle ne devienne Wonder Woman, a l'epoque ou elle etait encore Diana, princesse des Amazones et combattante invincible. Un jour, un pilote americain s'ecrase sur l'ile paradisiaque ou elle vit, a l'abri des fracas du monde. Lorsqu'il lui raconte qu'une guerre terrible fait rage a l'autre bout de la planete, Diana quitte son havre de paix, convaincue qu'elle doit enrayer la menace. En s'alliant aux hommes dans un combat destine a mettre fin a la guerre, Diana decouvrira toute l'etendue de ses pouvoirs et son veritable destin.",
+    "restriction": "tout public",
+    "duree": "2h 21min"
   },
   {
     "titre": "wonder_woman_1984",
     "video": "https://www.youtube.com/watch?v=rhlHVvmVf04",
     "image": "images/wonder_woman_1984.jpg",
-    "acteurs": "Gal Gadot, Chris Pine",
-    "genres": [],
+    "acteurs": "Gal Gadot,Chris Pine,Kristen Wiig",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2020",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Suite des aventures de Diana Prince, alias Wonder Woman, Amazone devenue une super-heroine dans notre monde.Apres la Premiere guerre mondiale, direction les annees 80 ! Cette fois, Wonder Woman doit affronter deux nouveaux ennemis, particulierement redoutables : Max Lord et Cheetah.",
+    "restriction": "tout public",
+    "duree": "2h 31min"
   },
   {
     "titre": "xmen_1",
     "video": "https://www.youtube.com/watch?v=QLtF7ZmXfjw",
     "image": "images/xmen_1.jpg",
-    "acteurs": "Hugh Jackman, Patrick Stewart",
-    "genres": [],
+    "acteurs": "Patrick Stewart,Ian McKellen,Hugh Jackman",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2000",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "1944, dans un camp de concentration. Separe par la force de ses parents, le jeune Erik Magnus Lehnsherr se decouvre d'etranges pouvoirs sous le coup de la colere : il peut controler les metaux. C'est un mutant. Soixante ans plus tard, l'existence des mutants est reconnue mais provoque toujours un vif emoi au sein de la population. Puissant telepathe, le professeur Charles Xavier dirige une ecole destinee a recueillir ces etres differents, souvent rejetes par les humains, et accueille un nouveau venu solitaire au passe mysterieux : Logan, alias Wolverine. En compagnie de Cyclope, Tornade et Jean Grey, les deux hommes forment les X-Men et vont affronter les sombres mutants rallies a la cause de Erik Lehnsherr / Magneto, en guerre contre l'humanite.",
+    "restriction": "tout public",
+    "duree": "1h 45min"
   },
   {
     "titre": "xmen_2",
     "video": "https://www.youtube.com/watch?v=WmzABBFM6CY&t=34s",
     "image": "images/xmen_2.jpg",
     "acteurs": "Hugh Jackman, Halle Berry",
-    "genres": [],
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2003",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Toujours consideres comme des monstres par une societe qui les rejette, les mutants sont une nouvelle fois au centre des debats alors qu'un crime effroyable commis par l'un d'eux relance la polemique autour de l'Acte d'Enregistrement des Mutants et le mouvement anti-mutants, dirige par l'ancien militaire William Stryker. Quand ce dernier lance une attaque contre l'ecole de mutants du Professeur Charles Xavier, les X-Men se preparent a une guerre sans merci pour leur survie, aides de Magneto, recemment evade de sa cellule de plastique. Parallelement, Wolverine enquete sur son mysterieux passe, auquel Stryker, dont on dit qu'il a mene de nombreuses experiences sur les mutants, ne serait pas etranger...",
+    "restriction": "tout public",
+    "duree": "2h 05min"
   },
   {
     "titre": "xmen_3",
     "video": "https://www.youtube.com/watch?v=dE5rzrBKfPc&t=14s",
     "image": "images/xmen_3.jpg",
     "acteurs": "Hugh Jackman, Halle Berry",
-    "genres": [],
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2006",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans le chapitre final de la trilogieX-Men, les mutants affrontent un choix historique et leur plus grand combat... Un \\\"traitement\\\" leur permet desormais d'echapper a ce qu'ils sont. Pour la premiere fois, ils ont le choix : conserver ce qui fait leur caractere unique mais leur vaut la defiance et la mefiance de l'humanite, ou bien abandonner leurs pouvoirs et devenir des humains a part entiere. Les points de vue opposes desleadersdes mutants, Charles Xavier, qui preche la tolerance, et Magneto, qui croit a la survie des plus adaptes, sont plus que jamais incompatibles et vont declencher la plus acharnee des batailles.",
+    "restriction": "tout public",
+    "duree": "1h 45min"
   },
   {
     "titre": "xmen_apocalyspse",
     "video": "https://www.youtube.com/watch?v=8chgx3qqZNA&t=9s",
     "image": "images/xmen_apocalyspse.jpg",
-    "acteurs": "James McAvoy, Michael Fassbender",
-    "genres": [],
+    "acteurs": "James McAvoy,Michael Fassbender,Jennifer Lawrence",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2016",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Depuis les origines de la civilisation, Apocalypse, le tout premier mutant, a absorbe de nombreux pouvoirs, devenant a la fois immortel et invincible, adore comme un dieu. Se reveillant apres un sommeil de plusieurs milliers d'annees et desillusionne par le monde qu'il decouvre, il reunit de puissants mutants dont Magneto pour nettoyer l'humanite et regner sur un nouvel ordre. Raven et Professeur X vont joindre leurs forces pour affronter leur plus dangereux ennemi et sauver l'humanite d'une destruction totale.",
+    "restriction": "tout public",
+    "duree": "2h 24min"
   },
   {
     "titre": "xmen_dark_phoenix",
     "video": "https://www.youtube.com/watch?v=11_xxw6VZv8&t=2s",
     "image": "images/xmen_dark_phoenix.jpg",
-    "acteurs": "Sophie Turner, James McAvoy",
-    "genres": [],
+    "acteurs": "Sophie Turner,James McAvoy,Michael Fassbender",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2019",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Dans cet ultime volet, les X-MEN affrontent leur ennemi le plus puissant, Jean Grey, lune des leurs. Au cours d'une mission de sauvetage dans l'espace, Jean Grey frole la mort, frappee par une mysterieuse force cosmique. De retour sur Terre, cette force la rend non seulement infiniment plus puissante, mais aussi beaucoup plus instable. En lutte contre elle-meme, Jean Grey dechaine ses pouvoirs, incapable de les comprendre ou de les maitriser.Devenue incontrolable et dangereuse pour ses proches, elle defait peu a peu les liens qui unissent les X-Men.",
+    "restriction": "tout public",
+    "duree": "1h 54min"
   },
   {
     "titre": "xmen_days_of_futur_past",
     "video": "https://www.youtube.com/watch?v=6esGeXis858",
     "image": "images/xmen_days_of_futur_past.jpg",
-    "acteurs": "Hugh Jackman, James McAvoy",
-    "genres": [],
+    "acteurs": "Hugh Jackman,James McAvoy,Michael Fassbender",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2014",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Les X-Men envoient Wolverine dans le passe pour changer un evenement historique majeur, qui pourrait impacter mondialement humains et mutants.",
+    "restriction": "tout public",
+    "duree": "2h 12min"
   },
   {
     "titre": "xmen_le_commencement",
     "video": "https://www.youtube.com/watch?v=tT8oQT8ILpY&t=30s",
     "image": "images/xmen_le_commencement.jpg",
     "acteurs": "James McAvoy, Michael Fassbender",
-    "genres": [],
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2011",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Avant que les mutants naient revele leur existence au monde, et avant que Charles Xavier et Erik Lehnsherr ne deviennent le Professeur X et Magneto, ils netaient encore que deux jeunes hommes decouvrant leurs pouvoirs pour la premiere fois. Avant de devenir les pires ennemis, ils etaient encore amis, et travaillaient avec dautres mutants pour empecher la destruction du monde, lArmageddon. Au cours de cette operation, le conflit naissant entre les deux hommes saccentua, et la guerre eternelle entre la Confrerie de Magneto et les X-Men du Professeur X eclata",
+    "restriction": "tout public",
+    "duree": "2h 11min"
   },
   {
     "titre": "xmen_origins",
     "video": "https://www.youtube.com/watch?v=yawHvdrZrcs&t=35s",
     "image": "images/xmen_origins.jpg",
-    "acteurs": "Hugh Jackman, Liev Schreiber",
-    "genres": [],
+    "acteurs": "Hugh Jackman,Danny Huston,Liev Schreiber",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
     "date_sortie": "2009",
     "sections": [
       "bluray"
     ],
     "nouveaute": "",
-    "synopsis": "",
-    "restriction": "",
-    "duree": ""
+    "synopsis": "Ce film nous fait decouvrir les origines du plus rebelle des heros Marvel et son histoire avant les evenements de la trilogieX-Men. Hugh Jackman reprend son role fetiche de heros au pouvoir de regeneration convoite par l'armee, et impitoyable jusqu'au bout des griffes. Apres avoir integre le programme militaire \\\"Weapon X\\\" qui transforme les mutants en armes vivantes, Wolverine n'a de cesse de retrouver ceux qui ont tue son pere et la femme qu'il a aimee.",
+    "restriction": "tout public",
+    "duree": "1h 45min"
   }
 ];
