@@ -90,10 +90,6 @@ if (iconCenter > screenMiddle - 50 && iconCenter < screenMiddle + 50) {
 }
 
 
-// Si trop proche du bord droit, ouvrir vers la gauche
-if (rect.right + popoverWidth + padding > window.innerWidth) {
-    left = rect.left + window.scrollX - popoverWidth - padding;
-}
 
 // S'assurer que la bulle reste dans la fenêtre verticalement
 if (top < window.scrollY + padding) {
