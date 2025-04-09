@@ -62,6 +62,10 @@ infoBtn.addEventListener('click', (e) => {
     popover.classList.add('popover-info');
     popover.dataset.source = film.titre; // pour savoir qui l'a déclenchée
     popover.innerHTML = `
+
+        <div style="text-align: right;">
+        <button class="close-popover" style="background: transparent; border: none; color: white; font-size: 1.2em; cursor: pointer;">✖</button>
+        </div>
         <p><strong>${film.titre.replace(/_/g, ' ')}</strong></p>
         <p><strong>Restriction :</strong> ${film.restriction || 'Aucune'}</p>
         <p><strong>Acteurs :</strong> ${film.acteurs}</p>
@@ -73,6 +77,11 @@ infoBtn.addEventListener('click', (e) => {
     `;
     document.body.appendChild(popover);
 
+popover.querySelector('.close-popover').addEventListener('click', () => {
+    popover.remove();
+});
+
+
     const rect = infoBtn.getBoundingClientRect();
 const popoverWidth = 300; // largeur estimée de la bulle
 const popoverHeight = 250; // hauteur approximative
@@ -80,11 +89,16 @@ const padding = 10;
 
 let left = rect.right + window.scrollX + padding; // ouverture à droite par défaut
 let top = rect.top + window.scrollY - popoverHeight / 2;
+const screenMiddle = window.innerWidth / 2;
+const iconCenter = rect.left + rect.width / 2;
 
-// Si trop proche du bord droit, ouvrir vers la gauche
-if (rect.right + popoverWidth + padding > window.innerWidth) {
+if (iconCenter > screenMiddle - 50 && iconCenter < screenMiddle + 50) {
+    left = screenMiddle - popoverWidth / 2 + window.scrollX;
+} else if (rect.right + popoverWidth + padding > window.innerWidth) {
     left = rect.left + window.scrollX - popoverWidth - padding;
 }
+
+
 
 // S'assurer que la bulle reste dans la fenêtre verticalement
 if (top < window.scrollY + padding) {
