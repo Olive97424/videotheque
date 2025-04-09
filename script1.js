@@ -80,11 +80,16 @@ const padding = 10;
 
 let left = rect.right + window.scrollX + padding; // ouverture à droite par défaut
 let top = rect.top + window.scrollY - popoverHeight / 2;
+const screenMiddle = window.innerWidth / 2;
+const iconCenter = rect.left + rect.width / 2;
 
-// Si trop proche du bord droit, ouvrir vers la gauche
-if (rect.right + popoverWidth + padding > window.innerWidth) {
+if (iconCenter > screenMiddle - 50 && iconCenter < screenMiddle + 50) {
+    left = screenMiddle - popoverWidth / 2 + window.scrollX;
+} else if (rect.right + popoverWidth + padding > window.innerWidth) {
     left = rect.left + window.scrollX - popoverWidth - padding;
 }
+
+
 
 // S'assurer que la bulle reste dans la fenêtre verticalement
 if (top < window.scrollY + padding) {
