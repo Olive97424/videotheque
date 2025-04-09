@@ -398,7 +398,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "",
+    "nouveaute": "oui",
     "synopsis": "Alors quil entreprend des fouilles dans une station spatiale abandonnee, un groupe de jeunes voyageurs se retrouve confronte a la forme de vie la plus terrifiante de l'univers",
     "restriction": "12 ans",
     "duree": "1h 59min"
@@ -2787,6 +2787,42 @@ const films = [
     "duree": "2h 06min"
   },
   {
+    "titre": "gladiator",
+    "video": "https://www.youtube.com/watch?v=ChcgxBAzrks",
+    "image": "images/gladiator.jpg",
+    "acteurs": "Russell Crowe,Joaquin Phoenix,Connie Nielsen",
+    "genres": [
+      "action",
+      "aventure"
+    ],
+    "date_sortie": "2000",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "",
+    "synopsis": "Le general romain Maximus est le plus fidele soutien de l'empereur Marc Aurele, qu'il a conduit de victoire en victoire avec une bravoure et un devouement exemplaires. Jaloux du prestige de Maximus, et plus encore de l'amour que lui voue l'empereur, le fils de MarcAurele, Commode, s'arroge brutalement le pouvoir, puis ordonne l'arrestation du general et son execution. Maximus echappe a ses assassins mais ne peut empecher le massacre de sa famille. Capture par un marchand d'esclaves, il devient gladiateur et prepare sa vengeance.",
+    "restriction": "tout public",
+    "duree": "2h 35min"
+  },
+  {
+    "titre": "gladiator_2",
+    "video": "https://www.youtube.com/watch?v=APv2lidaDmo",
+    "image": "images/gladiator_2.jpg",
+    "acteurs": "Paul Mescal,Pedro Pascal,Connie Nielsen",
+    "genres": [
+      "action",
+      "aventure"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Des annees apres avoir assiste a la mort du heros venere Maximus aux mains de son oncle, Lucius est force d'entrer dans le Colisee lorsque son pays est conquis par les empereurs tyranniques qui gouvernent desormais Rome d'une main de fer. La rage au cur et l'avenir de l'Empire en jeu, Lucius doit se tourner vers son passe pour trouver la force et l'honneur de rendre la gloire de Rome a son peuple.",
+    "restriction": "12 ans",
+    "duree": "2h 28min"
+  },
+  {
     "titre": "gran_torino",
     "video": "https://www.youtube.com/watch?v=ih9_s8YcfLc",
     "image": "images/gran_torino.jpg",
@@ -3650,7 +3686,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "John Wick decouvre un moyen de vaincre lorganisation criminelle connue sous le nom de la Grande Table. Mais avant de gagner sa liberte, Il doit affronter un nouvel ennemi qui a tisse de puissantes alliances a travers le monde et qui transforme les vieux amis de John en ennemis.",
     "restriction": "Interdit - 12 ans avec avertissement",
     "duree": "2h 50min"
@@ -4017,6 +4053,24 @@ const films = [
     "synopsis": "Le Glaude et le Bombe, deux vieux paysans portes sur la bouteille, vivent retires de la vie moderne. Une nuit, un extra-terrestre atterrit en soucoupe volante dans le jardin du Glaude. En gage de bienvenue, ce dernier lui offre un peu de sa fameuse soupe aux choux...",
     "restriction": "Tout public",
     "duree": "1h 38min"
+  },
+  {
+    "titre": "l_amour_ouf",
+    "video": "https://www.youtube.com/watch?v=bSbA6Aeydbs",
+    "image": "images/l_amour_ouf.jpg",
+    "acteurs": "Adele Exarchopoulos,Francois Civil,Mallory Wanecque",
+    "genres": [
+      "comedie",
+      "romance"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Les annees 80, dans le nord de la France. Jackie et Clotaire grandissent entre les bancs du lycee et les docks du port. Elle etudie, il traine. Et puis leurs destins se croisent et c'est l'amour fou. La vie s'efforcera de les separer mais rien n'y fait, ces deux-la sont comme les deux ventricules du meme cur...",
+    "restriction": "Tout public avec avertissement",
+    "duree": "2h 40min"
   },
   {
     "titre": "l_apprenti_pere_Noel",
@@ -4501,7 +4555,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Plusieurs generations apres le regne de Cesar, les singes ont definitivement pris le pouvoir. Les humains, quant a eux, ont regresse a l'etat sauvage et vivent en retrait. Alors qu'un nouveau chef tyrannique construit peu a peu son empire, un jeune singe entreprend un perilleux voyage qui l'amenera a questionner tout ce qu'il sait du passe et a faire des choix qui definiront l'avenir des singes et des humains...",
     "restriction": "Tout public",
     "duree": "2h 25min"
@@ -4904,6 +4958,24 @@ const films = [
     "duree": "1h 23min"
   },
   {
+    "titre": "le_pianiste",
+    "video": "https://www.youtube.com/watch?v=QGMRmp6uYc8",
+    "image": "images/le_pianiste.jpg",
+    "acteurs": "Adrien Brody,Thomas Kretschmann,Emilia Fox",
+    "genres": [
+      "drame",
+      "historique"
+    ],
+    "date_sortie": "2002",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "",
+    "synopsis": "Durant la Seconde Guerre mondiale, Wladyslaw Szpilman, un celebre pianiste juif polonais, echappe a la deportation mais se retrouve parque dans le ghetto de Varsovie dont il partage les souffrances, les humiliations et les luttes heroiques. Il parvient a s'en echapper et se refugie dans les ruines de la capitale. Un officier allemand, qui apprecie sa musique, l'aide et lui permet de survivre. Ne en Pologne en 1911, Wladyslaw Szpilman devient un pianiste et compositeur celebre. Il est engage en 1935 par la radio d'Etat polonaise mais est victime comme les autres Juifs de Pologne de l'antisemitisme nazi a partir de l'invasion nazie en septembre 1939. Il echappe a la mort grace a l'aide d'un officier allemand. En 1946, le pianiste virtuose publie ses memoires sous le titre Mort de la ville.",
+    "restriction": "tout public",
+    "duree": "2h 28min"
+  },
+  {
     "titre": "le_prestige",
     "video": "https://www.youtube.com/watch?v=2zVbrV1ehnU",
     "image": "images/le_prestige.jpg",
@@ -4920,7 +4992,7 @@ const films = [
   },
   {
     "titre": "le_prix_de_la_loyaute",
-    "video": "Le Prix de la loyaute (2008) Bande Annonce VF |HD]",
+    "video": "https://www.youtube.com/watch?v=CZ5zm-MDcEU",
     "image": "images/le_prix_de_la_loyaute.jpg",
     "acteurs": "Edward Norton,Colin Farrell,Jon Voight",
     "genres": [],
@@ -8187,7 +8259,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Par les producteurs de Jurassic World, ce film catastrophe nous propulse au cur des tornades pour une experience des plus immersives !  Ancienne chasseuse de tornades, Kate est encore traumatisee par sa confrontation avec une tornade lorsquelle etait etudiante. Desormais, elle prefere etudier le comportement des tempetes en toute securite depuis New York. Mais lorsque son ami Javi lui demande de tester un nouveau detecteur de tornades, elle accepte de retourner au cur de laction. Elle rencontre alors le charmant et temeraire Tyler Owens, celebre pour ses videos de chasse aux tornades postees sur les reseaux sociaux. Alors que la saison des tempetes atteint son paroxysme, des tornades dune ampleur sans precedent mettent leurs vies en peril.",
     "restriction": "tout public",
     "duree": "2h 02min"
@@ -8397,7 +8469,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "",
+    "nouveaute": "oui",
     "synopsis": "Eddie et Venom sont en cavale. Chacun est traque par ses semblables et alors que l'etau se resserre, le duo doit prendre une decision devastatrice qui annonce la conclusion des aventures d'Eddie et de Venom.",
     "restriction": "tout public",
     "duree": "1h 50min"
