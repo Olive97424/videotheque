@@ -1,0 +1,15 @@
+[
+  {
+    "titre": "Avatar",
+    "image": "images/avatar.jpg",
+    "video": "https://www.youtube.com/embed/5PSNL1qE6VY",
+    "date_sortie": "2009",
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "sections": ["bluray"],
+    "acteurs": "Sam Worthington, Zoe Saldana",
+    "synopsis": "Un marine paraplégique est envoyé sur Pandora...",
+    "restriction": "Tous publics",
+    "duree": "2h42",
+    "nouveaute": "oui"
+  }
+]

@@ -1,0 +1,17 @@
+python generer_js.py
+
+
+
+python server.py
+
+
+
+python renommer_images.py
+
+
+python verifier_images_csv.py
+
+
+python corriger_images_csv.py
+
+

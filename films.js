@@ -6075,13 +6075,28 @@ const films = [
     "acteurs": "",
     "genres": [],
     "date_sortie": "",
-    "sections": [
-      "dvd"
-    ],
+    "sections": [],
     "nouveaute": "",
     "synopsis": "",
-    "restriction": "Tout public",
+    "restriction": "",
     "duree": ""
+  },
+  {
+    "titre": "mufasa",
+    "video": "https://www.youtube.com/watch?v=2rWXguw0S-k",
+    "image": "images/mufasa.jpg",
+    "acteurs": "Tahar Rahim,Aaron Pierre,Gwendal Marimoutou",
+    "genres": [
+      "animation"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "",
+    "synopsis": "Rafiki raconte a la jeune lionne Kiara - la fille de Simba et Nala  la legende de Mufasa. Il est aide en cela par Timon et Pumbaa, dont les formules choc sont desormais bien connues. Relatee sous forme de flashbacks, l'histoire de Mufasa est celle dun lionceau orphelin, seul et desempare qui, un jour, fait la connaissance du sympathique Taka, heritier d'une lignee royale. Cette rencontre fortuite marque le point de depart dun periple riche en peripeties dun petit groupe  dindesirables  qui sest forme autour deux et qui est desormais a la recherche de son destin. Leurs liens damitie seront soumis a rude epreuve lorsquil leur faudra faire equipe pour echapper a un ennemi aussi menacant que mortel",
+    "restriction": "Tout public",
+    "duree": "1h 58min"
   },
   {
     "titre": "mystic_river",
@@ -6931,6 +6946,24 @@ const films = [
     "duree": "1h 54min"
   },
   {
+    "titre": "sans_un_bruit_1",
+    "video": "https://www.youtube.com/watch?v=JByqCqgm4Tg",
+    "image": "images/sans_un_bruit_1.jpg",
+    "acteurs": "Lupita Nyong'o,Joseph Quinn,Alex Wolff",
+    "genres": [
+      "drame",
+      "horreur"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Decouvrez comment notre monde est devenu silencieux.",
+    "restriction": "",
+    "duree": "1h 39min"
+  },
+  {
     "titre": "saw_1",
     "video": "https://www.youtube.com/watch?v=8Swsh-up3iM&t=54s",
     "image": "images/saw_1.jpg",
@@ -6959,7 +6992,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "John Kramer, le tueur au puzzle, est de retour dans le volet le plus perturbant de la franchise SAW. Les evenements se situent entre SAW I et II, on y retrouve un John, malade et desespere, qui se rend au Mexique afin de subir une operation experimentale capable de guerir son cancer, mais il decouvre que tout ceci nest quune escroquerie visant des malades vulnerables et affliges. Anime d'un nouveau but, le celebre tueur en serie retourne a son uvre, et va prendre sa revanche sur ces escrocs dans un terrible  jeu  dont il a le secret, a travers des pieges toujours plus machiaveliques et ingenieux les uns que les autres.",
     "restriction": "16 ans",
     "duree": "1h 58min"
