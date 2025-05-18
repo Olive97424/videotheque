@@ -1,3 +1,10 @@
+// ==============================
+// Année seuil pour le filtre “Nouveautés”
+// – si nombre : on filtre par date_sortie ≥ cette année
+// – si null ou commenté : on revient au filtre par flag “oui”
+// ==============================
+const FILTRE_NOUVEAUTES_ANNEE = 2024;
+
 // Fonction pour créer un élément de film
 function createFilmElement(film) {
     const filmDiv = document.createElement('div');
@@ -241,30 +248,45 @@ function filterFilmsByGenre() {
 let filtreNouveauteActif = false;
 
 function filterByNouveautes() {
-    const gallery = document.getElementById('filmGallery');
-    const button = document.querySelector('button[onclick="filterByNouveautes()"]');
+  const gallery = document.getElementById('filmGallery');
+  const button  = document.querySelector('button[onclick="filterByNouveautes()"]');
+  
+  // On inverse l’état “actif”
+  filtreNouveauteActif = !filtreNouveauteActif;
+  gallery.innerHTML = '';  // on vide la galerie
 
-    filtreNouveauteActif = !filtreNouveauteActif;
-
-    gallery.innerHTML = '';
-
-    if (filtreNouveauteActif) {
-        films.forEach(film => {
-            if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
-                gallery.appendChild(createFilmElement(film));
-            }
-        });
-        button.classList.add('active');
-        button.textContent = '🔁 Tous les films';
+  let displayFilms;
+  if (filtreNouveauteActif) {
+    // Si actif : on applique le filtre (date_sortie ≥ année ou flag “oui”)
+    if (typeof FILTRE_NOUVEAUTES_ANNEE === 'number') {
+      displayFilms = films.filter(film =>
+        film.date_sortie && Number(film.date_sortie) >= FILTRE_NOUVEAUTES_ANNEE
+      );
+      button.textContent = '🔁 Voir tous les films';
     } else {
-        films.forEach(film => {
-            gallery.appendChild(createFilmElement(film));
-        });
-        button.classList.remove('active');
-        button.textContent = '🆕 Nouveautés';
+      displayFilms = films.filter(film =>
+        film.nouveaute && film.nouveaute.toLowerCase() === 'oui'
+      );
+      button.textContent = '🔁 Voir tous les films';
     }
+    button.classList.add('active');
+  } else {
+    // Si inactif : on affiche tout
+    displayFilms = films;
+    // Remettre le libellé du bouton à l’état naturel
+    if (typeof FILTRE_NOUVEAUTES_ANNEE === 'number') {
+      button.textContent = `🆕 Nouveautés depuis ${FILTRE_NOUVEAUTES_ANNEE}`;
+    } else {
+      button.textContent = '🆕 Nouveautés';
+    }
+    button.classList.remove('active');
+  }
 
-    updateFilmCount();
+  // On affiche
+  displayFilms.forEach(film => {
+    gallery.appendChild(createFilmElement(film));
+  });
+  updateFilmCount();
 }
 function updateGenres() {
     const genreSet = new Set();
