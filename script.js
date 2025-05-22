@@ -32,9 +32,12 @@ function createFilmElement(film) {
     img.alt = film.titre.replace(/_/g, ' ');
     img.loading = 'lazy';
     img.onload = () => img.classList.add('loaded');
+    			
 
-    const caption = document.createElement('div');
-    caption.textContent = film.titre.replace(/_/g, ' ');
+   const caption = document.createElement('div');
+caption.textContent = film.titre.replace(/_/g, ' ');
+
+ 
 
     // Badge NOUVEAU si applicable
     if (film.nouveaute && film.nouveaute.toLowerCase() === "oui") {
@@ -45,12 +48,69 @@ function createFilmElement(film) {
     }
 
    filmDiv.appendChild(img);
-filmDiv.appendChild(caption);
 
 const infoBtn = document.createElement('span');
 infoBtn.classList.add('info-bulle');
 infoBtn.textContent = 'ℹ️';
 
+// Affiche la bulle d'information au survol de l'image (uniquement sur PC)
+    img.addEventListener('mouseenter', () => {
+    if (/Mobi|Android/i.test(navigator.userAgent)) return;
+
+    // Supprimer les autres bulles ouvertes
+    document.querySelectorAll('.popover-info').forEach(p => p.remove());
+
+    // Créer la nouvelle bulle
+    const popover = document.createElement('div');
+    popover.classList.add('popover-info');
+    popover.dataset.source = film.titre;
+    popover.innerHTML = `
+        <p><strong>${film.titre.replace(/_/g, ' ')}</strong></p>
+        <p><strong>Restriction :</strong> ${film.restriction || 'Aucune'}</p>
+        <p><strong>Acteurs :</strong> ${film.acteurs}</p>
+        <p><strong>Année :</strong> ${film.date_sortie}</p>
+        <p><strong>Durée :</strong> ${film.duree || 'Non spécifiée'}</p>
+        <p><strong>Genres :</strong> ${film.genres.join(', ')}</p>
+        <p><strong>Synopsis :</strong><br>${film.synopsis || 'Pas de synopsis'}</p>
+    `;
+    document.body.appendChild(popover);
+
+    const rect = img.getBoundingClientRect();
+    const popoverWidth = 300;
+    const popoverHeight = 250;
+    const padding = 10;
+
+    let left = rect.right + window.scrollX + padding;
+    let top = rect.top + window.scrollY - popoverHeight / 2;
+
+    const screenMiddle = window.innerWidth / 2;
+    const iconCenter = rect.left + rect.width / 2;
+
+    if (iconCenter > screenMiddle - 50 && iconCenter < screenMiddle + 50) {
+        left = screenMiddle - popoverWidth / 2 + window.scrollX;
+    } else if (rect.right + popoverWidth + padding > window.innerWidth) {
+        left = rect.left + window.scrollX - popoverWidth - padding;
+    }
+
+    if (top < window.scrollY + padding) {
+        top = window.scrollY + padding;
+    } else if (top + popoverHeight > window.scrollY + window.innerHeight) {
+        top = window.scrollY + window.innerHeight - popoverHeight - padding;
+    }
+
+    popover.style.position = 'absolute';
+    popover.style.left = `${left}px`;
+    popover.style.top = `${top}px`;
+    popover.style.maxWidth = `${popoverWidth}px`;
+    popover.style.zIndex = '1000';
+});
+
+
+img.addEventListener('mouseleave', () => {
+    if (!/Mobi|Android/i.test(navigator.userAgent)) {
+        document.querySelectorAll('.popover-info').forEach(p => p.remove());
+    }
+});
 infoBtn.addEventListener('click', (e) => {
     e.stopPropagation();
 
@@ -70,9 +130,12 @@ infoBtn.addEventListener('click', (e) => {
     popover.dataset.source = film.titre; // pour savoir qui l'a déclenchée
     popover.innerHTML = `
 
-        <div style="text-align: right;">
-        <button class="close-popover" style="background: transparent; border: none; color: white; font-size: 1.2em; cursor: pointer;">✖</button>
-        </div>
+        ${/Mobi|Android/i.test(navigator.userAgent) ? `
+<div style="text-align: right;">
+    <button class="close-popover" style="background: transparent; border: none; color: white; font-size: 1.2em; cursor: pointer;">✖</button>
+</div>
+` : ``}
+
         <p><strong>${film.titre.replace(/_/g, ' ')}</strong></p>
         <p><strong>Restriction :</strong> ${film.restriction || 'Aucune'}</p>
         <p><strong>Acteurs :</strong> ${film.acteurs}</p>
@@ -133,7 +196,9 @@ popover.style.zIndex = '1000';
     }, 10);
 });
 
-filmDiv.appendChild(infoBtn);
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    filmDiv.appendChild(infoBtn); // On garde ℹ️ uniquement pour mobile
+}
 
 filmDiv.addEventListener('click', (e) => {
     // Ne pas ouvrir la vidéo si le clic vient du bouton info
