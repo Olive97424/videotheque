@@ -3,7 +3,7 @@
 // – si nombre : on filtre par date_sortie ≥ cette année
 // – si null ou commenté : on revient au filtre par flag “oui”
 // ==============================
-const FILTRE_NOUVEAUTES_ANNEE = 2024;
+const FILTRE_NOUVEAUTES_ANNEE = 2023;
 
 // Fonction pour créer un élément de film
 function createFilmElement(film) {
