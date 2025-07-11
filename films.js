@@ -1431,6 +1431,24 @@ const films = [
     "duree": "2h 16min"
   },
   {
+    "titre": "captain_america_4",
+    "video": "https://www.youtube.com/watch?v=Hh9fV_5iP2Q",
+    "image": "images/captain_america_4.jpg",
+    "acteurs": "Anthony Mackie,Harrison Ford,Danny Ramirez",
+    "genres": [
+      "action",
+      "aventure"
+    ],
+    "date_sortie": "2025",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Peu apres avoir fait la connaissance du nouveau president des Etats-Unis Thaddeus Ross, Sam Wilson se retrouve plonge au coeur d'un gigantesque incident international. Dans une lutte acharnee contre la montre, il se retrouve contraint de decouvrir la raison de cet infame complot avant que le veritable cerveau de loperation ne mette bientot le monde entier a feu et a sang",
+    "restriction": "Tout public",
+    "duree": "1h 58min"
+  },
+  {
     "titre": "captain_marvel",
     "video": "https://www.youtube.com/watch?v=rndLWLmwgeA",
     "image": "images/captain_marvel.jpg",
@@ -1687,7 +1705,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Apres avoir echoue a rejoindre lequipe des Avengers, Wade Wilson passe dun petit boulot a un autre sans vraiment trouver sa voie. Jusquau jour ou un haut grade du Tribunal des Variations Anachroniques lui propose une mission digne de lui a condition de voir son monde et tous ceux quil aime etre aneantis. Refusant categoriquement, Wade endosse de nouveau le costume de Deadpool et tente de convaincre Wolverine de laider a sauver son univers",
     "restriction": "12 ans",
     "duree": "2h 07min"
@@ -2023,7 +2041,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Dans DUNE : DEUXIEME PARTIE, Paul Atreides sunit a Chani et aux Fremen pour mener la revolte contre ceux qui ont aneanti sa famille. Hante par de sombres premonitions, il se trouve confronte au plus grand des dilemmes : choisir entre lamour de sa vie et le destin de lunivers.",
     "restriction": "Tous publics avec avertissements",
     "duree": "2h 46 min"
@@ -2852,7 +2870,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Gran Turismo retrace l'incroyable histoire vraie d'une equipe d'outsiders : un gamer issu de la classe ouvriere, un ex-pilote de course rate et un cadre idealiste de lindustrie du sport automobile. Ensemble, ils risquent tout et s'attaquent au sport le plus elitiste au monde. Inspirant, palpitant et bourre daction, le film GRAN TURISMO prouve que rien n'est impossible quand on est determine a prendre tous les risques.",
     "restriction": "Tout public",
     "duree": "2h 14min"
@@ -4038,6 +4056,24 @@ const films = [
     "synopsis": "Evan a tout pour etre heureux : une famille aimante et un metier qu'il adore. Un week-end, son epouse et ses enfants quittent la maison, le laissant seul, deborde de travail. Bel et Genesis, deux jeunes femmes, frappent a sa porte : elle doivent passer un coup de fil. Bientot, elles lui dont des avances... .",
     "restriction": "Interdit - 12 ans avec avertissement",
     "duree": "1h 40min"
+  },
+  {
+    "titre": "kraven",
+    "video": "https://www.youtube.com/watch?v=7WbDpL6CTdE",
+    "image": "images/kraven.jpg",
+    "acteurs": "Aaron Taylor-Johnson,Russell Crowe,Ariana DeBose",
+    "genres": [
+      "action",
+      "fantastique"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Kraven, un homme dont la relation complexe avec son pere, limpitoyable Nikolai Kravinoff, l'entraine vers une vengeance aux consequences brutales, lappelant a devenir non seulement le plus grand chasseur du monde, mais aussi l'un des plus redoutes.",
+    "restriction": "Tout public avec avertissements",
+    "duree": "2h 07min"
   },
   {
     "titre": "la_soupe_aux_choux",
@@ -5574,7 +5610,7 @@ const films = [
     "sections": [
       "bluray"
     ],
-    "nouveaute": "oui",
+    "nouveaute": "",
     "synopsis": "Dans un monde en declin, la jeune Furiosa est arrachee a la Terre Verte et capturee par une horde de motards dirigee par le redoutable Dementus. Alors quelle tente de survivre a la Desolation, a Immortan Joe et de retrouver le chemin de chez elle, Furiosa na quune seule obsession : la vengeance.",
     "restriction": "12 ans",
     "duree": "2h 28min"
@@ -7336,6 +7372,25 @@ const films = [
     "duree": "2h 02min"
   },
   {
+    "titre": "sonic_3",
+    "video": "https://www.youtube.com/watch?v=u3FPF_4eE-s",
+    "image": "images/sonic_3.jpg",
+    "acteurs": "Ben Schwartz,Idris Elba,Colleen O'Shaughnessey",
+    "genres": [
+      "aventure",
+      "action"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "enfant",
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Sonic, Knuckles et Tails se retrouvent face a un nouvel adversaire, Shadow, mysterieux et puissant ennemi aux pouvoirs inedits. Depassee sur tous les plans, la Team Sonic va devoir former une alliance improbable pour tenter darreter Shadow et proteger notre planete.",
+    "restriction": "Tout public",
+    "duree": "1h 49min"
+  },
+  {
     "titre": "space_cowboys",
     "video": "https://www.youtube.com/watch?v=wou34lVVUac&t=29s",
     "image": "images/space_cowboys.jpg",
@@ -7845,6 +7900,24 @@ const films = [
     "synopsis": "Carol Danvers, alias Captain Marvel, doit faire face aux consequences imprevues de sa victoire contre les Krees. Des effets inattendus lobligent desormais a assumer le fardeau d'un univers destabilise. Au cours dune mission qui la propulse au sein dun etrange vortex etroitement lie aux actions dune revolutionnaire Kree, ses pouvoirs se melent a ceux de Kamala Khan - alias Miss Marvel, sa super-fan de Jersey City - et a ceux de sa  niece , la Capitaine Monica Rambeau, desormais astronaute au sein du S.A.B.E.R. Dabord chaotique, ce trio improbable se retrouve bientot oblige de faire equipe et dapprendre a travailler de concert pour sauver l'univers. Un seul nom pour cela : \\\"The Marvels\\\" !",
     "restriction": "tout public",
     "duree": "1h 45min"
+  },
+  {
+    "titre": "the_substance",
+    "video": "https://www.youtube.com/watch?v=mcEFQwRbBZg",
+    "image": "images/the_substance.jpg",
+    "acteurs": "Demi Moore,Margaret Qualley,Dennis Quaid",
+    "genres": [
+      "drame",
+      "horreur"
+    ],
+    "date_sortie": "2024",
+    "sections": [
+      "bluray"
+    ],
+    "nouveaute": "oui",
+    "synopsis": "Avez-vous deja reve dune meilleure version de vous-meme ? Vous devriez essayer ce nouveau produit : THE SUBSTANCE, Il a change ma vie. Il permet de generer une autre version de vous-meme, plus jeune, plus belle, plus parfaite. Respectez les instructions : VOUS ACTIVEZ une seule fois, VOUS STABILISEZ chaque jour, VOUS PERMUTEZ tous les sept jours sans exception. Il suffit de partager le temps. Cest si simple, quest-ce qui pourrait mal tourner ?",
+    "restriction": "12 ans",
+    "duree": "2h 20min"
   },
   {
     "titre": "the_suicide_squad",
